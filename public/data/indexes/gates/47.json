@@ -1,28 +1,6 @@
 [
   {
     "date": "2026-01-05",
-    "time": "12:35",
-    "flight": [
-      {
-        "no": "5J 5263",
-        "airline": "CEB"
-      }
-    ],
-    "origin_dest": [
-      "DVO"
-    ],
-    "status": "Dep 12:29",
-    "gate_baggage": "47",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "L",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-05",
     "time": "15:05",
     "flight": [
       {
@@ -1540,6 +1518,36 @@
     "isCargo": false,
     "_raw": {
       "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "22:05",
+    "flight": [
+      {
+        "no": "CX 939",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5137",
+        "airline": "FIN"
+      },
+      {
+        "no": "BA 4570",
+        "airline": "BAW"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 23:27",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
       "hall": ""
     }
   }

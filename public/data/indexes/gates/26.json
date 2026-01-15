@@ -1,28 +1,6 @@
 [
   {
     "date": "2026-01-08",
-    "time": "01:00",
-    "flight": [
-      {
-        "no": "CX 888",
-        "airline": "CPA"
-      }
-    ],
-    "origin_dest": [
-      "YVR"
-    ],
-    "status": "Dep 04:36",
-    "gate_baggage": "26",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "BC",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-08",
     "time": "14:20",
     "flight": [
       {
@@ -1356,6 +1334,28 @@
     "isCargo": false,
     "_raw": {
       "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CX 251",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "LHR"
+    ],
+    "status": "Dep 23:07",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
       "hall": ""
     }
   }

@@ -1,28 +1,6 @@
 [
   {
     "date": "2026-01-05",
-    "time": "10:25",
-    "flight": [
-      {
-        "no": "CX 356",
-        "airline": "CPA"
-      }
-    ],
-    "origin_dest": [
-      "NKG"
-    ],
-    "status": "Dep 10:38",
-    "gate_baggage": "9",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "A",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-05",
     "time": "13:40",
     "flight": [
       {
@@ -1433,6 +1411,32 @@
     "isCargo": false,
     "_raw": {
       "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "BA 032",
+        "airline": "BAW"
+      },
+      {
+        "no": "IB 3525",
+        "airline": "IBE"
+      }
+    ],
+    "origin_dest": [
+      "LHR"
+    ],
+    "status": "Dep 22:46",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
       "hall": ""
     }
   }

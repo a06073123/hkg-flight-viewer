@@ -1,32 +1,6 @@
 [
   {
     "date": "2026-01-07",
-    "time": "10:20",
-    "flight": [
-      {
-        "no": "CX 986",
-        "airline": "CPA"
-      },
-      {
-        "no": "CA 6522",
-        "airline": "CCA"
-      }
-    ],
-    "origin_dest": [
-      "TFU"
-    ],
-    "status": "Dep 10:34",
-    "gate_baggage": "43",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "A",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-07",
     "time": "12:20",
     "flight": [
       {
@@ -1340,6 +1314,28 @@
     "isCargo": false,
     "_raw": {
       "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 408",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 23:04",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
       "hall": ""
     }
   }

@@ -1,11 +1,11 @@
 {
   "date": "2026-01-15",
-  "generatedAt": "2026-01-15T12:18:57.552Z",
-  "totalFlights": 1131,
-  "arrivals": 562,
+  "generatedAt": "2026-01-15T16:13:44.540Z",
+  "totalFlights": 1132,
+  "arrivals": 563,
   "departures": 569,
   "cargo": 269,
-  "passenger": 862,
+  "passenger": 863,
   "flights": [
     {
       "date": "2026-01-14",
@@ -9024,7 +9024,7 @@
       "origin_dest": [
         "NRT"
       ],
-      "status": "Landed 20:12",
+      "status": "At gate 20:25",
       "gate_baggage": "7",
       "terminal": "",
       "isArrival": true,
@@ -9050,7 +9050,7 @@
       "origin_dest": [
         "PVG"
       ],
-      "status": "Est at 20:18",
+      "status": "At gate 20:33",
       "gate_baggage": "13",
       "terminal": "",
       "isArrival": true,
@@ -9076,7 +9076,7 @@
       "origin_dest": [
         "NRT"
       ],
-      "status": "Est at 20:20",
+      "status": "At gate 20:34",
       "gate_baggage": "2",
       "terminal": "",
       "isArrival": true,
@@ -9124,7 +9124,7 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "Landed 20:10",
+      "status": "At gate 20:18",
       "gate_baggage": "8",
       "terminal": "",
       "isArrival": true,
@@ -9168,7 +9168,7 @@
       "origin_dest": [
         "HKT"
       ],
-      "status": "Landed 20:07",
+      "status": "At gate 20:23",
       "gate_baggage": "12",
       "terminal": "",
       "isArrival": true,
@@ -9198,7 +9198,7 @@
       "origin_dest": [
         "HND"
       ],
-      "status": "Landed 20:09",
+      "status": "At gate 20:24",
       "gate_baggage": "17",
       "terminal": "",
       "isArrival": true,
@@ -9272,7 +9272,7 @@
       "origin_dest": [
         "PEN"
       ],
-      "status": "Landed 20:06",
+      "status": "At gate 20:18",
       "gate_baggage": "9",
       "terminal": "",
       "isArrival": true,
@@ -9302,7 +9302,7 @@
       "origin_dest": [
         "KIX"
       ],
-      "status": "Est at 20:40",
+      "status": "At gate 20:50",
       "gate_baggage": "10",
       "terminal": "",
       "isArrival": true,
@@ -9366,7 +9366,7 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "Est at 20:50",
+      "status": "At gate 21:06",
       "gate_baggage": "8",
       "terminal": "",
       "isArrival": true,
@@ -9388,7 +9388,7 @@
       "origin_dest": [
         "PVG"
       ],
-      "status": "Landed 20:14",
+      "status": "At gate 20:25",
       "gate_baggage": "8",
       "terminal": "",
       "isArrival": true,
@@ -9414,7 +9414,7 @@
       "origin_dest": [
         "ORD"
       ],
-      "status": "Est at 21:01",
+      "status": "At gate 21:12",
       "gate_baggage": "13",
       "terminal": "",
       "isArrival": true,
@@ -9466,7 +9466,7 @@
       "origin_dest": [
         "CTS"
       ],
-      "status": "Est at 20:22",
+      "status": "At gate 20:37",
       "gate_baggage": "15",
       "terminal": "",
       "isArrival": true,
@@ -9504,7 +9504,7 @@
       "origin_dest": [
         "BKK"
       ],
-      "status": "Est at 20:44",
+      "status": "At gate 21:08",
       "gate_baggage": "9",
       "terminal": "",
       "isArrival": true,
@@ -9542,7 +9542,7 @@
       "origin_dest": [
         "SIN"
       ],
-      "status": "Landed 20:15",
+      "status": "At gate 20:30",
       "gate_baggage": "5",
       "terminal": "",
       "isArrival": true,
@@ -9564,7 +9564,7 @@
       "origin_dest": [
         "BKK"
       ],
-      "status": "Landed 20:18",
+      "status": "At gate 20:28",
       "gate_baggage": "16",
       "terminal": "",
       "isArrival": true,
@@ -9590,8 +9590,8 @@
       "origin_dest": [
         "PEK"
       ],
-      "status": "Est at 20:49",
-      "gate_baggage": "13",
+      "status": "At gate 20:53",
+      "gate_baggage": "12",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -9616,7 +9616,7 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "Est at 20:45",
+      "status": "At gate 21:00",
       "gate_baggage": "3",
       "terminal": "",
       "isArrival": true,
@@ -9642,7 +9642,7 @@
       "origin_dest": [
         "SHA"
       ],
-      "status": "Est at 20:42",
+      "status": "At gate 20:56",
       "gate_baggage": "6",
       "terminal": "",
       "isArrival": true,
@@ -9680,14 +9680,14 @@
       "origin_dest": [
         "CHC"
       ],
-      "status": "Est at 20:57",
-      "gate_baggage": "2",
+      "status": "At gate 21:12",
+      "gate_baggage": "17",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "A"
+        "hall": "B"
       }
     },
     {
@@ -9710,7 +9710,7 @@
       "origin_dest": [
         "KIX"
       ],
-      "status": "Est at 21:02",
+      "status": "At gate 21:16",
       "gate_baggage": "7",
       "terminal": "",
       "isArrival": true,
@@ -9744,7 +9744,7 @@
       "origin_dest": [
         "CTS"
       ],
-      "status": "Est at 21:25",
+      "status": "At gate 21:47",
       "gate_baggage": "5",
       "terminal": "",
       "isArrival": true,
@@ -9770,7 +9770,7 @@
       "origin_dest": [
         "FUK"
       ],
-      "status": "Est at 20:53",
+      "status": "At gate 21:06",
       "gate_baggage": "9",
       "terminal": "",
       "isArrival": true,
@@ -9792,7 +9792,7 @@
       "origin_dest": [
         "CTS"
       ],
-      "status": "Est at 21:15",
+      "status": "At gate 21:22",
       "gate_baggage": "15",
       "terminal": "",
       "isArrival": true,
@@ -9818,7 +9818,7 @@
       "origin_dest": [
         "PVG"
       ],
-      "status": "Est at 20:49",
+      "status": "At gate 21:06",
       "gate_baggage": "5",
       "terminal": "",
       "isArrival": true,
@@ -9840,14 +9840,14 @@
       "origin_dest": [
         "KHH"
       ],
-      "status": "Est at 20:54",
-      "gate_baggage": "17",
+      "status": "At gate 21:16",
+      "gate_baggage": "2",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "B"
+        "hall": "A"
       }
     },
     {
@@ -9874,7 +9874,7 @@
       "origin_dest": [
         "NRT"
       ],
-      "status": "Est at 21:31",
+      "status": "At gate 21:48",
       "gate_baggage": "12",
       "terminal": "",
       "isArrival": true,
@@ -9920,7 +9920,7 @@
       "origin_dest": [
         "AKL"
       ],
-      "status": "Est at 20:56",
+      "status": "At gate 21:14",
       "gate_baggage": "12",
       "terminal": "",
       "isArrival": true,
@@ -9946,14 +9946,14 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "Est at 22:50",
-      "gate_baggage": "6",
+      "status": "At gate 23:13",
+      "gate_baggage": "15",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "A"
+        "hall": "B"
       }
     },
     {
@@ -9988,8 +9988,8 @@
       "origin_dest": [
         "DPS"
       ],
-      "status": "Est at 22:00",
-      "gate_baggage": "9",
+      "status": "At gate 22:15",
+      "gate_baggage": "2",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10014,8 +10014,8 @@
       "origin_dest": [
         "DAD"
       ],
-      "status": "Est at 21:00",
-      "gate_baggage": "2",
+      "status": "At gate 21:19",
+      "gate_baggage": "3",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10040,7 +10040,7 @@
       "origin_dest": [
         "NRT"
       ],
-      "status": "Est at 21:28",
+      "status": "At gate 21:34",
       "gate_baggage": "14",
       "terminal": "",
       "isArrival": true,
@@ -10086,7 +10086,7 @@
       "origin_dest": [
         "SYD"
       ],
-      "status": "Est at 21:18",
+      "status": "At gate 21:26",
       "gate_baggage": "17",
       "terminal": "",
       "isArrival": true,
@@ -10113,8 +10113,8 @@
         "KIX",
         "TPE"
       ],
-      "status": "Est at 22:14",
-      "gate_baggage": "13",
+      "status": "At gate 22:20",
+      "gate_baggage": "16",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10155,7 +10155,7 @@
       "origin_dest": [
         "DOH"
       ],
-      "status": "Est at 20:55",
+      "status": "At gate 21:18",
       "gate_baggage": "16",
       "terminal": "",
       "isArrival": true,
@@ -10177,7 +10177,7 @@
       "origin_dest": [
         "CRK"
       ],
-      "status": "Est at 21:17",
+      "status": "At gate 21:34",
       "gate_baggage": "3",
       "terminal": "",
       "isArrival": true,
@@ -10199,7 +10199,7 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "Est at 21:16",
+      "status": "At gate 21:25",
       "gate_baggage": "5",
       "terminal": "",
       "isArrival": true,
@@ -10226,7 +10226,7 @@
         "NRT",
         "TPE"
       ],
-      "status": "Est at 21:21",
+      "status": "At gate 21:42",
       "gate_baggage": "2",
       "terminal": "",
       "isArrival": true,
@@ -10252,7 +10252,7 @@
       "origin_dest": [
         "PEK"
       ],
-      "status": "Est at 21:52",
+      "status": "At gate 21:57",
       "gate_baggage": "9",
       "terminal": "",
       "isArrival": true,
@@ -10294,7 +10294,7 @@
       "origin_dest": [
         "MEL"
       ],
-      "status": "Est at 21:19",
+      "status": "At gate 21:38",
       "gate_baggage": "8",
       "terminal": "",
       "isArrival": true,
@@ -10320,7 +10320,7 @@
       "origin_dest": [
         "DXB"
       ],
-      "status": "Est at 21:50",
+      "status": "At gate 22:12",
       "gate_baggage": "10",
       "terminal": "",
       "isArrival": true,
@@ -10342,7 +10342,7 @@
       "origin_dest": [
         "WNZ"
       ],
-      "status": "Est at 21:40",
+      "status": "At gate 21:53",
       "gate_baggage": "17",
       "terminal": "",
       "isArrival": true,
@@ -10368,14 +10368,14 @@
       "origin_dest": [
         "BKK"
       ],
-      "status": "Est at 21:35",
-      "gate_baggage": "13",
+      "status": "At gate 21:39",
+      "gate_baggage": "8",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "B"
+        "hall": "A"
       }
     },
     {
@@ -10390,7 +10390,7 @@
       "origin_dest": [
         "VTE"
       ],
-      "status": "Est at 21:25",
+      "status": "At gate 21:43",
       "gate_baggage": "13",
       "terminal": "",
       "isArrival": true,
@@ -10416,14 +10416,14 @@
       "origin_dest": [
         "CTS"
       ],
-      "status": "Est at 22:09",
-      "gate_baggage": "15",
+      "status": "At gate 22:29",
+      "gate_baggage": "7",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "B"
+        "hall": "A"
       }
     },
     {
@@ -10454,14 +10454,14 @@
       "origin_dest": [
         "SIN"
       ],
-      "status": "Est at 21:40",
-      "gate_baggage": "12",
+      "status": "At gate 21:51",
+      "gate_baggage": "3",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "B"
+        "hall": "A"
       }
     },
     {
@@ -10484,7 +10484,7 @@
       "origin_dest": [
         "KUL"
       ],
-      "status": "Est at 22:10",
+      "status": "At gate 22:27",
       "gate_baggage": "17",
       "terminal": "",
       "isArrival": true,
@@ -10506,8 +10506,8 @@
       "origin_dest": [
         "PVG"
       ],
-      "status": "Est at 21:43",
-      "gate_baggage": "13",
+      "status": "At gate 22:02",
+      "gate_baggage": "16",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10540,8 +10540,8 @@
       "origin_dest": [
         "CTS"
       ],
-      "status": "Est at 21:50",
-      "gate_baggage": "9",
+      "status": "At gate 22:16",
+      "gate_baggage": "3",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10562,8 +10562,8 @@
       "origin_dest": [
         "ICN"
       ],
-      "status": "Est at 21:46",
-      "gate_baggage": "2",
+      "status": "At gate 22:06",
+      "gate_baggage": "8",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10588,7 +10588,7 @@
       "origin_dest": [
         "HGH"
       ],
-      "status": "Est at 21:46",
+      "status": "At gate 22:01",
       "gate_baggage": "10",
       "terminal": "",
       "isArrival": true,
@@ -10614,8 +10614,8 @@
       "origin_dest": [
         "OKA"
       ],
-      "status": "Est at 21:23",
-      "gate_baggage": "7",
+      "status": "At gate 21:35",
+      "gate_baggage": "6",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10640,8 +10640,8 @@
       "origin_dest": [
         "PEK"
       ],
-      "status": "Est at 21:59",
-      "gate_baggage": "16",
+      "status": "At gate 22:10",
+      "gate_baggage": "13",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10674,14 +10674,14 @@
       "origin_dest": [
         "NRT"
       ],
-      "status": "Est at 22:09",
-      "gate_baggage": "5",
+      "status": "At gate 22:22",
+      "gate_baggage": "13",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "A"
+        "hall": "B"
       }
     },
     {
@@ -10701,7 +10701,7 @@
         "NGO",
         "TPE"
       ],
-      "status": "",
+      "status": "At gate 22:18",
       "gate_baggage": "12",
       "terminal": "",
       "isArrival": true,
@@ -10727,14 +10727,14 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "Est at 23:26",
-      "gate_baggage": "",
+      "status": "Est at 00:26 (16/01/2026)",
+      "gate_baggage": "14",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -10749,14 +10749,14 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "",
-      "gate_baggage": "9",
+      "status": "At gate 22:46",
+      "gate_baggage": "12",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "A"
+        "hall": "B"
       }
     },
     {
@@ -10783,8 +10783,8 @@
       "origin_dest": [
         "HAN"
       ],
-      "status": "Est at 23:16",
-      "gate_baggage": "8",
+      "status": "At gate 23:27",
+      "gate_baggage": "10",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10805,8 +10805,8 @@
       "origin_dest": [
         "XMN"
       ],
-      "status": "",
-      "gate_baggage": "8",
+      "status": "At gate 22:31",
+      "gate_baggage": "9",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10831,7 +10831,7 @@
       "origin_dest": [
         "RMQ"
       ],
-      "status": "",
+      "status": "At gate 22:13",
       "gate_baggage": "6",
       "terminal": "",
       "isArrival": true,
@@ -10857,8 +10857,8 @@
       "origin_dest": [
         "SYX"
       ],
-      "status": "",
-      "gate_baggage": "15",
+      "status": "At gate 22:25",
+      "gate_baggage": "14",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -10887,7 +10887,7 @@
       "origin_dest": [
         "CEB"
       ],
-      "status": "Est at 22:33",
+      "status": "At gate 22:42",
       "gate_baggage": "17",
       "terminal": "",
       "isArrival": true,
@@ -10913,7 +10913,7 @@
       "origin_dest": [
         "CJU"
       ],
-      "status": "Est at 22:02",
+      "status": "At gate 22:03",
       "gate_baggage": "15",
       "terminal": "",
       "isArrival": true,
@@ -10939,14 +10939,14 @@
       "origin_dest": [
         "ICN"
       ],
-      "status": "Est at 22:13",
-      "gate_baggage": "12",
+      "status": "At gate 22:35",
+      "gate_baggage": "2",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "B"
+        "hall": "A"
       }
     },
     {
@@ -10969,7 +10969,7 @@
       "origin_dest": [
         "ICN"
       ],
-      "status": "Est at 22:36",
+      "status": "At gate 22:50",
       "gate_baggage": "16",
       "terminal": "",
       "isArrival": true,
@@ -10995,8 +10995,8 @@
       "origin_dest": [
         "KIX"
       ],
-      "status": "Est at 22:15",
-      "gate_baggage": "2",
+      "status": "At gate 22:29",
+      "gate_baggage": "9",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -11017,14 +11017,14 @@
       "origin_dest": [
         "FOC"
       ],
-      "status": "Est at 22:53",
-      "gate_baggage": "13",
+      "status": "At gate 22:48",
+      "gate_baggage": "2",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "B"
+        "hall": "A"
       }
     },
     {
@@ -11039,8 +11039,8 @@
       "origin_dest": [
         "SIN"
       ],
-      "status": "Est at 22:27",
-      "gate_baggage": "3",
+      "status": "At gate 22:36",
+      "gate_baggage": "5",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -11065,14 +11065,14 @@
       "origin_dest": [
         "HAK"
       ],
-      "status": "",
-      "gate_baggage": "6",
+      "status": "At gate 22:50",
+      "gate_baggage": "14",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "A"
+        "hall": "B"
       }
     },
     {
@@ -11113,14 +11113,14 @@
       "origin_dest": [
         "KTI"
       ],
-      "status": "",
-      "gate_baggage": "13",
+      "status": "At gate 22:40",
+      "gate_baggage": "10",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "B"
+        "hall": "A"
       }
     },
     {
@@ -11147,14 +11147,14 @@
       "origin_dest": [
         "NRT"
       ],
-      "status": "Est at 22:46",
-      "gate_baggage": "8",
+      "status": "At gate 22:53",
+      "gate_baggage": "12",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "A"
+        "hall": "B"
       }
     },
     {
@@ -11197,7 +11197,7 @@
       "origin_dest": [
         "NRT"
       ],
-      "status": "Est at 22:57",
+      "status": "At gate 23:11",
       "gate_baggage": "17",
       "terminal": "",
       "isArrival": true,
@@ -11227,7 +11227,7 @@
       "origin_dest": [
         "BKK"
       ],
-      "status": "",
+      "status": "At gate 23:02",
       "gate_baggage": "10",
       "terminal": "",
       "isArrival": true,
@@ -11257,7 +11257,7 @@
       "origin_dest": [
         "PKX"
       ],
-      "status": "Est at 22:35",
+      "status": "At gate 22:58",
       "gate_baggage": "3",
       "terminal": "",
       "isArrival": true,
@@ -11283,8 +11283,8 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "",
-      "gate_baggage": "6",
+      "status": "At gate 23:08",
+      "gate_baggage": "5",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -11309,14 +11309,14 @@
       "origin_dest": [
         "PQC"
       ],
-      "status": "Est at 22:43",
-      "gate_baggage": "7",
+      "status": "At gate 22:49",
+      "gate_baggage": "13",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "A"
+        "hall": "B"
       }
     },
     {
@@ -11343,14 +11343,14 @@
       "origin_dest": [
         "ICN"
       ],
-      "status": "Est at 22:53",
-      "gate_baggage": "16",
+      "status": "At gate 23:22",
+      "gate_baggage": "8",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": "B"
+        "hall": "A"
       }
     },
     {
@@ -11385,7 +11385,7 @@
       "origin_dest": [
         "SGN"
       ],
-      "status": "",
+      "status": "At gate 23:01",
       "gate_baggage": "9",
       "terminal": "",
       "isArrival": true,
@@ -11411,8 +11411,8 @@
       "origin_dest": [
         "PEK"
       ],
-      "status": "Est at 23:09",
-      "gate_baggage": "17",
+      "status": "At gate 23:06",
+      "gate_baggage": "13",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
@@ -11433,14 +11433,14 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "At gate 23:09",
+      "gate_baggage": "2",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "A"
       }
     },
     {
@@ -11459,14 +11459,14 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "At gate 23:01",
+      "gate_baggage": "3",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "A"
       }
     },
     {
@@ -11485,14 +11485,14 @@
       "origin_dest": [
         "CNX"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "At gate 23:08",
+      "gate_baggage": "14",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -11511,14 +11511,14 @@
       "origin_dest": [
         "NRT"
       ],
-      "status": "Est at 23:29",
-      "gate_baggage": "",
+      "status": "At gate 23:14",
+      "gate_baggage": "13",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -11533,14 +11533,14 @@
       "origin_dest": [
         "CAN"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "At gate 23:20",
+      "gate_baggage": "9",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "A"
       }
     },
     {
@@ -11559,14 +11559,14 @@
       "origin_dest": [
         "SYX"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "At gate 00:10 (16/01/2026)",
+      "gate_baggage": "15",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -11589,14 +11589,14 @@
       "origin_dest": [
         "KIX"
       ],
-      "status": "Est at 23:26",
-      "gate_baggage": "",
+      "status": "At gate 23:34",
+      "gate_baggage": "16",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -11615,14 +11615,14 @@
       "origin_dest": [
         "DPS"
       ],
-      "status": "Est at 23:34",
-      "gate_baggage": "",
+      "status": "At gate 23:55",
+      "gate_baggage": "17",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -11653,14 +11653,14 @@
       "origin_dest": [
         "KUL"
       ],
-      "status": "Est at 23:49",
-      "gate_baggage": "",
+      "status": "At gate 23:53",
+      "gate_baggage": "13",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -11675,14 +11675,14 @@
       "origin_dest": [
         "ROR"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "At gate 23:56",
+      "gate_baggage": "15",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -11701,14 +11701,14 @@
       "origin_dest": [
         "BKK"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "At gate 00:04 (16/01/2026)",
+      "gate_baggage": "15",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -11727,14 +11727,14 @@
       "origin_dest": [
         "CTS"
       ],
-      "status": "Est at 23:50",
-      "gate_baggage": "",
+      "status": "At gate 00:02 (16/01/2026)",
+      "gate_baggage": "12",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
       }
     },
     {
@@ -11753,14 +11753,40 @@
       "origin_dest": [
         "KIX"
       ],
-      "status": "Est at 23:25 (15/01/2026)",
-      "gate_baggage": "",
+      "status": "At gate 23:26 (15/01/2026)",
+      "gate_baggage": "14",
       "terminal": "",
       "isArrival": true,
       "isCargo": false,
       "_raw": {
         "aisle": "",
-        "hall": ""
+        "hall": "B"
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "time": "00:10",
+      "flight": [
+        {
+          "no": "HX 313",
+          "airline": "CRK"
+        },
+        {
+          "no": "HU 8191",
+          "airline": "CHH"
+        }
+      ],
+      "origin_dest": [
+        "PEK"
+      ],
+      "status": "At gate 23:41 (15/01/2026)",
+      "gate_baggage": "16",
+      "terminal": "",
+      "isArrival": true,
+      "isCargo": false,
+      "_raw": {
+        "aisle": "",
+        "hall": "B"
       }
     },
     {
@@ -12892,7 +12918,7 @@
       "origin_dest": [
         "DEL"
       ],
-      "status": "Est at 21:53",
+      "status": "At gate 22:25",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -13070,7 +13096,7 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "Est at 00:10 (16/01/2026)",
+      "status": "Est at 00:21 (16/01/2026)",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14062,7 +14088,7 @@
       "origin_dest": [
         "BKI"
       ],
-      "status": "Est at 22:01",
+      "status": "At gate 22:15",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14398,7 +14424,7 @@
       "origin_dest": [
         "LAX"
       ],
-      "status": "Est at 00:01 (16/01/2026)",
+      "status": "At gate 00:00 (16/01/2026)",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14467,7 +14493,7 @@
       "origin_dest": [
         "DWC"
       ],
-      "status": "Est at 21:15",
+      "status": "At gate 22:01",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14490,7 +14516,7 @@
         "CVG",
         "NGO"
       ],
-      "status": "Est at 21:18",
+      "status": "At gate 21:31",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14512,7 +14538,7 @@
       "origin_dest": [
         "BKI"
       ],
-      "status": "Est at 23:00",
+      "status": "At gate 23:09",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14534,7 +14560,7 @@
       "origin_dest": [
         "DOH"
       ],
-      "status": "Est at 21:20",
+      "status": "At gate 21:53",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14556,7 +14582,7 @@
       "origin_dest": [
         "HAN"
       ],
-      "status": "Est at 05:54 (16/01/2026)",
+      "status": "Est at 05:55 (16/01/2026)",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14601,7 +14627,7 @@
         "EMA",
         "MXP"
       ],
-      "status": "Est at 22:13",
+      "status": "At gate 22:27",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14623,7 +14649,7 @@
       "origin_dest": [
         "LEJ"
       ],
-      "status": "Est at 23:33",
+      "status": "At gate 23:35",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14645,7 +14671,7 @@
       "origin_dest": [
         "RUH"
       ],
-      "status": "Est at 23:32 (15/01/2026)",
+      "status": "At gate 23:24 (15/01/2026)",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -14667,7 +14693,7 @@
       "origin_dest": [
         "HAN"
       ],
-      "status": "Est at 23:30 (15/01/2026)",
+      "status": "At gate 23:44 (15/01/2026)",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": true,
@@ -23732,7 +23758,7 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:28",
       "gate_baggage": "71",
       "terminal": "T1",
       "isArrival": false,
@@ -23896,7 +23922,7 @@
       "origin_dest": [
         "CGK"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:14",
       "gate_baggage": "45",
       "terminal": "T1",
       "isArrival": false,
@@ -23922,7 +23948,7 @@
       "origin_dest": [
         "SYX"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:17",
       "gate_baggage": "203",
       "terminal": "T1",
       "isArrival": false,
@@ -24242,7 +24268,7 @@
       "origin_dest": [
         "DAC"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 21:01",
       "gate_baggage": "60",
       "terminal": "T1",
       "isArrival": false,
@@ -24372,7 +24398,7 @@
       "origin_dest": [
         "LAX"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:27",
       "gate_baggage": "41",
       "terminal": "T1",
       "isArrival": false,
@@ -24398,7 +24424,7 @@
       "origin_dest": [
         "NGB"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:37",
       "gate_baggage": "219",
       "terminal": "T1",
       "isArrival": false,
@@ -24420,7 +24446,7 @@
       "origin_dest": [
         "CAN"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:16",
       "gate_baggage": "11",
       "terminal": "T1",
       "isArrival": false,
@@ -24536,7 +24562,7 @@
       "origin_dest": [
         "CMB"
       ],
-      "status": "Final Call",
+      "status": "Dep 20:58",
       "gate_baggage": "67",
       "terminal": "T1",
       "isArrival": false,
@@ -24570,7 +24596,7 @@
       "origin_dest": [
         "BOM"
       ],
-      "status": "Final Call",
+      "status": "Dep 20:53",
       "gate_baggage": "4",
       "terminal": "T1",
       "isArrival": false,
@@ -24596,7 +24622,7 @@
       "origin_dest": [
         "HGH"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:30",
       "gate_baggage": "9",
       "terminal": "T1",
       "isArrival": false,
@@ -24618,7 +24644,7 @@
       "origin_dest": [
         "DMK"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:43",
       "gate_baggage": "201",
       "terminal": "T1",
       "isArrival": false,
@@ -24644,7 +24670,7 @@
       "origin_dest": [
         "PEK"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:19",
       "gate_baggage": "512",
       "terminal": "T1",
       "isArrival": false,
@@ -24678,7 +24704,7 @@
       "origin_dest": [
         "DEL"
       ],
-      "status": "Final Call",
+      "status": "Dep 20:49",
       "gate_baggage": "5",
       "terminal": "T1",
       "isArrival": false,
@@ -24716,7 +24742,7 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "Final Call",
+      "status": "Dep 21:10",
       "gate_baggage": "23",
       "terminal": "T1",
       "isArrival": false,
@@ -24742,7 +24768,7 @@
       "origin_dest": [
         "PEN"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:14",
       "gate_baggage": "214",
       "terminal": "T1",
       "isArrival": false,
@@ -24768,7 +24794,7 @@
       "origin_dest": [
         "PVG"
       ],
-      "status": "Final Call",
+      "status": "Dep 20:39",
       "gate_baggage": "14",
       "terminal": "T1",
       "isArrival": false,
@@ -24806,7 +24832,7 @@
       "origin_dest": [
         "SIN"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:40",
       "gate_baggage": "28",
       "terminal": "T1",
       "isArrival": false,
@@ -24832,7 +24858,7 @@
       "origin_dest": [
         "YVR"
       ],
-      "status": "Gate Closed",
+      "status": "Dep 20:26",
       "gate_baggage": "30",
       "terminal": "T1",
       "isArrival": false,
@@ -24858,7 +24884,7 @@
       "origin_dest": [
         "CRK"
       ],
-      "status": "Final Call",
+      "status": "Dep 20:47",
       "gate_baggage": "202",
       "terminal": "T1",
       "isArrival": false,
@@ -24884,7 +24910,7 @@
       "origin_dest": [
         "PVG"
       ],
-      "status": "Boarding Soon",
+      "status": "Dep 20:56",
       "gate_baggage": "16",
       "terminal": "T1",
       "isArrival": false,
@@ -24918,7 +24944,7 @@
       "origin_dest": [
         "CHC"
       ],
-      "status": "Boarding",
+      "status": "Dep 20:53",
       "gate_baggage": "66",
       "terminal": "T1",
       "isArrival": false,
@@ -24940,7 +24966,7 @@
       "origin_dest": [
         "BLR"
       ],
-      "status": "Boarding",
+      "status": "Dep 21:23",
       "gate_baggage": "27",
       "terminal": "T1",
       "isArrival": false,
@@ -24966,7 +24992,7 @@
       "origin_dest": [
         "KHH"
       ],
-      "status": "Boarding Soon",
+      "status": "Dep 20:50",
       "gate_baggage": "48",
       "terminal": "T1",
       "isArrival": false,
@@ -24992,7 +25018,7 @@
       "origin_dest": [
         "CKG"
       ],
-      "status": "Boarding Soon",
+      "status": "Dep 20:53",
       "gate_baggage": "206",
       "terminal": "T1",
       "isArrival": false,
@@ -25018,7 +25044,7 @@
       "origin_dest": [
         "TNA"
       ],
-      "status": "Boarding Soon",
+      "status": "Dep 20:48",
       "gate_baggage": "522",
       "terminal": "T1",
       "isArrival": false,
@@ -25044,7 +25070,7 @@
       "origin_dest": [
         "NKG"
       ],
-      "status": "Boarding",
+      "status": "Dep 21:01",
       "gate_baggage": "213",
       "terminal": "T1",
       "isArrival": false,
@@ -25070,7 +25096,7 @@
       "origin_dest": [
         "HAK"
       ],
-      "status": "Final Call",
+      "status": "Dep 20:46",
       "gate_baggage": "511",
       "terminal": "T1",
       "isArrival": false,
@@ -25096,7 +25122,7 @@
       "origin_dest": [
         "PEK"
       ],
-      "status": "Boarding Soon",
+      "status": "Dep 20:50",
       "gate_baggage": "207",
       "terminal": "T1",
       "isArrival": false,
@@ -25118,7 +25144,7 @@
       "origin_dest": [
         "BKK"
       ],
-      "status": "Boarding Soon",
+      "status": "Dep 21:10",
       "gate_baggage": "210",
       "terminal": "T1",
       "isArrival": false,
@@ -25141,7 +25167,7 @@
         "BKK",
         "DXB"
       ],
-      "status": "Boarding Soon",
+      "status": "Dep 21:29",
       "gate_baggage": "62",
       "terminal": "T1",
       "isArrival": false,
@@ -25163,7 +25189,7 @@
       "origin_dest": [
         "INC"
       ],
-      "status": "Boarding Soon",
+      "status": "Dep 20:57",
       "gate_baggage": "21",
       "terminal": "T1",
       "isArrival": false,
@@ -25189,7 +25215,7 @@
       "origin_dest": [
         "ICN"
       ],
-      "status": "Boarding Soon",
+      "status": "Dep 21:12",
       "gate_baggage": "208",
       "terminal": "T1",
       "isArrival": false,
@@ -25215,7 +25241,7 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "",
+      "status": "Dep 21:20",
       "gate_baggage": "6",
       "terminal": "T1",
       "isArrival": false,
@@ -25237,7 +25263,7 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "",
+      "status": "Dep 21:15",
       "gate_baggage": "10",
       "terminal": "T1",
       "isArrival": false,
@@ -25259,8 +25285,8 @@
       "origin_dest": [
         "PVG"
       ],
-      "status": "Est at 22:05",
-      "gate_baggage": "",
+      "status": "Dep 22:05",
+      "gate_baggage": "42",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -25281,7 +25307,7 @@
       "origin_dest": [
         "SGN"
       ],
-      "status": "",
+      "status": "Dep 21:28",
       "gate_baggage": "63",
       "terminal": "T1",
       "isArrival": false,
@@ -25307,7 +25333,7 @@
       "origin_dest": [
         "PVG"
       ],
-      "status": "Est at 22:00",
+      "status": "Dep 22:18",
       "gate_baggage": "201",
       "terminal": "T1",
       "isArrival": false,
@@ -25345,7 +25371,7 @@
       "origin_dest": [
         "SYD"
       ],
-      "status": "",
+      "status": "Dep 21:28",
       "gate_baggage": "47",
       "terminal": "T1",
       "isArrival": false,
@@ -25375,7 +25401,7 @@
       "origin_dest": [
         "MAA"
       ],
-      "status": "",
+      "status": "Dep 21:52",
       "gate_baggage": "40",
       "terminal": "T1",
       "isArrival": false,
@@ -25401,7 +25427,7 @@
       "origin_dest": [
         "HGH"
       ],
-      "status": "",
+      "status": "Dep 21:30",
       "gate_baggage": "203",
       "terminal": "T1",
       "isArrival": false,
@@ -25427,7 +25453,7 @@
       "origin_dest": [
         "PEK"
       ],
-      "status": "",
+      "status": "Dep 21:27",
       "gate_baggage": "12",
       "terminal": "T1",
       "isArrival": false,
@@ -25473,7 +25499,7 @@
       "origin_dest": [
         "AKL"
       ],
-      "status": "",
+      "status": "Dep 21:38",
       "gate_baggage": "36",
       "terminal": "T1",
       "isArrival": false,
@@ -25495,7 +25521,7 @@
       "origin_dest": [
         "HYD"
       ],
-      "status": "",
+      "status": "Dep 21:39",
       "gate_baggage": "8",
       "terminal": "T1",
       "isArrival": false,
@@ -25517,7 +25543,7 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "",
+      "status": "Dep 21:36",
       "gate_baggage": "43",
       "terminal": "T1",
       "isArrival": false,
@@ -25539,7 +25565,7 @@
       "origin_dest": [
         "HEL"
       ],
-      "status": "",
+      "status": "Dep 21:40",
       "gate_baggage": "25",
       "terminal": "T1",
       "isArrival": false,
@@ -25565,7 +25591,7 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "",
+      "status": "Dep 21:51",
       "gate_baggage": "7",
       "terminal": "T1",
       "isArrival": false,
@@ -25587,7 +25613,7 @@
       "origin_dest": [
         "KHH"
       ],
-      "status": "",
+      "status": "Dep 21:46",
       "gate_baggage": "20",
       "terminal": "T1",
       "isArrival": false,
@@ -25613,7 +25639,7 @@
       "origin_dest": [
         "BKK"
       ],
-      "status": "",
+      "status": "Dep 22:03",
       "gate_baggage": "216",
       "terminal": "T1",
       "isArrival": false,
@@ -25643,8 +25669,8 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "Est at 22:55",
-      "gate_baggage": "",
+      "status": "Dep 23:27",
+      "gate_baggage": "47",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -25669,7 +25695,7 @@
       "origin_dest": [
         "PKX"
       ],
-      "status": "",
+      "status": "Dep 22:05",
       "gate_baggage": "228",
       "terminal": "T1",
       "isArrival": false,
@@ -25715,7 +25741,7 @@
       "origin_dest": [
         "BKK"
       ],
-      "status": "",
+      "status": "Dep 22:48",
       "gate_baggage": "61",
       "terminal": "T1",
       "isArrival": false,
@@ -25741,7 +25767,7 @@
       "origin_dest": [
         "SYD"
       ],
-      "status": "",
+      "status": "Dep 22:29",
       "gate_baggage": "214",
       "terminal": "T1",
       "isArrival": false,
@@ -25763,7 +25789,7 @@
       "origin_dest": [
         "SFO"
       ],
-      "status": "",
+      "status": "Dep 22:31",
       "gate_baggage": "65",
       "terminal": "T1",
       "isArrival": false,
@@ -25785,8 +25811,8 @@
       "origin_dest": [
         "CRK"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:46",
+      "gate_baggage": "520",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -25815,7 +25841,7 @@
       "origin_dest": [
         "CDG"
       ],
-      "status": "",
+      "status": "Dep 22:40",
       "gate_baggage": "50",
       "terminal": "T1",
       "isArrival": false,
@@ -25837,8 +25863,8 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 22:39",
+      "gate_baggage": "14",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -25863,8 +25889,8 @@
       "origin_dest": [
         "LHR"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 22:46",
+      "gate_baggage": "9",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -25885,8 +25911,8 @@
       "origin_dest": [
         "LAX"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 22:49",
+      "gate_baggage": "44",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -25907,8 +25933,8 @@
       "origin_dest": [
         "TPE"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:04",
+      "gate_baggage": "43",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -25929,8 +25955,8 @@
       "origin_dest": [
         "LHR"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:07",
+      "gate_baggage": "26",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -25955,7 +25981,7 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "",
+      "status": "Dep 22:54",
       "gate_baggage": "204",
       "terminal": "T1",
       "isArrival": false,
@@ -26001,8 +26027,8 @@
       "origin_dest": [
         "PER"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:15",
+      "gate_baggage": "4",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -26023,7 +26049,7 @@
       "origin_dest": [
         "YVR"
       ],
-      "status": "",
+      "status": "Dep 23:15",
       "gate_baggage": "217",
       "terminal": "T1",
       "isArrival": false,
@@ -26045,7 +26071,7 @@
       "origin_dest": [
         "AMS"
       ],
-      "status": "",
+      "status": "Dep 23:20",
       "gate_baggage": "49",
       "terminal": "T1",
       "isArrival": false,
@@ -26071,7 +26097,7 @@
       "origin_dest": [
         "IST"
       ],
-      "status": "",
+      "status": "Dep 23:11",
       "gate_baggage": "31",
       "terminal": "T1",
       "isArrival": false,
@@ -26097,8 +26123,8 @@
       "origin_dest": [
         "ADL"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:39",
+      "gate_baggage": "71",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -26123,7 +26149,7 @@
       "origin_dest": [
         "ZRH"
       ],
-      "status": "",
+      "status": "Dep 23:32",
       "gate_baggage": "29",
       "terminal": "T1",
       "isArrival": false,
@@ -26153,8 +26179,8 @@
       "origin_dest": [
         "FRA"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:44",
+      "gate_baggage": "27",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -26195,8 +26221,8 @@
       "origin_dest": [
         "BNE"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:59",
+      "gate_baggage": "3",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -26217,8 +26243,8 @@
       "origin_dest": [
         "ADD"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:58",
+      "gate_baggage": "65",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -26251,8 +26277,8 @@
       "origin_dest": [
         "SYD"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Gate Closed",
+      "gate_baggage": "2",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -26273,8 +26299,8 @@
       "origin_dest": [
         "LHR"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:56",
+      "gate_baggage": "62",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -26299,8 +26325,8 @@
       "origin_dest": [
         "HND"
       ],
-      "status": "",
-      "gate_baggage": "",
+      "status": "Dep 23:48",
+      "gate_baggage": "213",
       "terminal": "T1",
       "isArrival": false,
       "isCargo": false,
@@ -28207,7 +28233,7 @@
         "DWC",
         "LEJ"
       ],
-      "status": "Est at 17:45",
+      "status": "Est at 07:00 (16/01/2026)",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -28297,7 +28323,7 @@
         "KGF",
         "OTP"
       ],
-      "status": "Est at 23:30",
+      "status": "Dep 23:50",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -28500,7 +28526,7 @@
       "origin_dest": [
         "ADD"
       ],
-      "status": "Est at 18:45",
+      "status": "Dep 20:42",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -28659,7 +28685,7 @@
         "ANC",
         "MIA"
       ],
-      "status": "Est at 20:30",
+      "status": "Dep 22:18",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -28749,7 +28775,7 @@
       "origin_dest": [
         "KUL"
       ],
-      "status": "Est at 23:10",
+      "status": "Dep 23:22",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -28865,7 +28891,7 @@
         "MIA",
         "LUX"
       ],
-      "status": "Est at 19:45",
+      "status": "Dep 20:33",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -29180,7 +29206,7 @@
         "ANC",
         "SDF"
       ],
-      "status": "",
+      "status": "Dep 23:30",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -29202,7 +29228,7 @@
       "origin_dest": [
         "DOH"
       ],
-      "status": "",
+      "status": "Dep 20:32",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -29224,7 +29250,7 @@
       "origin_dest": [
         "IST"
       ],
-      "status": "",
+      "status": "Dep 20:51",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -29246,7 +29272,7 @@
       "origin_dest": [
         "MNL"
       ],
-      "status": "Est at 21:20",
+      "status": "Dep 21:28",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -29292,7 +29318,7 @@
         "CVG",
         "EMA"
       ],
-      "status": "",
+      "status": "Dep 21:48",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -29314,7 +29340,7 @@
       "origin_dest": [
         "DWC"
       ],
-      "status": "Est at 23:00",
+      "status": "Dep 23:58",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -29337,7 +29363,7 @@
         "DWC",
         "AMS"
       ],
-      "status": "",
+      "status": "Dep 23:23",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,
@@ -29403,7 +29429,7 @@
       "origin_dest": [
         "PVG"
       ],
-      "status": "",
+      "status": "Dep 00:08 (16/01/2026)",
       "gate_baggage": "",
       "terminal": "",
       "isArrival": false,

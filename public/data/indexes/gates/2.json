@@ -1,40 +1,6 @@
 [
   {
     "date": "2026-01-05",
-    "time": "01:25",
-    "flight": [
-      {
-        "no": "CX 524",
-        "airline": "CPA"
-      },
-      {
-        "no": "JL 7040",
-        "airline": "JAL"
-      },
-      {
-        "no": "QR 5844",
-        "airline": "QTR"
-      },
-      {
-        "no": "AA 8884",
-        "airline": "AAL"
-      }
-    ],
-    "origin_dest": [
-      "NRT"
-    ],
-    "status": "Dep 01:29",
-    "gate_baggage": "2",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "A",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-05",
     "time": "09:30",
     "flight": [
       {
@@ -1489,6 +1455,40 @@
     ],
     "origin_dest": [
       "XMN"
+    ],
+    "status": "Gate Closed",
+    "gate_baggage": "2",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "23:55",
+    "flight": [
+      {
+        "no": "CX 101",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5093",
+        "airline": "FIN"
+      },
+      {
+        "no": "BA 4131",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5615",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SYD"
     ],
     "status": "Gate Closed",
     "gate_baggage": "2",

@@ -1,28 +1,6 @@
 [
   {
     "date": "2026-01-08",
-    "time": "13:35",
-    "flight": [
-      {
-        "no": "CX 360",
-        "airline": "CPA"
-      }
-    ],
-    "origin_dest": [
-      "PVG"
-    ],
-    "status": "Dep 13:31",
-    "gate_baggage": "44",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "A",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-08",
     "time": "15:30",
     "flight": [
       {
@@ -1298,6 +1276,28 @@
     "isCargo": false,
     "_raw": {
       "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:49",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
       "hall": ""
     }
   }

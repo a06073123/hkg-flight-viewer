@@ -1,32 +1,6 @@
 [
   {
     "date": "2026-01-07",
-    "time": "00:35",
-    "flight": [
-      {
-        "no": "EK 381",
-        "airline": "UAE"
-      },
-      {
-        "no": "TP 6349",
-        "airline": "TAP"
-      }
-    ],
-    "origin_dest": [
-      "DXB"
-    ],
-    "status": "Dep 00:40",
-    "gate_baggage": "62",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "G",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-07",
     "time": "09:45",
     "flight": [
       {
@@ -1346,6 +1320,28 @@
     "isCargo": false,
     "_raw": {
       "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "23:55",
+    "flight": [
+      {
+        "no": "CX 255",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "LHR"
+    ],
+    "status": "Dep 23:56",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
       "hall": ""
     }
   }

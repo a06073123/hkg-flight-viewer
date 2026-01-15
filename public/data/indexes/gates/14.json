@@ -1,28 +1,6 @@
 [
   {
     "date": "2026-01-06",
-    "time": "12:20",
-    "flight": [
-      {
-        "no": "CX 952",
-        "airline": "CPA"
-      }
-    ],
-    "origin_dest": [
-      "CGO"
-    ],
-    "status": "Dep 12:27",
-    "gate_baggage": "14",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "A",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-06",
     "time": "16:30",
     "flight": [
       {
@@ -1292,6 +1270,28 @@
     "isCargo": false,
     "_raw": {
       "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "PR 311",
+        "airline": "PAL"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 22:39",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
       "hall": ""
     }
   }

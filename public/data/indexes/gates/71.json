@@ -1,28 +1,6 @@
 [
   {
     "date": "2026-01-04",
-    "time": "10:25",
-    "flight": [
-      {
-        "no": "CX 356",
-        "airline": "CPA"
-      }
-    ],
-    "origin_dest": [
-      "NKG"
-    ],
-    "status": "Dep 10:22",
-    "gate_baggage": "71",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "A",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-04",
     "time": "14:10",
     "flight": [
       {
@@ -1276,6 +1254,32 @@
     "isCargo": false,
     "_raw": {
       "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "23:30",
+    "flight": [
+      {
+        "no": "CX 173",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5119",
+        "airline": "FIN"
+      }
+    ],
+    "origin_dest": [
+      "ADL"
+    ],
+    "status": "Dep 23:39",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
       "hall": ""
     }
   }

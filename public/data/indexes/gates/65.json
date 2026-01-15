@@ -1,28 +1,6 @@
 [
   {
     "date": "2026-01-07",
-    "time": "10:35",
-    "flight": [
-      {
-        "no": "UA 862",
-        "airline": "UAL"
-      }
-    ],
-    "origin_dest": [
-      "SFO"
-    ],
-    "status": "Dep 11:06",
-    "gate_baggage": "65",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "G",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-07",
     "time": "13:40",
     "flight": [
       {
@@ -1332,6 +1310,28 @@
     "isCargo": false,
     "_raw": {
       "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "23:55",
+    "flight": [
+      {
+        "no": "ET 645",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 23:58",
+    "gate_baggage": "65",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
       "hall": ""
     }
   }

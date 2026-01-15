@@ -1,40 +1,6 @@
 [
   {
     "date": "2026-01-08",
-    "time": "08:35",
-    "flight": [
-      {
-        "no": "CX 921",
-        "airline": "CPA"
-      },
-      {
-        "no": "PR 3201",
-        "airline": "PAL"
-      },
-      {
-        "no": "AY 5113",
-        "airline": "FIN"
-      },
-      {
-        "no": "AC 9767",
-        "airline": "ACA"
-      }
-    ],
-    "origin_dest": [
-      "CEB"
-    ],
-    "status": "Dep 08:43",
-    "gate_baggage": "42",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "BC",
-      "hall": ""
-    }
-  },
-  {
-    "date": "2026-01-08",
     "time": "10:30",
     "flight": [
       {
@@ -1417,6 +1383,28 @@
     "isCargo": false,
     "_raw": {
       "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 302",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "Dep 22:05",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
       "hall": ""
     }
   }

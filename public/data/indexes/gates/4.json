@@ -1,47 +1,5 @@
 [
   {
-    "date": "2026-01-03",
-    "time": "23:50",
-    "flight": [
-      {
-        "no": "CX 153",
-        "airline": "CPA"
-      },
-      {
-        "no": "AY 5117",
-        "airline": "FIN"
-      },
-      {
-        "no": "OM 5633",
-        "airline": "MGL"
-      },
-      {
-        "no": "BA 4143",
-        "airline": "BAW"
-      },
-      {
-        "no": "LX 9507",
-        "airline": "SWR"
-      },
-      {
-        "no": "LH 7025",
-        "airline": "DLH"
-      }
-    ],
-    "origin_dest": [
-      "BNE"
-    ],
-    "status": "Dep 23:59",
-    "gate_baggage": "4",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "A",
-      "hall": ""
-    }
-  },
-  {
     "date": "2026-01-04",
     "time": "08:45",
     "flight": [
@@ -1456,6 +1414,52 @@
     "isCargo": false,
     "_raw": {
       "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "23:10",
+    "flight": [
+      {
+        "no": "CX 143",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5103",
+        "airline": "FIN"
+      },
+      {
+        "no": "BA 4149",
+        "airline": "BAW"
+      },
+      {
+        "no": "QF 8234",
+        "airline": "QFA"
+      },
+      {
+        "no": "OM 5683",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9503",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7017",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "PER"
+    ],
+    "status": "Dep 23:15",
+    "gate_baggage": "4",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
       "hall": ""
     }
   }

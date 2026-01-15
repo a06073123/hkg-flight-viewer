@@ -1,39 +1,5 @@
 [
   {
-    "date": "2026-01-05",
-    "time": "20:15",
-    "flight": [
-      {
-        "no": "CX 679",
-        "airline": "CPA"
-      },
-      {
-        "no": "JL 7933",
-        "airline": "JAL"
-      },
-      {
-        "no": "OM 5603",
-        "airline": "MGL"
-      },
-      {
-        "no": "AA 8947",
-        "airline": "AAL"
-      }
-    ],
-    "origin_dest": [
-      "DEL"
-    ],
-    "status": "Dep 21:33",
-    "gate_baggage": "27",
-    "terminal": "T1",
-    "isArrival": false,
-    "isCargo": false,
-    "_raw": {
-      "aisle": "BC",
-      "hall": ""
-    }
-  },
-  {
     "date": "2026-01-06",
     "time": "00:30",
     "flight": [
@@ -1416,6 +1382,36 @@
     "isCargo": false,
     "_raw": {
       "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "LH 797",
+        "airline": "DLH"
+      },
+      {
+        "no": "CX 6799",
+        "airline": "CPA"
+      },
+      {
+        "no": "NZ 4213",
+        "airline": "ANZ"
+      }
+    ],
+    "origin_dest": [
+      "FRA"
+    ],
+    "status": "Dep 23:44",
+    "gate_baggage": "27",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
       "hall": ""
     }
   }
