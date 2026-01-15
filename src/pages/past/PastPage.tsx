@@ -190,7 +190,7 @@ export default function PastPage() {
 				<Tabs.List class="flex gap-1 border-b">
 					<Tabs.Trigger
 						value="departures"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-gray-700 data-[selected]:border-purple-500 data-[selected]:text-purple-600"
+						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-gray-700 data-selected:border-purple-500 data-selected:text-purple-600"
 					>
 						<PlaneTakeoff class="h-4 w-4" />
 						Departures
@@ -200,7 +200,7 @@ export default function PastPage() {
 					</Tabs.Trigger>
 					<Tabs.Trigger
 						value="arrivals"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-gray-700 data-[selected]:border-green-500 data-[selected]:text-green-600"
+						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-gray-700 data-selected:border-green-500 data-selected:text-green-600"
 					>
 						<PlaneLanding class="h-4 w-4" />
 						Arrivals
@@ -210,7 +210,7 @@ export default function PastPage() {
 					</Tabs.Trigger>
 					<Tabs.Trigger
 						value="cargo"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-gray-700 data-[selected]:border-orange-500 data-[selected]:text-orange-600"
+						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-gray-700 data-selected:border-orange-500 data-selected:text-orange-600"
 					>
 						<Package class="h-4 w-4" />
 						Cargo

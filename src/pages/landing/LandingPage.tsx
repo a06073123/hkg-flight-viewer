@@ -22,7 +22,7 @@ export default function LandingPage() {
 	return (
 		<div class="mx-auto max-w-4xl space-y-8">
 			{/* Hero Section */}
-			<div class="rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 p-8 text-white shadow-xl">
+			<div class="rounded-2xl bg-linear-to-br from-blue-600 to-blue-800 p-8 text-white shadow-xl">
 				<div class="flex items-center gap-3">
 					<Plane class="h-10 w-10" />
 					<h1 class="text-3xl font-bold">HKG Flight Viewer</h1>

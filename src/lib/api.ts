@@ -182,7 +182,12 @@ export async function loadFlightIndex(
 			`${STATIC_DATA_BASE}/indexes/flights/${normalized}.json`,
 		);
 		if (!response.ok) return null;
-		return await response.json();
+		const rawFlights: ArchivedFlightItem[] = await response.json();
+		return {
+			flightNo: normalized,
+			updatedAt: new Date().toISOString(),
+			occurrences: parseArchivedFlights(rawFlights),
+		};
 	} catch {
 		return null;
 	}
@@ -197,7 +202,12 @@ export async function loadGateIndex(gate: string): Promise<GateIndex | null> {
 			`${STATIC_DATA_BASE}/indexes/gates/${gate}.json`,
 		);
 		if (!response.ok) return null;
-		return await response.json();
+		const rawFlights: ArchivedFlightItem[] = await response.json();
+		return {
+			gate,
+			updatedAt: new Date().toISOString(),
+			departures: parseArchivedFlights(rawFlights),
+		};
 	} catch {
 		return null;
 	}
