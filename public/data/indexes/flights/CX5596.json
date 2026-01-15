@@ -1,0 +1,262 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:12",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:22",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:20",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:56",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:17",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:25",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:43",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:39",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:25",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 596",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5596",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 16:51",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  }
+]

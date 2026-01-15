@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "ET 3729",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "HAN",
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "ET 3729",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "HAN",
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

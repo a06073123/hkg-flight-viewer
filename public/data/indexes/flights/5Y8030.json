@@ -1,0 +1,347 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 14:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 12:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 12:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 12:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 15:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 13:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "11:05",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 17:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "11:25",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 15:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "5Y 8030",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "MIA",
+      "ANC"
+    ],
+    "status": "Dep 16:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

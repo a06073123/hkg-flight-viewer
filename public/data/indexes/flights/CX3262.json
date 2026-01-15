@@ -1,0 +1,574 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "22:05",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 23:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 05:09 (21/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 06:49 (26/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 02:39 (28/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 01:56 (02/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 03:49 (04/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 22:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 00:57 (11/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 22:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 22:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 22:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 22:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 03:58 (30/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 22:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 23:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 00:33 (09/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 22:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 00:54 (16/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 01:44 (21/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 02:48 (23/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 22:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 22:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 01:05 (04/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 02:01 (06/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 05:44 (11/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "CX 3262",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 02:24 (13/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

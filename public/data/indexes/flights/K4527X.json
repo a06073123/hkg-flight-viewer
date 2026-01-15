@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-11-02",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "K4 527X",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "LAX"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "K4 527X",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "LAX"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

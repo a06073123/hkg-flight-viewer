@@ -1,0 +1,288 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 15:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 17:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 04:04 (03/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 04:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 05:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 04:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 03:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 05:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 04:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 04:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 02:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 12:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CT 125",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 15:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

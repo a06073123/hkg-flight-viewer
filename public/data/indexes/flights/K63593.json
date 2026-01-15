@@ -1,0 +1,692 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:29",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:38",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 15:12",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 15:16",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 15:09",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:41",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:45",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 15:14",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:44",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:50",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "13:30",
+    "flight": [
+      {
+        "no": "VN 592",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6262",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 14:17",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 15:14",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:56",
+    "gate_baggage": "46",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:35",
+    "gate_baggage": "66",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 15:20",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:33",
+    "gate_baggage": "29",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:45",
+    "gate_baggage": "8",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:41",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:32",
+    "gate_baggage": "46",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:53",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:38",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "VN 593",
+        "airline": "HVN"
+      },
+      {
+        "no": "CX 6263",
+        "airline": "CPA"
+      },
+      {
+        "no": "K6 3593",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 14:31",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

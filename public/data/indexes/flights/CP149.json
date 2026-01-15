@@ -1,0 +1,266 @@
+[
+  {
+    "date": "2025-10-29",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 07:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 08:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 08:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 08:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 08:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 07:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 08:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 08:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 07:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 07:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 08:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CP 149",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 07:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

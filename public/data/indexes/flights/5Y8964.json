@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2025-11-28",
+    "time": "08:15",
+    "flight": [
+      {
+        "no": "5Y 8964",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "SDF",
+      "ORD"
+    ],
+    "status": "Dep 09:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "14:20",
+    "flight": [
+      {
+        "no": "5Y 8964",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 15:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "17:40",
+    "flight": [
+      {
+        "no": "5Y 8964",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 13:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "05:50",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 13:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "13:30",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 16:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 10:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 08:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 22:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 23:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "21:20",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 00:19 (11/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 23:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "04:20",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Dep 04:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "7L 1923",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Est at 09:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,508 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 15:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 12:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 12:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 12:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 12:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 12:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 14:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 12:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 12:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 12:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 13:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "KZ 207",
+        "airline": "NCA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 12:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

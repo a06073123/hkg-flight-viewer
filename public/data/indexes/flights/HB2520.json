@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "10:10",
+    "flight": [
+      {
+        "no": "HB 2520",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 11:08",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "10:05",
+    "flight": [
+      {
+        "no": "HB 2520",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "10:05",
+    "flight": [
+      {
+        "no": "HB 2520",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "10:10",
+    "flight": [
+      {
+        "no": "HB 2520",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 10:57",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

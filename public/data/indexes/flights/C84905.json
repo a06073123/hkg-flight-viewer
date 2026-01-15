@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "C8 4905",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "LUX",
+      "KWI"
+    ],
+    "status": "At gate 08:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "C8 4905",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "LUX",
+      "KWI"
+    ],
+    "status": "At gate 09:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

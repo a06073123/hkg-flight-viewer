@@ -1,0 +1,262 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 20:45",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 20:43",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 21:45",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 20:49",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 20:34",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 20:45",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 20:46",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 20:44",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 20:57",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "HX 217",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8210",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "At gate 20:46",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

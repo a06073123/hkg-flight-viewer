@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-22",
+    "time": "19:35",
+    "flight": [
+      {
+        "no": "TE 702",
+        "airline": "IGA"
+      }
+    ],
+    "origin_dest": [
+      "ALA"
+    ],
+    "status": "Dep 21:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

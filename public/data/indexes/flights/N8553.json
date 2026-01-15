@@ -1,0 +1,113 @@
+[
+  {
+    "date": "2025-10-30",
+    "time": "16:25",
+    "flight": [
+      {
+        "no": "N8 553",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "ANC"
+    ],
+    "status": "At gate 17:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "06:16",
+    "flight": [
+      {
+        "no": "N8 553",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "GUM"
+    ],
+    "status": "At gate 06:38 (15/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 553",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "BUD"
+    ],
+    "status": "Dep 11:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "21:20",
+    "flight": [
+      {
+        "no": "N8 553",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 04:27 (01/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "00:10",
+    "flight": [
+      {
+        "no": "N8 553",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "PAE"
+    ],
+    "status": "At gate 22:57 (14/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

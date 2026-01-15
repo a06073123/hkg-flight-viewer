@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "16:25",
+    "flight": [
+      {
+        "no": "SV 3029",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 07:26 (19/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "16:25",
+    "flight": [
+      {
+        "no": "SV 3029",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 17:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

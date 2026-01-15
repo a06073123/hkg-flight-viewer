@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-09",
+    "time": "00:50",
+    "flight": [
+      {
+        "no": "5Y 3079",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ORD"
+    ],
+    "status": "At gate 01:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

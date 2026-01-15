@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-03",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "C6 7635",
+        "airline": "MFX"
+      }
+    ],
+    "origin_dest": [
+      "TAS"
+    ],
+    "status": "At gate 17:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

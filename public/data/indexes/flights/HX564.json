@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "HX 564",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "VTE"
+    ],
+    "status": "Dep 15:52",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "16:40",
+    "flight": [
+      {
+        "no": "HX 564",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "VTE"
+    ],
+    "status": "Dep 16:49",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "HX 564",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "VTE"
+    ],
+    "status": "Dep 15:19",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "HX 564",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "VTE"
+    ],
+    "status": "Dep 15:31",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

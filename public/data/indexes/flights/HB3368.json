@@ -1,0 +1,398 @@
+[
+  {
+    "date": "2025-12-18",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:40",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:44",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:39",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:52",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:57",
+    "gate_baggage": "230",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:51",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:49",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:40",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:47",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:44",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:49",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:51",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:42",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:33",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:33",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:33",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:33",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "HB 3368",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 09:20",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

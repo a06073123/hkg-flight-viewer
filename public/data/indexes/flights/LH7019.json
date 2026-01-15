@@ -1,0 +1,402 @@
+[
+  {
+    "date": "2025-11-03",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "CX 171",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5111",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7905",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4145",
+        "airline": "BAW"
+      },
+      {
+        "no": "QF 8236",
+        "airline": "QFA"
+      },
+      {
+        "no": "OM 5621",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9505",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7019",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "PER"
+    ],
+    "status": "Dep 15:42",
+    "gate_baggage": "66",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "CX 171",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5111",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7905",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4145",
+        "airline": "BAW"
+      },
+      {
+        "no": "QF 8236",
+        "airline": "QFA"
+      },
+      {
+        "no": "OM 5621",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9505",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7019",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "PER"
+    ],
+    "status": "Dep 15:22",
+    "gate_baggage": "1",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "CX 171",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5111",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7905",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4145",
+        "airline": "BAW"
+      },
+      {
+        "no": "QF 8236",
+        "airline": "QFA"
+      },
+      {
+        "no": "OM 5621",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9505",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7019",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "PER"
+    ],
+    "status": "Dep 15:28",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "CX 171",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5111",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7905",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4145",
+        "airline": "BAW"
+      },
+      {
+        "no": "QF 8236",
+        "airline": "QFA"
+      },
+      {
+        "no": "OM 5621",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9505",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7019",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "PER"
+    ],
+    "status": "Dep 15:28",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "CX 171",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5111",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7905",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4145",
+        "airline": "BAW"
+      },
+      {
+        "no": "QF 8236",
+        "airline": "QFA"
+      },
+      {
+        "no": "OM 5621",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9505",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7019",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "PER"
+    ],
+    "status": "Dep 15:22",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "CX 171",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5111",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7905",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4145",
+        "airline": "BAW"
+      },
+      {
+        "no": "QF 8236",
+        "airline": "QFA"
+      },
+      {
+        "no": "OM 5621",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9505",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7019",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "PER"
+    ],
+    "status": "Dep 15:28",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "CX 171",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5111",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7905",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4145",
+        "airline": "BAW"
+      },
+      {
+        "no": "QF 8236",
+        "airline": "QFA"
+      },
+      {
+        "no": "OM 5621",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9505",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7019",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "PER"
+    ],
+    "status": "Dep 15:17",
+    "gate_baggage": "5",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "CX 171",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5111",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7905",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4145",
+        "airline": "BAW"
+      },
+      {
+        "no": "QF 8236",
+        "airline": "QFA"
+      },
+      {
+        "no": "OM 5621",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9505",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7019",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "PER"
+    ],
+    "status": "Dep 15:20",
+    "gate_baggage": "64",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  }
+]

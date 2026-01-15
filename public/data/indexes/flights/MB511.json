@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-30",
+    "time": "12:30",
+    "flight": [
+      {
+        "no": "MB 511",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "SHJ"
+    ],
+    "status": "Dep 10:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

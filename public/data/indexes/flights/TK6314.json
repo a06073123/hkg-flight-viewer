@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-01-12",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "TK 6314",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 15:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

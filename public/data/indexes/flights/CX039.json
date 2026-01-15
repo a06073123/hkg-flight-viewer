@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "14:40",
+    "flight": [
+      {
+        "no": "CX 039",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "BOM"
+    ],
+    "status": "Dep 17:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "14:40",
+    "flight": [
+      {
+        "no": "CX 039",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "BOM"
+    ],
+    "status": "Dep 12:20 (25/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

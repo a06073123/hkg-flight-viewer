@@ -1,0 +1,206 @@
+[
+  {
+    "date": "2025-10-28",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "7L 1246",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "13:50",
+    "flight": [
+      {
+        "no": "7L 1246",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DMM"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "19:30",
+    "flight": [
+      {
+        "no": "7L 1246",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "KGF"
+    ],
+    "status": "At gate 20:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "7L 1246",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 21:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "7L 1246",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DMM"
+    ],
+    "status": "At gate 14:31 (20/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "7L 1246",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BSZ"
+    ],
+    "status": "At gate 18:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "05:30",
+    "flight": [
+      {
+        "no": "7L 1246",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DAC"
+    ],
+    "status": "At gate 14:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "23:40",
+    "flight": [
+      {
+        "no": "7L 1246",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DMM"
+    ],
+    "status": "At gate 22:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "17:20",
+    "flight": [
+      {
+        "no": "7L 1246",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 19:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

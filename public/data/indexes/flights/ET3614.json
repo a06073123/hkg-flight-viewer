@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "03:25",
+    "flight": [
+      {
+        "no": "ET 3614",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BRU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "11:05",
+    "flight": [
+      {
+        "no": "ET 3614",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BRU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "03:25",
+    "flight": [
+      {
+        "no": "ET 3614",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BRU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

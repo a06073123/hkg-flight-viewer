@@ -1,0 +1,255 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "20:15",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 08:56 (20/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 06:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 06:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 10:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 06:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 08:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 18:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 06:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 08:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 02:03 (23/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "CX 2088",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 15:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

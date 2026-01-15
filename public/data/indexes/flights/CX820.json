@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CX 820",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "Dep 03:14",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CX 820",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "Dep 03:14",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CX 820",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "Dep 06:24",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CX 820",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "Dep 03:21",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CX 820",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "Dep 03:12",
+    "gate_baggage": "2",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CX 820",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "Dep 03:02",
+    "gate_baggage": "36",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  }
+]

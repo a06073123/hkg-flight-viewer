@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "C8 9267",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "ASB",
+      "MXP"
+    ],
+    "status": "Dep 19:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "C8 9267",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "ASB",
+      "MXP"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

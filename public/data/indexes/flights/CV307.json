@@ -1,0 +1,140 @@
+[
+  {
+    "date": "2025-11-06",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "CV 307",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "LUX"
+    ],
+    "status": "Dep 09:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "CV 307",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "LUX"
+    ],
+    "status": "Dep 14:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "CV 307",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "LUX"
+    ],
+    "status": "Dep 13:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "CV 307",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "LUX"
+    ],
+    "status": "Dep 20:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "CV 307",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "LUX"
+    ],
+    "status": "Dep 11:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "CV 307",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "LUX"
+    ],
+    "status": "Dep 13:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

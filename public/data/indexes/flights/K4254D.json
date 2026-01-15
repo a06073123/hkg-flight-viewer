@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-12-24",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "K4 254D",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "NGO"
+    ],
+    "status": "At gate 08:31 (27/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

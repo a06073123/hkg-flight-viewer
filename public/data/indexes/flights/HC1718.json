@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-27",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "HC 1718",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "EMA"
+    ],
+    "status": "At gate 05:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

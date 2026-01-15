@@ -1,0 +1,464 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:52",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:00",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 05:02",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 03:58",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 05:00",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:01",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:47",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:11",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:59",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 03:52",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 05:04",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:09",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:55",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 03:54",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:53",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:27",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 05:06",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:13",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 05:05",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:14",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "HB 709",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 04:59",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

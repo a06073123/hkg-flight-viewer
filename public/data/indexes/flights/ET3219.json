@@ -1,0 +1,398 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 05:23 (20/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 18:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 21:57 (02/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "00:45",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 01:24 (09/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 09:45 (16/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "00:45",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 17:52 (23/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "00:45",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 15:26 (30/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 10:21 (08/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "00:45",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 12:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 07:50 (21/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "00:45",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "14:40",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 19:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 11:43 (04/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "00:45",
+    "flight": [
+      {
+        "no": "ET 3219",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Dep 23:59 (10/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

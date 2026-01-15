@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "NJ 5546",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LGG"
+    ],
+    "status": "Dep 21:11 (29/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

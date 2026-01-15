@@ -1,0 +1,348 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "CX 739",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8942",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5679",
+        "airline": "MGL"
+      },
+      {
+        "no": "GF 4073",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3492",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 11:21",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "CX 739",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8942",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5679",
+        "airline": "MGL"
+      },
+      {
+        "no": "GF 4073",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3492",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 11:20",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "CX 739",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8942",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5679",
+        "airline": "MGL"
+      },
+      {
+        "no": "GF 4073",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3492",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 11:20",
+    "gate_baggage": "29",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "CX 739",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8942",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5679",
+        "airline": "MGL"
+      },
+      {
+        "no": "GF 4073",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3492",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 11:21",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "CX 739",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8942",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5679",
+        "airline": "MGL"
+      },
+      {
+        "no": "GF 4073",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3492",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 11:24",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "CX 739",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8942",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5679",
+        "airline": "MGL"
+      },
+      {
+        "no": "GF 4073",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3492",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 11:35",
+    "gate_baggage": "4",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "CX 739",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8942",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5679",
+        "airline": "MGL"
+      },
+      {
+        "no": "GF 4073",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3492",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 11:55",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "CX 739",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8942",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5679",
+        "airline": "MGL"
+      },
+      {
+        "no": "GF 4073",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3492",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 11:57",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "11:40",
+    "flight": [
+      {
+        "no": "CX 739",
+        "airline": "CPA"
+      },
+      {
+        "no": "GF 4073",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3492",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5679",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8942",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5466",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 11:43",
+    "gate_baggage": "25",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  }
+]

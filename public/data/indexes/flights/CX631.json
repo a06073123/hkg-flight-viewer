@@ -1,0 +1,302 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 21:22",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 21:22",
+    "gate_baggage": "5",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 21:27",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "C",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 21:39",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 21:28",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 21:44",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 22:18",
+    "gate_baggage": "63",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 21:44",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "C",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 21:18",
+    "gate_baggage": "4",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "CX 631",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8949",
+        "airline": "AAL"
+      },
+      {
+        "no": "JL 7915",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 21:36",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  }
+]

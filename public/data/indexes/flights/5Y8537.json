@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-03",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "5Y 8537",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 14:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

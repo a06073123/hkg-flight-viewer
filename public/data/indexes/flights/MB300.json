@@ -1,0 +1,561 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "AKX"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "TBS"
+    ],
+    "status": "At gate 11:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "ALA"
+    ],
+    "status": "At gate 21:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "09:00",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "At gate 09:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "At gate 21:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "02:30",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "At gate 03:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "16:50",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 05:38 (21/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI"
+    ],
+    "status": "At gate 11:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "NVI"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "14:35",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "SHJ"
+    ],
+    "status": "At gate 23:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "AKX"
+    ],
+    "status": "At gate 07:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "16:45",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "SHJ"
+    ],
+    "status": "At gate 16:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "AKX"
+    ],
+    "status": "At gate 12:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "SHJ"
+    ],
+    "status": "At gate 03:39 (12/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "NVI"
+    ],
+    "status": "At gate 13:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "17:10",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "SHJ"
+    ],
+    "status": "At gate 08:28 (19/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "AKX"
+    ],
+    "status": "At gate 02:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "01:40",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "SHJ"
+    ],
+    "status": "At gate 01:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI",
+      "ALA"
+    ],
+    "status": "At gate 18:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "SHJ"
+    ],
+    "status": "At gate 14:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "At gate 02:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "21:55",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 21:05 (08/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "03:40",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "KWI"
+    ],
+    "status": "At gate 09:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "05:00",
+    "flight": [
+      {
+        "no": "MB 300",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "TBS"
+    ],
+    "status": "At gate 09:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

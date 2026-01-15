@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-12",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "SR 871",
+        "airline": "XKY"
+      }
+    ],
+    "origin_dest": [
+      "BWN"
+    ],
+    "status": "Dep 12:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

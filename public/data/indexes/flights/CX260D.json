@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "06:15",
+    "flight": [
+      {
+        "no": "CX 260D",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG"
+    ],
+    "status": "At gate 10:21 (27/10/2025)",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "22:25",
+    "flight": [
+      {
+        "no": "CX 307",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "WNZ"
+    ],
+    "status": "At gate 23:15",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "22:25",
+    "flight": [
+      {
+        "no": "CX 307",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "WNZ"
+    ],
+    "status": "At gate 22:14",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "22:25",
+    "flight": [
+      {
+        "no": "CX 307",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "WNZ"
+    ],
+    "status": "At gate 22:16",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "22:25",
+    "flight": [
+      {
+        "no": "CX 307",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "WNZ"
+    ],
+    "status": "At gate 23:04",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "22:25",
+    "flight": [
+      {
+        "no": "CX 307",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "WNZ"
+    ],
+    "status": "At gate 22:00",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

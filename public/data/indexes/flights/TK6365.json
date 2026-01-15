@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-03",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "TK 6365",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 11:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

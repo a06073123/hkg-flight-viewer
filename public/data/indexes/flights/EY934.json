@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-20",
+    "time": "01:00",
+    "flight": [
+      {
+        "no": "EY 934",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 00:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "22:05",
+    "flight": [
+      {
+        "no": "EY 934",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

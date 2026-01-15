@@ -1,0 +1,262 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 17:07",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "17:10",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 17:40",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "17:10",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 17:46",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "17:10",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 17:36",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 17:19",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 17:06",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "17:10",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 16:55",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 17:24",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "17:10",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 17:21",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "17:10",
+    "flight": [
+      {
+        "no": "HX 324",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8164",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 17:03",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

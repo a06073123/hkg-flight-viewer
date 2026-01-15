@@ -1,0 +1,255 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BUD"
+    ],
+    "status": "Dep 07:27 (18/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "07:25",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BUD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BUD"
+    ],
+    "status": "Dep 07:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD"
+    ],
+    "status": "Dep 12:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD"
+    ],
+    "status": "Dep 07:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD"
+    ],
+    "status": "Dep 07:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "BUD",
+      "GYD"
+    ],
+    "status": "Dep 07:20 (22/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BUD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD"
+    ],
+    "status": "Dep 07:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BUD"
+    ],
+    "status": "Dep 07:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "5Y 8768",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BUD"
+    ],
+    "status": "Dep 21:54 (15/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

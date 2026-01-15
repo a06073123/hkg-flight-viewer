@@ -1,0 +1,71 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CV 3099",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LUX"
+    ],
+    "status": "Dep 09:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "CV 3099",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LUX"
+    ],
+    "status": "Dep 10:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CV 3099",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LUX"
+    ],
+    "status": "Dep 10:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

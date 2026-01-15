@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-20",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "C8 4907",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "LUX"
+    ],
+    "status": "At gate 16:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

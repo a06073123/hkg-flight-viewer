@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2025-11-17",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "LD 8076",
+        "airline": "AHK"
+      }
+    ],
+    "origin_dest": [
+      "SYD"
+    ],
+    "status": "At gate 14:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "LD 8076",
+        "airline": "AHK"
+      }
+    ],
+    "origin_dest": [
+      "SYD"
+    ],
+    "status": "At gate 13:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "LD 8076",
+        "airline": "AHK"
+      }
+    ],
+    "origin_dest": [
+      "SYD"
+    ],
+    "status": "At gate 14:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "LD 8076",
+        "airline": "AHK"
+      }
+    ],
+    "origin_dest": [
+      "SYD"
+    ],
+    "status": "At gate 20:28 (10/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "LD 8076",
+        "airline": "AHK"
+      }
+    ],
+    "origin_dest": [
+      "SYD"
+    ],
+    "status": "At gate 14:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

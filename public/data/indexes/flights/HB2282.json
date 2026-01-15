@@ -1,0 +1,552 @@
+[
+  {
+    "date": "2025-11-14",
+    "time": "18:30",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 18:30",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "21:30",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:00",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:20",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "20:50",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:00",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 18:23",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "21:30",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:15",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 18:27",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "18:35",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 18:48",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "18:30",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 18:59",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "21:30",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:06",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "20:30",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:20",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "19:20",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 19:12",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "16:35",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 16:44",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 16:17",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "19:20",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 19:11",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "16:35",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 19:33",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 15:33",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 18:28",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "14:25",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 14:52",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 17:32",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "15:05",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 15:09",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 16:13",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 15:17",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "14:25",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 14:11",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "15:05",
+    "flight": [
+      {
+        "no": "HB 2282",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 15:13",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

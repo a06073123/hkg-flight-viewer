@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "HJ 091",
+        "airline": "TMN"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "At gate 12:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "HJ 091",
+        "airline": "TMN"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "At gate 12:44 (03/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "HJ 091",
+        "airline": "TMN"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "10:35",
+    "flight": [
+      {
+        "no": "CV 7626",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "LUX"
+    ],
+    "status": "Dep 11:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "CV 7626",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "LUX"
+    ],
+    "status": "Dep 09:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

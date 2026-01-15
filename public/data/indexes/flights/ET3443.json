@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-11-07",
+    "time": "10:55",
+    "flight": [
+      {
+        "no": "ET 3443",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "CIT",
+      "MAD",
+      "ADD"
+    ],
+    "status": "Dep 21:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

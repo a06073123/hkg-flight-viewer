@@ -1,0 +1,1160 @@
+[
+  {
+    "date": "2025-11-04",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 12:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 11:00 (07/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ORD"
+    ],
+    "status": "Dep 17:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 17:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD",
+      "MIA"
+    ],
+    "status": "Dep 07:07 (17/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 09:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 21:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD",
+      "MIA"
+    ],
+    "status": "Dep 21:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 17:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD",
+      "MIA"
+    ],
+    "status": "Dep 17:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "10:50",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 04:06 (07/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD",
+      "MIA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "16:40",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD",
+      "MIA"
+    ],
+    "status": "Dep 18:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 13:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ORD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ORD"
+    ],
+    "status": "Dep 17:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 22:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD",
+      "MIA"
+    ],
+    "status": "Dep 14:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 17:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD",
+      "MIA"
+    ],
+    "status": "Dep 17:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 11:53 (02/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD",
+      "MIA"
+    ],
+    "status": "Dep 17:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 19:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD",
+      "MIA"
+    ],
+    "status": "Dep 23:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "5Y 654",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "ORD"
+    ],
+    "status": "Est at 17:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

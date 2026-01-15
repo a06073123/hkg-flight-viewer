@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-11-14",
+    "time": "14:40",
+    "flight": [
+      {
+        "no": "5X 051",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "SDF"
+    ],
+    "status": "Dep 16:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "16:25",
+    "flight": [
+      {
+        "no": "5X 051",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "SDF"
+    ],
+    "status": "Dep 16:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-21",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "C8 9262",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "ASB",
+      "MXP"
+    ],
+    "status": "Dep 19:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

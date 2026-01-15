@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2026-01-03",
+    "time": "21:05",
+    "flight": [
+      {
+        "no": "CT 116",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LGG"
+    ],
+    "status": "Dep 21:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "CT 116",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LGG"
+    ],
+    "status": "Dep 20:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

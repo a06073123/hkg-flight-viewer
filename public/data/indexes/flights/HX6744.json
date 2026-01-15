@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2025-12-21",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "HX 6744",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HKT"
+    ],
+    "status": "At gate 04:31",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "HX 6744",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HKT"
+    ],
+    "status": "At gate 05:11",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "HX 6744",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HKT"
+    ],
+    "status": "At gate 04:35",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "HX 6744",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HKT"
+    ],
+    "status": "At gate 04:33",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "16:25",
+    "flight": [
+      {
+        "no": "WI 4494",
+        "airline": "WHT"
+      }
+    ],
+    "origin_dest": [
+      "CCU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "16:25",
+    "flight": [
+      {
+        "no": "WI 4494",
+        "airline": "WHT"
+      }
+    ],
+    "origin_dest": [
+      "DAC",
+      "BOM",
+      "SHJ",
+      "LCA"
+    ],
+    "status": "Dep 16:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "20:40",
+    "flight": [
+      {
+        "no": "WI 4494",
+        "airline": "WHT"
+      }
+    ],
+    "origin_dest": [
+      "CCU",
+      "BOM",
+      "SHJ",
+      "LCA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "WI 4494",
+        "airline": "WHT"
+      }
+    ],
+    "origin_dest": [
+      "BOM",
+      "LCA",
+      "DAC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "WI 4494",
+        "airline": "WHT"
+      }
+    ],
+    "origin_dest": [
+      "DAC",
+      "BOM",
+      "SHJ",
+      "LCA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "19:45",
+    "flight": [
+      {
+        "no": "WI 4494",
+        "airline": "WHT"
+      }
+    ],
+    "origin_dest": [
+      "DAC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

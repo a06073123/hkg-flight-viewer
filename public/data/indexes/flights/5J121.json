@@ -1,0 +1,1102 @@
+[
+  {
+    "date": "2025-11-28",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:49",
+    "gate_baggage": "511",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:34",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 23:24",
+    "gate_baggage": "520",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:30",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:29",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:23",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:24",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:39",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:29",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:31",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:27",
+    "gate_baggage": "514",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:20",
+    "gate_baggage": "515",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:21",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:58",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:37",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:41",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:27",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:28",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:25",
+    "gate_baggage": "511",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:21",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 23:14",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 23:11",
+    "gate_baggage": "513",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:49",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:27",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:32",
+    "gate_baggage": "511",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:34",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:48",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:31",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:32",
+    "gate_baggage": "513",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:46",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:59",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 23:06",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:34",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:29",
+    "gate_baggage": "524",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:41",
+    "gate_baggage": "520",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 23:22",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 23:11",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 23:07",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 23:05",
+    "gate_baggage": "514",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:37",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:17",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 23:55",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:21",
+    "gate_baggage": "511",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 00:00 (11/01/2026)",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:55",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:34",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:49",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:19",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  }
+]

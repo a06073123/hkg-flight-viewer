@@ -1,0 +1,816 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:42",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:10",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:32 (22/10/2025)",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:01",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:44",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:13",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:53",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:52",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:08",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:23",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:17",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:45",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:57",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:12 (10/11/2025)",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:45",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:27",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:25",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:08",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:16",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:56",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:14",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:14",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:56",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:46",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:56",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:12",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:57",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:52",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:10",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:15",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:50",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 22:59",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:27",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:15",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:49",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:14",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "CI 921",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:21",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

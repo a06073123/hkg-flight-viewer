@@ -1,0 +1,548 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:39",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:10",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:08",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:01",
+    "gate_baggage": "27",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:09",
+    "gate_baggage": "25",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:10",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:07",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:05",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:06",
+    "gate_baggage": "27",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:17",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:14",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:13",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:19",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:07",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:40",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:10",
+    "gate_baggage": "61",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:03",
+    "gate_baggage": "29",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:11",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:10",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:03",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 932",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6520",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 08:06",
+    "gate_baggage": "1",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  }
+]

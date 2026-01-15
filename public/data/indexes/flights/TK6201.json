@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "TK 6201",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "CIT",
+      "IST"
+    ],
+    "status": "Dep 18:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "01:20",
+    "flight": [
+      {
+        "no": "TK 6201",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "CIT",
+      "IST"
+    ],
+    "status": "Dep 01:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

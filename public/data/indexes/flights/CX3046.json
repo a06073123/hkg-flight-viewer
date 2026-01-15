@@ -1,0 +1,266 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "03:00",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 15:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "03:00",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 02:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 08:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 08:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 02:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 07:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 03:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 02:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 03:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 02:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 03:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "CX 3046",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 03:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

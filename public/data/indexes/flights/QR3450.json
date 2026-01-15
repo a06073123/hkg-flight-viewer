@@ -1,0 +1,342 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 22:52",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 22:59",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 23:19",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 22:55",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 23:09",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 23:00",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 22:50",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 23:44",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 22:49",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "CX 704",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3450",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4567",
+        "airline": "BKP"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 22:42",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

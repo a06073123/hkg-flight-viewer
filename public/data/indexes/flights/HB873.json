@@ -1,0 +1,508 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "10:20",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 10:39",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "10:20",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 11:02",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "11:05",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 10:55",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "10:20",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 10:36",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "10:20",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 11:49",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:21",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:16",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:18",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:17",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:35",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:36",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:16",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 20:33",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 20:42",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:32",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "19:55",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:47",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "19:55",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:48",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "19:55",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:31",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "19:55",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 20:05",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "19:55",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:49",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "19:55",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 20:10",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "19:55",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:46",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "19:55",
+    "flight": [
+      {
+        "no": "HB 873",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "DYG"
+    ],
+    "status": "At gate 19:56",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

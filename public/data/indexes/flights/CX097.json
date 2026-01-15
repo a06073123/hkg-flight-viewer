@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "CX 097",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NLU",
+      "GDL",
+      "ANC"
+    ],
+    "status": "At gate 22:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "CX 097",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NLU",
+      "GDL",
+      "ANC"
+    ],
+    "status": "At gate 05:53 (19/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "CX 097",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NLU",
+      "GDL",
+      "ANC"
+    ],
+    "status": "At gate 02:59 (21/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "CX 097",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NLU",
+      "GDL",
+      "ANC"
+    ],
+    "status": "At gate 04:51 (22/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "CX 097",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NLU",
+      "GDL",
+      "ANC"
+    ],
+    "status": "At gate 23:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "CX 097",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NLU",
+      "GDL",
+      "ANC"
+    ],
+    "status": "At gate 01:56 (26/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

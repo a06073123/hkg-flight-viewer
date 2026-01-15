@@ -1,0 +1,71 @@
+[
+  {
+    "date": "2026-01-08",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "K4 702D",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "K4 702D",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "K4 702D",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 03:30 (15/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

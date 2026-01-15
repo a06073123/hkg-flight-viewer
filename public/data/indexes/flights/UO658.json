@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "02:20",
+    "flight": [
+      {
+        "no": "UO 658",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "CJJ"
+    ],
+    "status": "Dep 02:09",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "02:20",
+    "flight": [
+      {
+        "no": "UO 658",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "CJJ"
+    ],
+    "status": "Dep 02:10",
+    "gate_baggage": "524",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "02:20",
+    "flight": [
+      {
+        "no": "UO 658",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "CJJ"
+    ],
+    "status": "Dep 02:09",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "02:20",
+    "flight": [
+      {
+        "no": "UO 658",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "CJJ"
+    ],
+    "status": "Dep 02:19",
+    "gate_baggage": "524",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "02:20",
+    "flight": [
+      {
+        "no": "UO 658",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "CJJ"
+    ],
+    "status": "Dep 02:04",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "02:20",
+    "flight": [
+      {
+        "no": "UO 658",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "CJJ"
+    ],
+    "status": "Dep 02:09",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  }
+]

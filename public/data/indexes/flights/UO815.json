@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "19:35",
+    "flight": [
+      {
+        "no": "UO 815",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5815",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "SHI"
+    ],
+    "status": "At gate 19:04",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "19:35",
+    "flight": [
+      {
+        "no": "UO 815",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5815",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "SHI"
+    ],
+    "status": "At gate 19:20",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "19:35",
+    "flight": [
+      {
+        "no": "UO 815",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5815",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "SHI"
+    ],
+    "status": "At gate 20:20",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "19:35",
+    "flight": [
+      {
+        "no": "UO 815",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5815",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "SHI"
+    ],
+    "status": "At gate 19:40",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

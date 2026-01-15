@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CX 821",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "At gate 13:26",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CX 821",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "At gate 14:02",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CX 821",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "At gate 13:22",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CX 821",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "At gate 13:24",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CX 821",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "At gate 13:28",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CX 821",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "At gate 13:33",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "14:25",
+    "flight": [
+      {
+        "no": "CX 821",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YYZ"
+    ],
+    "status": "At gate 13:25",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

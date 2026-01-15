@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "20:05",
+    "flight": [
+      {
+        "no": "MF 8652",
+        "airline": "CXA"
+      },
+      {
+        "no": "CZ 1828",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "FOC"
+    ],
+    "status": "Dep 20:18",
+    "gate_baggage": "511",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  }
+]

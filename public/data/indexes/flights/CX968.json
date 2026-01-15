@@ -1,0 +1,706 @@
+[
+  {
+    "date": "2025-11-04",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:23",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:18",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:30",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:29",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:30",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:13",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:18",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:12",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:09",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:27",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:17",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:26",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:13",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:15",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:22",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:27",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:26",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:30",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:38",
+    "gate_baggage": "13",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:19",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:25",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:26",
+    "gate_baggage": "19",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:26",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:29",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:11",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:13",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:16",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:18",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:20",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:11",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:14",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "CX 968",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CSX"
+    ],
+    "status": "Dep 09:34",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,596 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:17",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:14",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:14",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 01:10",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 01:02",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:10",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:21",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:38",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:14",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:26",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:08",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:21",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:44",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:27",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:48",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:46",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 02:55",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:58",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:38",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:20",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:38",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:17",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 01:43",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:52",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:40",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 01:04",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "CI 607",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:34",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

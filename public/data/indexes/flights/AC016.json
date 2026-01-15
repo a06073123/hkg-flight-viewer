@@ -1,0 +1,206 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "AC 016",
+        "airline": "ACA"
+      },
+      {
+        "no": "TG 5866",
+        "airline": "THA"
+      }
+    ],
+    "origin_dest": [
+      "YVR"
+    ],
+    "status": "Dep 19:54",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "AC 016",
+        "airline": "ACA"
+      },
+      {
+        "no": "TG 5866",
+        "airline": "THA"
+      }
+    ],
+    "origin_dest": [
+      "YVR"
+    ],
+    "status": "Dep 19:32",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "AC 016",
+        "airline": "ACA"
+      },
+      {
+        "no": "TG 5866",
+        "airline": "THA"
+      }
+    ],
+    "origin_dest": [
+      "YVR"
+    ],
+    "status": "Dep 19:39",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "AC 016",
+        "airline": "ACA"
+      },
+      {
+        "no": "TG 5866",
+        "airline": "THA"
+      }
+    ],
+    "origin_dest": [
+      "YVR"
+    ],
+    "status": "Dep 19:27",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "AC 016",
+        "airline": "ACA"
+      },
+      {
+        "no": "TG 5866",
+        "airline": "THA"
+      }
+    ],
+    "origin_dest": [
+      "YVR"
+    ],
+    "status": "Dep 19:19",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "AC 016",
+        "airline": "ACA"
+      },
+      {
+        "no": "TG 5866",
+        "airline": "THA"
+      }
+    ],
+    "origin_dest": [
+      "YVR"
+    ],
+    "status": "Dep 19:34",
+    "gate_baggage": "63",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "AC 016",
+        "airline": "ACA"
+      },
+      {
+        "no": "TG 5866",
+        "airline": "THA"
+      }
+    ],
+    "origin_dest": [
+      "YVR"
+    ],
+    "status": "Dep 19:38",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "AC 016",
+        "airline": "ACA"
+      }
+    ],
+    "origin_dest": [
+      "YVR"
+    ],
+    "status": "Dep 11:36",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

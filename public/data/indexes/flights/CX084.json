@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "06:50",
+    "flight": [
+      {
+        "no": "CX 084",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "ANC",
+      "PDX"
+    ],
+    "status": "Dep 12:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "06:50",
+    "flight": [
+      {
+        "no": "CX 084",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "ANC",
+      "PDX"
+    ],
+    "status": "Dep 06:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

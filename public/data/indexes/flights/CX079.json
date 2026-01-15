@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CX 079",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 10:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,1302 @@
+[
+  {
+    "date": "2025-11-11",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:03",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:07",
+    "gate_baggage": "66",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:20",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:18",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:08",
+    "gate_baggage": "512",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:08",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:08",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:06",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 18:59",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:40",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:05",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:04",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:19",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:20",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:13",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:17",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 20:25",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 20:09",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:39",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:56",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:08",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:04",
+    "gate_baggage": "511",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:21",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:16",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:40",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:34",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:15",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:18",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:06",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:17",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:03",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:28",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:33",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:04",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:15",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:16",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:07",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:30",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:19",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 20:00",
+    "gate_baggage": "520",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:09",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:11",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:11",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:06",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:08",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:55",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 19:12",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "ZH 8034",
+        "airline": "CSZ"
+      },
+      {
+        "no": "CA 3820",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  }
+]

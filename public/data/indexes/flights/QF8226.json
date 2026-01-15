@@ -1,0 +1,312 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 21:31",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 21:50",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 21:45",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 22:29",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 22:55",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 22:37",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 21:50",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 22:13",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 21:47",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "CX 531",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8226",
+        "airline": "QFA"
+      },
+      {
+        "no": "JL 7037",
+        "airline": "JAL"
+      }
+    ],
+    "origin_dest": [
+      "NGO",
+      "TPE"
+    ],
+    "status": "At gate 22:17",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

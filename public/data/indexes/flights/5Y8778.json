@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-05",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "5Y 8778",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

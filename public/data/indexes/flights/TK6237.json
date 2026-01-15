@@ -1,0 +1,117 @@
+[
+  {
+    "date": "2025-12-04",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "TK 6237",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "MCT"
+    ],
+    "status": "At gate 00:39 (05/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "TK 6237",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "MCT"
+    ],
+    "status": "At gate 14:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "TK 6237",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "MCT"
+    ],
+    "status": "At gate 15:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "TK 6237",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "MCT"
+    ],
+    "status": "At gate 18:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "TK 6237",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "MCT"
+    ],
+    "status": "At gate 15:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

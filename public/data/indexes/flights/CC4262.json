@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-23",
+    "time": "14:50",
+    "flight": [
+      {
+        "no": "CC 4262",
+        "airline": "ABD"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 21:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

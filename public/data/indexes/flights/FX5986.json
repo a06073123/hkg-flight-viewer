@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "FX 5986",
+        "airline": "FDX"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

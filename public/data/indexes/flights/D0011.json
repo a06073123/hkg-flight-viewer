@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-12-27",
+    "time": "20:05",
+    "flight": [
+      {
+        "no": "D0 011",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "19:30",
+    "flight": [
+      {
+        "no": "D0 011",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA"
+    ],
+    "status": "At gate 20:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

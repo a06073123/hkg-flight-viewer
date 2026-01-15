@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-05",
+    "time": "05:45",
+    "flight": [
+      {
+        "no": "MA 552",
+        "airline": "EAU"
+      }
+    ],
+    "origin_dest": [
+      "KWI"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

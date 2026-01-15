@@ -1,0 +1,161 @@
+[
+  {
+    "date": "2025-11-05",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "D0 896",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "At gate 03:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "05:50",
+    "flight": [
+      {
+        "no": "D0 896",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "At gate 05:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "03:30",
+    "flight": [
+      {
+        "no": "D0 896",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "At gate 02:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "05:30",
+    "flight": [
+      {
+        "no": "D0 896",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "BAH"
+    ],
+    "status": "At gate 09:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "06:50",
+    "flight": [
+      {
+        "no": "D0 896",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "At gate 07:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "06:00",
+    "flight": [
+      {
+        "no": "D0 896",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "BAH"
+    ],
+    "status": "At gate 08:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "05:50",
+    "flight": [
+      {
+        "no": "D0 896",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "At gate 05:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

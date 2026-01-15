@@ -1,0 +1,310 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 01:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 01:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "At gate 02:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "CP 137",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "MXP"
+    ],
+    "status": "Est at 01:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

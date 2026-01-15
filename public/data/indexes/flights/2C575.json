@@ -1,0 +1,323 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 18:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 18:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 21:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 19:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 19:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 20:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 20:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 22:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 19:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 19:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 19:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 18:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "CDG"
+    ],
+    "status": "Dep 23:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "19:05",
+    "flight": [
+      {
+        "no": "2C 575",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

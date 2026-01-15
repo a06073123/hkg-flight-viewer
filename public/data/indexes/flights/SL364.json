@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-16",
+    "time": "19:30",
+    "flight": [
+      {
+        "no": "SL 364",
+        "airline": "TLM"
+      }
+    ],
+    "origin_dest": [
+      "DMK"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

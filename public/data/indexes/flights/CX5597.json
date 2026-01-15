@@ -1,0 +1,262 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "23:15",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 23:06",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "23:25",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 23:12",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "23:15",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 23:10",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "23:15",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 23:22",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "23:25",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 23:02",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "23:15",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 22:50",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "23:25",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 23:22",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "23:15",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 23:17",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "23:25",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 23:04",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "23:15",
+    "flight": [
+      {
+        "no": "UO 597",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5597",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "At gate 23:31",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "date": "2025-10-24",
+    "time": "01:50",
+    "flight": [
+      {
+        "no": "5Y 515",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "MIA",
+      "ANC"
+    ],
+    "status": "At gate 01:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "11:05",
+    "flight": [
+      {
+        "no": "5Y 515",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "MIA",
+      "ANC"
+    ],
+    "status": "At gate 14:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "5Y 515",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "21:10",
+    "flight": [
+      {
+        "no": "5Y 515",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "MIA",
+      "ANC"
+    ],
+    "status": "At gate 23:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

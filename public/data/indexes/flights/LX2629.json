@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "00:15",
+    "flight": [
+      {
+        "no": "LX 2629",
+        "airline": "SWR"
+      }
+    ],
+    "origin_dest": [
+      "ZRH"
+    ],
+    "status": "Dep 00:14",
+    "gate_baggage": "25",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  }
+]

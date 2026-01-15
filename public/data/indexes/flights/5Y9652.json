@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-06",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "5Y 9652",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "SYD"
+    ],
+    "status": "At gate 20:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

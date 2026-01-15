@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-01-13",
+    "time": "03:00",
+    "flight": [
+      {
+        "no": "K4 9779",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ORD",
+      "ANC"
+    ],
+    "status": "At gate 04:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

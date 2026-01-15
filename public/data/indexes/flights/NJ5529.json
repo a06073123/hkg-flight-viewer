@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "NJ 5529",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "BUD"
+    ],
+    "status": "Dep 09:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "NJ 5529",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "MST"
+    ],
+    "status": "At gate 04:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "date": "2025-10-30",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "N8 589",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "CMB",
+      "JNB"
+    ],
+    "status": "Dep 20:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "N8 589",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "CMB",
+      "JNB"
+    ],
+    "status": "Dep 15:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "20:00",
+    "flight": [
+      {
+        "no": "N8 589",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "RUH"
+    ],
+    "status": "Dep 16:41 (15/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 589",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "CMB",
+      "JNB"
+    ],
+    "status": "Dep 09:36 (25/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 589",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "CMB",
+      "JNB"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "N8 589",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "CMB",
+      "JNB"
+    ],
+    "status": "Dep 08:14 (03/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 589",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "CMB",
+      "JNB"
+    ],
+    "status": "Dep 12:45 (05/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 589",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "CMB",
+      "JNB"
+    ],
+    "status": "Dep 07:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

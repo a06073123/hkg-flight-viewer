@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-12-02",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "CV 1631",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "LUX"
+    ],
+    "status": "At gate 03:24 (03/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "07:35",
+    "flight": [
+      {
+        "no": "CV 1631",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "LUX"
+    ],
+    "status": "At gate 13:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

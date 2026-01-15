@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2025-11-27",
+    "time": "06:10",
+    "flight": [
+      {
+        "no": "5Y 8310",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 06:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "03:40",
+    "flight": [
+      {
+        "no": "5Y 8310",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 06:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "03:40",
+    "flight": [
+      {
+        "no": "5Y 8310",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 04:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "03:40",
+    "flight": [
+      {
+        "no": "5Y 8310",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 03:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

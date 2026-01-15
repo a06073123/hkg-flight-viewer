@@ -1,0 +1,1102 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 21:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "21:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 21:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 03:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 08:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 22:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 22:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 04:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 08:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 23:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 22:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 03:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 07:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 23:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 22:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 08:59 (23/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 00:50 (27/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 05:53 (28/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "10:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "21:15",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 13:58 (29/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "12:10",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 22:26 (30/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "00:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "13:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 03:02 (02/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "21:50",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 08:22 (03/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 13:17 (04/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "13:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 23:20 (05/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "17:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 07:59 (07/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "21:50",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 22:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "21:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 21:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 03:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 08:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "21:50",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 22:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "21:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 22:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 06:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 08:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "21:50",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 21:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "21:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 21:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 03:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 08:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "21:50",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 22:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "21:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 23:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 05:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 08:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "05:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Est at 05:00 (16/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Est at 09:30 (17/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "K4 701",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Est at 14:00 (18/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

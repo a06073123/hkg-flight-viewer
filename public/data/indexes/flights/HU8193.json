@@ -1,0 +1,626 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:29",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:30",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:22",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:28",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:28",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:20",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:35",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:20",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:22",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:29",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:41",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:40",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:22",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:12",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:22",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:21",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:22",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:27",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:35",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:28",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:21",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:25",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:54",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "HX 258",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8193",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "Dep 13:27",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "HB 542",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "Dep 15:46",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "HB 542",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "Dep 17:15",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

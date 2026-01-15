@@ -1,0 +1,270 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "18:55",
+    "flight": [
+      {
+        "no": "CX 879",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8932Z",
+        "airline": "AAL"
+      },
+      {
+        "no": "AA 8932",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5879",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 18:30",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "18:55",
+    "flight": [
+      {
+        "no": "CX 879",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5879",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8932Z",
+        "airline": "AAL"
+      },
+      {
+        "no": "AA 8932",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 18:51",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "18:55",
+    "flight": [
+      {
+        "no": "CX 879",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5879",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8932Z",
+        "airline": "AAL"
+      },
+      {
+        "no": "AA 8932",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 18:15",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "18:55",
+    "flight": [
+      {
+        "no": "CX 879",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8932Z",
+        "airline": "AAL"
+      },
+      {
+        "no": "AA 8932",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5879",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 17:50",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "18:55",
+    "flight": [
+      {
+        "no": "CX 879",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8932Z",
+        "airline": "AAL"
+      },
+      {
+        "no": "AA 8932",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5879",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 18:10",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "18:55",
+    "flight": [
+      {
+        "no": "CX 879",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8932Z",
+        "airline": "AAL"
+      },
+      {
+        "no": "AA 8932",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 18:40",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "18:55",
+    "flight": [
+      {
+        "no": "CX 879",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8932Z",
+        "airline": "AAL"
+      },
+      {
+        "no": "AA 8932",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5879",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 18:47",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "18:55",
+    "flight": [
+      {
+        "no": "CX 879",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5879",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8932Z",
+        "airline": "AAL"
+      },
+      {
+        "no": "AA 8932",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 18:48",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

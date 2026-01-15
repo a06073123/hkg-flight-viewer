@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2025-11-17",
+    "time": "20:30",
+    "flight": [
+      {
+        "no": "WW 894",
+        "airline": "KXP"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 21:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "20:05",
+    "flight": [
+      {
+        "no": "WW 894",
+        "airline": "KXP"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "20:15",
+    "flight": [
+      {
+        "no": "WW 894",
+        "airline": "KXP"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 00:49 (19/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

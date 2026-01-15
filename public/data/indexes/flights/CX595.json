@@ -1,0 +1,302 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 21:26",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 21:24",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 21:44",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 21:41",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 21:46",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 21:52",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 22:41",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 21:28",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 21:44",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "CX 595",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7067",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5815",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 21:45",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

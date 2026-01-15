@@ -1,0 +1,253 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 11:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "03:50",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DWC"
+    ],
+    "status": "At gate 10:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "00:05",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DWC"
+    ],
+    "status": "At gate 05:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "06:30",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 08:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "22:20",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "EBL"
+    ],
+    "status": "At gate 06:17 (14/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "ALA"
+    ],
+    "status": "At gate 15:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "20:30",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DMM"
+    ],
+    "status": "At gate 21:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "19:20",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DMM"
+    ],
+    "status": "At gate 22:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DWC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "01:05",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "DWC"
+    ],
+    "status": "At gate 01:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "07:15",
+    "flight": [
+      {
+        "no": "7L 1922",
+        "airline": "AZG"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "SCO"
+    ],
+    "status": "Est at 07:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

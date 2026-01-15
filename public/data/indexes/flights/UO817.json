@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "UO 817",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5817",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ISG"
+    ],
+    "status": "At gate 12:49",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "UO 817",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5817",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ISG"
+    ],
+    "status": "At gate 12:54",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "UO 817",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5817",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ISG"
+    ],
+    "status": "At gate 12:42",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "UO 817",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5817",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ISG"
+    ],
+    "status": "At gate 12:52",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

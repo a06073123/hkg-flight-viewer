@@ -1,0 +1,255 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 00:27 (18/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 11:08 (25/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 23:19 (31/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 01:33 (07/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 00:51 (14/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 19:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 22:45 (28/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 19:52 (05/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "06:05",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 21:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "06:05",
+    "flight": [
+      {
+        "no": "RH 9486",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "Est at 15:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

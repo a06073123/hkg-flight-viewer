@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "CX 2043",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 10:41 (17/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "CX 2043",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "Dep 17:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

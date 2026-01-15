@@ -1,0 +1,262 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 15:44",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 15:58",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 15:54",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 15:50",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 15:51",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 15:40",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 15:52",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 15:44",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 16:09",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "UO 824",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5824",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 15:49",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  }
+]

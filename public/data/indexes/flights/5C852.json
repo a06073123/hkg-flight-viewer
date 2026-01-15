@@ -1,0 +1,909 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "17:45",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 12:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 15:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 07:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 15:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "18:35",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 18:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 15:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "18:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 21:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 07:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 12:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 17:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 07:22 (08/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "19:45",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "07:55",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 09:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "20:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "10:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 07:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 11:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 16:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 08:52 (30/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 13:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 15:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 17:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 08:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "10:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 13:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 16:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "07:55",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 11:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 15:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "07:55",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 07:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "12:30",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 13:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "11:50",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 11:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 15:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "19:10",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 18:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "5C 852",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 15:17 (15/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

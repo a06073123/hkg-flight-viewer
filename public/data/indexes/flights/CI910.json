@@ -1,0 +1,1102 @@
+[
+  {
+    "date": "2025-11-27",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:00",
+    "gate_baggage": "66",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:18",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:12",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:00",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:07",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:00",
+    "gate_baggage": "49",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:10",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:20",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:12",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:02",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:20",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:00",
+    "gate_baggage": "34",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:01",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:09",
+    "gate_baggage": "36",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:00",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:07",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:03",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:09",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:09",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:19",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:00",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:08",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:39",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:09",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:08",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:05",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 13:58",
+    "gate_baggage": "27",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:07",
+    "gate_baggage": "6",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:05",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:13",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:11",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:18",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:04",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 13:56",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:16",
+    "gate_baggage": "66",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:05",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:14",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:04",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:07",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:07",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 13:56",
+    "gate_baggage": "49",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:03",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:06",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:04",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:06",
+    "gate_baggage": "49",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 13:56",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:07",
+    "gate_baggage": "65",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:04",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:11",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  }
+]

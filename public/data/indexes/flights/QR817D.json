@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-11-13",
+    "time": "18:05",
+    "flight": [
+      {
+        "no": "QR 817D",
+        "airline": "QTR"
+      },
+      {
+        "no": "CX 9203",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 6039",
+        "airline": "LAN"
+      },
+      {
+        "no": "B6 6546",
+        "airline": "JBU"
+      },
+      {
+        "no": "BA 2354",
+        "airline": "BAW"
+      },
+      {
+        "no": "JU 8318",
+        "airline": "ASL"
+      },
+      {
+        "no": "IB 6246",
+        "airline": "IBE"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  }
+]

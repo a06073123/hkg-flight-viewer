@@ -1,0 +1,301 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 19:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 18:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 20:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 18:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 18:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 16:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 17:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 17:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 18:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 17:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 20:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "ASB"
+    ],
+    "status": "At gate 16:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "C8 9263",
+        "airline": "ICV"
+      }
+    ],
+    "origin_dest": [
+      "MXP",
+      "NRT"
+    ],
+    "status": "At gate 16:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "CX 3047",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 09:59 (18/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "CX 3047",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 21:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

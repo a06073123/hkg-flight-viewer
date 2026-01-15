@@ -1,0 +1,262 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 07:55",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 07:43",
+    "gate_baggage": "520",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 07:47",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 07:48",
+    "gate_baggage": "524",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 07:58",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 08:00",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 07:48",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 07:48",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 07:46",
+    "gate_baggage": "230",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "UO 550",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5550",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Dep 07:50",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  }
+]

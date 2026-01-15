@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "10:50",
+    "flight": [
+      {
+        "no": "CX 3069X",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ORD",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

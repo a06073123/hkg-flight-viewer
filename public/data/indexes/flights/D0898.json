@@ -1,0 +1,227 @@
+[
+  {
+    "date": "2025-11-25",
+    "time": "06:00",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "BAH"
+    ],
+    "status": "At gate 05:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "BAH"
+    ],
+    "status": "At gate 04:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "05:50",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "BAH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "BAH"
+    ],
+    "status": "At gate 14:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "05:50",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "At gate 05:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "05:50",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "14:10",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "14:10",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "At gate 16:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "05:50",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "02:25",
+    "flight": [
+      {
+        "no": "D0 898",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "BAH"
+    ],
+    "status": "At gate 01:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

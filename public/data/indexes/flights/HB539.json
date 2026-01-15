@@ -1,0 +1,310 @@
+[
+  {
+    "date": "2025-10-28",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:41",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:49",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:06",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:20",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:25",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 22:15",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:37",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:34",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:09",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 22:55",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:32",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:29",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:48",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "HB 539",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "At gate 21:14",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

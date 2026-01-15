@@ -1,0 +1,262 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "15:05",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 15:02",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 15:05",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 15:03",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 15:04",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 15:08",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "15:05",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 15:04",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 15:00",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "15:05",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 14:59",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 15:22",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "UO 670",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5670",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NGO"
+    ],
+    "status": "Dep 15:03",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  }
+]

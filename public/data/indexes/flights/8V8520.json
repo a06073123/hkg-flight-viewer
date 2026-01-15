@@ -1,0 +1,216 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "8V 8520",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "FJR",
+      "NBO",
+      "JNB"
+    ],
+    "status": "Dep 01:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "23:00",
+    "flight": [
+      {
+        "no": "8V 8520",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "NBO",
+      "JNB"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "02:55",
+    "flight": [
+      {
+        "no": "8V 8520",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "NBO",
+      "JNB"
+    ],
+    "status": "Dep 01:59 (27/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "02:30",
+    "flight": [
+      {
+        "no": "8V 8520",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "SHJ"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "05:00",
+    "flight": [
+      {
+        "no": "8V 8520",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "NBO",
+      "JNB"
+    ],
+    "status": "Dep 04:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "8V 8520",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "NBO",
+      "JNB"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "09:15",
+    "flight": [
+      {
+        "no": "8V 8520",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "AMD",
+      "NBO",
+      "JNB"
+    ],
+    "status": "Dep 03:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "8V 8520",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "AMD",
+      "NBO",
+      "JNB"
+    ],
+    "status": "Dep 09:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "20:00",
+    "flight": [
+      {
+        "no": "8V 8520",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "AMD",
+      "NBO",
+      "JNB"
+    ],
+    "status": "Dep 02:45 (24/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 15:45",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "14:10",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 14:28",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 16:02",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "14:10",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 14:33",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "14:10",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 14:43",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "14:10",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 14:29",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "14:10",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 14:49",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "20:10",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 20:33",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "14:10",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 14:37",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "HB 823",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

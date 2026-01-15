@@ -1,0 +1,324 @@
+[
+  {
+    "date": "2025-10-31",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "CX 156",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5850",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7906",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4146",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5632",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9518",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7008",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "At gate 07:07",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "CX 156",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5850",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7906",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4146",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5632",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9518",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7008",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "At gate 09:01",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "CX 156",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5850",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7906",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4146",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5632",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9518",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7008",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "At gate 07:12",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "CX 156",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5850",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7906",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4146",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5632",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9518",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7008",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "At gate 07:02",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "CX 156",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5850",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7906",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4146",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5632",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9518",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7008",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "At gate 06:56",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "CX 156",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5850",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7906",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4146",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5632",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9518",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7008",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "At gate 07:00",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "CX 156",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5850",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7906",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4146",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5632",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9518",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7008",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "At gate 07:44",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

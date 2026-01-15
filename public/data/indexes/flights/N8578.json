@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-28",
+    "time": "22:40",
+    "flight": [
+      {
+        "no": "N8 578",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 21:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

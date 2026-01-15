@@ -1,0 +1,222 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:42",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:24",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:40",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:38",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:57",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:21",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:44",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:33",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:31",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "CX 974",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 07:20",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-30",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "NJ 3309",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

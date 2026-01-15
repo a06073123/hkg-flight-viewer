@@ -1,0 +1,69 @@
+[
+  {
+    "date": "2025-11-24",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 526",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA"
+    ],
+    "status": "At gate 15:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "11:05",
+    "flight": [
+      {
+        "no": "3S 526",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA"
+    ],
+    "status": "At gate 10:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "00:40",
+    "flight": [
+      {
+        "no": "3S 526",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 01:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

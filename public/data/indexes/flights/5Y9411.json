@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-28",
+    "time": "00:35",
+    "flight": [
+      {
+        "no": "5Y 9411",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "JFK",
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

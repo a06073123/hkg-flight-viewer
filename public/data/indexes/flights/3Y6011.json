@@ -1,0 +1,618 @@
+[
+  {
+    "date": "2025-12-02",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 04:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3Y 6011",
+        "airline": "MYU"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

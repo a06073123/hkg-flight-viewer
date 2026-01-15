@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-12-22",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "B3 782",
+        "airline": "BTN"
+      }
+    ],
+    "origin_dest": [
+      "PBH"
+    ],
+    "status": "At gate 21:20",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "B3 782",
+        "airline": "BTN"
+      }
+    ],
+    "origin_dest": [
+      "CCU"
+    ],
+    "status": "At gate 00:18",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

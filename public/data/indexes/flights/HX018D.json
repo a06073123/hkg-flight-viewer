@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2026-01-08",
+    "time": "18:50",
+    "flight": [
+      {
+        "no": "HX 018D",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9227",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "SYD"
+    ],
+    "status": "At gate 03:36 (10/01/2026)",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

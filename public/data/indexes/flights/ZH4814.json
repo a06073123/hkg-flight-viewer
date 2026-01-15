@@ -1,0 +1,1502 @@
+[
+  {
+    "date": "2025-11-26",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:42",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 14:54",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:43",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:41",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:49",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:43",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:59",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:39",
+    "gate_baggage": "49",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:48",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:42",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:48",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:43",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:36",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:37",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:37",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:37",
+    "gate_baggage": "13",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:43",
+    "gate_baggage": "46",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:37",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:44",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:43",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:42",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:40",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:48",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:36",
+    "gate_baggage": "27",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:40",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:39",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:50",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:45",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:33",
+    "gate_baggage": "65",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:41",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:43",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:43",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:32",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:49",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:40",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:33",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:39",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:45",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:37",
+    "gate_baggage": "34",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:54",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:39",
+    "gate_baggage": "36",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:33",
+    "gate_baggage": "29",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:38",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 16:09",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "Dep 13:42",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "CA 412",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6122",
+        "airline": "CPA"
+      },
+      {
+        "no": "ZH 4814",
+        "airline": "CSZ"
+      }
+    ],
+    "origin_dest": [
+      "TFU"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  }
+]

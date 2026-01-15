@@ -1,0 +1,458 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5470",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:43",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5470",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:08",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5470",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:18",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5470",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:05",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5470",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:05",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5470",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:26",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5470",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:11",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5470",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:20",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5470",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:22",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "CX 705",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8906",
+        "airline": "AAL"
+      },
+      {
+        "no": "OM 5645",
+        "airline": "MGL"
+      },
+      {
+        "no": "PG 4550",
+        "airline": "BKP"
+      },
+      {
+        "no": "GF 4051",
+        "airline": "GFA"
+      },
+      {
+        "no": "QR 3469",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 08:05",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "date": "2025-11-01",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 17:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 18:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 15:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 15:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 15:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "18:35",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 22:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 15:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 17:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 17:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "TK 6250",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "RUH"
+    ],
+    "status": "At gate 16:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

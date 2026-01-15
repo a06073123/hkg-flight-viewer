@@ -1,0 +1,1258 @@
+[
+  {
+    "date": "2026-01-10",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "CX 729",
+        "airline": "CPA"
+      },
+      {
+        "no": "MH 9197",
+        "airline": "MAS"
+      },
+      {
+        "no": "QR 3467",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "Dep 16:36",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "18:10",
+    "flight": [
+      {
+        "no": "KE 2006",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7914",
+        "airline": "DAL"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 18:16",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "CX 374",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6508",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 21:26",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 00:00 (11/01/2026)",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "MM 068",
+        "airline": "APJ"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "Dep 01:51",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "CX 512",
+        "airline": "CPA"
+      },
+      {
+        "no": "JL 7068",
+        "airline": "JAL"
+      },
+      {
+        "no": "QR 5849",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 08:46",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "10:20",
+    "flight": [
+      {
+        "no": "CI 602",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 10:11",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "12:30",
+    "flight": [
+      {
+        "no": "MU 502",
+        "airline": "CES"
+      },
+      {
+        "no": "HO 3504",
+        "airline": "DKH"
+      },
+      {
+        "no": "FM 3016",
+        "airline": "CSH"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "Dep 12:45",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "13:55",
+    "flight": [
+      {
+        "no": "7C 6022",
+        "airline": "JJA"
+      },
+      {
+        "no": "H1 9991",
+        "airline": "HHN"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 13:55",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "OD 606",
+        "airline": "MXD"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "Dep 15:18",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "MU 734",
+        "airline": "CES"
+      },
+      {
+        "no": "MF 9038",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "KMG"
+    ],
+    "status": "Dep 17:12",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "VN 595",
+        "airline": "HVN"
+      }
+    ],
+    "origin_dest": [
+      "SGN"
+    ],
+    "status": "Dep 18:43",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "20:05",
+    "flight": [
+      {
+        "no": "CI 920",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 20:07",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "K6 681",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "KTI"
+    ],
+    "status": "Dep 00:26 (12/01/2026)",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "5J 115",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 21:36",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:55",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "08:10",
+    "flight": [
+      {
+        "no": "CX 633",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5853",
+        "airline": "FIN"
+      },
+      {
+        "no": "MH 9750",
+        "airline": "MAS"
+      },
+      {
+        "no": "QR 3481",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "PEN"
+    ],
+    "status": "Dep 08:14",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "10:45",
+    "flight": [
+      {
+        "no": "CX 424",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "KHH"
+    ],
+    "status": "Dep 10:42",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "C",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "13:00",
+    "flight": [
+      {
+        "no": "MU 6086",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "TYN"
+    ],
+    "status": "Dep 13:05",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "13:55",
+    "flight": [
+      {
+        "no": "7C 6022",
+        "airline": "JJA"
+      },
+      {
+        "no": "H1 9991",
+        "airline": "HHN"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 14:42",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "MU 734",
+        "airline": "CES"
+      },
+      {
+        "no": "MF 9038",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "KMG"
+    ],
+    "status": "Dep 17:14",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "18:10",
+    "flight": [
+      {
+        "no": "KE 2006",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7914",
+        "airline": "DAL"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 18:31",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "20:05",
+    "flight": [
+      {
+        "no": "CI 920",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 20:01",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "21:25",
+    "flight": [
+      {
+        "no": "K6 681",
+        "airline": "KHV"
+      }
+    ],
+    "origin_dest": [
+      "KTI"
+    ],
+    "status": "Dep 21:34",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "MH 079",
+        "airline": "MAS"
+      },
+      {
+        "no": "CX 6011",
+        "airline": "CPA"
+      },
+      {
+        "no": "FY 7053",
+        "airline": "FFM"
+      },
+      {
+        "no": "UL 2779",
+        "airline": "ALK"
+      },
+      {
+        "no": "AY 6627",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 4987",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "Dep 08:47",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "10:00",
+    "flight": [
+      {
+        "no": "5J 149",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 10:21",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "12:25",
+    "flight": [
+      {
+        "no": "OM 298",
+        "airline": "MGL"
+      },
+      {
+        "no": "CX 6200",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "UBN"
+    ],
+    "status": "Dep 12:33",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "13:15",
+    "flight": [
+      {
+        "no": "9C 8716",
+        "airline": "CQH"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "Dep 13:59",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "TR 939",
+        "airline": "TGW"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 16:27",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "18:10",
+    "flight": [
+      {
+        "no": "KE 2006",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7914",
+        "airline": "DAL"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 18:15",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "19:35",
+    "flight": [
+      {
+        "no": "CA 728",
+        "airline": "CCA"
+      },
+      {
+        "no": "CX 6144",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HGH"
+    ],
+    "status": "Dep 20:07",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "SC 8428",
+        "airline": "CDG"
+      },
+      {
+        "no": "CA 8868",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "TNA"
+    ],
+    "status": "Dep 21:17",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:49",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "07:40",
+    "flight": [
+      {
+        "no": "MU 726",
+        "airline": "CES"
+      },
+      {
+        "no": "FM 3030",
+        "airline": "CSH"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "Dep 07:30",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "09:45",
+    "flight": [
+      {
+        "no": "6E 1708",
+        "airline": "IGO"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 09:33",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "PR 301",
+        "airline": "PAL"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 11:30",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "OZ 722",
+        "airline": "AAR"
+      },
+      {
+        "no": "HX 1552",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 13:13",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "CX 635",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5833",
+        "airline": "FIN"
+      },
+      {
+        "no": "OM 5731",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 15:25",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "18:10",
+    "flight": [
+      {
+        "no": "KE 2006",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7914",
+        "airline": "DAL"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 18:10",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "5J 237",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CEB"
+    ],
+    "status": "Dep 19:35",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "21:10",
+    "flight": [
+      {
+        "no": "CI 924",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 21:04",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "5J 121",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 22:19",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "MH 079",
+        "airline": "MAS"
+      },
+      {
+        "no": "CX 6011",
+        "airline": "CPA"
+      },
+      {
+        "no": "FY 7053",
+        "airline": "FFM"
+      },
+      {
+        "no": "UL 2779",
+        "airline": "ALK"
+      },
+      {
+        "no": "AY 6627",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 4987",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "Dep 08:56",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "10:00",
+    "flight": [
+      {
+        "no": "5J 149",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "CRK"
+    ],
+    "status": "Dep 10:17",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "12:15",
+    "flight": [
+      {
+        "no": "BR 846",
+        "airline": "EVA"
+      },
+      {
+        "no": "HX 1846",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "KHH"
+    ],
+    "status": "Dep 12:26",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "CI 910",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 14:11",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "BR 870",
+        "airline": "EVA"
+      },
+      {
+        "no": "HX 1826",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 15:29",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "18:10",
+    "flight": [
+      {
+        "no": "KE 2006",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7914",
+        "airline": "DAL"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Boarding",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "19:30",
+    "flight": [
+      {
+        "no": "BR 850",
+        "airline": "EVA"
+      },
+      {
+        "no": "HX 1850",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "KHH"
+    ],
+    "status": "",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "21:10",
+    "flight": [
+      {
+        "no": "CI 924",
+        "airline": "CAL"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "F",
+      "hall": ""
+    }
+  }
+]

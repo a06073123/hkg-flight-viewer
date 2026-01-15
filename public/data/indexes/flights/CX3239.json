@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "CX 3239",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "XMN"
+    ],
+    "status": "At gate 10:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "08:35",
+    "flight": [
+      {
+        "no": "CX 3239",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 14:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

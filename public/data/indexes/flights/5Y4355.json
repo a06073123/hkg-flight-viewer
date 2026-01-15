@@ -1,0 +1,470 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 20:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 01:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "02:35",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 06:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "05:05",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 05:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "14:55",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 16:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "15:36",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 15:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 17:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "14:55",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 22:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "15:15",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "14:55",
+    "flight": [
+      {
+        "no": "5Y 4355",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "At gate 04:46 (11/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

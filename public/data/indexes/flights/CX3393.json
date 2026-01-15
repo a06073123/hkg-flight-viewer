@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "CX 3393",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "ANC"
+    ],
+    "status": "At gate 19:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

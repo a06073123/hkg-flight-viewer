@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-02",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "NJ 3358",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "OTP"
+    ],
+    "status": "Dep 14:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

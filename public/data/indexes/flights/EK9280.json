@@ -1,0 +1,288 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 13:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 13:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 16:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 15:39",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 15:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 15:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 06:03 (01/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 13:28 (08/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 13:57 (15/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 05:03 (22/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 16:09 (29/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 15:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "EK 9280",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 15:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,358 @@
+[
+  {
+    "date": "2025-10-30",
+    "time": "12:25",
+    "flight": [
+      {
+        "no": "CX 157",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5107",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7907",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4147",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5631",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9509",
+        "airline": "SWR"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Dep 12:33",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "12:25",
+    "flight": [
+      {
+        "no": "CX 157",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5107",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7907",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4147",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5631",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9509",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7009",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Dep 14:47",
+    "gate_baggage": "27",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "10:35",
+    "flight": [
+      {
+        "no": "CX 2157",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5625",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4147",
+        "airline": "BAW"
+      },
+      {
+        "no": "LX 9509",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7009",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Dep 10:44",
+    "gate_baggage": "64",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "12:25",
+    "flight": [
+      {
+        "no": "CX 157",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5107",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7907",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4147",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5631",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9509",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7009",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Dep 12:43",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "12:25",
+    "flight": [
+      {
+        "no": "CX 157",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5107",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7907",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4147",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5631",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9509",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7009",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Dep 12:38",
+    "gate_baggage": "5",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "12:25",
+    "flight": [
+      {
+        "no": "CX 157",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5107",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7907",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4147",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5631",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9509",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7009",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Dep 12:21",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "C",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "12:25",
+    "flight": [
+      {
+        "no": "CX 157",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5107",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7907",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4147",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5631",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9509",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7009",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Dep 12:19",
+    "gate_baggage": "4",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "12:25",
+    "flight": [
+      {
+        "no": "CX 157",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5107",
+        "airline": "FIN"
+      },
+      {
+        "no": "JL 7907",
+        "airline": "JAL"
+      },
+      {
+        "no": "BA 4147",
+        "airline": "BAW"
+      },
+      {
+        "no": "OM 5631",
+        "airline": "MGL"
+      },
+      {
+        "no": "LX 9509",
+        "airline": "SWR"
+      },
+      {
+        "no": "LH 7009",
+        "airline": "DLH"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Dep 12:30",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  }
+]

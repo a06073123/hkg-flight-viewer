@@ -1,0 +1,542 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "16:50",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "20:05",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 19:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "16:50",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 18:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "20:05",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 20:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "15:45",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 19:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "17:25",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 19:39",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "15:45",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 18:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "15:45",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 15:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 18:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "15:45",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 19:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "15:45",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 04:46 (06/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 07:39 (06/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "15:45",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 15:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 18:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "15:45",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 15:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 18:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "15:45",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "Dep 19:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "SQ 7366",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BRU"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,1302 @@
+[
+  {
+    "date": "2025-11-08",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:05",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:05",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:15",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:23",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:35",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:01",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:42",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:10",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:49",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:31",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:43",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:45",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:03",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:28",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:54",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 10:24",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:29",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:57",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:31",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:39",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:31",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:09",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:46",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:58",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:54",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:33",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:57",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:16",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:56",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:36",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:33",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 09:13",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:12",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:49",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:05",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:39",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:10",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:17",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:12",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:40",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:21",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:30",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:53",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:29",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:53",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:54",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:37",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:33",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "At gate 08:26",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "EY 870",
+        "airline": "ETD"
+      },
+      {
+        "no": "HX 3600",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

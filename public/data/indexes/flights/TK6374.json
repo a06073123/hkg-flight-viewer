@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-01-12",
+    "time": "16:40",
+    "flight": [
+      {
+        "no": "TK 6374",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "TAS"
+    ],
+    "status": "At gate 16:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

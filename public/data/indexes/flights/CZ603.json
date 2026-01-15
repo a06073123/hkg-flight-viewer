@@ -1,0 +1,626 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:04",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 14:49",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:02",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:12",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 14:46",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:20",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 14:39",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 14:43",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:33",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:41",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 17:26",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 16:03",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:38",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 20:45",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:04",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:07",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:09",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:47",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 14:57",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:12",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:15",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:48",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:19",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "15:35",
+    "flight": [
+      {
+        "no": "CZ 603",
+        "airline": "CSN"
+      },
+      {
+        "no": "MF 9213",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "URC"
+    ],
+    "status": "At gate 15:19",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

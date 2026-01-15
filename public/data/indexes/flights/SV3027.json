@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-23",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "SV 3027",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 07:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

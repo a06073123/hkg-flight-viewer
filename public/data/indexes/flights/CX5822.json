@@ -1,0 +1,1302 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "09:05",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:12",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "09:05",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:51",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "09:05",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:01",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:33",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:50",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:40",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:34",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:26",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:34",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:33",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 10:04",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:30",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:45",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:28",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:31",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:32",
+    "gate_baggage": "513",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:34",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:31",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:38",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:34",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:28",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:35",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:56",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:49",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:29",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:49",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:40",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:28",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:24",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:35",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:27",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:27",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 10:19",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 11:03",
+    "gate_baggage": "230",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:31",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 10:08",
+    "gate_baggage": "514",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:48",
+    "gate_baggage": "230",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:31",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:40",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:34",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:36",
+    "gate_baggage": "511",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:30",
+    "gate_baggage": "524",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:39",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:34",
+    "gate_baggage": "230",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 10:00",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:31",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:33",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:58",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 09:25",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  }
+]

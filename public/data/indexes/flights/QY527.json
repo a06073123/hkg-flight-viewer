@@ -1,0 +1,140 @@
+[
+  {
+    "date": "2025-11-07",
+    "time": "11:50",
+    "flight": [
+      {
+        "no": "QY 527",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "LEJ"
+    ],
+    "status": "Dep 14:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "11:50",
+    "flight": [
+      {
+        "no": "QY 527",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "LEJ"
+    ],
+    "status": "Dep 12:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "QY 527",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "LEJ"
+    ],
+    "status": "Dep 07:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "11:50",
+    "flight": [
+      {
+        "no": "QY 527",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LEJ"
+    ],
+    "status": "Dep 11:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "11:50",
+    "flight": [
+      {
+        "no": "QY 527",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "LEJ"
+    ],
+    "status": "Dep 12:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "QY 527",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "LEJ"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

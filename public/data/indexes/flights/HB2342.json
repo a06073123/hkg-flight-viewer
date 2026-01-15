@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HB 2342",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "Dep 15:02",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HB 2342",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "Dep 14:53",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

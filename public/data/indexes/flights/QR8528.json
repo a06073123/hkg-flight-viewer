@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-01-04",
+    "time": "23:05",
+    "flight": [
+      {
+        "no": "QR 8528",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "IKA"
+    ],
+    "status": "At gate 23:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

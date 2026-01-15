@@ -1,0 +1,179 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "17:30",
+    "flight": [
+      {
+        "no": "QR 8424",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "IKA"
+    ],
+    "status": "At gate 17:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "13:00",
+    "flight": [
+      {
+        "no": "QR 8424",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "At gate 18:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "13:00",
+    "flight": [
+      {
+        "no": "QR 8424",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "At gate 13:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "13:00",
+    "flight": [
+      {
+        "no": "QR 8424",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "At gate 16:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "13:00",
+    "flight": [
+      {
+        "no": "QR 8424",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "At gate 12:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "13:00",
+    "flight": [
+      {
+        "no": "QR 8424",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "At gate 12:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "QR 8424",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "At gate 13:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "13:00",
+    "flight": [
+      {
+        "no": "QR 8424",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "At gate 12:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,420 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 06:58",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 06:59",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 07:13",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 06:58",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 06:59",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 07:06",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 06:57",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 06:59",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 07:02",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 07:08",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 06:57",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 07:02",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 07:02",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 08:16",
+    "gate_baggage": "63",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 07:04",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 06:56",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 07:00",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 498",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 06:58",
+    "gate_baggage": "19",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  }
+]

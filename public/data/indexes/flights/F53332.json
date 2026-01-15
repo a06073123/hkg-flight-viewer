@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "08:55",
+    "flight": [
+      {
+        "no": "F5 3332",
+        "airline": "ATG"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "OTP"
+    ],
+    "status": "Dep 11:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-21",
+    "time": "00:15",
+    "flight": [
+      {
+        "no": "QY 546",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DEL"
+    ],
+    "status": "At gate 00:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

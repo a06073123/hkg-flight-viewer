@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "HX 249",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8498",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "At gate 20:12",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "HX 249",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8498",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "SHA"
+    ],
+    "status": "At gate 18:44",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 615",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 06:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 615",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA",
+      "CVG"
+    ],
+    "status": "Dep 07:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 615",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "MIA",
+      "CVG"
+    ],
+    "status": "Dep 07:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

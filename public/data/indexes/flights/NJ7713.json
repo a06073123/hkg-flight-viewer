@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-10",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "NJ 7713",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "EMA"
+    ],
+    "status": "Dep 07:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

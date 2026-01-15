@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-04",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "CC 4321",
+        "airline": "ABD"
+      }
+    ],
+    "origin_dest": [
+      "ALA"
+    ],
+    "status": "At gate 04:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-26",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "8V 9779",
+        "airline": "ACP"
+      }
+    ],
+    "origin_dest": [
+      "SHJ"
+    ],
+    "status": "At gate 01:07 (29/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

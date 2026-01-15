@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "17:55",
+    "flight": [
+      {
+        "no": "TK 6262",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "DWC"
+    ],
+    "status": "At gate 17:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "date": "2025-11-05",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 12:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "LAX"
+    ],
+    "status": "Dep 13:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 11:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 13:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "LAX"
+    ],
+    "status": "Dep 15:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 15:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 18:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "LAX"
+    ],
+    "status": "Dep 23:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 07:38 (04/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 10:15 (06/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "LAX"
+    ],
+    "status": "Dep 14:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 12:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "LAX"
+    ],
+    "status": "Dep 14:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "K4 183",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "ORD"
+    ],
+    "status": "Dep 15:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

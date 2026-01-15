@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-12-09",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5X 065D",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "SDF"
+    ],
+    "status": "Dep 11:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

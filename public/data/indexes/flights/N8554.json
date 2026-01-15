@@ -1,0 +1,163 @@
+[
+  {
+    "date": "2025-10-23",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "N8 554",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "BUD"
+    ],
+    "status": "Dep 20:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "18:30",
+    "flight": [
+      {
+        "no": "N8 554",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "BUD"
+    ],
+    "status": "Dep 07:38 (01/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "20:15",
+    "flight": [
+      {
+        "no": "N8 554",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "BUD"
+    ],
+    "status": "Dep 09:53 (06/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "N8 554",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "ZAZ"
+    ],
+    "status": "Dep 09:34 (15/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "N8 554",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMM"
+    ],
+    "status": "Dep 18:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 554",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "BUD"
+    ],
+    "status": "Dep 15:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "11:35",
+    "flight": [
+      {
+        "no": "N8 554",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LEJ"
+    ],
+    "status": "Est at 17:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

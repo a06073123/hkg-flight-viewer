@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-12-06",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "K4 341",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "MIA",
+      "CVG",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

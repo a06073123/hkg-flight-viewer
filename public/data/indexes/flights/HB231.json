@@ -1,0 +1,354 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 02:39",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 01:42",
+    "gate_baggage": "524",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 01:44",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 02:10",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 01:49",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 01:12",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 00:52",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 00:30",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 00:18",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 00:29",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 00:43",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 00:33",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "HB 231",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 00:25",
+    "gate_baggage": "524",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

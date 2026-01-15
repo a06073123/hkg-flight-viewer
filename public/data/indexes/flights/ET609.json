@@ -1,0 +1,922 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "21:55",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 21:56",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "21:55",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:02",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "21:55",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:06",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "21:55",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:14",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:50",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 23:09",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 23:04",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:50",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:42",
+    "gate_baggage": "520",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:48",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:54",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:52",
+    "gate_baggage": "61",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:52",
+    "gate_baggage": "523",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:51",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:58",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:56",
+    "gate_baggage": "6",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:57",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:51",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 00:03 (29/11/2025)",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:51",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:56",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:54",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:53",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:44",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:52",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:54",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:48",
+    "gate_baggage": "46",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 23:00",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:53",
+    "gate_baggage": "34",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:58",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:54",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:46",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:36",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:45",
+    "gate_baggage": "63",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:58",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:54",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:45",
+    "gate_baggage": "29",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:52",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "Dep 22:55",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "ET 609",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "BKK",
+      "ADD"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2025-12-19",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "HX 418",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "XIY"
+    ],
+    "status": "Dep 23:59",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "HX 418",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "XIY"
+    ],
+    "status": "Dep 21:48",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "22:25",
+    "flight": [
+      {
+        "no": "HX 418",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "XIY"
+    ],
+    "status": "Dep 22:23",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "HX 418",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "XIY"
+    ],
+    "status": "Dep 21:44",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "22:25",
+    "flight": [
+      {
+        "no": "HX 418",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "XIY"
+    ],
+    "status": "Dep 23:07",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "HX 418",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "XIY"
+    ],
+    "status": "Dep 23:15",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "21:40",
+    "flight": [
+      {
+        "no": "HX 418",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "XIY"
+    ],
+    "status": "Dep 21:53",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

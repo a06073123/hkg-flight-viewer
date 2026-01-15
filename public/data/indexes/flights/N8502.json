@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "01:30",
+    "flight": [
+      {
+        "no": "N8 502",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "JNB"
+    ],
+    "status": "At gate 03:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "02:45",
+    "flight": [
+      {
+        "no": "N8 502",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "LUZ"
+    ],
+    "status": "At gate 14:26 (16/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "07:30",
+    "flight": [
+      {
+        "no": "N8 502",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "HYD"
+    ],
+    "status": "At gate 12:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

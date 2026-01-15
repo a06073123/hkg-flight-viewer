@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2025-10-29",
+    "time": "16:00",
+    "flight": [
+      {
+        "no": "HC 770",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "EMA"
+    ],
+    "status": "At gate 03:37 (31/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "HC 770",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "EMA"
+    ],
+    "status": "At gate 14:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "16:00",
+    "flight": [
+      {
+        "no": "HC 770",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "EMA"
+    ],
+    "status": "At gate 18:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

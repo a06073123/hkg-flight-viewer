@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2025-10-21",
+    "time": "16:40",
+    "flight": [
+      {
+        "no": "SQ 7922",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "19:10",
+    "flight": [
+      {
+        "no": "SQ 7922",
+        "airline": "SIA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "DFW"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

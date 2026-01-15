@@ -1,0 +1,278 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 16:33",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 16:17",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 15:50",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 15:51",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 15:49",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 15:44",
+    "gate_baggage": "13",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 15:56",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 15:54",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 15:41",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 15:52",
+    "gate_baggage": "8",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 15:51",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "MU 6096",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "XIY",
+      "XNN"
+    ],
+    "status": "Dep 18:05",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  }
+]

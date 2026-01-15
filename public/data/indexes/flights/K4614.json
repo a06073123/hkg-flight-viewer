@@ -1,0 +1,71 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "K4 614",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "NGO"
+    ],
+    "status": "At gate 20:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "K4 614",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "NRT"
+    ],
+    "status": "At gate 22:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "K4 614",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "NGO"
+    ],
+    "status": "At gate 04:48 (25/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-29",
+    "time": "04:15",
+    "flight": [
+      {
+        "no": "FX 9740",
+        "airline": "FDX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 08:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

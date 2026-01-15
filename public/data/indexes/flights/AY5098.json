@@ -1,0 +1,382 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:22",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:16",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:02",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:59",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:01",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 18:11",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:27",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:01",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:43",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CX 652",
+        "airline": "CPA"
+      },
+      {
+        "no": "FJ 5465",
+        "airline": "FJI"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AY 5098",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 5800",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:04",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

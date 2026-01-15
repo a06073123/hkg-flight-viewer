@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "CV 5797",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA",
+      "LUX"
+    ],
+    "status": "Dep 04:18 (20/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

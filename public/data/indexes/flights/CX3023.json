@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-17",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "CX 3023",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "AKL"
+    ],
+    "status": "Dep 18:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

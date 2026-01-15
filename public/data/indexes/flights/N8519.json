@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2025-11-03",
+    "time": "03:00",
+    "flight": [
+      {
+        "no": "N8 519",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "BUD"
+    ],
+    "status": "At gate 08:27 (04/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "11:50",
+    "flight": [
+      {
+        "no": "N8 519",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "PAE"
+    ],
+    "status": "At gate 12:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "N8 519",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "ALA"
+    ],
+    "status": "At gate 14:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "05:25",
+    "flight": [
+      {
+        "no": "N8 519",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "ANC"
+    ],
+    "status": "At gate 04:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

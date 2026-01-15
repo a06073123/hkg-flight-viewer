@@ -1,0 +1,200 @@
+[
+  {
+    "date": "2025-12-16",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "HU 7916",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CGQ"
+    ],
+    "status": "Dep 10:03",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "HU 7916",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CGQ"
+    ],
+    "status": "Dep 10:06",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "HU 7916",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CGQ"
+    ],
+    "status": "Dep 10:06",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "HU 7916",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CGQ"
+    ],
+    "status": "Dep 10:10",
+    "gate_baggage": "13",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "HU 7916",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CGQ"
+    ],
+    "status": "Dep 10:10",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "HU 7916",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CGQ"
+    ],
+    "status": "Dep 10:08",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "HU 7916",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CGQ"
+    ],
+    "status": "Dep 10:12",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "HU 7916",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CGQ"
+    ],
+    "status": "Dep 10:03",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "HU 7916",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CGQ"
+    ],
+    "status": "Dep 10:02",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

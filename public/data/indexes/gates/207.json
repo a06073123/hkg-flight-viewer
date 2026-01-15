@@ -1,0 +1,1258 @@
+[
+  {
+    "date": "2026-01-07",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "UO 822",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5822",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "HIJ"
+    ],
+    "status": "Dep 10:00",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "11:50",
+    "flight": [
+      {
+        "no": "HX 741",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HKT"
+    ],
+    "status": "Dep 11:54",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "AK 236",
+        "airline": "AXM"
+      }
+    ],
+    "origin_dest": [
+      "BKI"
+    ],
+    "status": "Dep 13:07",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "09:00",
+    "flight": [
+      {
+        "no": "HX 236",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8492",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "Dep 09:01",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "12:15",
+    "flight": [
+      {
+        "no": "UO 112",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5112",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 12:09",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "20:50",
+    "flight": [
+      {
+        "no": "HX 220",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8523",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "Dep 21:10",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "07:40",
+    "flight": [
+      {
+        "no": "UO 192",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5192",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "RMQ"
+    ],
+    "status": "Dep 07:35",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "UO 668",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5668",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "Dep 11:00",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "HX 412",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8165",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "LJG"
+    ],
+    "status": "Dep 19:05",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "21:20",
+    "flight": [
+      {
+        "no": "HX 234",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8355",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "Dep 21:35",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "09:05",
+    "flight": [
+      {
+        "no": "HX 252",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2898",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 08:59",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "11:50",
+    "flight": [
+      {
+        "no": "HX 741",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HKT"
+    ],
+    "status": "Dep 11:53",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:04",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "16:10",
+    "flight": [
+      {
+        "no": "UO 568",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5568",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PQC"
+    ],
+    "status": "Dep 17:04",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "18:50",
+    "flight": [
+      {
+        "no": "HX 282",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2892",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 19:22",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "02:45",
+    "flight": [
+      {
+        "no": "UO 676",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5676",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "Dep 02:42",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "HX 608",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9206",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "Dep 09:20",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "13:00",
+    "flight": [
+      {
+        "no": "UO 646",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5646",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "Dep 12:58",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "HX 765",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9224",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 16:57",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "18:55",
+    "flight": [
+      {
+        "no": "HX 107",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8052",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "HAK"
+    ],
+    "status": "Dep 19:10",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "HX 496",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8202",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 20:50",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "02:20",
+    "flight": [
+      {
+        "no": "UO 656",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "TAE"
+    ],
+    "status": "Dep 02:16",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "09:25",
+    "flight": [
+      {
+        "no": "HX 692",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6802",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "CTS"
+    ],
+    "status": "Dep 09:46",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "Z2 1265",
+        "airline": "APG"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 12:13",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "FD 518",
+        "airline": "AIQ"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 13:12",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "HX 312",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8192",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 15:42",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "18:50",
+    "flight": [
+      {
+        "no": "UO 116",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5116",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 18:55",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "HX 626",
+        "airline": "CRK"
+      },
+      {
+        "no": "OZ 9296",
+        "airline": "AAR"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 20:46",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "01:55",
+    "flight": [
+      {
+        "no": "HX 707",
+        "airline": "CRK"
+      },
+      {
+        "no": "GA 9771",
+        "airline": "GIA"
+      }
+    ],
+    "origin_dest": [
+      "DPS"
+    ],
+    "status": "Dep 02:07",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "UO 686",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5686",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "Dep 08:18",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "10:25",
+    "flight": [
+      {
+        "no": "UO 630",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5630",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 10:44",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "AK 139",
+        "airline": "AXM"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "Dep 12:05",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "16:00",
+    "flight": [
+      {
+        "no": "HX 562",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "VTE"
+    ],
+    "status": "Dep 16:04",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "UO 748",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5748",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PEN"
+    ],
+    "status": "Dep 20:47",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 704",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5704",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 07:56",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "10:50",
+    "flight": [
+      {
+        "no": "HX 208",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8157",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "NKG"
+    ],
+    "status": "Dep 10:47",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "UO 132",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5132",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "KHH"
+    ],
+    "status": "Dep 12:43",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "14:55",
+    "flight": [
+      {
+        "no": "UO 652",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5652",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "Dep 14:49",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "HX 312",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8192",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "Dep 16:40",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "18:50",
+    "flight": [
+      {
+        "no": "UO 116",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5116",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 18:37",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "20:10",
+    "flight": [
+      {
+        "no": "FD 519",
+        "airline": "AIQ"
+      }
+    ],
+    "origin_dest": [
+      "DMK"
+    ],
+    "status": "Dep 20:14",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "22:25",
+    "flight": [
+      {
+        "no": "HX 017",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9226",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "SYD"
+    ],
+    "status": "Dep 22:25",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "HX 606",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9204",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "Dep 02:07",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "09:05",
+    "flight": [
+      {
+        "no": "HX 252",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2898",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 09:18",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "HX 658",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6816",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 12:08",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "FD 518",
+        "airline": "AIQ"
+      }
+    ],
+    "origin_dest": [
+      "OKA"
+    ],
+    "status": "Dep 13:44",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 14:58",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "16:50",
+    "flight": [
+      {
+        "no": "UO 558",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5558",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 16:49",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "AK 137",
+        "airline": "AXM"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "Boarding",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "20:55",
+    "flight": [
+      {
+        "no": "HX 304",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8160",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

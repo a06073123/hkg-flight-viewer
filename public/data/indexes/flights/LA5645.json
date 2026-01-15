@@ -1,0 +1,422 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:42",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:15",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:23",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:24",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:23",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:24",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:34",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:50",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:43",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "CX 104",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5842",
+        "airline": "FIN"
+      },
+      {
+        "no": "LH 7010",
+        "airline": "DLH"
+      },
+      {
+        "no": "OM 5660",
+        "airline": "MGL"
+      },
+      {
+        "no": "BA 4566",
+        "airline": "BAW"
+      },
+      {
+        "no": "LA 5645",
+        "airline": "LAN"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:38",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

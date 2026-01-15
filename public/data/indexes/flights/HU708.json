@@ -1,0 +1,132 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "HU 708",
+        "airline": "CHH"
+      },
+      {
+        "no": "HX 1708",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HAK"
+    ],
+    "status": "Dep 16:52",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "HU 708",
+        "airline": "CHH"
+      },
+      {
+        "no": "HX 1708",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HAK"
+    ],
+    "status": "Dep 17:01",
+    "gate_baggage": "66",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "HU 708",
+        "airline": "CHH"
+      },
+      {
+        "no": "HX 1708",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HAK"
+    ],
+    "status": "Dep 17:09",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "HU 708",
+        "airline": "CHH"
+      },
+      {
+        "no": "HX 1708",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HAK"
+    ],
+    "status": "Dep 17:25",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "HU 708",
+        "airline": "CHH"
+      },
+      {
+        "no": "HX 1708",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "HAK"
+    ],
+    "status": "Dep 16:50",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

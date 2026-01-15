@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "09:00",
+    "flight": [
+      {
+        "no": "T8 4709",
+        "airline": "TVR"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 08:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "09:00",
+    "flight": [
+      {
+        "no": "T8 4709",
+        "airline": "TVR"
+      }
+    ],
+    "origin_dest": [
+      "VTE"
+    ],
+    "status": "At gate 09:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

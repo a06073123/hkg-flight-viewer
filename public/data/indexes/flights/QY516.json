@@ -1,0 +1,1060 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LGG",
+      "DWC"
+    ],
+    "status": "At gate 09:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 02:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 02:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "17:20",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 17:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 09:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 09:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 02:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 17:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 09:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 10:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 02:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 17:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 09:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 10:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "00:00",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 23:55 (15/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 17:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 09:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 10:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 02:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 17:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 01:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 17:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 09:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 02:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 17:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 23:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 18:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 07:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 19:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 01:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 02:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 17:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 03:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "At gate 08:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "QY 516",
+        "airline": "BCS"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DWC"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

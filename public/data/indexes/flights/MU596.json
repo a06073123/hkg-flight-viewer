@@ -1,0 +1,242 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "MU 596",
+        "airline": "CES"
+      },
+      {
+        "no": "FM 3032",
+        "airline": "CSH"
+      },
+      {
+        "no": "MF 9032",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "HGH"
+    ],
+    "status": "Dep 17:03",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "MU 596",
+        "airline": "CES"
+      },
+      {
+        "no": "FM 3032",
+        "airline": "CSH"
+      },
+      {
+        "no": "MF 9032",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "HGH"
+    ],
+    "status": "Dep 17:23",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "MU 596",
+        "airline": "CES"
+      },
+      {
+        "no": "FM 3032",
+        "airline": "CSH"
+      },
+      {
+        "no": "MF 9032",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "HGH"
+    ],
+    "status": "Dep 17:23",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "MU 596",
+        "airline": "CES"
+      },
+      {
+        "no": "FM 3032",
+        "airline": "CSH"
+      },
+      {
+        "no": "MF 9032",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "HGH"
+    ],
+    "status": "Dep 17:00",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "MU 596",
+        "airline": "CES"
+      },
+      {
+        "no": "FM 3032",
+        "airline": "CSH"
+      },
+      {
+        "no": "MF 9032",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "HGH"
+    ],
+    "status": "Dep 17:12",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "MU 596",
+        "airline": "CES"
+      },
+      {
+        "no": "FM 3032",
+        "airline": "CSH"
+      },
+      {
+        "no": "MF 9032",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "HGH"
+    ],
+    "status": "Dep 17:03",
+    "gate_baggage": "34",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "MU 596",
+        "airline": "CES"
+      },
+      {
+        "no": "FM 3032",
+        "airline": "CSH"
+      },
+      {
+        "no": "MF 9032",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "HGH"
+    ],
+    "status": "Dep 17:08",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "MU 596",
+        "airline": "CES"
+      },
+      {
+        "no": "FM 3032",
+        "airline": "CSH"
+      },
+      {
+        "no": "MF 9032",
+        "airline": "CXA"
+      }
+    ],
+    "origin_dest": [
+      "HGH"
+    ],
+    "status": "Dep 17:12",
+    "gate_baggage": "19",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  }
+]

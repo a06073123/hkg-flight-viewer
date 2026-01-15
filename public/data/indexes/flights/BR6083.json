@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2025-11-18",
+    "time": "00:20",
+    "flight": [
+      {
+        "no": "BR 6083",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:53 (17/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "00:20",
+    "flight": [
+      {
+        "no": "BR 6083",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:50 (24/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "00:20",
+    "flight": [
+      {
+        "no": "BR 6083",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "00:20",
+    "flight": [
+      {
+        "no": "BR 6083",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:53 (08/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "00:20",
+    "flight": [
+      {
+        "no": "BR 6083",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "00:20",
+    "flight": [
+      {
+        "no": "BR 6083",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "00:20",
+    "flight": [
+      {
+        "no": "BR 6083",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 23:59 (29/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

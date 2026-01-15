@@ -1,0 +1,300 @@
+[
+  {
+    "date": "2025-10-29",
+    "time": "20:00",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI",
+      "IST"
+    ],
+    "status": "Dep 21:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "20:25",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI",
+      "IST"
+    ],
+    "status": "Dep 23:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "20:25",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI",
+      "IST"
+    ],
+    "status": "Dep 23:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "19:50",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI"
+    ],
+    "status": "Dep 08:34 (21/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "17:35",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI",
+      "IST"
+    ],
+    "status": "Dep 03:03 (28/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "19:15",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "IST"
+    ],
+    "status": "Dep 18:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "KHI",
+      "IST"
+    ],
+    "status": "Dep 06:00 (12/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "00:55",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI",
+      "IST"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "19:55",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "KHI",
+      "IST"
+    ],
+    "status": "Dep 10:53 (19/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "05:25",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "KHI",
+      "IST"
+    ],
+    "status": "Dep 05:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "KHI",
+      "IST"
+    ],
+    "status": "Dep 17:39",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "00:55",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "ISB",
+      "IST"
+    ],
+    "status": "Dep 23:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "MB 430",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "ISB",
+      "IST"
+    ],
+    "status": "Dep 12:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "HX 2350",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DNH"
+    ],
+    "status": "Dep 12:12",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "HX 2350",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DNH"
+    ],
+    "status": "Dep 12:17",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "HX 2350",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DNH"
+    ],
+    "status": "Dep 12:39",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "HX 2350",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DNH"
+    ],
+    "status": "Dep 12:33",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

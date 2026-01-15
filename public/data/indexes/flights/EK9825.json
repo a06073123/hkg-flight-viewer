@@ -1,0 +1,310 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "12:10",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 12:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "12:10",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 12:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "12:15",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 13:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 12:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "13:20",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 14:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 13:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 12:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 12:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 13:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 13:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 12:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 12:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 12:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "EK 9825",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 12:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

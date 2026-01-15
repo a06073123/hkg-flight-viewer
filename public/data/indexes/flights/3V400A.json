@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-03",
+    "time": "20:40",
+    "flight": [
+      {
+        "no": "3V 400A",
+        "airline": "TAY"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LGG"
+    ],
+    "status": "Dep 06:55 (04/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

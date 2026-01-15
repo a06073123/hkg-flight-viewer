@@ -1,0 +1,574 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "16:50",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "15:50",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 10:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "10:25",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 04:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "16:50",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 01:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 09:29 (05/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "08:25",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "01:30",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 11:59 (08/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 01:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "10:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 11:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 07:56 (16/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "05:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 08:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 05:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 03:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "02:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 04:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 12:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "01:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 03:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "05:50",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 06:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 23:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "02:10",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 05:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 03:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "04:20",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 22:24 (10/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "LGG"
+    ],
+    "status": "At gate 01:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "ET 3718",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

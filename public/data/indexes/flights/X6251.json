@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "15:25",
+    "flight": [
+      {
+        "no": "X6 251",
+        "airline": "CHZ"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "01:00",
+    "flight": [
+      {
+        "no": "X6 251",
+        "airline": "CHZ"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

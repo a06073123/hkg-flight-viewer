@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "FD 508",
+        "airline": "AIQ"
+      }
+    ],
+    "origin_dest": [
+      "DMK"
+    ],
+    "status": "At gate 14:58",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "FD 508",
+        "airline": "AIQ"
+      }
+    ],
+    "origin_dest": [
+      "DMK"
+    ],
+    "status": "At gate 14:49",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "FD 508",
+        "airline": "AIQ"
+      }
+    ],
+    "origin_dest": [
+      "DMK"
+    ],
+    "status": "At gate 14:51",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "FD 508",
+        "airline": "AIQ"
+      }
+    ],
+    "origin_dest": [
+      "DMK"
+    ],
+    "status": "At gate 14:55",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "FD 508",
+        "airline": "AIQ"
+      }
+    ],
+    "origin_dest": [
+      "DMK"
+    ],
+    "status": "At gate 14:56",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "FD 508",
+        "airline": "AIQ"
+      }
+    ],
+    "origin_dest": [
+      "DMK"
+    ],
+    "status": "At gate 14:57",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

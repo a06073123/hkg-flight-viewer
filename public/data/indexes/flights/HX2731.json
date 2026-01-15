@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "14:15",
+    "flight": [
+      {
+        "no": "HX 2731",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:11",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "14:15",
+    "flight": [
+      {
+        "no": "HX 2731",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:21",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "date": "2025-12-13",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 19:47",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 20:19",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 19:45",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 20:05",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 19:48",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 19:48",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 20:27",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:07",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 19:56",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 20:13",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 19:42",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 21:53",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 20:03",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "At gate 19:44",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "HX 014",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9214",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "Est at 19:22",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "date": "2025-10-20",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:41",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 13:16",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:54",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:40",
+    "gate_baggage": "36",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 13:09",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:56",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:35",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:32",
+    "gate_baggage": "65",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:45",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:50",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:28",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:40",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:30",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:32",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:36",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:48",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:33",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:36",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:35",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:41",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:42",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:19",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:42",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:39",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 13:13",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:38",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:31",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:36",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:50",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:38",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:39",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:49",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:44",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:42",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:45",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:54",
+    "gate_baggage": "8",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:34",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:30",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:44",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:23",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:53",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 13:07",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:29",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:34",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:14",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:33",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:32",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "Dep 12:22",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5J 5263",
+        "airline": "CEB"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "L",
+      "hall": ""
+    }
+  }
+]

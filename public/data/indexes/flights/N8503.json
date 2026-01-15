@@ -1,0 +1,91 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 503",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "BUD"
+    ],
+    "status": "Dep 11:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "12:05",
+    "flight": [
+      {
+        "no": "N8 503",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 12:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "04:50",
+    "flight": [
+      {
+        "no": "N8 503",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "MST"
+    ],
+    "status": "At gate 09:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "07:25",
+    "flight": [
+      {
+        "no": "N8 503",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 06:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

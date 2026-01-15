@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-20",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "HB 284",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 23:36",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "HB 284",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 23:07",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

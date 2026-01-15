@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "CP 102",
+        "airline": "LSI"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "MXP"
+    ],
+    "status": "Dep 11:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-10",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 599",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "AMD"
+    ],
+    "status": "Dep 07:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

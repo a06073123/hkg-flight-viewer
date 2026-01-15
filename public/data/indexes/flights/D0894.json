@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-11-24",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "D0 894",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "At gate 09:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "20:35",
+    "flight": [
+      {
+        "no": "D0 894",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "BAH"
+    ],
+    "status": "At gate 20:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-11",
+    "time": "14:15",
+    "flight": [
+      {
+        "no": "HJ 9030",
+        "airline": "TMN"
+      }
+    ],
+    "origin_dest": [
+      "BNE"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

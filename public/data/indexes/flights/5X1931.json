@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-10-20",
+    "time": "14:35",
+    "flight": [
+      {
+        "no": "5X 1931",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "SDF"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "08:50",
+    "flight": [
+      {
+        "no": "5X 1931",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "SDF"
+    ],
+    "status": "Dep 08:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

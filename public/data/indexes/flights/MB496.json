@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-01-04",
+    "time": "10:35",
+    "flight": [
+      {
+        "no": "MB 496",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "KGF",
+      "IST"
+    ],
+    "status": "Dep 11:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

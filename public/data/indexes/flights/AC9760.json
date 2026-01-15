@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2026-01-11",
+    "time": "07:30",
+    "flight": [
+      {
+        "no": "CX 907",
+        "airline": "CPA"
+      },
+      {
+        "no": "AC 9760",
+        "airline": "ACA"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Dep 07:35",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,273 @@
+[
+  {
+    "date": "2025-10-28",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL"
+    ],
+    "status": "Dep 18:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 19:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 19:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "NLU",
+      "GDL",
+      "LUX"
+    ],
+    "status": "Dep 08:17 (19/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 20:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 20:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 05:52 (10/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 08:40 (17/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 18:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL"
+    ],
+    "status": "Dep 21:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "18:20",
+    "flight": [
+      {
+        "no": "CV 237",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-07",
+    "time": "20:00",
+    "flight": [
+      {
+        "no": "N8 532",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "Dep 13:20 (09/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

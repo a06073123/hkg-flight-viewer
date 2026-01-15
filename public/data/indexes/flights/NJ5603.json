@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-01-04",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "NJ 5603",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "BUD"
+    ],
+    "status": "Dep 07:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

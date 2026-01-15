@@ -1,0 +1,288 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 09:14",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 08:50",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 08:59",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 09:02",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 09:02",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 08:42",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 09:21",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 09:16",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 08:37",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8216",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 08:42",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 612",
+        "airline": "CPA"
+      },
+      {
+        "no": "QF 8250",
+        "airline": "QFA"
+      }
+    ],
+    "origin_dest": [
+      "CMB"
+    ],
+    "status": "At gate 08:47",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

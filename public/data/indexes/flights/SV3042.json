@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-11-06",
+    "time": "14:40",
+    "flight": [
+      {
+        "no": "SV 3042",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "14:40",
+    "flight": [
+      {
+        "no": "SV 3042",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

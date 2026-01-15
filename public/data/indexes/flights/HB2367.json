@@ -1,0 +1,222 @@
+[
+  {
+    "date": "2025-12-20",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 11:25",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 11:48",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 11:12",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 12:37",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 12:02",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 11:04",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 11:21",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 11:30",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 11:34",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "HB 2367",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 11:21",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

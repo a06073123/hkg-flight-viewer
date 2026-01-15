@@ -1,0 +1,830 @@
+[
+  {
+    "date": "2025-10-29",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 14:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 11:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 08:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 05:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 05:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 06:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 10:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 07:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 05:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:39",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 05:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "At gate 04:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "04:10",
+    "flight": [
+      {
+        "no": "3S 532",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "BKK"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

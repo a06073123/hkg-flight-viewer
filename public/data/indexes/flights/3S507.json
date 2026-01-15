@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-01-07",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "3S 507",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "3S 507",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ"
+    ],
+    "status": "Dep 09:39",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "3S 507",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

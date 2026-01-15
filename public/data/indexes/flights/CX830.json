@@ -1,0 +1,1502 @@
+[
+  {
+    "date": "2025-11-28",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:48",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:02",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:52",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:53",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:26",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:02",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:32",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:49",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:35",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:45",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:27",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:41",
+    "gate_baggage": "36",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:58",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:44",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:35",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:38",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:40",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "E",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:38",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:45",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:35",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:42",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:10",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:39",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:44",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:45",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:45",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:03",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:59",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:38",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:36",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:27",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:55",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:49",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:45",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:38",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:35",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:44",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:00",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:31",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:04",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:31",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 10:00",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:43",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:43",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:39",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:50",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:38",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:41",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "Dep 09:52",
+    "gate_baggage": "3",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "CX 830",
+        "airline": "CPA"
+      },
+      {
+        "no": "LA 5639",
+        "airline": "LAN"
+      },
+      {
+        "no": "OM 5830",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "JFK"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  }
+]

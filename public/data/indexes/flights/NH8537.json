@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-02",
+    "time": "02:05",
+    "flight": [
+      {
+        "no": "NH 8537",
+        "airline": "ANA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 02:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,2502 @@
+[
+  {
+    "date": "2025-11-28",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:23",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:04",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:14",
+    "gate_baggage": "13",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 16:57",
+    "gate_baggage": "8",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:11",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:12",
+    "gate_baggage": "19",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:18",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:14",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:20",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:24",
+    "gate_baggage": "8",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:11",
+    "gate_baggage": "19",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:04",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:20",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:24",
+    "gate_baggage": "25",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:17",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:11",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:31",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:13",
+    "gate_baggage": "8",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:20",
+    "gate_baggage": "60",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:08",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:20",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:13",
+    "gate_baggage": "21",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:03",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:29",
+    "gate_baggage": "50",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:20",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:06",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:18",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 16:54",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:06",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:05",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:14",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:33",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:14",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 16:50",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:11",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:27",
+    "gate_baggage": "13",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:07",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:23",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:25",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:18",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:24",
+    "gate_baggage": "29",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:07",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:15",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:16",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 16:55",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:05",
+    "gate_baggage": "19",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:27",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:12",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "Dep 17:07",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "PG 806",
+        "airline": "BKP"
+      },
+      {
+        "no": "AY 6275",
+        "airline": "FIN"
+      },
+      {
+        "no": "CX 6503",
+        "airline": "CPA"
+      },
+      {
+        "no": "EY 7784",
+        "airline": "ETD"
+      },
+      {
+        "no": "KL 3728",
+        "airline": "KLM"
+      },
+      {
+        "no": "TG 7343",
+        "airline": "THA"
+      },
+      {
+        "no": "QR 4440",
+        "airline": "QTR"
+      },
+      {
+        "no": "HX 3752",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "USM"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

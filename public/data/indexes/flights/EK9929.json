@@ -1,0 +1,332 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Dep 09:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Dep 10:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "13:50",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 07:27 (11/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 14:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Dep 10:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Dep 10:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "13:55",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Dep 13:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Dep 13:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "08:55",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Dep 09:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "17:30",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 18:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "18:05",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Dep 18:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DXB"
+    ],
+    "status": "Dep 09:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "14:15",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 06:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "EK 9929",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 10:55 (13/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

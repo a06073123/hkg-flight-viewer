@@ -1,0 +1,422 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:57",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:47",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:58",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:12",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:57",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:59",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:08",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 16:40",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:00",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "CX 690",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 5840",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3484",
+        "airline": "QTR"
+      },
+      {
+        "no": "OM 5620",
+        "airline": "MGL"
+      },
+      {
+        "no": "AA 8922",
+        "airline": "AAL"
+      },
+      {
+        "no": "FJ 5467",
+        "airline": "FJI"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "At gate 17:17",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "date": "2025-12-19",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:04",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:34",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:31",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:32",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:24",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:09",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:28",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:29",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:45",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:32",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:27",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:30",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:12",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:07",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:20",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 21:38",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:34",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:41",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "At gate 22:08",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "UO 663",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5663",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CJU"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

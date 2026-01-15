@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-03",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "RH 570",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

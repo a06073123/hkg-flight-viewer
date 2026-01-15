@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-27",
+    "time": "17:05",
+    "flight": [
+      {
+        "no": "2U 8602",
+        "airline": "FKH"
+      }
+    ],
+    "origin_dest": [
+      "AMD"
+    ],
+    "status": "Dep 18:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

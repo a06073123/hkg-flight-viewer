@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2025-11-01",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 9049",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ORD"
+    ],
+    "status": "At gate 20:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "5Y 9049",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "MIA",
+      "ANC"
+    ],
+    "status": "At gate 08:23 (30/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

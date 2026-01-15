@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-12-21",
+    "time": "09:50",
+    "flight": [
+      {
+        "no": "HC 277",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LGG"
+    ],
+    "status": "Dep 10:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

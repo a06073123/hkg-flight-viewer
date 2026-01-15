@@ -1,0 +1,250 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "14:35",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "HNL"
+    ],
+    "status": "At gate 13:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "HNL"
+    ],
+    "status": "At gate 13:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 13:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 13:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "HNL"
+    ],
+    "status": "At gate 14:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "HNL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "20:00",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "NLU",
+      "ANC"
+    ],
+    "status": "At gate 21:07 (25/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "15:30",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "HNL"
+    ],
+    "status": "At gate 02:12 (01/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 14:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "K4 370",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "At gate 14:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

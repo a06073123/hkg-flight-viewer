@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "GM 453",
+        "airline": "TMG"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "At gate 03:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

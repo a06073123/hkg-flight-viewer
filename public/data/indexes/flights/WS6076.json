@@ -1,0 +1,422 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:14",
+    "gate_baggage": "27",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 13:36",
+    "gate_baggage": "6",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:20",
+    "gate_baggage": "5",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:27",
+    "gate_baggage": "6",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:20",
+    "gate_baggage": "5",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:21",
+    "gate_baggage": "6",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:24",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:23",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:19",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "KE 174",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7922",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:31",
+    "gate_baggage": "6",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "KE 2002",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7772",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "64",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "KE 2002",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7772",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:43",
+    "gate_baggage": "5",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "KE 2002",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7772",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:43",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "KE 2002",
+        "airline": "KAL"
+      },
+      {
+        "no": "DL 7772",
+        "airline": "DAL"
+      },
+      {
+        "no": "WS 6076",
+        "airline": "WJA"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Dep 12:50",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  }
+]

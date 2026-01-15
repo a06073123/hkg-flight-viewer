@@ -1,0 +1,266 @@
+[
+  {
+    "date": "2025-10-29",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 09:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 09:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 09:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 21:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 08:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 09:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 09:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 09:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 09:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 08:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 08:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 2034",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MAA"
+    ],
+    "status": "At gate 09:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

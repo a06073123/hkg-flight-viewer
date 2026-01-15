@@ -1,0 +1,296 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL"
+    ],
+    "status": "Dep 12:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 18:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 12:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 12:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL"
+    ],
+    "status": "Dep 04:20 (25/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 19:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 14:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 12:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL"
+    ],
+    "status": "Dep 15:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 12:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "NLU",
+      "GDL",
+      "LUX"
+    ],
+    "status": "Dep 13:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "CV 283",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "GDL",
+      "NLU",
+      "LUX"
+    ],
+    "status": "Dep 12:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

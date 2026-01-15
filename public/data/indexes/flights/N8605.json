@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-20",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 605",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "At gate 05:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

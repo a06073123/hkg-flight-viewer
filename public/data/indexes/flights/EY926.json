@@ -1,0 +1,332 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "10:55",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 10:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "10:55",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 10:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "10:55",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 12:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "10:55",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 14:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "00:15",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 05:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "08:55",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 10:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 10:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "10:35",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 10:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "10:35",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 10:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "12:15",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 12:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "10:30",
+    "flight": [
+      {
+        "no": "EY 926",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 10:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

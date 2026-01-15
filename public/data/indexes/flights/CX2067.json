@@ -1,0 +1,278 @@
+[
+  {
+    "date": "2025-10-30",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 23:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 23:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 23:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 23:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 00:07 (28/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 00:36 (05/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 23:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 23:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 03:02 (26/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 23:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "Dep 23:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "23:20",
+    "flight": [
+      {
+        "no": "CX 2067",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "AMS"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

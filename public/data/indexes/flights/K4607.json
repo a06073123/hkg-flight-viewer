@@ -1,0 +1,71 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "K4 607",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 14:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "K4 607",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "LAX"
+    ],
+    "status": "Dep 17:49 (23/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "09:30",
+    "flight": [
+      {
+        "no": "K4 607",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 14:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

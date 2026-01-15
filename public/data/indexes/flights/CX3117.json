@@ -1,0 +1,266 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 07:00 (28/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 07:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 08:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 06:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 07:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 06:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 07:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 07:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 07:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 08:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 06:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "CX 3117",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Dep 04:33 (13/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

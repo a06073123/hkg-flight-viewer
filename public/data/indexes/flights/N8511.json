@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2025-11-06",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "N8 511",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 08:45 (08/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "01:50",
+    "flight": [
+      {
+        "no": "N8 511",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "OST"
+    ],
+    "status": "At gate 05:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "15:45",
+    "flight": [
+      {
+        "no": "N8 511",
+        "airline": "NCR"
+      }
+    ],
+    "origin_dest": [
+      "JNB"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

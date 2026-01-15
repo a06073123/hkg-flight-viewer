@@ -1,0 +1,882 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 09:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 07:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "11:40",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 14:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 14:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 12:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 13:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 15:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 13:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 13:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "04:20",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 13:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 15:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 11:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "04:20",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 03:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 15:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 11:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "04:20",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 04:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 16:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 15:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 19:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 06:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 13:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 14:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 05:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 13:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 06:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 18:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 13:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 19:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 14:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 16:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "05:20",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 17:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "15:05",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 18:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "11:15",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 13:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "06:05",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 06:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 13:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 14:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 11:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "13:10",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 15:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "KJ 969",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Est at 14:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-12-12",
+    "time": "13:50",
+    "flight": [
+      {
+        "no": "CT 138",
+        "airline": "AAE"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "LGG"
+    ],
+    "status": "Dep 14:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

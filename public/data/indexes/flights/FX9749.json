@@ -1,0 +1,70 @@
+[
+  {
+    "date": "2025-11-10",
+    "time": "01:00",
+    "flight": [
+      {
+        "no": "FX 9749",
+        "airline": "FDX"
+      }
+    ],
+    "origin_dest": [
+      "ANC"
+    ],
+    "status": "Dep 00:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "FX 9749",
+        "airline": "FDX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 02:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "FX 9749",
+        "airline": "FDX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 01:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "03:35",
+    "flight": [
+      {
+        "no": "5Y 8641",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 03:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "03:35",
+    "flight": [
+      {
+        "no": "5Y 8641",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 03:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "03:30",
+    "flight": [
+      {
+        "no": "5Y 8641",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "At gate 04:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "04:25",
+    "flight": [
+      {
+        "no": "5Y 8641",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

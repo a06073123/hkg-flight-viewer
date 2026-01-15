@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-18",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "K4 184",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ORD",
+      "ANC"
+    ],
+    "status": "At gate 15:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

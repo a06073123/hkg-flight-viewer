@@ -1,0 +1,461 @@
+[
+  {
+    "date": "2025-11-07",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA"
+    ],
+    "status": "Dep 08:19 (08/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "10:05",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Dep 22:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Dep 08:17 (15/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "20:30",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Dep 19:56 (17/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "INI"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "10:05",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "INI"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "INI"
+    ],
+    "status": "Dep 20:57 (01/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "INI"
+    ],
+    "status": "Dep 06:52 (06/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "INI"
+    ],
+    "status": "Dep 18:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "INI"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Dep 18:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Dep 16:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "16:15",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Dep 13:14 (27/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "10:10",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Dep 07:34 (29/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "Y3 7702",
+        "airline": "UZU"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "BEG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

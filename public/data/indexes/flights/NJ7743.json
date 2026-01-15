@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-25",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "NJ 7743",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "MST"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

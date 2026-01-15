@@ -1,0 +1,574 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "01:30",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "01:30",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "01:30",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "01:25",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "01:40",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "01:25",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 00:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 00:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "01:25",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 00:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "01:25",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "01:25",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "01:45",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "01:25",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 01:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 02:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 02:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 02:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "KJ 9891",
+        "airline": "AIH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 02:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

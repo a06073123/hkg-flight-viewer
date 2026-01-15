@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "05:30",
+    "flight": [
+      {
+        "no": "CX 040",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "BOM"
+    ],
+    "status": "At gate 08:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "05:30",
+    "flight": [
+      {
+        "no": "CX 040",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "BOM"
+    ],
+    "status": "At gate 05:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

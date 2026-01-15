@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-01-14",
+    "time": "02:55",
+    "flight": [
+      {
+        "no": "EK 9214",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "MAA"
+    ],
+    "status": "At gate 02:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

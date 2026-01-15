@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-18",
+    "time": "23:55",
+    "flight": [
+      {
+        "no": "HB 2343",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 23:49",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "23:55",
+    "flight": [
+      {
+        "no": "HB 2343",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "KIX"
+    ],
+    "status": "At gate 00:13 (26/10/2025)",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

@@ -1,0 +1,438 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "20:15",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 12:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "08:30",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 17:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "09:40",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 10:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 12:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "08:05",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 08:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "13:50",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 02:39 (22/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "17:50",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "19:30",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 01:46 (28/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "11:00",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "18:50",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "01:30",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 06:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "03:00",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 15:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 20:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "10:00",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "TLV"
+    ],
+    "status": "Dep 18:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "5C 652",
+        "airline": "ICL"
+      }
+    ],
+    "origin_dest": [
+      "ALA",
+      "TLV"
+    ],
+    "status": "Dep 22:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

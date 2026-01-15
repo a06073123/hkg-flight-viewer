@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-30",
+    "time": "09:55",
+    "flight": [
+      {
+        "no": "SR 831",
+        "airline": "XKY"
+      }
+    ],
+    "origin_dest": [
+      "DVO"
+    ],
+    "status": "At gate 10:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

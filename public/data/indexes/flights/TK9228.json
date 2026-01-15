@@ -1,0 +1,1094 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 22:57",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:07",
+    "gate_baggage": "216",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:03",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:06",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:01",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:01",
+    "gate_baggage": "212",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 22:57",
+    "gate_baggage": "212",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 22:57",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:02",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 22:51",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:42",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:43",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:30",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:45",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:43",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:39",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:34",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:46",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 00:58 (13/12/2025)",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:48",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:39",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:48",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 00:00 (17/12/2025)",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:46",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:48",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:43",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 00:09 (21/12/2025)",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:46",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:46",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:37",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:43",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:39",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:48",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:48",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:38",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:46",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:40",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:49",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:37",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:34",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:51",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "HX 759",
+        "airline": "CRK"
+      },
+      {
+        "no": "TK 9228",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 23:52",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

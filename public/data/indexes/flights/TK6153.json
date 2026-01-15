@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-12-24",
+    "time": "09:05",
+    "flight": [
+      {
+        "no": "TK 6153",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "DAC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

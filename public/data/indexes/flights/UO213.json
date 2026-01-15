@@ -1,0 +1,1152 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:46",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:06",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:58",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:08",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "19:25",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:14",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:46",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:11",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:04",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:48",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:06",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:25",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:34",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:31",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:39",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:50",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:16",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:00",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:40",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:40",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:28",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:34",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:21",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:21",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:25",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:35",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:41",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:42",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:57",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:29",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:33",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:35",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:25",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:28",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:55",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:14",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:30",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:41",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:46",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:49",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 20:40",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:29",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:11",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 19:08",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "At gate 18:45",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "18:45",
+    "flight": [
+      {
+        "no": "UO 213",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5213",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "YIW"
+    ],
+    "status": "Est at 18:51",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

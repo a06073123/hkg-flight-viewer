@@ -1,0 +1,704 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:35",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:42",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:51",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:34",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:30",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 13:03",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 13:24",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 13:26",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 13:03",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:42",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:56",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:54",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:58",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:58",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:58",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:58",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:45",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:57",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 13:06",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 13:22",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 13:03",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:32",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:52",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:31",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:51",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 12:43",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "FM 811",
+        "airline": "CSH"
+      },
+      {
+        "no": "MU 8595",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

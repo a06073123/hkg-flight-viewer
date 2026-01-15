@@ -1,0 +1,1150 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "02:35",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 02:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 02:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 02:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "At gate 02:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 04:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 01:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 02:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 15:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 02:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "02:15",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 02:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "15:10",
+    "flight": [
+      {
+        "no": "3S 590",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "NRT"
+    ],
+    "status": "At gate 14:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

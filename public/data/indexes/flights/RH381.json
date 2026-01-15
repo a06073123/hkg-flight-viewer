@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-01-10",
+    "time": "09:00",
+    "flight": [
+      {
+        "no": "RH 381",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "DEL",
+      "AMM"
+    ],
+    "status": "Dep 09:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

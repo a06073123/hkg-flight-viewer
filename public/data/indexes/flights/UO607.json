@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "19:50",
+    "flight": [
+      {
+        "no": "UO 607",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "FUK"
+    ],
+    "status": "At gate 19:58",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

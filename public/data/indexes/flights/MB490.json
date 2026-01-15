@@ -1,0 +1,271 @@
+[
+  {
+    "date": "2025-11-06",
+    "time": "23:30",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI"
+    ],
+    "status": "At gate 00:41 (07/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "23:30",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "NVI"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI"
+    ],
+    "status": "At gate 09:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "AKX"
+    ],
+    "status": "At gate 01:08 (21/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "AKX"
+    ],
+    "status": "At gate 01:37 (28/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "20:00",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NVI"
+    ],
+    "status": "At gate 21:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "NVI"
+    ],
+    "status": "At gate 21:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "14:30",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 08:00 (21/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "00:20",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "NBO"
+    ],
+    "status": "At gate 04:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "17:20",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "00:30",
+    "flight": [
+      {
+        "no": "MB 490",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "TBS"
+    ],
+    "status": "Est at 06:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-21",
+    "time": "00:50",
+    "flight": [
+      {
+        "no": "CX 3345",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "MIA",
+      "ANC"
+    ],
+    "status": "At gate 00:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 15:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 15:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 05:33 (11/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 15:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 15:39",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "17:35",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 17:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 15:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 16:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "15:40",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 05:55 (23/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "TK 6337",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "HSA",
+      "IST"
+    ],
+    "status": "Dep 18:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "13:30",
+    "flight": [
+      {
+        "no": "CX 3294",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK"
+    ],
+    "status": "Dep 13:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

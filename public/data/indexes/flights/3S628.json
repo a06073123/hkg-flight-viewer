@@ -1,0 +1,300 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA"
+    ],
+    "status": "At gate 22:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 02:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 04:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 03:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 03:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 03:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 03:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 04:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 04:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 04:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 03:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 03:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "04:05",
+    "flight": [
+      {
+        "no": "3S 628",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "FRA",
+      "ALA"
+    ],
+    "status": "At gate 04:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

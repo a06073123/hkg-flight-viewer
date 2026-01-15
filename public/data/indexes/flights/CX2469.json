@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "00:25",
+    "flight": [
+      {
+        "no": "CX 2469",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 00:05",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

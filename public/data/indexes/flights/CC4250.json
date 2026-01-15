@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-11-08",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CC 4250",
+        "airline": "ABD"
+      }
+    ],
+    "origin_dest": [
+      "CMB",
+      "NBO",
+      "BKO"
+    ],
+    "status": "Dep 10:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

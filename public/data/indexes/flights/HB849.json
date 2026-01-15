@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "HB 849",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 14:21",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "HB 849",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 14:05",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "14:05",
+    "flight": [
+      {
+        "no": "HB 849",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "At gate 14:06",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

@@ -1,0 +1,684 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:54",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:33",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:09",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:24",
+    "gate_baggage": "17",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:02",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:01",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:53",
+    "gate_baggage": "36",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "16",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:20",
+    "gate_baggage": "8",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:02",
+    "gate_baggage": "12",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:43",
+    "gate_baggage": "14",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:14",
+    "gate_baggage": "8",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:55",
+    "gate_baggage": "15",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:50",
+    "gate_baggage": "20",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:00",
+    "gate_baggage": "10",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:59",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:15",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:03",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:13",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:54",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 13:20",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:58",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:58",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "18",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "MU 6098",
+        "airline": "CES"
+      }
+    ],
+    "origin_dest": [
+      "LHW"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  }
+]

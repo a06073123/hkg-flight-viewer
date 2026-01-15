@@ -1,0 +1,288 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:49",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:07",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:08",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:33",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:23",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:27",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:08",
+    "gate_baggage": "12",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 00:52",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:17",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:02",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "01:10",
+    "flight": [
+      {
+        "no": "HX 325",
+        "airline": "CRK"
+      },
+      {
+        "no": "HU 8163",
+        "airline": "CHH"
+      }
+    ],
+    "origin_dest": [
+      "PEK"
+    ],
+    "status": "At gate 01:06",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "date": "2025-10-31",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 07:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 07:39",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 08:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 08:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 07:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 06:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 07:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 08:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 07:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 12:08 (04/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "At gate 04:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CX 2038",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CDG",
+      "AMS"
+    ],
+    "status": "Est at 07:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

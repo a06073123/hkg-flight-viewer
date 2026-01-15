@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-11-22",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "CC 4314",
+        "airline": "ABD"
+      }
+    ],
+    "origin_dest": [
+      "CMB",
+      "NBO",
+      "BGF"
+    ],
+    "status": "Dep 19:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

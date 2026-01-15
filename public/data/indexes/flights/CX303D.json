@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-07",
+    "time": "17:15",
+    "flight": [
+      {
+        "no": "CX 303D",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "At gate 17:14",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

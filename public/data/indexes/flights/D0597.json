@@ -1,0 +1,27 @@
+[
+  {
+    "date": "2025-10-21",
+    "time": "00:55",
+    "flight": [
+      {
+        "no": "D0 597",
+        "airline": "DHK"
+      }
+    ],
+    "origin_dest": [
+      "EMA",
+      "LEJ",
+      "BAH",
+      "HAN"
+    ],
+    "status": "At gate 00:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

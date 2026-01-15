@@ -1,0 +1,302 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 22:32",
+    "gate_baggage": "49",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 22:32",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 22:29",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 22:33",
+    "gate_baggage": "63",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 22:31",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 23:11",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 22:33",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 22:35",
+    "gate_baggage": "64",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 22:30",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "22:30",
+    "flight": [
+      {
+        "no": "TK 071",
+        "airline": "THY"
+      },
+      {
+        "no": "NZ 4851",
+        "airline": "ANZ"
+      },
+      {
+        "no": "HX 3671",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 22:31",
+    "gate_baggage": "34",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "F5 5531",
+        "airline": "ATG"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "BUD"
+    ],
+    "status": "Dep 18:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-10-21",
+    "time": "04:50",
+    "flight": [
+      {
+        "no": "K4 259",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "MIA",
+      "LAX",
+      "ICN"
+    ],
+    "status": "At gate 05:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

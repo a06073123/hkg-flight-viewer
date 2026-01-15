@@ -1,0 +1,882 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "18:30",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "16:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GUW"
+    ],
+    "status": "At gate 17:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "01:50",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "TAS"
+    ],
+    "status": "At gate 06:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "BSZ"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 04:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "12:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "BSZ"
+    ],
+    "status": "At gate 15:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "03:30",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "ALA"
+    ],
+    "status": "At gate 08:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "16:45",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "TAS"
+    ],
+    "status": "At gate 23:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "09:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 10:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "BSZ"
+    ],
+    "status": "At gate 19:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 16:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "BSZ"
+    ],
+    "status": "At gate 13:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "17:10",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 21:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 08:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "20:30",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 21:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "14:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "TAS"
+    ],
+    "status": "At gate 17:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "BSZ"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "16:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "01:35",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "BSZ"
+    ],
+    "status": "At gate 01:39",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "11:45",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 19:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "23:25",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "ALA"
+    ],
+    "status": "At gate 14:42 (04/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "11:50",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "ALA"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "03:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 04:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "07:30",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 06:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "03:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 04:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 16:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "07:20",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 09:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 21:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "07:30",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "15:20",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 22:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 20:07 (19/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "22:35",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "06:20",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 12:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "12:30",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "15:55",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 15:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "18:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 01:59 (06/01/2026)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "02:00",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "18:35",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "TAS"
+    ],
+    "status": "At gate 21:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "11:55",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "18:05",
+    "flight": [
+      {
+        "no": "HC 1720",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "At gate 18:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

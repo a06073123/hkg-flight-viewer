@@ -1,0 +1,184 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "17:25",
+    "flight": [
+      {
+        "no": "HX 284",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2896",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 17:22",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "17:25",
+    "flight": [
+      {
+        "no": "HX 284",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2896",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 17:24",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "17:25",
+    "flight": [
+      {
+        "no": "HX 284",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2896",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 17:35",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "17:25",
+    "flight": [
+      {
+        "no": "HX 284",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2896",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 17:34",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "17:25",
+    "flight": [
+      {
+        "no": "HX 284",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2896",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 17:20",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "17:25",
+    "flight": [
+      {
+        "no": "HX 284",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2896",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 17:18",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "17:25",
+    "flight": [
+      {
+        "no": "HX 284",
+        "airline": "CRK"
+      },
+      {
+        "no": "BR 2896",
+        "airline": "EVA"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "Dep 17:30",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

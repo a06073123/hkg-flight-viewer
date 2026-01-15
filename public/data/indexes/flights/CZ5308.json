@@ -1,0 +1,244 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 16:14",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "16:20",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 16:35",
+    "gate_baggage": "521",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 16:13",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "16:30",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 16:22",
+    "gate_baggage": "13",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 17:59",
+    "gate_baggage": "30",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 18:02",
+    "gate_baggage": "63",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 18:06",
+    "gate_baggage": "520",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 18:03",
+    "gate_baggage": "512",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 17:56",
+    "gate_baggage": "29",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 18:07",
+    "gate_baggage": "512",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "18:15",
+    "flight": [
+      {
+        "no": "CZ 5308",
+        "airline": "CSN"
+      }
+    ],
+    "origin_dest": [
+      "WDS"
+    ],
+    "status": "Dep 18:03",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "J",
+      "hall": ""
+    }
+  }
+]

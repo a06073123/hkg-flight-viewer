@@ -1,0 +1,392 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "21:20",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 00:18 (20/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 21:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "23:50",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 02:19 (03/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "13:05",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 14:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "Dep 21:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "22:55",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 00:24 (24/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "01:30",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 19:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "20:50",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 00:11 (10/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 21:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 21:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 21:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 21:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "21:00",
+    "flight": [
+      {
+        "no": "5Y 3589",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "TLV"
+    ],
+    "status": "Dep 21:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

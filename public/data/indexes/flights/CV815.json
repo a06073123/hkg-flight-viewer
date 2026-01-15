@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-28",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "CV 815",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "LUX",
+      "DWC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

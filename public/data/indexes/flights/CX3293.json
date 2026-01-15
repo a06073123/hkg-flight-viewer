@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "CX 3293",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ORD",
+      "ANC"
+    ],
+    "status": "At gate 07:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "07:05",
+    "flight": [
+      {
+        "no": "CX 3293",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "ORD",
+      "ANC"
+    ],
+    "status": "At gate 07:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

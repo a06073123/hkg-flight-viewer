@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-10",
+    "time": "20:25",
+    "flight": [
+      {
+        "no": "5Y 9103",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "MIA",
+      "ANC"
+    ],
+    "status": "At gate 21:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

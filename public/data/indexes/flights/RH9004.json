@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-01",
+    "time": "06:10",
+    "flight": [
+      {
+        "no": "RH 9004",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "HAK"
+    ],
+    "status": "At gate 08:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

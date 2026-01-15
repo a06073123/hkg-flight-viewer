@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2025-12-03",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CC 4322",
+        "airline": "ABD"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CC 4322",
+        "airline": "ABD"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "LGG"
+    ],
+    "status": "Dep 06:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

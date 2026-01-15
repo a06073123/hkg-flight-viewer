@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "CV 5165",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "NLU",
+      "GDL",
+      "LUX"
+    ],
+    "status": "Dep 23:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "CV 5165",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "NLU"
+    ],
+    "status": "Dep 21:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

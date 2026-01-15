@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-19",
+    "time": "07:00",
+    "flight": [
+      {
+        "no": "CC 4320",
+        "airline": "ABD"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "LGG"
+    ],
+    "status": "Dep 12:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

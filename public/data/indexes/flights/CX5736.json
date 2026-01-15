@@ -1,0 +1,262 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 08:12",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 08:25",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 07:51",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 07:50",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 07:54",
+    "gate_baggage": "230",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 08:01",
+    "gate_baggage": "520",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 07:54",
+    "gate_baggage": "228",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 07:56",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 08:01",
+    "gate_baggage": "513",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "UO 736",
+        "airline": "HKE"
+      },
+      {
+        "no": "CX 5736",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "CNX"
+    ],
+    "status": "Dep 08:02",
+    "gate_baggage": "520",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "H",
+      "hall": ""
+    }
+  }
+]

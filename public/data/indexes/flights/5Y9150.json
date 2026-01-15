@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-16",
+    "time": "23:55",
+    "flight": [
+      {
+        "no": "5Y 9150",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "ORD"
+    ],
+    "status": "At gate 15:12 (17/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

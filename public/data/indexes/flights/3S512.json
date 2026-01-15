@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-12-06",
+    "time": "12:45",
+    "flight": [
+      {
+        "no": "3S 512",
+        "airline": "BOX"
+      }
+    ],
+    "origin_dest": [
+      "LEJ",
+      "DXB"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

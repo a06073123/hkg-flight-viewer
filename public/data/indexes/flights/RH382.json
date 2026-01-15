@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-11",
+    "time": "12:05",
+    "flight": [
+      {
+        "no": "RH 382",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "AMM"
+    ],
+    "status": "At gate 10:45",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

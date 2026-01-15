@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-13",
+    "time": "04:30",
+    "flight": [
+      {
+        "no": "NJ 5508",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "MST"
+    ],
+    "status": "At gate 04:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

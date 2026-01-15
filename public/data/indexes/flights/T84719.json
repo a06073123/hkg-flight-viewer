@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-25",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "T8 4719",
+        "airline": "TVR"
+      }
+    ],
+    "origin_dest": [
+      "TLV"
+    ],
+    "status": "At gate 15:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

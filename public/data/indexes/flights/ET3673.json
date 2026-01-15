@@ -1,0 +1,323 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "12:05",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ICN"
+    ],
+    "status": "At gate 14:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "12:05",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 14:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 16:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 14:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 19:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 20:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 15:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 19:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 14:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 17:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 20:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 16:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "At gate 17:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "13:45",
+    "flight": [
+      {
+        "no": "ET 3673",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD",
+      "ICN"
+    ],
+    "status": "Est at 18:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

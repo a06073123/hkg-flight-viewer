@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-28",
+    "time": "21:45",
+    "flight": [
+      {
+        "no": "PR 310D",
+        "airline": "PAL"
+      }
+    ],
+    "origin_dest": [
+      "MNL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

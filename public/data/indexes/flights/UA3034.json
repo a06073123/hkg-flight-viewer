@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-12",
+    "time": "06:45",
+    "flight": [
+      {
+        "no": "UA 3034",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 05:57",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

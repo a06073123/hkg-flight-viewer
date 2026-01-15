@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-12-29",
+    "time": "17:25",
+    "flight": [
+      {
+        "no": "TK 6448",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "MAA"
+    ],
+    "status": "At gate 18:00",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

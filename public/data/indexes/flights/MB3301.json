@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-01-12",
+    "time": "01:40",
+    "flight": [
+      {
+        "no": "MB 3301",
+        "airline": "MNB"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 01:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

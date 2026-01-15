@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-21",
+    "time": "02:55",
+    "flight": [
+      {
+        "no": "2C 840",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "CDG"
+    ],
+    "status": "At gate 02:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

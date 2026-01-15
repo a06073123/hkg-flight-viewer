@@ -1,0 +1,1102 @@
+[
+  {
+    "date": "2025-12-23",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:31",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:51",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:32",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:45",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:50",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:40",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:52",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:45",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:46",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:37",
+    "gate_baggage": "61",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:59",
+    "gate_baggage": "16",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:45",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:13",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:45",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:47",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:42",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:37",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:56",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:32",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:37",
+    "gate_baggage": "34",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:28",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:43",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:28",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:37",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:20",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 23:08",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:59",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:55",
+    "gate_baggage": "24",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:42",
+    "gate_baggage": "8",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:51",
+    "gate_baggage": "27",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:25",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:52",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:38",
+    "gate_baggage": "5",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:44",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:40",
+    "gate_baggage": "3",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:39",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:19",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:58",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:22",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:46",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:25",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:53",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:34",
+    "gate_baggage": "9",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 22:45",
+    "gate_baggage": "65",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 20:23",
+    "gate_baggage": "10",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Dep 23:03",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "",
+    "gate_baggage": "17",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "20:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "22:45",
+    "flight": [
+      {
+        "no": "UA 821",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  }
+]

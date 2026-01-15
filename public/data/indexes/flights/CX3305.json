@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-21",
+    "time": "11:30",
+    "flight": [
+      {
+        "no": "CX 3305",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "LHR"
+    ],
+    "status": "Dep 12:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

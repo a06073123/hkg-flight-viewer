@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-25",
+    "time": "09:35",
+    "flight": [
+      {
+        "no": "EK 9224",
+        "airline": "UAE"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 08:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

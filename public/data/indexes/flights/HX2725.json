@@ -1,0 +1,398 @@
+[
+  {
+    "date": "2025-10-28",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:47",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:54",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:35",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:49",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:42",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:39",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 15:09",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:59",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:34",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:43",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:50",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:51",
+    "gate_baggage": "208",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:52",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 16:57",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 16:10",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:50",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:51",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "14:45",
+    "flight": [
+      {
+        "no": "HX 2725",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "ROR"
+    ],
+    "status": "Dep 14:53",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]

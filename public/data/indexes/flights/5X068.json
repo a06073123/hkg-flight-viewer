@@ -1,0 +1,369 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "12:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "HNL"
+    ],
+    "status": "At gate 11:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "12:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "HNL"
+    ],
+    "status": "At gate 12:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "At gate 06:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "07:45",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "ONT",
+      "HNL"
+    ],
+    "status": "At gate 07:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "07:40",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "At gate 07:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "07:40",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "At gate 08:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "11:55",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "11:10",
+    "flight": [
+      {
+        "no": "5X 068",
+        "airline": "UPS"
+      }
+    ],
+    "origin_dest": [
+      "SDF",
+      "ANC"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "14:55",
+    "flight": [
+      {
+        "no": "UA 3912",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 16:36",
+    "gate_baggage": "2",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

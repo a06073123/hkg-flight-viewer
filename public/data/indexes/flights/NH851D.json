@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-25",
+    "time": "02:40",
+    "flight": [
+      {
+        "no": "NH 851D",
+        "airline": "ANA"
+      }
+    ],
+    "origin_dest": [
+      "NRT"
+    ],
+    "status": "Dep 15:40 (27/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

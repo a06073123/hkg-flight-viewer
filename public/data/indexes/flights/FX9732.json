@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-23",
+    "time": "04:00",
+    "flight": [
+      {
+        "no": "FX 9732",
+        "airline": "FDX"
+      }
+    ],
+    "origin_dest": [
+      "ANC"
+    ],
+    "status": "Dep 03:40",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

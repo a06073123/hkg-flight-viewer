@@ -1,0 +1,215 @@
+[
+  {
+    "date": "2025-10-29",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CV 968",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD",
+      "LUX"
+    ],
+    "status": "Dep 10:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CV 968",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ASB",
+      "LUX"
+    ],
+    "status": "Dep 12:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CV 968",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ASB",
+      "LUX"
+    ],
+    "status": "Dep 15:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CV 968",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD",
+      "LUX"
+    ],
+    "status": "Dep 14:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CV 968",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD",
+      "LUX"
+    ],
+    "status": "Dep 12:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CV 968",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD",
+      "LUX"
+    ],
+    "status": "Dep 17:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CV 968",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD",
+      "LUX"
+    ],
+    "status": "Dep 14:20",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CV 968",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "BUD",
+      "LUX"
+    ],
+    "status": "Dep 17:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "10:40",
+    "flight": [
+      {
+        "no": "CV 968",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "ASB",
+      "LUX"
+    ],
+    "status": "Dep 10:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

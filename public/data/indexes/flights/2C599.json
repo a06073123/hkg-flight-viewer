@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-29",
+    "time": "00:50",
+    "flight": [
+      {
+        "no": "2C 599",
+        "airline": "CMA"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "CDG"
+    ],
+    "status": "Dep 00:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

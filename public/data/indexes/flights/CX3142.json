@@ -1,0 +1,508 @@
+[
+  {
+    "date": "2025-10-30",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 04:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "23:35",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 23:39",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 08:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "23:35",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 23:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 05:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "23:35",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 23:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 06:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "23:35",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 23:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 04:46",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "23:35",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 01:06 (30/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 05:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "23:35",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 23:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 04:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "23:35",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 03:24 (14/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 05:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "23:35",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 23:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 04:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "23:35",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 23:32",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 04:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "23:25",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 23:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "At gate 05:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "23:25",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "04:40",
+    "flight": [
+      {
+        "no": "CX 3142",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "DEL"
+    ],
+    "status": "Est at 21:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

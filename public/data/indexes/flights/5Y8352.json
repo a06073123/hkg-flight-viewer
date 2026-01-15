@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-25",
+    "time": "14:40",
+    "flight": [
+      {
+        "no": "5Y 8352",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "KKJ"
+    ],
+    "status": "At gate 19:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "21:55",
+    "flight": [
+      {
+        "no": "HB 297",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 21:58",
+    "gate_baggage": "522",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "21:55",
+    "flight": [
+      {
+        "no": "HB 297",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "Dep 22:10",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

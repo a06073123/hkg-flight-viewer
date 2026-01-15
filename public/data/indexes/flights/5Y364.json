@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-08",
+    "time": "00:40",
+    "flight": [
+      {
+        "no": "5Y 364",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "LAX"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

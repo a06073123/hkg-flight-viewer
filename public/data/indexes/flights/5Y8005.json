@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-02",
+    "time": "21:05",
+    "flight": [
+      {
+        "no": "5Y 8005",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "MEL"
+    ],
+    "status": "Dep 06:09 (03/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "date": "2025-12-20",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 03:32",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:52",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 03:09",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 02:58",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:38",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 03:07",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:51",
+    "gate_baggage": "15",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 03:07",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 22:30",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 02:59",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 02:59",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:46",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 02:55",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 23:00",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 03:27",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "21:35",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 21:51",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "HX 772",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "BKK"
+    ],
+    "status": "At gate 03:36",
+    "gate_baggage": "14",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

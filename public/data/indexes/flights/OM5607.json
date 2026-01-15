@@ -1,0 +1,1302 @@
+[
+  {
+    "date": "2025-11-28",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:51",
+    "gate_baggage": "5",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:02",
+    "gate_baggage": "49",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:50",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:03",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:01",
+    "gate_baggage": "32",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "64",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:53",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:43",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:05",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:51",
+    "gate_baggage": "1",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:02",
+    "gate_baggage": "5",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "47",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:57",
+    "gate_baggage": "6",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:01",
+    "gate_baggage": "31",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:56",
+    "gate_baggage": "44",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:01",
+    "gate_baggage": "2",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:05",
+    "gate_baggage": "66",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "71",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "34",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:55",
+    "gate_baggage": "49",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:14",
+    "gate_baggage": "64",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:13",
+    "gate_baggage": "65",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:59",
+    "gate_baggage": "4",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:05",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:59",
+    "gate_baggage": "62",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:53",
+    "gate_baggage": "65",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:04",
+    "gate_baggage": "1",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:49",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:11",
+    "gate_baggage": "23",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:30",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:03",
+    "gate_baggage": "33",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "29",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:55",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:01",
+    "gate_baggage": "43",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:14",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 14:29",
+    "gate_baggage": "45",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:59",
+    "gate_baggage": "63",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "28",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:53",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:59",
+    "gate_baggage": "67",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "4",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:53",
+    "gate_baggage": "9",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 13:02",
+    "gate_baggage": "1",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "48",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:51",
+    "gate_baggage": "29",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:52",
+    "gate_baggage": "63",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "Dep 12:47",
+    "gate_baggage": "41",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "12:50",
+    "flight": [
+      {
+        "no": "CX 791",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5607",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "SIN"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "A",
+      "hall": ""
+    }
+  }
+]

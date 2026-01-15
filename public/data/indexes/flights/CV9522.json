@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-21",
+    "time": "10:15",
+    "flight": [
+      {
+        "no": "CV 9522",
+        "airline": "CLX"
+      }
+    ],
+    "origin_dest": [
+      "GYD",
+      "LUX"
+    ],
+    "status": "Dep 11:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-02",
+    "time": "12:40",
+    "flight": [
+      {
+        "no": "5Y 9377",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "HAN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

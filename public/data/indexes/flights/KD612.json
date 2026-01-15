@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2025-10-22",
+    "time": "07:50",
+    "flight": [
+      {
+        "no": "KD 612",
+        "airline": "WGN"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 12:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "08:10",
+    "flight": [
+      {
+        "no": "KD 612",
+        "airline": "WGN"
+      }
+    ],
+    "origin_dest": [
+      "ICN",
+      "ANC",
+      "MIA"
+    ],
+    "status": "Dep 08:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

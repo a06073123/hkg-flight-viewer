@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-16",
+    "time": "22:50",
+    "flight": [
+      {
+        "no": "HE 1721",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "GYD"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

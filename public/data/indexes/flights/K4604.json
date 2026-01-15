@@ -1,0 +1,117 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "K4 604",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "NRT"
+    ],
+    "status": "At gate 01:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "03:05",
+    "flight": [
+      {
+        "no": "K4 604",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "NRT"
+    ],
+    "status": "At gate 15:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "01:40",
+    "flight": [
+      {
+        "no": "K4 604",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "NRT"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-07",
+    "time": "02:35",
+    "flight": [
+      {
+        "no": "K4 604",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ANC"
+    ],
+    "status": "At gate 05:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "01:40",
+    "flight": [
+      {
+        "no": "K4 604",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "LAX",
+      "NRT"
+    ],
+    "status": "At gate 02:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

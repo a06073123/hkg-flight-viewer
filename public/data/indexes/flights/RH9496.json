@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2025-10-27",
+    "time": "22:05",
+    "flight": [
+      {
+        "no": "RH 9496",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 05:06 (28/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-31",
+    "time": "22:10",
+    "flight": [
+      {
+        "no": "RH 9496",
+        "airline": "HKC"
+      }
+    ],
+    "origin_dest": [
+      "IST",
+      "ALA"
+    ],
+    "status": "At gate 20:39 (01/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

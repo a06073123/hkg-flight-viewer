@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "07:10",
+    "flight": [
+      {
+        "no": "CK 264",
+        "airline": "CKK"
+      }
+    ],
+    "origin_dest": [
+      "PVG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

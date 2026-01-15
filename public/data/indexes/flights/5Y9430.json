@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-10-30",
+    "time": "12:35",
+    "flight": [
+      {
+        "no": "5Y 9430",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "SFO"
+    ],
+    "status": "At gate 13:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

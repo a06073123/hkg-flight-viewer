@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-01-07",
+    "time": "10:55",
+    "flight": [
+      {
+        "no": "TK 6265",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 11:26",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "10:55",
+    "flight": [
+      {
+        "no": "TK 6265",
+        "airline": "THY"
+      }
+    ],
+    "origin_dest": [
+      "IST"
+    ],
+    "status": "Dep 11:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

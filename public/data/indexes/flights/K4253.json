@@ -1,0 +1,496 @@
+[
+  {
+    "date": "2025-10-29",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 07:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 17:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 07:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 06:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 07:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 07:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 07:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 06:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 07:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 08:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 09:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 14:30",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 08:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 07:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 07:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 09:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 07:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 07:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 253",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "JFK",
+      "CVG"
+    ],
+    "status": "Dep 07:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

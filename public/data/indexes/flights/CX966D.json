@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2025-11-25",
+    "time": "13:25",
+    "flight": [
+      {
+        "no": "CX 966D",
+        "airline": "CPA"
+      },
+      {
+        "no": "CA 6566",
+        "airline": "CCA"
+      }
+    ],
+    "origin_dest": [
+      "CKG"
+    ],
+    "status": "Dep 09:10 (26/11/2025)",
+    "gate_baggage": "25",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

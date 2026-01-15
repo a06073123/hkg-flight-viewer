@@ -1,0 +1,93 @@
+[
+  {
+    "date": "2025-10-29",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "HC 773",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "EMA"
+    ],
+    "status": "Dep 07:13 (31/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "HC 773",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "EMA"
+    ],
+    "status": "Dep 07:28 (24/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "HC 773",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "DWC",
+      "EMA"
+    ],
+    "status": "Dep 20:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "19:00",
+    "flight": [
+      {
+        "no": "HC 773",
+        "airline": "HGO"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 19:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

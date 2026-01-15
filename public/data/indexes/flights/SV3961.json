@@ -1,0 +1,376 @@
+[
+  {
+    "date": "2025-10-20",
+    "time": "18:05",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 22:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 22:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 23:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-10",
+    "time": "19:30",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 08:27 (11/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 22:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "06:00",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "06:35",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 10:14 (25/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "04:45",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "17:35",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 18:34",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "00:05",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 00:33",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "13:00",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 10:12 (07/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "16:05",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 21:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "18:05",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 21:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 02:04 (16/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 22:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "22:00",
+    "flight": [
+      {
+        "no": "SV 3961",
+        "airline": "SVA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Dep 22:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "date": "2025-10-30",
+    "time": "01:00",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 01:43",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "00:35",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 00:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "00:35",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 00:51",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "00:35",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 01:36",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "00:35",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 01:42",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "00:35",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 01:27",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "00:35",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 02:18",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "00:35",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 01:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "00:50",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "At gate 04:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "00:50",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH"
+    ],
+    "status": "At gate 06:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "00:50",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 00:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "00:50",
+    "flight": [
+      {
+        "no": "QR 8468",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "DOH",
+      "SYD"
+    ],
+    "status": "At gate 01:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

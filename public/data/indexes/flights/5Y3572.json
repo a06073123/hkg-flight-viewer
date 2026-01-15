@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-16",
+    "time": "05:10",
+    "flight": [
+      {
+        "no": "5Y 3572",
+        "airline": "GTI"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "At gate 05:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

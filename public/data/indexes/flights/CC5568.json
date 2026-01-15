@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-11-07",
+    "time": "10:10",
+    "flight": [
+      {
+        "no": "CC 5568",
+        "airline": "ABD"
+      }
+    ],
+    "origin_dest": [
+      "DWC"
+    ],
+    "status": "Dep 10:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "CC 5568",
+        "airline": "ABD"
+      }
+    ],
+    "origin_dest": [
+      "SHJ"
+    ],
+    "status": "Dep 17:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

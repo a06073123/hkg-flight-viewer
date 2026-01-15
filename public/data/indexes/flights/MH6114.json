@@ -1,0 +1,269 @@
+[
+  {
+    "date": "2025-10-28",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "At gate 00:21 (29/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "At gate 19:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "At gate 19:19",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "18:50",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "At gate 22:52",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "At gate 04:52 (26/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "13:55",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "At gate 01:34 (03/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "13:55",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL",
+      "LBU"
+    ],
+    "status": "At gate 13:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "At gate 21:05 (17/12/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "13:55",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL",
+      "LBU"
+    ],
+    "status": "At gate 13:44",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "13:55",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL",
+      "LBU"
+    ],
+    "status": "At gate 13:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "MH 6114",
+        "airline": "MAS"
+      }
+    ],
+    "origin_dest": [
+      "KUL"
+    ],
+    "status": "At gate 19:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

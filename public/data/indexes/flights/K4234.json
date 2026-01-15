@@ -1,0 +1,301 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "20:50",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "NGO"
+    ],
+    "status": "At gate 23:31",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "20:50",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "NGO"
+    ],
+    "status": "At gate 04:29 (24/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "04:50",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "At gate 04:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "04:50",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "At gate 04:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "04:50",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "At gate 04:29",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "04:50",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "At gate 20:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "04:50",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "At gate 04:47",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "04:45",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "At gate 04:41",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "04:45",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "At gate 05:09",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "04:45",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "At gate 05:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "04:45",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "04:50",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "At gate 04:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "04:50",
+    "flight": [
+      {
+        "no": "K4 234",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "CVG",
+      "ICN"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

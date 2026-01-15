@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2025-12-20",
+    "time": "20:30",
+    "flight": [
+      {
+        "no": "CX 807D",
+        "airline": "CPA"
+      },
+      {
+        "no": "OM 5807",
+        "airline": "MGL"
+      }
+    ],
+    "origin_dest": [
+      "ORD"
+    ],
+    "status": "At gate 00:36 (22/12/2025)",
+    "gate_baggage": "13",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "B"
+    }
+  }
+]

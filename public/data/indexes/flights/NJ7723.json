@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-11-18",
+    "time": "12:15",
+    "flight": [
+      {
+        "no": "NJ 7723",
+        "airline": "RCR"
+      }
+    ],
+    "origin_dest": [
+      "SHJ",
+      "BUD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

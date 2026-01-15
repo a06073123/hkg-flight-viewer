@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-03",
+    "time": "12:30",
+    "flight": [
+      {
+        "no": "UA 3904",
+        "airline": "UAL"
+      }
+    ],
+    "origin_dest": [
+      "HNL"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "G",
+      "hall": ""
+    }
+  }
+]

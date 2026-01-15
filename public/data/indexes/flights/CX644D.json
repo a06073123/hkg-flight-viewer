@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-08",
+    "time": "12:55",
+    "flight": [
+      {
+        "no": "CX 644D",
+        "airline": "CPA"
+      }
+    ],
+    "origin_dest": [
+      "RUH"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

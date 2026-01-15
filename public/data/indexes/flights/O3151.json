@@ -1,0 +1,1102 @@
+[
+  {
+    "date": "2025-11-11",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-12",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:37",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:38",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-14",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-16",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-17",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-19",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-21",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-23",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:08",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-24",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:23",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:01",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-26",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:24",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-28",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:53",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:58",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:15",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:16",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:59",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:04",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:10",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:21",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:28",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:05",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:49",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:03",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:02",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:50",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:14",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:57",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:56",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:17",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 06:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:06",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "06:40",
+    "flight": [
+      {
+        "no": "O3 151",
+        "airline": "CSS"
+      }
+    ],
+    "origin_dest": [
+      "EHU"
+    ],
+    "status": "At gate 07:11",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

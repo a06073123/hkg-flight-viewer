@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-10-20",
+    "time": "06:55",
+    "flight": [
+      {
+        "no": "K4 225",
+        "airline": "CKS"
+      }
+    ],
+    "origin_dest": [
+      "ANC",
+      "CVG"
+    ],
+    "status": "Dep 06:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

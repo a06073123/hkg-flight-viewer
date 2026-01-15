@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-10-17",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "UO 103",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 17:21",
+    "gate_baggage": "7",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "17:00",
+    "flight": [
+      {
+        "no": "UO 103",
+        "airline": "HKE"
+      }
+    ],
+    "origin_dest": [
+      "TPE"
+    ],
+    "status": "At gate 18:50",
+    "gate_baggage": "6",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "",
+      "hall": "A"
+    }
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "date": "2025-10-16",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:43",
+    "gate_baggage": "7",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-17",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:23",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-18",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:24",
+    "gate_baggage": "42",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-19",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:33",
+    "gate_baggage": "23",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:32",
+    "gate_baggage": "68",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:32",
+    "gate_baggage": "26",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-22",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:32",
+    "gate_baggage": "11",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "B",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-23",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:25",
+    "gate_baggage": "65",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:30",
+    "gate_baggage": "4",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "09:10",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:29",
+    "gate_baggage": "36",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 6550",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 10:00",
+    "gate_baggage": "61",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-27",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 6550",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:40",
+    "gate_baggage": "25",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 6550",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:33",
+    "gate_baggage": "70",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-29",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 6550",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:53",
+    "gate_baggage": "2",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 6550",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:25",
+    "gate_baggage": "40",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 6550",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:22",
+    "gate_baggage": "1",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 6550",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:27",
+    "gate_baggage": "69",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "09:20",
+    "flight": [
+      {
+        "no": "CX 777",
+        "airline": "CPA"
+      },
+      {
+        "no": "AY 6550",
+        "airline": "FIN"
+      },
+      {
+        "no": "QR 3483",
+        "airline": "QTR"
+      },
+      {
+        "no": "BA 4141",
+        "airline": "BAW"
+      },
+      {
+        "no": "AA 8913",
+        "airline": "AAL"
+      }
+    ],
+    "origin_dest": [
+      "CGK"
+    ],
+    "status": "Dep 09:27",
+    "gate_baggage": "2",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "BC",
+      "hall": ""
+    }
+  }
+]

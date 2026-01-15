@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-27",
+    "time": "15:05",
+    "flight": [
+      {
+        "no": "2U 8601",
+        "airline": "FKH"
+      }
+    ],
+    "origin_dest": [
+      "TAS"
+    ],
+    "status": "At gate 14:13",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-12-23",
+    "time": "02:20",
+    "flight": [
+      {
+        "no": "EY 938D",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "AUH"
+    ],
+    "status": "Dep 02:07",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

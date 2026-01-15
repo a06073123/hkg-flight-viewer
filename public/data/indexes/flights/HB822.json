@@ -1,0 +1,244 @@
+[
+  {
+    "date": "2025-10-26",
+    "time": "08:55",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Dep 09:07",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-30",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Dep 08:07",
+    "gate_baggage": "230",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "08:55",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Dep 09:21",
+    "gate_baggage": "230",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Dep 08:01",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-09",
+    "time": "08:55",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-13",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Dep 08:12",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Dep 08:00",
+    "gate_baggage": "229",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-27",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Dep 08:01",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "13:50",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Dep 13:55",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "08:00",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Dep 08:04",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "08:55",
+    "flight": [
+      {
+        "no": "HB 822",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "XUZ"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2025-11-25",
+    "time": "16:00",
+    "flight": [
+      {
+        "no": "HB 538D",
+        "airline": "HGB"
+      }
+    ],
+    "origin_dest": [
+      "ENH"
+    ],
+    "status": "Dep 13:04 (26/11/2025)",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "D",
+      "hall": ""
+    }
+  }
+]

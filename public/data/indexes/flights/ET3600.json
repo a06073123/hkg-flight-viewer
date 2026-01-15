@@ -1,0 +1,706 @@
+[
+  {
+    "date": "2025-10-19",
+    "time": "08:40",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 14:55",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-20",
+    "time": "18:40",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-21",
+    "time": "23:45",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 04:14 (22/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-24",
+    "time": "09:00",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 08:12",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-25",
+    "time": "20:30",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 15:40 (26/10/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-26",
+    "time": "12:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-10-28",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-02",
+    "time": "05:30",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 06:22",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-04",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-08",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 09:10 (09/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-11",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-15",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-18",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-20",
+    "time": "05:35",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 06:43 (21/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-22",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-25",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 12:46 (30/11/2025)",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "04:45",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 11:54",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 18:25",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "At gate 07:35",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "16:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "20:20",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "03:55",
+    "flight": [
+      {
+        "no": "ET 3600",
+        "airline": "ETH"
+      }
+    ],
+    "origin_dest": [
+      "ADD"
+    ],
+    "status": "Cancelled",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": true,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

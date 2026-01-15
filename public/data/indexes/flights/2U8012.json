@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-01-13",
+    "time": "08:45",
+    "flight": [
+      {
+        "no": "2U 8012",
+        "airline": "FKH"
+      }
+    ],
+    "origin_dest": [
+      "TAS"
+    ],
+    "status": "Dep 08:48",
+    "gate_baggage": "",
+    "terminal": "",
+    "isArrival": false,
+    "isCargo": true,
+    "_raw": {
+      "aisle": "",
+      "hall": ""
+    }
+  }
+]

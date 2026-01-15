@@ -1,0 +1,1218 @@
+[
+  {
+    "date": "2025-11-28",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 16:29",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-29",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:04",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-11-30",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:35",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:10",
+    "gate_baggage": "213",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 14:56",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:02",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "206",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:03",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:04",
+    "gate_baggage": "204",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:04",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 14:58",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:02",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:00",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:13",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:02",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 17:13",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:05",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:10",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:03",
+    "gate_baggage": "202",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "205",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:05",
+    "gate_baggage": "215",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 14:59",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:09",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:07",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:00",
+    "gate_baggage": "218",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:21",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:02",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "209",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "201",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 14:59",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:00",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:02",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:11",
+    "gate_baggage": "210",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:04",
+    "gate_baggage": "217",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:12",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:04",
+    "gate_baggage": "211",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:04",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:02",
+    "gate_baggage": "214",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:00",
+    "gate_baggage": "219",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 15:01",
+    "gate_baggage": "203",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "Dep 14:58",
+    "gate_baggage": "207",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "time": "15:00",
+    "flight": [
+      {
+        "no": "HX 548",
+        "airline": "CRK"
+      },
+      {
+        "no": "EY 6805",
+        "airline": "ETD"
+      }
+    ],
+    "origin_dest": [
+      "DAD"
+    ],
+    "status": "",
+    "gate_baggage": "",
+    "terminal": "T1",
+    "isArrival": false,
+    "isCargo": false,
+    "_raw": {
+      "aisle": "K",
+      "hall": ""
+    }
+  }
+]
