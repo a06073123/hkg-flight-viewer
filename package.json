@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@ark-ui/solid": "^5.30.0",
-    "@tanstack/solid-query": "^5.90.20",
+    "@solidjs/router": "^0.15.4",
     "lucide-solid": "^0.562.0",
     "solid-js": "^1.9.10"
   },

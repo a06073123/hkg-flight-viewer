@@ -393,15 +393,15 @@ describe("detectFlightChanges", () => {
 		viaStopCount: 0,
 		status: {
 			raw: "Landed 14:25",
-			type: StatusType.Landed as const,
+			type: StatusType.Landed,
 			time: "14:25",
 			isDifferentDate: false,
 		},
 		terminal: "1",
-		direction: FlightDirection.Arrival as const,
-		category: FlightCategory.Passenger as const,
-		isArrival: true as const,
-		isCargo: false as const,
+		direction: FlightDirection.Arrival,
+		category: FlightCategory.Passenger,
+		isArrival: true,
+		isCargo: false,
 	};
 
 	it("detects status change", () => {
@@ -409,7 +409,7 @@ describe("detectFlightChanges", () => {
 			...baseFlight,
 			status: {
 				raw: "At gate 14:45",
-				type: StatusType.AtGate as const,
+				type: StatusType.AtGate,
 				time: "14:45",
 				isDifferentDate: false,
 			},
@@ -464,15 +464,15 @@ describe("compareFlightLists", () => {
 		viaStopCount: 0,
 		status: {
 			raw: status,
-			type: StatusType.Unknown as const,
+			type: StatusType.Unknown,
 			isDifferentDate: false,
 		},
 		gate,
 		terminal: "1",
-		direction: FlightDirection.Arrival as const,
-		category: FlightCategory.Passenger as const,
-		isArrival: true as const,
-		isCargo: false as const,
+		direction: FlightDirection.Arrival,
+		category: FlightCategory.Passenger,
+		isArrival: true,
+		isCargo: false,
 	});
 
 	it("finds changed flights between lists", () => {

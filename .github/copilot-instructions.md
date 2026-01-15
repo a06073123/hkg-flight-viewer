@@ -11,7 +11,7 @@ A serverless flight information viewer for Hong Kong International Airport (HKIA
 | Frontend      | **SolidJS** (not React!) with fine-grained reactivity |
 | UI Components | **Ark UI** (headless, accessible)                     |
 | Styling       | **Tailwind CSS v4**                                   |
-| Data Fetching | **TanStack Solid Query**                              |
+| Data Fetching | **SolidJS `createResource`** (native async handling)  |
 | Build         | **Vite** with TypeScript                              |
 | Scripts       | Node.js ES Modules (not CommonJS)                     |
 
@@ -37,9 +37,34 @@ export enum StatusType {
 
 ### SolidJS Patterns
 
-- Use `createSignal`, `createResource`, not React hooks
+- Use `createSignal`, `createResource`, `createMemo` - NOT React hooks
 - JSX requires `jsxImportSource: "solid-js"` (already configured)
-- Prefer `@tanstack/solid-query` for data fetching
+- Use `createResource` for data fetching (see https://docs.solidjs.com/guides/fetching-data)
+- Use `Suspense` for loading states with async data
+
+```typescript
+// ✅ Correct - SolidJS createResource pattern
+import { createResource, Suspense, Show } from "solid-js";
+
+const [data] = createResource(source, fetcher);
+// data() - accessor to get value
+// data.loading - boolean for loading state
+// data.error - error if any
+
+<Suspense fallback={<Loading />}>
+  <Show when={data()}>{(d) => <Display data={d()} />}</Show>
+</Suspense>
+```
+
+## Page Structure
+
+| Route         | Page          | Description                        |
+| ------------- | ------------- | ---------------------------------- |
+| `/`           | LandingPage   | Site introduction, no data loading |
+| `/live`       | LivePage      | Real-time flights (API)            |
+| `/past`       | PastPage      | Historical data browser (static)   |
+| `/flight/:no` | FlightHistory | Per-flight history from index      |
+| `/gate/:id`   | GateAnalytics | Per-gate usage from index          |
 
 ## Data Architecture
 
@@ -65,6 +90,8 @@ public/data/
 | ---------------------------- | -------------------------------------------------- |
 | `src/types/flight.ts`        | All TypeScript interfaces and const enums          |
 | `src/lib/parser.ts`          | Raw API → normalized `FlightRecord` transformation |
+| `src/lib/resources.ts`       | SolidJS createResource hooks                       |
+| `src/lib/api.ts`             | API service layer (fetch functions)                |
 | `scripts/archive-flights.js` | Daily archiver (GitHub Actions)                    |
 | `scripts/reindex-flights.js` | Rebuild indexes from daily snapshots               |
 | `docs/API.md`                | Complete HKIA API documentation                    |
@@ -151,7 +178,7 @@ src/components/
 
 | Workflow                        | Trigger         | Purpose                 |
 | ------------------------------- | --------------- | ----------------------- |
-| `.github/workflows/ci.yml`      | Push/PR to main | Type check, test, build |
+| `.github/workflows/ci.yml`      | PR to main      | Type check, test, build |
 | `.github/workflows/deploy.yml`  | Push to main    | Deploy to GitHub Pages  |
 | `.github/workflows/archive.yml` | Daily 00:00 HKT | Archive flight data     |
 

@@ -1,4 +1,5 @@
 # Daily Flight Data Archive
+# Runs daily to keep historical data up to date
 name: Archive Flights
 
 on:

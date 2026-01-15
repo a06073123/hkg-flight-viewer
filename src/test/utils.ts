@@ -4,16 +4,14 @@
  * Re-exports testing library utilities with custom configuration
  */
 
-import { render, type RenderResult } from "@solidjs/testing-library";
+import { render } from "@solidjs/testing-library";
 import userEvent from "@testing-library/user-event";
 import type { JSX } from "solid-js";
 
 /**
  * Custom render function with user event setup
  */
-export function renderWithUser(
-	ui: () => JSX.Element,
-): RenderResult & { user: ReturnType<typeof userEvent.setup> } {
+export function renderWithUser(ui: () => JSX.Element) {
 	const user = userEvent.setup();
 	const result = render(ui);
 	return { ...result, user };

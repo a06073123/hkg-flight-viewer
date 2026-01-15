@@ -39,42 +39,85 @@
 
 ---
 
-## Milestone 2: Domain Logic & Data Parsing 🚧 IN PROGRESS
+## Milestone 2: Domain Logic & Data Parsing ✅ COMPLETED
 
 **Objective:** Define strictly typed interfaces and parsers to handle the Airport's JSON structure.
 
-- **TypeScript Definitions:** Define `FlightRecord` interfaces in `src/types/` based on official item descriptions (Origin, Baggage, Hall, Terminal, Stand, Time, Status).
-- **Data Normalizer:** Create a utility to unify different flight types (Passenger/Cargo) into a consistent UI-friendly object.
-- **Diffing Engine:** Build a comparison utility that identifies changes in `Status`, `Gate`, or `Time` between two data snapshots.
-- **DoD:** A suite of unit tests verifying that raw JSON strings are correctly transformed into valid JS/TS objects.
+**Status:** ✅ Complete (2026-01-16)
+
+### Completed Tasks
+
+- [x] **TypeScript Definitions:** `src/types/flight.ts` with `FlightRecord`, `FlightStatus`, carrier types
+- [x] **Const Object Pattern:** No enums (due to `erasableSyntaxOnly`), using const objects with type inference
+- [x] **Data Normalizer:** `src/lib/parser.ts` - transforms raw API JSON to normalized `FlightRecord`
+- [x] **API Service Layer:** `src/lib/api.ts` - unified interface for static and live data
+- [x] **Resource Hooks:** `src/lib/resources.ts` - SolidJS `createResource` hooks for data fetching
+- [x] **Unit Tests:** 46 tests passing for parser and component logic
+- [x] **Testing Infrastructure:** Vitest + @solidjs/testing-library configured
+
+### Test Coverage
+
+| File                | Tests | Status |
+| ------------------- | ----- | ------ |
+| `src/lib/parser.ts` | 37    | ✅     |
+| `FlightCard.tsx`    | 9     | ✅     |
+| **Total**           | 46    | ✅     |
 
 ---
 
-## Milestone 3: Real-time Dashboard (Core Frontend)
+## Milestone 3: Page Structure & Data Fetching ✅ COMPLETED
 
-**Objective:** Develop the main flight board with live updates and Ark UI components.
+**Objective:** Build complete page structure with both live and historical data access.
 
-- **Ark UI Implementation:** Build the "Arrivals/Departures" switch using the **Ark UI Tabs** component for accessible, unstyled interaction.
-- **Real-time Fetching:** Integrate **TanStack Solid Query** to query the live API every 5 minutes using `refetchInterval`.
-- **Visual Highlights:** Use SolidJS's fine-grained reactivity to trigger Tailwind animations (e.g., `animate-pulse`) only on specific cells when the Diffing Engine detects a change (e.g., a status change from "Scheduled" to "Delayed").
-- **DoD:** A functional dashboard showing today's flights with automatic background refreshing.
+**Status:** ✅ Complete (2026-01-16)
+
+### Completed Tasks
+
+- [x] **Page Structure:** 5 pages with routing
+    - `/` - Landing page (site introduction, no data fetching)
+    - `/live` - Live flights (Departures/Arrivals/Cargo tabs)
+    - `/past` - Historical data browser (Date picker + tabs)
+    - `/flight/:no` - Flight history & on-time stats
+    - `/gate/:id` - Gate usage analytics
+- [x] **Data Fetching Migration:** Replaced TanStack Query with SolidJS native `createResource`
+- [x] **Component Structure:**
+    - `FlightTable` - Sortable flight list
+    - `FlightCard` - Individual flight display
+    - `SearchBar` - Filter flights by text
+    - `Layout` - Navigation with Home/Live/History links
+- [x] **Live Data:** Using HKIA API with 5-minute auto-refresh
+- [x] **Static Data:** Using `loadDailySnapshot()` for archived data
+- [x] **Cargo Integration:** Merged into Live and Past pages as a tab (not separate page)
+
+### Pages Status
+
+| Page           | Data Source  | Tabs                      | Status      |
+| -------------- | ------------ | ------------------------- | ----------- |
+| Landing        | None         | -                         | ✅ Complete |
+| Live           | HKIA API     | Departures/Arrivals/Cargo | ✅ Complete |
+| Past           | Static JSON  | Departures/Arrivals/Cargo | ✅ Complete |
+| Flight History | Static Index | -                         | ✅ Complete |
+| Gate Analytics | Static Index | -                         | ✅ Complete |
 
 ---
 
-## Milestone 4: Historical Search & Static Indexing Integration
+## Milestone 4: UX Polish & Charts 🚧 IN PROGRESS
 
-**Objective:** Enable deep history lookup without a backend database.
+**Objective:** Add visualizations, charts, and UI polish.
 
-- **Search Interface:** Implement a high-performance search bar using **Ark UI Combobox** or standard inputs.
-- **On-Demand Index Loading:** When a user searches for "CX406", the app fetches `/data/indexes/flights/CX406.json` directly from GitHub Pages.
-- **Gate Analysis View:** Allow users to view the last 30 flights that used a specific gate (e.g., Gate 44) by loading the gate shard.
-- **DoD:** Users can instantly view the history of any flight number or gate recorded in the system.
+### Pending Tasks
+
+- [ ] On-time performance charts (delay/cancel rates)
+- [ ] Gate usage charts and visualizations
+- [ ] Route map visualization
+- [ ] Visual diff highlighting for live updates
+- [ ] Mobile responsiveness improvements
 
 ---
 
-## Milestone 5: UX Polish & Deployment
+## Milestone 5: Deployment & Production
 
-**Objective:** Finalize the mobile-first experience and deploy to GitHub Pages.
+**Objective:** Finalize and deploy to GitHub Pages.
 
 - **Responsive UI:** Use **Tailwind CSS** to optimize the flight board for airport travelers on mobile devices.
 - **Offline Mode:** Implement basic caching using `localStorage` so the last viewed flight list remains visible even if airport Wi-Fi is unstable.
@@ -82,6 +125,16 @@
 - **DoD:** Project is live at `https://<username>.github.io/<repo>/` with a passing performance score.
 
 ---
+
+## Development Notes
+
+### GitHub Actions
+
+| Workflow | Trigger        | Status |
+| -------- | -------------- | ------ |
+| CI       | PR only        | Active |
+| Archive  | Daily + Manual | Active |
+| Deploy   | Push to main   | Active |
 
 ### TPM Summary of Technical Specs
 

@@ -12,10 +12,11 @@
 ## ✨ Features
 
 - **📱 Mobile-First Design** - Optimized for travelers at the airport
-- **⚡ Real-time Updates** - Auto-refresh every 5 minutes with visual change indicators
-- **📊 Historical Data** - Access up to 91 days of flight history
+- **⚡ Real-time Updates** - Live flight data with auto-refresh every 5 minutes
+- **📊 Historical Data** - Access 93+ days of archived flight data
 - **🔍 Smart Search** - Search by flight number, airline, or destination
 - **🚪 Gate Analytics** - View flight history for any gate
+- **📦 Cargo Flights** - Integrated cargo view in both Live and Historical modes
 - **📦 Serverless Architecture** - Deployed on GitHub Pages, no backend required
 
 ---
@@ -131,34 +132,51 @@ hkg-flight-viewer/
 │
 ├── src/
 │   ├── types/
-│   │   └── flight.ts         # TypeScript interfaces & enums
+│   │   └── flight.ts         # TypeScript interfaces (no enums)
 │   ├── lib/
-│   │   └── parser.ts         # Data parsing utilities
-│   ├── api/                  # TanStack Solid Query hooks
-│   ├── components/           # UI components (Ark UI + Tailwind)
-│   ├── App.tsx               # Main application
+│   │   ├── api.ts            # API service layer
+│   │   ├── parser.ts         # Data parsing utilities
+│   │   ├── parser.test.ts    # Parser tests
+│   │   └── resources.ts      # SolidJS createResource hooks
+│   ├── components/
+│   │   ├── dashboard/        # Dashboard components
+│   │   ├── flights/          # Flight display components
+│   │   ├── search/           # Search components
+│   │   └── layout/           # Layout components
+│   ├── pages/
+│   │   ├── landing/          # Home page (/)
+│   │   ├── live/             # Live flights (/live)
+│   │   ├── past/             # Historical data (/past)
+│   │   ├── flight/           # Flight history (/flight/:no)
+│   │   └── gate/             # Gate analytics (/gate/:id)
+│   ├── App.tsx               # Router setup
 │   └── index.tsx             # Entry point
 │
 ├── docs/
 │   ├── API.md                # HKIA API documentation
 │   └── data-analysis.json    # Analysis results
 │
-└── MILESTONE.md              # Project milestones
+├── MILESTONE.md              # Project milestones
+├── CONTRIBUTING.md           # Branching strategy & guidelines
+└── .github/workflows/
+    ├── ci.yml                # CI (PR only)
+    ├── deploy.yml            # Deploy to GitHub Pages
+    └── archive.yml           # Daily archive (scheduled)
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category          | Technology                                                          |
-| ----------------- | ------------------------------------------------------------------- |
-| **Framework**     | [SolidJS](https://solidjs.com) - Fine-grained reactivity            |
-| **Build Tool**    | [Vite](https://vite.dev) - Fast HMR & builds                        |
-| **UI Components** | [Ark UI](https://ark-ui.com) - Headless, accessible                 |
-| **Styling**       | [Tailwind CSS](https://tailwindcss.com) - Utility-first             |
-| **Data Fetching** | [TanStack Solid Query](https://tanstack.com/query) - Caching & sync |
-| **Icons**         | [Lucide](https://lucide.dev) - Beautiful icons                      |
-| **Language**      | [TypeScript](https://typescriptlang.org) - Type safety              |
+| Category          | Technology                                               |
+| ----------------- | -------------------------------------------------------- |
+| **Framework**     | [SolidJS](https://solidjs.com) - Fine-grained reactivity |
+| **Build Tool**    | [Vite](https://vite.dev) - Fast HMR & builds             |
+| **UI Components** | [Ark UI](https://ark-ui.com) - Headless, accessible      |
+| **Styling**       | [Tailwind CSS](https://tailwindcss.com) - Utility-first  |
+| **Data Fetching** | SolidJS `createResource` - Native async data handling    |
+| **Icons**         | [Lucide](https://lucide.dev) - Beautiful icons           |
+| **Language**      | [TypeScript](https://typescriptlang.org) - Type safety   |
 
 ---
 

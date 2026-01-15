@@ -377,3 +377,67 @@ export function compareFlightLists(
 
 	return changes;
 }
+
+// ============================================================================
+// ARCHIVED DATA PARSING
+// ============================================================================
+
+/**
+ * Archived flight item format from daily JSON snapshots
+ * This is a simplified format used in static archives
+ */
+export interface ArchivedFlightItem {
+	date: string;
+	time: string;
+	flight: { no: string; airline: string }[];
+	origin_dest: string[];
+	status: string;
+	gate_baggage: string;
+	terminal: string;
+	isArrival: boolean;
+	isCargo: boolean;
+	_raw: {
+		aisle: string;
+		hall: string;
+	};
+}
+
+/**
+ * Convert archived flight item to RawFlightListItem format
+ * for compatibility with parseFlightItem
+ */
+function archivedToRawFormat(item: ArchivedFlightItem): RawFlightListItem {
+	return {
+		time: item.time,
+		flight: item.flight,
+		status: item.status,
+		terminal: item.terminal || undefined,
+		aisle: item._raw?.aisle || undefined,
+		hall: item._raw?.hall || undefined,
+		// Assign origin_dest to correct field based on direction
+		origin: item.isArrival ? item.origin_dest : undefined,
+		destination: item.isArrival ? undefined : item.origin_dest,
+		// Assign gate_baggage to correct field based on direction
+		baggage: item.isArrival ? item.gate_baggage : undefined,
+		gate: item.isArrival ? undefined : item.gate_baggage,
+	};
+}
+
+/**
+ * Parse archived flight item into FlightRecord
+ */
+export function parseArchivedFlightItem(
+	item: ArchivedFlightItem,
+): FlightRecord {
+	const rawItem = archivedToRawFormat(item);
+	return parseFlightItem(rawItem, item.date, item.isArrival, item.isCargo);
+}
+
+/**
+ * Parse array of archived flight items into FlightRecord array
+ */
+export function parseArchivedFlights(
+	items: ArchivedFlightItem[],
+): FlightRecord[] {
+	return items.map(parseArchivedFlightItem);
+}
