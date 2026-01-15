@@ -99,10 +99,66 @@ Parse status strings with regex (see `src/lib/parser.ts`):
 - `At gate HH:MM`
 - `Cancelled`, `Delayed`, `Boarding`, `Final Call`, `Gate Closed`
 
+## Testing
+
+Using **Vitest** with **@solidjs/testing-library**. Run tests:
+
+```bash
+npm run test          # Watch mode
+npm run test:run      # Single run
+npm run test:coverage # With coverage report
+```
+
+Test files are co-located with source files using `.test.ts` / `.test.tsx` suffix.
+
+## Component Structure
+
+Feature-based organization with folder structure for larger components:
+
+```
+src/components/
+├── flights/                    # Feature: Flight display
+│   ├── FlightCard/             # Complex component with sub-components
+│   │   ├── FlightCard.tsx      # Main component
+│   │   ├── FlightCard.test.tsx # Component tests
+│   │   ├── FlightStatus.tsx    # Sub-component
+│   │   └── index.ts            # Barrel export
+│   ├── FlightList/
+│   │   ├── FlightList.tsx
+│   │   ├── FlightListItem.tsx
+│   │   └── index.ts
+│   └── index.ts                # Feature barrel export
+├── search/                     # Feature: Search functionality
+│   ├── SearchBar.tsx           # Simple component (no folder needed)
+│   ├── SearchFilters/
+│   │   └── ...
+│   └── index.ts
+├── common/                     # Shared/reusable components
+│   ├── Button.tsx
+│   ├── Card.tsx
+│   └── index.ts
+└── index.ts                    # Main barrel export
+```
+
+### Component Naming Conventions
+
+- **PascalCase** for component files and folders
+- **Barrel exports** (`index.ts`) for clean imports
+- **Co-located tests** with `.test.tsx` suffix
+- **Sub-components** in same folder, not nested deeper
+
+## GitHub Actions
+
+| Workflow                        | Trigger         | Purpose                 |
+| ------------------------------- | --------------- | ----------------------- |
+| `.github/workflows/ci.yml`      | Push/PR to main | Type check, test, build |
+| `.github/workflows/deploy.yml`  | Push to main    | Deploy to GitHub Pages  |
+| `.github/workflows/archive.yml` | Daily 00:00 HKT | Archive flight data     |
+
 ## Current Progress
 
 See `MILESTONE.md` for project status:
 
 - ✅ M1: Data Ingestion & Archiving
-- 🚧 M2: Domain Logic & Data Parsing
+- ✅ M2: Domain Logic & Data Parsing
 - ⏳ M3-M5: Frontend development
