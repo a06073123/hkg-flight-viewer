@@ -2,17 +2,15 @@
  * Flight History Page
  *
  * Shows historical data and on-time performance for a specific flight number
- * Uses SolidJS createResource for data fetching
+ * Uses unified table display with date as first column
  *
- * Displays:
- * - Flight statistics
- * - Codeshare partners
- * - Check-in counter (departures) or Hall (arrivals)
- * - Gate/Baggage claim information
+ * Features:
+ * - Flight statistics (on-time rate, delays, cancellations)
+ * - Codeshare partners display
+ * - Unified history table sorted by date (newest first)
  */
 
-import { Collapsible } from "@/components/common";
-import { FlightTimeStatus } from "@/components/flights/shared";
+import { FlightHistoryTable } from "@/components/history";
 import { createFlightHistoryResource } from "@/lib/resources";
 import type { FlightRecord } from "@/types/flight";
 import { StatusType } from "@/types/flight";
@@ -22,8 +20,6 @@ import {
 	ArrowLeft,
 	Calendar,
 	Clock,
-	DoorOpen,
-	Luggage,
 	Plane,
 	TrendingUp,
 	Users,
@@ -35,23 +31,21 @@ import { createMemo, For, Show } from "solid-js";
  */
 const STAT_GRID = "grid gap-4 sm:grid-cols-2 lg:grid-cols-4";
 
-/**
- * Fixed widths for history list columns
- */
-const HISTORY_COLUMNS = {
-	time: "w-[70px]",
-	route: "w-[120px]",
-	checkinHall: "w-[80px]",
-	gateBelt: "w-[70px]",
-	status: "flex-1",
-};
-
 export default function FlightHistoryPage() {
 	const params = useParams<{ no: string }>();
 
 	const [history] = createFlightHistoryResource(() => params.no);
 
-	const occurrences = createMemo(() => history()?.occurrences ?? []);
+	// All occurrences sorted by date (newest first)
+	const occurrences = createMemo(() => {
+		const flights = history()?.occurrences ?? [];
+		return [...flights].sort((a, b) => {
+			// Sort by date desc, then time desc
+			const dateCompare = b.date.localeCompare(a.date);
+			if (dateCompare !== 0) return dateCompare;
+			return b.time.localeCompare(a.time);
+		});
+	});
 
 	// Get sample flight for displaying codeshare info
 	const sampleFlight = createMemo(() => occurrences()[0]);
@@ -80,21 +74,8 @@ export default function FlightHistoryPage() {
 		};
 	});
 
-	// Group by date
-	const groupedByDate = createMemo(() => {
-		const groups = new Map<string, FlightRecord[]>();
-		for (const flight of occurrences()) {
-			const existing = groups.get(flight.date) || [];
-			existing.push(flight);
-			groups.set(flight.date, existing);
-		}
-		return Array.from(groups.entries()).sort((a, b) =>
-			b[0].localeCompare(a[0]),
-		);
-	});
-
 	return (
-		<div class="mx-auto max-w-5xl space-y-6">
+		<div class="mx-auto max-w-6xl space-y-6">
 			{/* Back Link */}
 			<A
 				href="/past"
@@ -125,13 +106,16 @@ export default function FlightHistoryPage() {
 
 					<Show when={history()}>
 						<div class="text-sm text-gray-400">
-							Last updated: {history()?.updatedAt}
+							Last updated:{" "}
+							{new Date(
+								history()!.updatedAt,
+							).toLocaleDateString()}
 						</div>
 					</Show>
 				</div>
 
 				{/* Codeshare Partners */}
-				<Show when={sampleFlight()?.codeshareCount ?? 0 > 0}>
+				<Show when={(sampleFlight()?.codeshareCount ?? 0) > 0}>
 					<div class="mt-4 border-t pt-4">
 						<div class="flex items-center gap-2 text-sm text-gray-600">
 							<Users class="h-4 w-4" />
@@ -205,137 +189,16 @@ export default function FlightHistoryPage() {
 				)}
 			</Show>
 
-			{/* Flight History List - Fixed layout */}
+			{/* Flight History Table */}
 			<Show when={occurrences().length > 0}>
 				<div class="space-y-4">
 					<h2 class="text-lg font-semibold text-gray-900">
 						Flight History
 					</h2>
-
-					<For each={groupedByDate()}>
-						{([date, flights]) => (
-							<Collapsible
-								trigger={
-									<span class="font-medium">
-										{date}
-										<span class="ml-2 text-sm font-normal text-blue-200">
-											({flights.length} flight
-											{flights.length > 1 ? "s" : ""})
-										</span>
-									</span>
-								}
-							>
-								<For each={flights}>
-									{(flight) => (
-										<div class="flex items-center gap-4 px-4 py-3">
-											{/* Time */}
-											<span
-												class={`${HISTORY_COLUMNS.time} shrink-0 text-sm font-bold text-[#1A1A1B]`}
-											>
-												{flight.time}
-											</span>
-
-											{/* Route */}
-											<span
-												class={`${HISTORY_COLUMNS.route} shrink-0`}
-											>
-												<span class="inline-block rounded bg-[#C41230] px-2 py-0.5 text-xs font-bold text-white">
-													{flight.isArrival
-														? "From"
-														: "To"}{" "}
-													{flight.primaryAirport}
-												</span>
-											</span>
-
-											{/* Check-in / Hall */}
-											<span
-												class={`${HISTORY_COLUMNS.checkinHall} shrink-0`}
-											>
-												<Show
-													when={!flight.isArrival}
-													fallback={
-														<Show
-															when={flight.hall}
-															fallback={
-																<span class="text-sm text-gray-400">
-																	—
-																</span>
-															}
-														>
-															<span class="inline-flex items-center gap-1 text-xs text-emerald-600">
-																<DoorOpen class="h-3 w-3" />
-																Hall{" "}
-																{flight.hall}
-															</span>
-														</Show>
-													}
-												>
-													<Show
-														when={flight.aisle}
-														fallback={
-															<span class="text-sm text-gray-400">
-																—
-															</span>
-														}
-													>
-														<span class="inline-flex items-center gap-1 text-xs text-[#003580]">
-															<Users class="h-3 w-3" />
-															Row {flight.aisle}
-														</span>
-													</Show>
-												</Show>
-											</span>
-
-											{/* Gate / Belt */}
-											<span
-												class={`${HISTORY_COLUMNS.gateBelt} shrink-0`}
-											>
-												<Show
-													when={
-														flight.isArrival
-															? flight.baggageClaim
-															: flight.gate
-													}
-													fallback={
-														<span class="text-sm text-gray-400">
-															—
-														</span>
-													}
-												>
-													<Show
-														when={flight.isArrival}
-														fallback={
-															<span class="gate-badge inline-block text-xs">
-																{flight.gate}
-															</span>
-														}
-													>
-														<span class="inline-flex items-center gap-1 text-xs text-gray-600">
-															<Luggage class="h-3 w-3" />
-															{
-																flight.baggageClaim
-															}
-														</span>
-													</Show>
-												</Show>
-											</span>
-
-											{/* Status */}
-											<span
-												class={`${HISTORY_COLUMNS.status}`}
-											>
-												<FlightTimeStatus
-													scheduledTime={flight.time}
-													status={flight.status}
-													compact={true}
-												/>
-											</span>
-										</div>
-									)}
-								</For>
-							</Collapsible>
-						)}
-					</For>
+					<FlightHistoryTable
+						flights={occurrences()}
+						hideFlightNo={true}
+					/>
 				</div>
 			</Show>
 		</div>
@@ -357,19 +220,17 @@ function StatCard(props: StatCardProps) {
 		red: "border-[#C41230] bg-red-50 text-[#C41230]",
 	};
 
+	const borderColors = {
+		blue: "#003580",
+		green: "#10b981",
+		yellow: "#f59e0b",
+		red: "#C41230",
+	};
+
 	return (
 		<div
 			class="rounded-lg border-l-4 bg-white p-4 shadow-sm"
-			style={{
-				"border-left-color":
-					props.color === "blue"
-						? "#003580"
-						: props.color === "green"
-							? "#10b981"
-							: props.color === "yellow"
-								? "#f59e0b"
-								: "#C41230",
-			}}
+			style={{ "border-left-color": borderColors[props.color] }}
 		>
 			<div class="flex items-center gap-3">
 				<div class={`rounded-lg p-2 ${colorClasses[props.color]}`}>
