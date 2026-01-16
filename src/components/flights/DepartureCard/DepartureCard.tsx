@@ -29,8 +29,8 @@ export function DepartureCard(props: DepartureCardProps) {
 		<div class="flight-row group overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-lg">
 			{/* Main Content Area */}
 			<div class="flex">
-				{/* Left: Gate Display - HKIA Style (Blue background, Yellow text) */}
-				<div class="flex w-32 flex-col items-center justify-center bg-[#003580] p-4">
+				{/* Left: Gate Display - HKIA Style (Blue background, Yellow text) - Fixed width */}
+				<div class="flex w-24 shrink-0 flex-col items-center justify-center bg-[#003580] p-4">
 					<Show
 						when={flight.gate}
 						fallback={
@@ -53,21 +53,27 @@ export function DepartureCard(props: DepartureCardProps) {
 					</Show>
 				</div>
 
-				{/* Center: Flight Info */}
-				<div class="flex flex-1 gap-4 p-5">
-					{/* Left Column: Flight details */}
-					<div class="flex flex-1 flex-row gap-x-5">
-						<div class="flex flex-col">
+				{/* Center: Flight Info - Fixed layout */}
+				<div class="flex min-w-0 flex-1 gap-4 p-5">
+					{/* Left Column: Flight details - Fixed widths */}
+					<div class="flex min-w-0 flex-1 flex-row gap-x-4">
+						{/* Flight Info Block - Fixed width */}
+						<div class="flex w-48 shrink-0 flex-col">
 							{/* Flight Number and Airline */}
 							<div class="flex flex-col items-start">
 								<A
 									href={`/flight/${flight.operatingCarrier.no.replace(/\s+/g, "")}`}
-									class="flex items-center gap-1.5 text-3xl font-bold text-[#003580] hover:text-[#0052cc]"
+									class="flex items-center gap-1.5 text-2xl font-bold text-[#003580] hover:text-[#0052cc]"
 								>
-									<PlaneTakeoff class="h-5 w-5" />
-									{flight.operatingCarrier.no}
+									<PlaneTakeoff class="h-5 w-5 shrink-0" />
+									<span class="truncate">
+										{flight.operatingCarrier.no}
+									</span>
 								</A>
-								<span class="text-sm text-center text-gray-500">
+								<span
+									class="w-full truncate text-sm text-gray-500"
+									title={`${getAirlineNameSync(flight.operatingCarrier.airline)} - ${flight.operatingCarrier.airline}`}
+								>
 									{getAirlineNameSync(
 										flight.operatingCarrier.airline,
 									)}{" "}
@@ -75,11 +81,16 @@ export function DepartureCard(props: DepartureCardProps) {
 								</span>
 							</div>
 							{/* Destination - HKIA Red Label Style with Airport Name */}
-							<div class="mt-4">
-								<span class="inline-block rounded bg-[#C41230] px-4 py-1.5 text-lg font-bold tracking-wider text-white shadow-sm">
+							<div class="mt-3">
+								<span class="inline-block rounded bg-[#C41230] px-3 py-1 text-base font-bold tracking-wider text-white shadow-sm">
 									{flight.primaryAirport}
 								</span>
-								<p class="mt-1 text-sm text-gray-600">
+								<p
+									class="mt-1 w-full truncate text-sm text-gray-600"
+									title={getAirportName(
+										flight.primaryAirport,
+									)}
+								>
 									{getAirportName(flight.primaryAirport)}
 									<Show when={flight.hasViaStops}>
 										<Tooltip
@@ -120,48 +131,62 @@ export function DepartureCard(props: DepartureCardProps) {
 							</div>
 						</div>
 
-						{/* Codeshare Partners - with Tooltip for full list */}
-						<Show when={flight.codeshareCount > 0}>
-							<Tooltip
-								content={
-									<div class="space-y-1">
-										<p class="font-medium">
-											Codeshare Partners (
-											{flight.codeshareCount})
-										</p>
-										{flight.flights
-											.slice(1)
-											.map((partner) => (
-												<p>
-													{partner.no} -{" "}
-													{getAirlineNameSync(
-														partner.airline,
-													)}
-												</p>
-											))}
-									</div>
-								}
-								positioning={{ placement: "bottom" }}
-							>
-								<div class="flex cursor-help items-start gap-2">
-									<Users class="mt-0.5 h-3.5 w-3.5 shrink-0 text-gray-400" />
-									<div
-										class={`grid gap-x-4 gap-y-0.5 ${flight.codeshareCount > 5 ? "grid-cols-2" : "grid-cols-1"}`}
-									>
-										<For each={flight.flights.slice(1, 11)}>
-											{(cs) => (
-												<span class="text-xs text-gray-500">
-													{cs.no}
+						{/* Codeshare Partners - Fixed width area */}
+						<div class="w-24 shrink-0">
+							<Show when={flight.codeshareCount > 0}>
+								<Tooltip
+									content={
+										<div class="space-y-1">
+											<p class="font-medium">
+												Codeshare Partners (
+												{flight.codeshareCount})
+											</p>
+											{flight.flights
+												.slice(1)
+												.map((partner) => (
+													<p>
+														{partner.no} -{" "}
+														{getAirlineNameSync(
+															partner.airline,
+														)}
+													</p>
+												))}
+										</div>
+									}
+									positioning={{ placement: "bottom" }}
+								>
+									<div class="flex cursor-help items-start gap-2">
+										<Users class="mt-0.5 h-3.5 w-3.5 shrink-0 text-gray-400" />
+										<div class="grid grid-cols-1 gap-y-0.5">
+											<For
+												each={flight.flights.slice(
+													1,
+													5,
+												)}
+											>
+												{(cs) => (
+													<span class="truncate text-xs text-gray-500">
+														{cs.no}
+													</span>
+												)}
+											</For>
+											<Show
+												when={flight.codeshareCount > 4}
+											>
+												<span class="text-xs text-gray-400">
+													+{flight.codeshareCount - 4}{" "}
+													more
 												</span>
-											)}
-										</For>
+											</Show>
+										</div>
 									</div>
-								</div>
-							</Tooltip>
-						</Show>
+								</Tooltip>
+							</Show>
+						</div>
 					</div>
-					{/* Right Column: Time + Status */}
-					<div class="flex flex-col items-end justify-between">
+
+					{/* Right Column: Time + Status - Fixed width handled by FlightTimeStatus */}
+					<div class="flex shrink-0 flex-col items-end justify-between">
 						<FlightTimeStatus
 							scheduledTime={flight.time}
 							status={flight.status}

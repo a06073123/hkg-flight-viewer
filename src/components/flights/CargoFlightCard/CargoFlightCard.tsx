@@ -40,8 +40,8 @@ export function CargoFlightCard(props: CargoFlightCardProps) {
 		<div class="flight-row group overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-lg">
 			{/* Main Content Area */}
 			<div class="flex">
-				{/* Left: Stand Display - Orange theme */}
-				<div class="flex w-32 flex-col items-center justify-center bg-orange-500 p-4">
+				{/* Left: Stand Display - Orange theme - Fixed width */}
+				<div class="flex w-24 shrink-0 flex-col items-center justify-center bg-orange-500 p-4">
 					<Show
 						when={flight.stand}
 						fallback={
@@ -61,35 +61,41 @@ export function CargoFlightCard(props: CargoFlightCardProps) {
 					</Show>
 				</div>
 
-				{/* Center: Flight Info */}
-				<div class="flex flex-1 gap-4 p-5">
-					{/* Left Column: Flight details */}
-					<div class="flex flex-1 flex-row gap-x-5">
-						<div class="flex flex-col">
+				{/* Center: Flight Info - Fixed layout */}
+				<div class="flex min-w-0 flex-1 gap-4 p-5">
+					{/* Left Column: Flight details - Fixed widths */}
+					<div class="flex min-w-0 flex-1 flex-row gap-x-4">
+						{/* Flight Info Block - Fixed width */}
+						<div class="flex w-56 shrink-0 flex-col">
 							{/* Flight Number and Airline */}
 							<div class="flex flex-col items-start">
 								<div class="flex items-center gap-2">
 									<A
 										href={`/flight/${flight.operatingCarrier.no.replace(/\s+/g, "")}`}
-										class="flex items-center gap-1.5 text-3xl font-bold text-orange-600 hover:text-orange-700"
+										class="flex items-center gap-1.5 text-2xl font-bold text-orange-600 hover:text-orange-700"
 									>
 										<Show
 											when={isArrival()}
 											fallback={
-												<PlaneTakeoff class="h-5 w-5" />
+												<PlaneTakeoff class="h-5 w-5 shrink-0" />
 											}
 										>
-											<PlaneLanding class="h-5 w-5" />
+											<PlaneLanding class="h-5 w-5 shrink-0" />
 										</Show>
-										{flight.operatingCarrier.no}
+										<span class="truncate">
+											{flight.operatingCarrier.no}
+										</span>
 									</A>
 									{/* Cargo Badge */}
-									<span class="inline-flex items-center gap-1 rounded-full bg-orange-100 px-2 py-0.5 text-xs font-bold uppercase text-orange-700">
+									<span class="inline-flex shrink-0 items-center gap-1 rounded-full bg-orange-100 px-2 py-0.5 text-xs font-bold uppercase text-orange-700">
 										<Package class="h-3 w-3" />
 										Cargo
 									</span>
 								</div>
-								<span class="text-center text-sm text-gray-500">
+								<span
+									class="w-full truncate text-sm text-gray-500"
+									title={`${getAirlineNameSync(flight.operatingCarrier.airline)} - ${flight.operatingCarrier.airline}`}
+								>
 									{getAirlineNameSync(
 										flight.operatingCarrier.airline,
 									)}{" "}
@@ -98,11 +104,16 @@ export function CargoFlightCard(props: CargoFlightCardProps) {
 							</div>
 
 							{/* Origin/Destination - Orange Label Style with Airport Name */}
-							<div class="mt-4">
-								<span class="inline-block rounded bg-orange-500 px-4 py-1.5 text-lg font-bold tracking-wider text-white shadow-sm">
+							<div class="mt-3">
+								<span class="inline-block rounded bg-orange-500 px-3 py-1 text-base font-bold tracking-wider text-white shadow-sm">
 									{flight.primaryAirport}
 								</span>
-								<p class="mt-1 text-sm text-gray-600">
+								<p
+									class="mt-1 w-full truncate text-sm text-gray-600"
+									title={getAirportName(
+										flight.primaryAirport,
+									)}
+								>
 									{getAirportName(flight.primaryAirport)}
 									<Show when={flight.hasViaStops}>
 										<Tooltip
@@ -156,48 +167,61 @@ export function CargoFlightCard(props: CargoFlightCardProps) {
 							</div>
 						</div>
 
-						{/* Codeshare Partners - Dynamic columns based on count */}
-						<Show when={flight.codeshareCount > 0}>
-							<Tooltip
-								content={
-									<div class="space-y-1">
-										<p class="font-medium">
-											Codeshare Partners (
-											{flight.codeshareCount})
-										</p>
-										<For each={flight.flights.slice(1)}>
-											{(partner) => (
-												<p>
-													{partner.no} -{" "}
-													{getAirlineNameSync(
-														partner.airline,
-													)}
-												</p>
-											)}
-										</For>
-									</div>
-								}
-								positioning={{ placement: "bottom" }}
-							>
-								<div class="flex cursor-help items-start gap-2">
-									<Users class="mt-0.5 h-3.5 w-3.5 shrink-0 text-gray-400" />
-									<div
-										class={`grid gap-x-4 gap-y-0.5 ${flight.codeshareCount > 5 ? "grid-cols-2" : "grid-cols-1"}`}
-									>
-										<For each={flight.flights.slice(1, 11)}>
-											{(cs) => (
-												<span class="text-xs text-gray-500">
-													{cs.no}
+						{/* Codeshare Partners - Fixed width area */}
+						<div class="w-24 shrink-0">
+							<Show when={flight.codeshareCount > 0}>
+								<Tooltip
+									content={
+										<div class="space-y-1">
+											<p class="font-medium">
+												Codeshare Partners (
+												{flight.codeshareCount})
+											</p>
+											<For each={flight.flights.slice(1)}>
+												{(partner) => (
+													<p>
+														{partner.no} -{" "}
+														{getAirlineNameSync(
+															partner.airline,
+														)}
+													</p>
+												)}
+											</For>
+										</div>
+									}
+									positioning={{ placement: "bottom" }}
+								>
+									<div class="flex cursor-help items-start gap-2">
+										<Users class="mt-0.5 h-3.5 w-3.5 shrink-0 text-gray-400" />
+										<div class="grid grid-cols-1 gap-y-0.5">
+											<For
+												each={flight.flights.slice(
+													1,
+													5,
+												)}
+											>
+												{(cs) => (
+													<span class="truncate text-xs text-gray-500">
+														{cs.no}
+													</span>
+												)}
+											</For>
+											<Show
+												when={flight.codeshareCount > 4}
+											>
+												<span class="text-xs text-gray-400">
+													+{flight.codeshareCount - 4}{" "}
+													more
 												</span>
-											)}
-										</For>
+											</Show>
+										</div>
 									</div>
-								</div>
-							</Tooltip>
-						</Show>
+								</Tooltip>
+							</Show>
+						</div>
 					</div>
 
-					{/* Right Column: Time + Status */}
+					{/* Right Column: Time + Status - Fixed width handled by FlightTimeStatus */}
 					<div class="flex flex-col items-end justify-between">
 						<FlightTimeStatus
 							scheduledTime={flight.time}

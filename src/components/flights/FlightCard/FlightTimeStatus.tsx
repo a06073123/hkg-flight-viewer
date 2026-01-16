@@ -108,8 +108,11 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 		props.status.type === StatusType.Estimated ||
 		(props.status.type === StatusType.Delayed && props.status.time);
 
+	// Fixed width to prevent layout shift
+	const containerWidth = props.compact ? "w-28" : "w-44";
+
 	return (
-		<div class="flex flex-col items-end">
+		<div class={`flex flex-col items-end ${containerWidth}`}>
 			{/* Time Display */}
 			<div class="text-right">
 				<Show
@@ -119,7 +122,7 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 					fallback={
 						<>
 							{/* No change - show scheduled time normally */}
-							<div class="flex items-center gap-1.5 text-gray-400">
+							<div class="flex items-center justify-end gap-1.5 text-gray-400">
 								<Clock class="h-3.5 w-3.5" />
 								<span class="text-xs uppercase">Scheduled</span>
 							</div>
@@ -132,17 +135,17 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 					}
 				>
 					{/* Time changed - show strikethrough original + new time */}
-					<div class="flex items-center gap-1.5 text-gray-400">
+					<div class="flex items-center justify-end gap-1.5 text-gray-400">
 						<Clock class="h-3.5 w-3.5" />
 						<span class="text-xs uppercase">Scheduled</span>
 					</div>
-					<div class="flex items-baseline gap-2">
+					<div class="flex items-baseline justify-end gap-2">
 						<span class="text-lg tabular-nums text-gray-400 line-through decoration-red-400 decoration-2">
 							{props.scheduledTime}
 						</span>
 						<span class="text-xs font-medium text-gray-500">→</span>
 					</div>
-					<div class="mt-0.5 flex items-center gap-1.5">
+					<div class="mt-0.5 flex flex-wrap items-baseline justify-end gap-x-1.5">
 						<span
 							class={`text-xs font-medium ${hasActualTime() ? "text-emerald-600" : "text-amber-600"}`}
 						>
@@ -159,7 +162,7 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 								props.status.date
 							}
 						>
-							<span class="text-xs text-gray-500">
+							<span class="w-full text-right text-[10px] text-gray-500">
 								({props.status.date})
 							</span>
 						</Show>
