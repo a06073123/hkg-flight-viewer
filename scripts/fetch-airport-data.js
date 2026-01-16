@@ -148,7 +148,7 @@ async function main() {
 
 		await writeFile(
 			join(DATA_DIR, "airports.json"),
-			JSON.stringify(airports, null, 2),
+			JSON.stringify(airports),
 		);
 		console.log(`   ✅ Saved ${airportCount} airports with IATA codes\n`);
 

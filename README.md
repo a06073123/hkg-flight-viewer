@@ -248,7 +248,8 @@ jobs:
 | `npm run reindex:clean`         | Clean and rebuild all indexes         |
 | `npm run analyze`               | Run comprehensive data analysis       |
 | `npm run fetch:airports`        | Update airport codes from OurAirports |
-| `npm run minify:json`           | Minify all JSON files in public/data  |
+
+> **Note:** All scripts output minified JSON by default for optimal file sizes.
 
 ---
 

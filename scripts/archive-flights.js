@@ -173,7 +173,7 @@ async function appendToShard(filePath, flight) {
 		existingData = existingData.slice(-MAX_SHARD_ENTRIES);
 	}
 
-	await fs.writeJson(filePath, existingData, { spaces: 2 });
+	await fs.writeJson(filePath, existingData);
 	return true;
 }
 
@@ -238,7 +238,7 @@ async function saveDailySnapshot(date, allFlights) {
 		flights: allFlights,
 	};
 
-	await fs.writeJson(snapshotPath, snapshot, { spaces: 2 });
+	await fs.writeJson(snapshotPath, snapshot);
 	console.log(`Daily snapshot saved: ${snapshotPath}`);
 }
 

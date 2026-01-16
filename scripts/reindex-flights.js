@@ -127,7 +127,7 @@ async function buildIndexes() {
 			.slice(-MAX_SHARD_ENTRIES);
 
 		const shardPath = path.join(FLIGHTS_INDEX_DIR, `${flightNo}.json`);
-		await fs.writeJson(shardPath, sortedEntries, { spaces: 2 });
+		await fs.writeJson(shardPath, sortedEntries);
 		flightShardsWritten++;
 	}
 
@@ -145,7 +145,7 @@ async function buildIndexes() {
 			.slice(-MAX_SHARD_ENTRIES);
 
 		const shardPath = path.join(GATES_INDEX_DIR, `${gateNo}.json`);
-		await fs.writeJson(shardPath, sortedEntries, { spaces: 2 });
+		await fs.writeJson(shardPath, sortedEntries);
 		gateShardsWritten++;
 	}
 
