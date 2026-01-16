@@ -98,11 +98,11 @@ export default function PastPage() {
 			{/* Header */}
 			<div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
 				<div class="flex items-center gap-3">
-					<div class="rounded-lg bg-purple-50 p-2">
-						<History class="h-6 w-6 text-purple-600" />
+					<div class="rounded-lg bg-[#003580] p-2">
+						<History class="h-6 w-6 text-[#FFD700]" />
 					</div>
 					<div>
-						<h1 class="text-2xl font-bold text-gray-900">
+						<h1 class="text-2xl font-bold text-[#1A1A1B]">
 							Historical Data
 						</h1>
 						<p class="text-sm text-gray-500">
@@ -113,46 +113,52 @@ export default function PastPage() {
 
 				{/* Date Picker */}
 				<div class="flex items-center gap-2">
-					<Calendar class="h-4 w-4 text-gray-400" />
+					<Calendar class="h-4 w-4 text-[#003580]" />
 					<input
 						type="date"
 						value={selectedDate()}
 						onInput={(e) => setSelectedDate(e.currentTarget.value)}
-						class="rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-purple-500 focus:outline-none focus:ring-1 focus:ring-purple-500"
+						class="rounded-lg border-2 border-[#003580]/30 px-3 py-2 text-sm focus:border-[#003580] focus:outline-none focus:ring-1 focus:ring-[#003580]"
 					/>
 				</div>
 			</div>
 
-			{/* Quick Stats */}
+			{/* Quick Stats - HKIA Style */}
 			<Show when={snapshot()}>
 				<div class="grid grid-cols-2 gap-3 sm:grid-cols-5">
-					<div class="rounded-lg border bg-white p-3">
-						<p class="text-xs text-gray-500">Total</p>
-						<p class="text-xl font-bold text-gray-900">
+					<div class="rounded-lg border-l-4 border-[#003580] bg-white p-3 shadow-sm">
+						<p class="text-xs font-medium text-gray-500">Total</p>
+						<p class="text-2xl font-bold text-[#003580]">
 							{stats().total}
 						</p>
 					</div>
-					<div class="rounded-lg border bg-white p-3">
-						<p class="text-xs text-gray-500">Passenger</p>
-						<p class="text-xl font-bold text-blue-600">
+					<div class="rounded-lg border-l-4 border-blue-500 bg-white p-3 shadow-sm">
+						<p class="text-xs font-medium text-gray-500">
+							Passenger
+						</p>
+						<p class="text-2xl font-bold text-blue-600">
 							{stats().passenger}
 						</p>
 					</div>
-					<div class="rounded-lg border bg-white p-3">
-						<p class="text-xs text-gray-500">Cargo</p>
-						<p class="text-xl font-bold text-orange-600">
+					<div class="rounded-lg border-l-4 border-orange-500 bg-white p-3 shadow-sm">
+						<p class="text-xs font-medium text-gray-500">Cargo</p>
+						<p class="text-2xl font-bold text-orange-600">
 							{stats().cargo}
 						</p>
 					</div>
-					<div class="rounded-lg border bg-white p-3">
-						<p class="text-xs text-gray-500">Arrivals</p>
-						<p class="text-xl font-bold text-green-600">
+					<div class="rounded-lg border-l-4 border-emerald-500 bg-white p-3 shadow-sm">
+						<p class="text-xs font-medium text-gray-500">
+							Arrivals
+						</p>
+						<p class="text-2xl font-bold text-emerald-600">
 							{stats().arrivals}
 						</p>
 					</div>
-					<div class="rounded-lg border bg-white p-3">
-						<p class="text-xs text-gray-500">Departures</p>
-						<p class="text-xl font-bold text-purple-600">
+					<div class="rounded-lg border-l-4 border-[#003580] bg-white p-3 shadow-sm">
+						<p class="text-xs font-medium text-gray-500">
+							Departures
+						</p>
+						<p class="text-2xl font-bold text-[#003580]">
 							{stats().departures}
 						</p>
 					</div>
@@ -171,14 +177,14 @@ export default function PastPage() {
 				</div>
 				<A
 					href="/flight/"
-					class="inline-flex items-center gap-1.5 rounded-lg border bg-white px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+					class="inline-flex items-center gap-1.5 rounded-lg border-2 border-[#003580] bg-white px-3 py-2 text-sm font-medium text-[#003580] hover:bg-[#003580] hover:text-white transition-colors"
 				>
 					<Search class="h-4 w-4" />
 					Flight Lookup
 				</A>
 			</div>
 
-			{/* Tabs */}
+			{/* Tabs - HKIA Style */}
 			<Tabs.Root
 				value={activeTab()}
 				onValueChange={(details) =>
@@ -187,38 +193,37 @@ export default function PastPage() {
 					)
 				}
 			>
-				<Tabs.List class="flex gap-1 border-b">
+				<Tabs.List class="flex gap-1 border-b-2 border-[#003580]/20">
 					<Tabs.Trigger
 						value="departures"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-gray-700 data-selected:border-purple-500 data-selected:text-purple-600"
+						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-[#003580] data-selected:border-[#003580] data-selected:text-[#003580] data-selected:font-bold"
 					>
 						<PlaneTakeoff class="h-4 w-4" />
 						Departures
-						<span class="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-600">
+						<span class="rounded-full bg-[#003580]/10 px-2 py-0.5 text-xs text-[#003580]">
 							{passengerDepartures().length}
 						</span>
 					</Tabs.Trigger>
 					<Tabs.Trigger
 						value="arrivals"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-gray-700 data-selected:border-green-500 data-selected:text-green-600"
+						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-emerald-600 data-selected:border-emerald-500 data-selected:text-emerald-600 data-selected:font-bold"
 					>
 						<PlaneLanding class="h-4 w-4" />
 						Arrivals
-						<span class="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-600">
+						<span class="rounded-full bg-emerald-100 px-2 py-0.5 text-xs text-emerald-600">
 							{passengerArrivals().length}
 						</span>
 					</Tabs.Trigger>
 					<Tabs.Trigger
 						value="cargo"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-gray-700 data-selected:border-orange-500 data-selected:text-orange-600"
+						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-orange-600 data-selected:border-orange-500 data-selected:text-orange-600 data-selected:font-bold"
 					>
 						<Package class="h-4 w-4" />
 						Cargo
-						<span class="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-600">
+						<span class="rounded-full bg-orange-100 px-2 py-0.5 text-xs text-orange-600">
 							{cargoFlights().length}
 						</span>
 					</Tabs.Trigger>
-					<Tabs.Indicator class="bg-purple-500" />
 				</Tabs.List>
 
 				<div class="mt-4">

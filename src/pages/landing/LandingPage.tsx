@@ -2,6 +2,7 @@
  * Landing Page
  *
  * Site introduction and navigation guide - no data fetching
+ * Uses HKIA Visual DNA color palette
  */
 
 import { A } from "@solidjs/router";
@@ -21,10 +22,10 @@ import {
 export default function LandingPage() {
 	return (
 		<div class="mx-auto max-w-4xl space-y-8">
-			{/* Hero Section */}
-			<div class="rounded-2xl bg-linear-to-br from-blue-600 to-blue-800 p-8 text-white shadow-xl">
+			{/* Hero Section - HKIA Deep Blue */}
+			<div class="rounded-2xl bg-[#003580] p-8 text-white shadow-xl">
 				<div class="flex items-center gap-3">
-					<Plane class="h-10 w-10" />
+					<Plane class="h-10 w-10 text-[#FFD700]" />
 					<h1 class="text-3xl font-bold">HKG Flight Viewer</h1>
 				</div>
 				<p class="mt-4 text-lg text-blue-100">
@@ -34,6 +35,24 @@ export default function LandingPage() {
 					Real-time flight information and historical data for Hong
 					Kong International Airport (HKIA)
 				</p>
+
+				{/* Quick Action Buttons */}
+				<div class="mt-6 flex flex-wrap gap-3">
+					<A
+						href="/live"
+						class="inline-flex items-center gap-2 rounded-lg bg-[#FFD700] px-4 py-2.5 font-semibold text-[#003580] transition-colors hover:bg-yellow-300"
+					>
+						<Radio class="h-4 w-4" />
+						View Live Flights
+					</A>
+					<A
+						href="/past"
+						class="inline-flex items-center gap-2 rounded-lg border-2 border-white/50 px-4 py-2.5 font-medium text-white transition-colors hover:bg-white/10"
+					>
+						<History class="h-4 w-4" />
+						Browse History
+					</A>
+				</div>
 			</div>
 
 			{/* Main Navigation Cards */}
@@ -41,14 +60,14 @@ export default function LandingPage() {
 				{/* Live Flights Card */}
 				<A
 					href="/live"
-					class="group rounded-xl border-2 border-green-200 bg-white p-6 shadow-md transition-all hover:border-green-400 hover:shadow-lg"
+					class="group rounded-xl border-2 border-[#003580]/20 bg-white p-6 shadow-md transition-all hover:border-[#003580] hover:shadow-lg"
 				>
 					<div class="flex items-center gap-3">
-						<div class="rounded-lg bg-green-100 p-3">
-							<Radio class="h-6 w-6 text-green-600" />
+						<div class="rounded-lg bg-[#003580] p-3">
+							<Radio class="h-6 w-6 text-[#FFD700]" />
 						</div>
 						<div>
-							<h2 class="text-xl font-semibold text-gray-900 group-hover:text-green-600">
+							<h2 class="text-xl font-semibold text-[#1A1A1B] group-hover:text-[#003580]">
 								Live Flights
 							</h2>
 							<p class="text-sm text-gray-500">即時航班資訊</p>
@@ -59,11 +78,11 @@ export default function LandingPage() {
 						updates every 5 minutes.
 					</p>
 					<div class="mt-4 flex flex-wrap gap-2">
-						<span class="inline-flex items-center gap-1 rounded-full bg-green-50 px-2.5 py-1 text-xs font-medium text-green-700">
+						<span class="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-medium text-emerald-700">
 							<PlaneLanding class="h-3 w-3" />
 							Arrivals
 						</span>
-						<span class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-700">
+						<span class="inline-flex items-center gap-1 rounded-full bg-[#003580]/10 px-2.5 py-1 text-xs font-medium text-[#003580]">
 							<PlaneTakeoff class="h-3 w-3" />
 							Departures
 						</span>
@@ -77,14 +96,14 @@ export default function LandingPage() {
 				{/* Historical Data Card */}
 				<A
 					href="/past"
-					class="group rounded-xl border-2 border-purple-200 bg-white p-6 shadow-md transition-all hover:border-purple-400 hover:shadow-lg"
+					class="group rounded-xl border-2 border-[#003580]/20 bg-white p-6 shadow-md transition-all hover:border-[#003580] hover:shadow-lg"
 				>
 					<div class="flex items-center gap-3">
-						<div class="rounded-lg bg-purple-100 p-3">
-							<History class="h-6 w-6 text-purple-600" />
+						<div class="rounded-lg bg-[#003580] p-3">
+							<History class="h-6 w-6 text-[#FFD700]" />
 						</div>
 						<div>
-							<h2 class="text-xl font-semibold text-gray-900 group-hover:text-purple-600">
+							<h2 class="text-xl font-semibold text-[#1A1A1B] group-hover:text-[#003580]">
 								Historical Data
 							</h2>
 							<p class="text-sm text-gray-500">歷史航班資料</p>
@@ -95,7 +114,7 @@ export default function LandingPage() {
 						Analyze trends and patterns.
 					</p>
 					<div class="mt-4 flex flex-wrap gap-2">
-						<span class="inline-flex items-center gap-1 rounded-full bg-purple-50 px-2.5 py-1 text-xs font-medium text-purple-700">
+						<span class="inline-flex items-center gap-1 rounded-full bg-[#003580]/10 px-2.5 py-1 text-xs font-medium text-[#003580]">
 							<Calendar class="h-3 w-3" />
 							Date Browser
 						</span>
@@ -108,45 +127,48 @@ export default function LandingPage() {
 			</div>
 
 			{/* Quick Access Section */}
-			<div class="rounded-xl border bg-gray-50 p-6">
-				<h3 class="mb-4 text-lg font-semibold text-gray-900">
+			<div class="rounded-xl border-2 border-[#003580]/10 bg-white p-6">
+				<h3 class="mb-4 text-lg font-semibold text-[#1A1A1B]">
 					Quick Access
 				</h3>
 				<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
 					<A
 						href="/flight/CX888"
-						class="flex items-center gap-2 rounded-lg border bg-white px-4 py-3 text-sm hover:border-blue-300 hover:bg-blue-50"
+						class="flex items-center gap-2 rounded-lg border-2 border-gray-200 bg-white px-4 py-3 text-sm font-medium hover:border-[#003580] hover:bg-[#003580]/5"
 					>
-						<Plane class="h-4 w-4 text-blue-500" />
+						<Plane class="h-4 w-4 text-[#003580]" />
 						<span>Flight CX888</span>
 					</A>
 					<A
 						href="/flight/UO838"
-						class="flex items-center gap-2 rounded-lg border bg-white px-4 py-3 text-sm hover:border-blue-300 hover:bg-blue-50"
+						class="flex items-center gap-2 rounded-lg border-2 border-gray-200 bg-white px-4 py-3 text-sm font-medium hover:border-[#003580] hover:bg-[#003580]/5"
 					>
-						<Plane class="h-4 w-4 text-blue-500" />
+						<Plane class="h-4 w-4 text-[#003580]" />
 						<span>Flight UO838</span>
 					</A>
 					<A
 						href="/gate/23"
-						class="flex items-center gap-2 rounded-lg border bg-white px-4 py-3 text-sm hover:border-blue-300 hover:bg-blue-50"
+						class="flex items-center gap-2 rounded-lg border-2 border-gray-200 bg-white px-4 py-3 text-sm font-medium hover:border-[#003580] hover:bg-[#003580]/5"
 					>
-						<DoorOpen class="h-4 w-4 text-blue-500" />
-						<span>Gate 23</span>
+						<DoorOpen class="h-4 w-4 text-[#FFD700]" />
+						<span class="gate-badge">23</span>
+						<span>Gate Analytics</span>
 					</A>
 				</div>
 			</div>
 
 			{/* Data Info */}
-			<div class="rounded-xl border bg-white p-6">
-				<h3 class="mb-4 text-lg font-semibold text-gray-900">
+			<div class="rounded-xl border-2 border-[#003580]/10 bg-white p-6">
+				<h3 class="mb-4 text-lg font-semibold text-[#1A1A1B]">
 					About the Data
 				</h3>
 				<div class="grid gap-4 text-sm text-gray-600 sm:grid-cols-2">
 					<div class="flex items-start gap-3">
-						<Clock class="mt-0.5 h-5 w-5 text-gray-400" />
+						<div class="rounded-lg bg-[#003580]/10 p-2">
+							<Clock class="h-5 w-5 text-[#003580]" />
+						</div>
 						<div>
-							<p class="font-medium text-gray-900">
+							<p class="font-medium text-[#1A1A1B]">
 								Real-time Updates
 							</p>
 							<p>
@@ -156,9 +178,11 @@ export default function LandingPage() {
 						</div>
 					</div>
 					<div class="flex items-start gap-3">
-						<Calendar class="mt-0.5 h-5 w-5 text-gray-400" />
+						<div class="rounded-lg bg-[#003580]/10 p-2">
+							<Calendar class="h-5 w-5 text-[#003580]" />
+						</div>
 						<div>
-							<p class="font-medium text-gray-900">
+							<p class="font-medium text-[#1A1A1B]">
 								Historical Archive
 							</p>
 							<p>
@@ -174,7 +198,7 @@ export default function LandingPage() {
 				Data sourced from Hong Kong International Airport •{" "}
 				<a
 					href="https://github.com"
-					class="hover:text-gray-600 hover:underline"
+					class="hover:text-[#003580] hover:underline"
 				>
 					Open Source Project
 				</a>

@@ -2,6 +2,7 @@
  * Layout Component
  *
  * Provides consistent navigation and page structure
+ * Uses HKIA Visual DNA color palette
  */
 
 import { A } from "@solidjs/router";
@@ -10,16 +11,16 @@ import type { ParentComponent } from "solid-js";
 
 export const Layout: ParentComponent = (props) => {
 	return (
-		<div class="min-h-screen bg-gray-50">
-			{/* Navigation Header */}
-			<header class="sticky top-0 z-50 border-b bg-white shadow-sm">
+		<div class="min-h-screen bg-[#F2F4F7]">
+			{/* Navigation Header - HKIA Deep Blue */}
+			<header class="sticky top-0 z-50 bg-[#003580] shadow-lg">
 				<nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
 					{/* Logo */}
 					<A
 						href="/"
-						class="flex items-center gap-2 text-xl font-bold text-gray-900"
+						class="flex items-center gap-2 text-xl font-bold text-white"
 					>
-						<Plane class="h-6 w-6 text-blue-600" />
+						<Plane class="h-6 w-6 text-[#FFD700]" />
 						<span>HKG Flights</span>
 					</A>
 
@@ -42,14 +43,14 @@ export const Layout: ParentComponent = (props) => {
 			<main class="mx-auto max-w-7xl px-4 py-6">{props.children}</main>
 
 			{/* Footer */}
-			<footer class="border-t bg-white py-4 text-center text-sm text-gray-500">
+			<footer class="border-t border-[#003580]/20 bg-white py-4 text-center text-sm text-gray-500">
 				<p>
 					Data from{" "}
 					<a
 						href="https://www.hongkongairport.com"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="text-blue-600 hover:underline"
+						class="text-[#003580] hover:underline"
 					>
 						Hong Kong International Airport
 					</a>
@@ -69,8 +70,8 @@ function NavLink(props: NavLinkProps) {
 	return (
 		<A
 			href={props.href}
-			class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900"
-			activeClass="bg-blue-50 text-blue-700"
+			class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+			activeClass="bg-white/20 text-white"
 			end={props.href === "/"}
 		>
 			<props.icon class="h-4 w-4" />

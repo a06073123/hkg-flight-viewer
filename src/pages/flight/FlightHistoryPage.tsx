@@ -11,6 +11,7 @@ import {
 	ArrowLeft,
 	Calendar,
 	Clock,
+	Plane,
 	TrendingUp,
 } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
@@ -68,7 +69,7 @@ export default function FlightHistoryPage() {
 			{/* Back Link */}
 			<A
 				href="/past"
-				class="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-gray-700"
+				class="inline-flex items-center gap-1 text-sm text-[#003580] hover:text-[#0052cc] hover:underline"
 			>
 				<ArrowLeft class="h-4 w-4" />
 				Back to Historical Data
@@ -76,15 +77,20 @@ export default function FlightHistoryPage() {
 
 			{/* Header */}
 			<div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-				<div>
-					<h1 class="text-3xl font-bold text-gray-900">
-						{params.no}
-					</h1>
-					<Show when={occurrences()[0]}>
-						<p class="text-lg text-gray-500">
-							{occurrences()[0].operatingCarrier.airline}
-						</p>
-					</Show>
+				<div class="flex items-center gap-3">
+					<div class="rounded-lg bg-[#003580] p-3">
+						<Plane class="h-8 w-8 text-[#FFD700]" />
+					</div>
+					<div>
+						<h1 class="text-3xl font-bold text-[#1A1A1B]">
+							{params.no}
+						</h1>
+						<Show when={occurrences()[0]}>
+							<p class="text-lg text-gray-500">
+								{occurrences()[0].operatingCarrier.airline}
+							</p>
+						</Show>
+					</div>
 				</div>
 
 				<Show when={history()}>
@@ -206,21 +212,35 @@ interface StatCardProps {
 
 function StatCard(props: StatCardProps) {
 	const colorClasses = {
-		blue: "bg-blue-50 text-blue-600",
-		green: "bg-green-50 text-green-600",
-		yellow: "bg-yellow-50 text-yellow-600",
-		red: "bg-red-50 text-red-600",
+		blue: "border-[#003580] bg-[#003580]/5 text-[#003580]",
+		green: "border-emerald-500 bg-emerald-50 text-emerald-600",
+		yellow: "border-amber-500 bg-amber-50 text-amber-600",
+		red: "border-[#C41230] bg-red-50 text-[#C41230]",
 	};
 
 	return (
-		<div class="rounded-lg border bg-white p-4 shadow-sm">
+		<div
+			class="rounded-lg border-l-4 bg-white p-4 shadow-sm"
+			style={{
+				"border-left-color":
+					props.color === "blue"
+						? "#003580"
+						: props.color === "green"
+							? "#10b981"
+							: props.color === "yellow"
+								? "#f59e0b"
+								: "#C41230",
+			}}
+		>
 			<div class="flex items-center gap-3">
 				<div class={`rounded-lg p-2 ${colorClasses[props.color]}`}>
 					<props.icon class="h-5 w-5" />
 				</div>
 				<div>
-					<div class="text-sm text-gray-500">{props.label}</div>
-					<div class="text-xl font-semibold text-gray-900">
+					<div class="text-sm font-medium text-gray-500">
+						{props.label}
+					</div>
+					<div class="text-xl font-bold text-[#1A1A1B]">
 						{props.value}
 					</div>
 				</div>

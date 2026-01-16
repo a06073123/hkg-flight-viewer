@@ -1,7 +1,8 @@
 /**
  * Flight Table Component
  *
- * Displays flight data in a responsive table format
+ * Displays flight data in a FIDS (Flight Information Display System) style
+ * Uses HKIA Visual DNA color palette
  */
 
 import { A } from "@solidjs/router";
@@ -17,31 +18,31 @@ export interface FlightTableProps {
 
 export function FlightTable(props: FlightTableProps) {
 	return (
-		<div class="overflow-x-auto rounded-lg border bg-white shadow">
-			<table class="min-w-full divide-y divide-gray-200">
-				<thead class="bg-gray-50">
+		<div class="overflow-x-auto rounded-lg border border-[#003580]/20 bg-white shadow-md">
+			<table class="min-w-full">
+				<thead class="bg-[#003580] text-white">
 					<tr>
-						<th class="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+						<th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider">
 							Time
 						</th>
-						<th class="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+						<th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider">
 							Flight
 						</th>
-						<th class="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+						<th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider">
 							{props.isArrival ? "Origin" : "Destination"}
 						</th>
-						<th class="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+						<th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider">
 							Terminal
 						</th>
-						<th class="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+						<th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider">
 							{props.isArrival ? "Belt" : "Gate"}
 						</th>
-						<th class="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">
+						<th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider">
 							Status
 						</th>
 					</tr>
 				</thead>
-				<tbody class="divide-y divide-gray-200 bg-white">
+				<tbody class="divide-y divide-gray-200">
 					<Show
 						when={!props.isLoading}
 						fallback={
@@ -69,14 +70,17 @@ export function FlightTable(props: FlightTableProps) {
 							}
 						>
 							{(flight) => (
-								<tr class="transition-colors hover:bg-gray-50">
-									<td class="whitespace-nowrap px-4 py-3 text-sm font-medium text-gray-900">
+								<tr class="flight-row transition-colors">
+									{/* Time */}
+									<td class="whitespace-nowrap px-4 py-3 text-sm font-bold text-[#1A1A1B]">
 										{flight.time}
 									</td>
+
+									{/* Flight Number */}
 									<td class="px-4 py-3">
 										<A
 											href={`/flight/${flight.operatingCarrier.no.replace(/\s+/g, "")}`}
-											class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
+											class="text-sm font-bold text-[#003580] hover:text-[#0052cc] hover:underline"
 										>
 											{flight.operatingCarrier.no}
 										</A>
@@ -90,23 +94,28 @@ export function FlightTable(props: FlightTableProps) {
 											</div>
 										</Show>
 									</td>
+
+									{/* Destination/Origin - Red Label Style */}
 									<td class="px-4 py-3">
-										<span class="text-sm font-medium">
+										<span class="inline-block rounded bg-[#C41230] px-2.5 py-1 text-xs font-bold tracking-wide text-white">
 											{flight.primaryAirport}
 										</span>
 										<Show when={flight.hasViaStops}>
-											<span class="ml-1 text-xs text-gray-400">
-												(via{" "}
+											<span class="ml-1.5 text-xs text-gray-400">
+												via{" "}
 												{flight.route
 													.slice(0, -1)
 													.join(", ")}
-												)
 											</span>
 										</Show>
 									</td>
-									<td class="whitespace-nowrap px-4 py-3 text-sm text-gray-600">
+
+									{/* Terminal */}
+									<td class="whitespace-nowrap px-4 py-3 text-sm font-medium text-gray-700">
 										{flight.terminal || "—"}
 									</td>
+
+									{/* Gate/Belt - HKIA Style Gate Badge */}
 									<td class="whitespace-nowrap px-4 py-3">
 										<Show
 											when={
@@ -122,7 +131,7 @@ export function FlightTable(props: FlightTableProps) {
 										>
 											<A
 												href={`/gate/${props.isArrival ? flight.baggageClaim : flight.gate}`}
-												class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
+												class="gate-badge inline-block hover:opacity-90"
 											>
 												{props.isArrival
 													? flight.baggageClaim
@@ -130,6 +139,8 @@ export function FlightTable(props: FlightTableProps) {
 											</A>
 										</Show>
 									</td>
+
+									{/* Status */}
 									<td class="whitespace-nowrap px-4 py-3">
 										<FlightStatus status={flight.status} />
 									</td>

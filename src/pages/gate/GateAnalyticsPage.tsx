@@ -6,7 +6,7 @@
  */
 
 import { A, useParams } from "@solidjs/router";
-import { AlertTriangle, ArrowLeft, Clock, DoorOpen, Plane } from "lucide-solid";
+import { AlertTriangle, ArrowLeft, Clock, Plane } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
 import { FlightStatus } from "../../components/flights/FlightCard";
 import { createGateHistoryResource } from "../../lib/resources";
@@ -65,7 +65,7 @@ export default function GateAnalyticsPage() {
 			{/* Back Link */}
 			<A
 				href="/past"
-				class="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-gray-700"
+				class="inline-flex items-center gap-1 text-sm text-[#003580] hover:text-[#0052cc] hover:underline"
 			>
 				<ArrowLeft class="h-4 w-4" />
 				Back to Historical Data
@@ -73,11 +73,9 @@ export default function GateAnalyticsPage() {
 
 			{/* Header */}
 			<div class="flex items-center gap-3">
-				<div class="rounded-lg bg-blue-50 p-3">
-					<DoorOpen class="h-8 w-8 text-blue-600" />
-				</div>
+				<div class="gate-badge text-2xl">{params.id}</div>
 				<div>
-					<h1 class="text-3xl font-bold text-gray-900">
+					<h1 class="text-3xl font-bold text-[#1A1A1B]">
 						Gate {params.id}
 					</h1>
 					<p class="text-gray-500">Departure Gate Analytics</p>
@@ -108,46 +106,46 @@ export default function GateAnalyticsPage() {
 			<Show when={stats()}>
 				{(s) => (
 					<div class="grid gap-4 sm:grid-cols-3">
-						<div class="rounded-lg border bg-white p-4 shadow-sm">
+						<div class="rounded-lg border-l-4 border-[#003580] bg-white p-4 shadow-sm">
 							<div class="flex items-center gap-3">
-								<div class="rounded-lg bg-blue-50 p-2">
-									<Plane class="h-5 w-5 text-blue-600" />
+								<div class="rounded-lg bg-[#003580]/10 p-2">
+									<Plane class="h-5 w-5 text-[#003580]" />
 								</div>
 								<div>
-									<div class="text-sm text-gray-500">
+									<div class="text-sm font-medium text-gray-500">
 										Total Departures
 									</div>
-									<div class="text-xl font-semibold text-gray-900">
+									<div class="text-2xl font-bold text-[#1A1A1B]">
 										{s().total}
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="rounded-lg border bg-white p-4 shadow-sm">
+						<div class="rounded-lg border-l-4 border-emerald-500 bg-white p-4 shadow-sm">
 							<div class="flex items-center gap-3">
-								<div class="rounded-lg bg-green-50 p-2">
-									<Clock class="h-5 w-5 text-green-600" />
+								<div class="rounded-lg bg-emerald-50 p-2">
+									<Clock class="h-5 w-5 text-emerald-600" />
 								</div>
 								<div>
-									<div class="text-sm text-gray-500">
+									<div class="text-sm font-medium text-gray-500">
 										Days Recorded
 									</div>
-									<div class="text-xl font-semibold text-gray-900">
+									<div class="text-2xl font-bold text-[#1A1A1B]">
 										{s().uniqueDates}
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="rounded-lg border bg-white p-4 shadow-sm">
+						<div class="rounded-lg border-l-4 border-orange-500 bg-white p-4 shadow-sm">
 							<div class="flex items-center gap-3">
-								<div class="rounded-lg bg-purple-50 p-2">
-									<Plane class="h-5 w-5 text-purple-600" />
+								<div class="rounded-lg bg-orange-50 p-2">
+									<Plane class="h-5 w-5 text-orange-600" />
 								</div>
 								<div>
-									<div class="text-sm text-gray-500">
+									<div class="text-sm font-medium text-gray-500">
 										Avg per Day
 									</div>
-									<div class="text-xl font-semibold text-gray-900">
+									<div class="text-2xl font-bold text-[#1A1A1B]">
 										{s().avgPerDay}
 									</div>
 								</div>

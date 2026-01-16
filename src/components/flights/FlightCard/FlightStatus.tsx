@@ -1,7 +1,10 @@
 /**
  * FlightStatus Sub-component
  *
- * Renders the status badge with appropriate styling
+ * Renders the status badge with HKIA-style FIDS coloring
+ * - Departed/Arrived: Deep blue text on light grey
+ * - Delayed: Red with pulse animation
+ * - Boarding/Final Call: Yellow background (urgent)
  */
 
 import type { Component } from "solid-js";
@@ -12,18 +15,26 @@ export interface FlightStatusProps {
 	status: ParsedStatus;
 }
 
+// HKIA-inspired status styles
 const statusStyles: Record<StatusType, string> = {
-	[StatusType.Departed]: "bg-green-100 text-green-800",
-	[StatusType.Landed]: "bg-green-100 text-green-800",
-	[StatusType.AtGate]: "bg-blue-100 text-blue-800",
-	[StatusType.Boarding]: "bg-yellow-100 text-yellow-800",
-	[StatusType.BoardingSoon]: "bg-yellow-100 text-yellow-800",
-	[StatusType.FinalCall]: "bg-orange-100 text-orange-800",
-	[StatusType.GateClosed]: "bg-red-100 text-red-800",
-	[StatusType.Cancelled]: "bg-red-100 text-red-800",
-	[StatusType.Delayed]: "bg-red-100 text-red-800",
-	[StatusType.Estimated]: "bg-gray-100 text-gray-800",
-	[StatusType.Unknown]: "bg-gray-100 text-gray-600",
+	// Completed states - Deep blue on light grey
+	[StatusType.Departed]: "bg-gray-100 text-[#003580] font-semibold",
+	[StatusType.Landed]: "bg-gray-100 text-[#003580] font-semibold",
+	[StatusType.AtGate]: "bg-blue-50 text-[#003580]",
+
+	// Urgent states - Yellow background (high visibility)
+	[StatusType.Boarding]: "status-urgent",
+	[StatusType.BoardingSoon]: "bg-amber-100 text-amber-900 font-semibold",
+	[StatusType.FinalCall]: "status-urgent animate-pulse",
+	[StatusType.GateClosed]: "bg-gray-700 text-white font-semibold",
+
+	// Alert states - Red (delayed/cancelled)
+	[StatusType.Cancelled]: "bg-[#C41230] text-white font-bold",
+	[StatusType.Delayed]: "bg-red-100 text-[#C41230] font-bold status-delayed",
+
+	// Informational
+	[StatusType.Estimated]: "bg-gray-100 text-gray-700",
+	[StatusType.Unknown]: "bg-gray-50 text-gray-500",
 };
 
 const statusLabels: Record<StatusType, string> = {
@@ -46,12 +57,14 @@ export const FlightStatus: Component<FlightStatusProps> = (props) => {
 
 	return (
 		<span
-			class={`flight-status inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${style()}`}
+			class={`flight-status inline-flex items-center rounded px-2.5 py-1 text-xs font-medium ${style()}`}
 			data-status={props.status.type}
 		>
 			{label()}
 			{props.status.time && (
-				<span class="ml-1 font-normal">{props.status.time}</span>
+				<span class="ml-1 font-normal opacity-80">
+					{props.status.time}
+				</span>
 			)}
 		</span>
 	);
