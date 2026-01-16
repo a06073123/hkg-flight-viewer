@@ -23,6 +23,7 @@ import {
 	Warehouse,
 } from "lucide-solid";
 import { For, Show } from "solid-js";
+import { getAirlineNameSync } from "../../../lib/airline-data";
 import { getAirportName } from "../../../lib/airport-data";
 import type { FlightRecord } from "../../../types/flight";
 import { FlightStatus } from "../FlightCard";
@@ -89,7 +90,10 @@ export function CargoFlightCard(props: CargoFlightCardProps) {
 									</span>
 								</div>
 								<span class="text-center text-sm text-gray-500">
-									{flight.operatingCarrier.airline}
+									{getAirlineNameSync(
+										flight.operatingCarrier.airline,
+									)}{" "}
+									- {flight.operatingCarrier.airline}
 								</span>
 							</div>
 

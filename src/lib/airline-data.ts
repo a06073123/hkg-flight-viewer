@@ -1,10 +1,10 @@
 /**
  * Airline Data Service
  *
- * Fetches and parses airline information from HKIA including:
- * - Transfer desk locations
- * - Check-in aisles
- * - Ground handling agents
+ * Uses official HKIA airline data:
+ * https://www.hongkongairport.com/iwov-resources/custom/json/airline_en.json
+ *
+ * Provides airline names, transfer desks, check-in aisles, ground handling info
  */
 
 // ============================================================================
@@ -80,10 +80,10 @@ interface RawAirlineJson {
 // ============================================================================
 
 let airlineCache: Map<string, AirlineInfo> | null = null;
-let cachePromise: Promise<Map<string, AirlineInfo>> | null = null;
+let airlineCachePromise: Promise<Map<string, AirlineInfo>> | null = null;
 
 // ============================================================================
-// API
+// HKIA API
 // ============================================================================
 
 const AIRLINE_JSON_URL =
@@ -100,12 +100,12 @@ export async function fetchAirlineData(): Promise<Map<string, AirlineInfo>> {
 	}
 
 	// Return existing promise if fetch is in progress
-	if (cachePromise) {
-		return cachePromise;
+	if (airlineCachePromise) {
+		return airlineCachePromise;
 	}
 
 	// Start fetching
-	cachePromise = (async () => {
+	airlineCachePromise = (async () => {
 		try {
 			const response = await fetch(AIRLINE_JSON_URL);
 			if (!response.ok) {
@@ -146,7 +146,7 @@ export async function fetchAirlineData(): Promise<Map<string, AirlineInfo>> {
 		}
 	})();
 
-	return cachePromise;
+	return airlineCachePromise;
 }
 
 /**
@@ -205,4 +205,90 @@ export function hasTransferService(transfer: string[]): boolean {
 	if (!transfer || transfer.length === 0) return false;
 	const location = transfer[0];
 	return location !== "NA" && location !== "";
+}
+
+// ============================================================================
+// AIRLINE NAME FORMATTING
+// ============================================================================
+
+/**
+ * Get airline display name from HKIA data by ICAO code
+ * Returns formatted string: "Airline Name - ICAO"
+ * Example: "Cathay Pacific - CPA"
+ */
+export async function getAirlineDisplayName(icaoCode: string): Promise<string> {
+	const code = icaoCode.toUpperCase();
+	const airlines = await fetchAirlineData();
+	const info = airlines.get(code);
+
+	if (info?.name) {
+		return `${info.name} - ${code}`;
+	}
+
+	// Just return the code if nothing found
+	return code;
+}
+
+/**
+ * Get airline name only (without code)
+ */
+export async function getAirlineName(icaoCode: string): Promise<string> {
+	const code = icaoCode.toUpperCase();
+	const airlines = await fetchAirlineData();
+	const info = airlines.get(code);
+
+	if (info?.name) {
+		return info.name;
+	}
+
+	return code;
+}
+
+/**
+ * Get airline name synchronously (uses cached data)
+ * Call initAirlineData() first for best results
+ */
+export function getAirlineNameSync(icaoCode: string): string {
+	const code = icaoCode.toUpperCase();
+
+	if (airlineCache) {
+		const info = airlineCache.get(code);
+		if (info?.name) {
+			return info.name;
+		}
+	}
+
+	// Trigger async load for next time
+	fetchAirlineData();
+
+	return code;
+}
+
+/**
+ * Format airline display: "Airline Name - ICAO" (sync version)
+ */
+export function formatAirlineDisplay(icaoCode: string): string {
+	const code = icaoCode.toUpperCase();
+	const name = getAirlineNameSync(code);
+
+	if (name === code) {
+		return code;
+	}
+
+	return `${name} - ${code}`;
+}
+
+/**
+ * Initialize airline data cache
+ * Call this early in app startup
+ */
+export async function initAirlineData(): Promise<void> {
+	await fetchAirlineData();
+}
+
+/**
+ * Check if airline data is loaded
+ */
+export function isAirlineDataLoaded(): boolean {
+	return airlineCache !== null;
 }

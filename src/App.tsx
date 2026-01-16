@@ -1,6 +1,9 @@
 import { Route, Router } from "@solidjs/router";
+import { onMount } from "solid-js";
 import "./App.css";
 import { Layout } from "./components/layout";
+import { initAirlineData } from "./lib/airline-data";
+import { initAirportData } from "./lib/airport-data";
 import {
 	FlightHistoryPage,
 	GateAnalyticsPage,
@@ -10,6 +13,12 @@ import {
 } from "./pages";
 
 function App() {
+	// Pre-load airport and airline data for sync functions
+	onMount(() => {
+		initAirportData();
+		initAirlineData();
+	});
+
 	return (
 		<Router root={Layout}>
 			<Route path="/" component={LandingPage} />

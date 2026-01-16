@@ -14,7 +14,8 @@
     "archive:today": "node scripts/archive-flights.js",
     "reindex": "node scripts/reindex-flights.js",
     "reindex:clean": "node scripts/reindex-flights.js --clean",
-    "analyze": "node scripts/analyze-data.js"
+    "analyze": "node scripts/analyze-data.js",
+    "fetch:airports": "node scripts/fetch-airport-data.js"
   },
   "dependencies": {
     "@ark-ui/solid": "^5.30.0",

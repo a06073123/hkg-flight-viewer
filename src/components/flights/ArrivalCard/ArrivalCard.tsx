@@ -13,6 +13,7 @@
 import { A } from "@solidjs/router";
 import { Clock, Luggage, PlaneLanding, Users } from "lucide-solid";
 import { For, Show } from "solid-js";
+import { getAirlineNameSync } from "../../../lib/airline-data";
 import { getAirportName } from "../../../lib/airport-data";
 import type { FlightRecord } from "../../../types/flight";
 import { FlightStatus } from "../FlightCard";
@@ -64,7 +65,10 @@ export function ArrivalCard(props: ArrivalCardProps) {
 									{flight.operatingCarrier.no}
 								</A>
 								<span class="text-center text-sm text-gray-500">
-									{flight.operatingCarrier.airline}
+									{getAirlineNameSync(
+										flight.operatingCarrier.airline,
+									)}{" "}
+									- {flight.operatingCarrier.airline}
 								</span>
 							</div>
 

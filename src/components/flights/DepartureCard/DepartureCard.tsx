@@ -12,6 +12,7 @@
 import { A } from "@solidjs/router";
 import { Clock, DoorOpen, PlaneTakeoff, Users } from "lucide-solid";
 import { For, Show } from "solid-js";
+import { getAirlineNameSync } from "../../../lib/airline-data";
 import { getAirportName } from "../../../lib/airport-data";
 import type { FlightRecord } from "../../../types/flight";
 import { FlightStatus } from "../FlightCard";
@@ -66,7 +67,7 @@ export function DepartureCard(props: DepartureCardProps) {
 									{flight.operatingCarrier.no}
 								</A>
 								<span class="text-sm text-center text-gray-500">
-									{flight.operatingCarrier.airline}
+									{getAirlineNameSync(flight.operatingCarrier.airline)} - {flight.operatingCarrier.airline}
 								</span>
 							</div>
 							{/* Destination - HKIA Red Label Style with Airport Name */}
