@@ -255,16 +255,18 @@ jobs:
 
 ## 📜 Available Scripts
 
-| Command                         | Description                          |
-| ------------------------------- | ------------------------------------ |
-| `npm run dev`                   | Start development server             |
-| `npm run build`                 | Build for production                 |
-| `npm run preview`               | Preview production build             |
-| `npm run archive`               | Archive today's flight data          |
-| `npm run archive -- YYYY-MM-DD` | Archive specific date                |
-| `npm run reindex`               | Rebuild indexes from daily snapshots |
-| `npm run reindex:clean`         | Clean and rebuild all indexes        |
-| `npm run analyze`               | Run comprehensive data analysis      |
+| Command                         | Description                           |
+| ------------------------------- | ------------------------------------- |
+| `npm run dev`                   | Start development server              |
+| `npm run build`                 | Build for production                  |
+| `npm run preview`               | Preview production build              |
+| `npm run archive`               | Archive today's flight data           |
+| `npm run archive -- YYYY-MM-DD` | Archive specific date                 |
+| `npm run reindex`               | Rebuild indexes from daily snapshots  |
+| `npm run reindex:clean`         | Clean and rebuild all indexes         |
+| `npm run analyze`               | Run comprehensive data analysis       |
+| `npm run fetch:airports`        | Update airport codes from OurAirports |
+| `npm run minify:json`           | Minify all JSON files in public/data  |
 
 ---
 
@@ -288,7 +290,25 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgments
+## � Data Sources & Credits
+
+This project uses external data from the following sources. See [DATA-SOURCES.md](DATA-SOURCES.md) for complete licensing details.
+
+| Data Type               | Source                                                                                                         | License                                                                |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Flight Information**  | [HKIA Official API](https://www.hongkongairport.com)                                                           | [DATA.GOV.HK Terms](https://data.gov.hk/en/terms-and-conditions)       |
+| **Airline Information** | [HKIA Airline JSON](https://www.hongkongairport.com/iwov-resources/custom/json/airline_en.json)                | [DATA.GOV.HK Terms](https://data.gov.hk/en/terms-and-conditions)       |
+| **Airport Codes**       | [OurAirports](https://ourairports.com) via [datasets/airport-codes](https://github.com/datasets/airport-codes) | [PDDL (Public Domain)](https://opendatacommons.org/licenses/pddl/1-0/) |
+
+### Attribution
+
+> Flight and airline data © Hong Kong International Airport Authority, provided via DATA.GOV.HK Open Data platform.
+>
+> Airport data from OurAirports (https://ourairports.com), distributed under PDDL.
+
+---
+
+## �🙏 Acknowledgments
 
 - [Hong Kong International Airport](https://www.hongkongairport.com) for the public flight data API
 - [SolidJS](https://solidjs.com) community for the excellent framework
