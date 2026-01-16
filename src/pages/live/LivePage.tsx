@@ -14,8 +14,11 @@ import {
 	createLiveDeparturesResource,
 } from "@/lib/resources";
 import type { FlightRecord } from "@/types/flight";
-import { Tabs } from "@ark-ui/solid";
+import { StatusType } from "@/types/flight";
+import { Switch, Tabs } from "@ark-ui/solid";
 import {
+	Eye,
+	EyeOff,
 	Package,
 	Plane,
 	PlaneLanding,
@@ -27,11 +30,51 @@ import { createMemo, createSignal, onCleanup, Suspense } from "solid-js";
 // Refresh interval: 5 minutes
 const REFRESH_INTERVAL = 5 * 60 * 1000;
 
+/**
+ * Check if a flight has completed or passed its departure time
+ * For Live page: hide flights that are already departed or past their scheduled time
+ */
+function isCompletedFlight(flight: FlightRecord): boolean {
+	// Status-based completion
+	const completedStatuses: StatusType[] = [
+		StatusType.Departed,
+		StatusType.Landed,
+		StatusType.AtGate,
+		StatusType.GateClosed, // Gate closed = about to depart or already departed
+	];
+	
+	if (completedStatuses.includes(flight.status.type)) {
+		return true;
+	}
+	
+	// Time-based completion: hide flights past their scheduled time by more than 30 minutes
+	// This catches cases where status hasn't updated yet
+	const now = new Date();
+	const [hours, minutes] = flight.time.split(":").map(Number);
+	const scheduledTime = new Date();
+	scheduledTime.setHours(hours, minutes, 0, 0);
+	
+	// If scheduled time is in the future (e.g., 23:00 when it's 01:00), don't hide
+	// Only hide if scheduled time + 30 min buffer has passed
+	const bufferMs = 30 * 60 * 1000; // 30 minutes
+	const timeDiff = now.getTime() - scheduledTime.getTime();
+	
+	// Only apply time-based filtering if:
+	// 1. Flight is more than 30 minutes past scheduled time
+	// 2. Time difference is reasonable (not crossing midnight boundary)
+	if (timeDiff > bufferMs && timeDiff < 12 * 60 * 60 * 1000) {
+		return true;
+	}
+	
+	return false;
+}
+
 export default function LivePage() {
 	const [activeTab, setActiveTab] = createSignal<
 		"departures" | "arrivals" | "cargo"
 	>("departures");
 	const [searchQuery, setSearchQuery] = createSignal("");
+	const [showCompleted, setShowCompleted] = createSignal(false);
 
 	// Live data resources
 	const [arrivals, { refetch: refetchArrivals }] =
@@ -58,18 +101,37 @@ export default function LivePage() {
 		(departures() ?? []).filter((f: FlightRecord) => !f.isCargo),
 	);
 
-	// Apply search filter
-	const filteredArrivals = createMemo(() =>
-		sortFlightsByTime(filterFlights(passengerArrivals(), searchQuery())),
-	);
+	// Apply search filter and optionally hide completed flights
+	const filteredArrivals = createMemo(() => {
+		let flights = sortFlightsByTime(
+			filterFlights(passengerArrivals(), searchQuery()),
+		);
+		if (!showCompleted()) {
+			flights = flights.filter((f) => !isCompletedFlight(f));
+		}
+		return flights;
+	});
 
-	const filteredDepartures = createMemo(() =>
-		sortFlightsByTime(filterFlights(passengerDepartures(), searchQuery())),
-	);
+	const filteredDepartures = createMemo(() => {
+		let flights = sortFlightsByTime(
+			filterFlights(passengerDepartures(), searchQuery()),
+		);
+		if (!showCompleted()) {
+			flights = flights.filter((f) => !isCompletedFlight(f));
+		}
+		return flights;
+	});
 
-	const filteredCargo = createMemo(() =>
-		sortFlightsByTime(filterFlights(cargo() ?? [], searchQuery())),
-	);
+	const filteredCargo = createMemo(() => {
+		let flights = sortFlightsByTime(
+			filterFlights(cargo() ?? [], searchQuery()),
+		);
+		if (!showCompleted()) {
+			flights = flights.filter((f) => !isCompletedFlight(f));
+		}
+		return flights;
+	});
+
 
 	const isLoading = () =>
 		arrivals.loading || departures.loading || cargo.loading;
@@ -81,7 +143,7 @@ export default function LivePage() {
 	};
 
 	const lastUpdated = () =>
-		new Date().toLocaleTimeString("en-HK", {
+		new Date().toLocaleTimeString("en-US", {
 			hour: "2-digit",
 			minute: "2-digit",
 		});
@@ -133,15 +195,37 @@ export default function LivePage() {
 				</div>
 			</div>
 
-			{/* Search Bar - Fixed width container */}
-			<div class="w-full max-w-lg">
-				<FlightSearch
-					mode="filter"
-					value={searchQuery()}
-					onFilter={setSearchQuery}
-					placeholder="Search by flight number, destination, or airline..."
-					resultCount={getCurrentCount()}
-				/>
+			{/* Search Bar and Filters */}
+			<div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+				<div class="w-full max-w-lg">
+					<FlightSearch
+						mode="filter"
+						value={searchQuery()}
+						onFilter={setSearchQuery}
+						placeholder="Search by flight number, destination, or airline..."
+						resultCount={getCurrentCount()}
+					/>
+				</div>
+
+				{/* Show Completed Toggle */}
+				<Switch.Root
+					checked={showCompleted()}
+					onCheckedChange={(details) =>
+						setShowCompleted(details.checked)
+					}
+					class="flex items-center gap-2"
+				>
+					<Switch.Label class="flex cursor-pointer items-center gap-1.5 text-sm text-gray-600">
+						<EyeOff class="h-4 w-4" />
+					</Switch.Label>
+					<Switch.Control class="inline-flex h-6 w-11 cursor-pointer items-center rounded-full bg-gray-200 p-0.5 transition-colors data-[state=checked]:bg-[#003580]">
+						<Switch.Thumb class="h-5 w-5 rounded-full bg-white shadow-md transition-transform data-[state=checked]:translate-x-5" />
+					</Switch.Control>
+					<Switch.Label class="flex cursor-pointer items-center gap-1.5 text-sm text-gray-600">
+						<Eye class="h-4 w-4" />
+					</Switch.Label>
+					<Switch.HiddenInput />
+				</Switch.Root>
 			</div>
 
 			{/* Tabs - HKIA Style */}

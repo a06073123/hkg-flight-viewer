@@ -129,12 +129,3 @@ body {
 .flight-row:hover {
 	background-color: #fff9e5;
 }
-
-/* Table Zebra Striping */
-.flight-row:nth-child(even) {
-	background-color: var(--hkia-surface);
-}
-
-.flight-row:nth-child(even):hover {
-	background-color: #fff9e5;
-}
