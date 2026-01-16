@@ -364,54 +364,6 @@ export interface ApiDateRange {
 }
 
 // ============================================================================
-// TYPE GUARDS
-// ============================================================================
-
-/**
- * Check if response is an API error
- */
-export function isApiError(
-	response: RawApiResponse | ApiErrorResponse,
-): response is ApiErrorResponse {
-	return (response as ApiErrorResponse).problemNo !== undefined;
-}
-
-/**
- * Check if flight is an arrival
- */
-export function isArrival(flight: FlightRecord): boolean {
-	return flight.direction === FlightDirection.Arrival;
-}
-
-/**
- * Check if flight is a departure
- */
-export function isDeparture(flight: FlightRecord): boolean {
-	return flight.direction === FlightDirection.Departure;
-}
-
-/**
- * Check if flight is cargo
- */
-export function isCargo(flight: FlightRecord): boolean {
-	return flight.category === FlightCategory.Cargo;
-}
-
-/**
- * Check if flight has codeshare partners
- */
-export function hasCodeshare(flight: FlightRecord): boolean {
-	return flight.codeshareCount > 0;
-}
-
-/**
- * Check if flight has via stops
- */
-export function hasViaStops(flight: FlightRecord): boolean {
-	return flight.viaStopCount > 0;
-}
-
-// ============================================================================
 // CONSTANTS
 // ============================================================================
 
@@ -425,51 +377,3 @@ export const API_DATE_RANGE = {
 	/** Days in the future from today */
 	FUTURE_DAYS: 14,
 } as const;
-
-/**
- * Maximum entries per shard file
- */
-export const MAX_SHARD_ENTRIES = 50;
-
-/**
- * API base URL
- */
-export const API_BASE_URL =
-	"https://www.hongkongairport.com/flightinfo-rest/rest/flights/past";
-
-/**
- * Top airlines at HKIA (ICAO code to IATA code mapping)
- * Based on analysis of flight frequency
- */
-export const AIRLINE_CODES: Record<string, string> = {
-	CPA: "CX", // Cathay Pacific
-	HKE: "UO", // HK Express
-	CRK: "HX", // Hong Kong Airlines
-	QTR: "QR", // Qatar Airways
-	MGL: "OM", // MIAT Mongolian Airlines
-	FIN: "AY", // Finnair
-	JAL: "JL", // Japan Airlines
-	CCA: "CA", // Air China
-	AAL: "AA", // American Airlines
-	BAW: "BA", // British Airways
-	CES: "MU", // China Eastern
-	THY: "TK", // Turkish Airlines
-	CHH: "HU", // Hainan Airlines
-	QFA: "QF", // Qantas
-	EVA: "BR", // EVA Air
-	MAS: "MH", // Malaysia Airlines
-	LAN: "LA", // LATAM
-	HGB: "HB", // Greater Bay Airlines
-	CAL: "CI", // China Airlines
-	FJI: "FJ", // Fiji Airways
-	ACA: "AC", // Air Canada
-	CSH: "FM", // Shanghai Airlines
-	AHK: "LD", // AHK Air Hong Kong (Cargo)
-	ETD: "EY", // Etihad Airways
-	DLH: "LH", // Lufthansa
-	UAE: "EK", // Emirates
-	CEB: "5J", // Cebu Pacific
-	UAL: "UA", // United Airlines
-	BKP: "PG", // Bangkok Airways
-	GFA: "GF", // Gulf Air
-};

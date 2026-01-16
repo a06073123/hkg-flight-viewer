@@ -122,7 +122,11 @@ export async function fetchCargoFlights(
 // STATIC JSON (Historical Data)
 // ============================================================================
 
-export interface DailySnapshot {
+/**
+ * Loaded daily snapshot (UI format)
+ * Simplified from raw archive format
+ */
+export interface LoadedDailySnapshot {
 	date: string;
 	archivedAt: string;
 	flights: FlightRecord[];
@@ -137,12 +141,18 @@ interface RawDailySnapshot {
 	flights: ArchivedFlightItem[];
 }
 
+/**
+ * Flight history index (loaded from static JSON)
+ */
 export interface FlightIndex {
 	flightNo: string;
 	updatedAt: string;
 	occurrences: FlightRecord[];
 }
 
+/**
+ * Gate usage index (loaded from static JSON)
+ */
 export interface GateIndex {
 	gate: string;
 	updatedAt: string;
@@ -154,7 +164,7 @@ export interface GateIndex {
  */
 export async function loadDailySnapshot(
 	date: string,
-): Promise<DailySnapshot | null> {
+): Promise<LoadedDailySnapshot | null> {
 	try {
 		const response = await fetch(`${STATIC_DATA_BASE}/daily/${date}.json`);
 		if (!response.ok) return null;
@@ -281,22 +291,4 @@ export function sortFlightsByTime(
 			? timeA.localeCompare(timeB)
 			: timeB.localeCompare(timeA);
 	});
-}
-
-/**
- * Group flights by airline
- */
-export function groupByAirline(
-	flights: FlightRecord[],
-): Map<string, FlightRecord[]> {
-	const groups = new Map<string, FlightRecord[]>();
-
-	for (const flight of flights) {
-		const airline = flight.operatingCarrier.airline;
-		const existing = groups.get(airline) || [];
-		existing.push(flight);
-		groups.set(airline, existing);
-	}
-
-	return groups;
 }

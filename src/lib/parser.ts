@@ -321,13 +321,6 @@ export function parseDDMMYYYY(dateStr: string): Date | null {
 // ============================================================================
 
 /**
- * Check if two flight records represent the same flight
- */
-export function isSameFlight(a: FlightRecord, b: FlightRecord): boolean {
-	return a.id === b.id;
-}
-
-/**
  * Detect changes between two versions of the same flight
  */
 export interface FlightChanges {
