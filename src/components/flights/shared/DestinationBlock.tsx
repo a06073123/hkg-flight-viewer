@@ -10,7 +10,7 @@
  */
 
 import { Tooltip } from "@/components/common";
-import { getAirportName } from "@/lib/airport-data";
+import { getAirportDataVersion, getAirportName } from "@/lib/airport-data";
 import { ArrowRight } from "lucide-solid";
 import { Show } from "solid-js";
 import type { FlightCardTheme } from "./FlightCardLayout";
@@ -41,7 +41,11 @@ const labelStyles: Record<FlightCardTheme, string> = {
 };
 
 export function DestinationBlock(props: DestinationBlockProps) {
-	const airportName = () => getAirportName(props.airportCode);
+	// Subscribe to airport data version to re-render when data loads
+	const airportName = () => {
+		getAirportDataVersion(); // Triggers reactivity
+		return getAirportName(props.airportCode);
+	};
 
 	// Via stops display depends on direction
 	const viaStops = () => {

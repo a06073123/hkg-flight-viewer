@@ -1,8 +1,8 @@
 /**
  * Airline Data Service
  *
- * Uses official HKIA airline data:
- * https://www.hongkongairport.com/iwov-resources/custom/json/airline_en.json
+ * Uses official HKIA airline data via Worker proxy:
+ * GET /api/airlines → proxies https://www.hongkongairport.com/iwov-resources/custom/json/airline_en.json
  *
  * Provides airline names, transfer desks, check-in aisles, ground handling info
  */
@@ -76,21 +76,39 @@ interface RawAirlineJson {
 }
 
 // ============================================================================
-// CACHE
+// CACHE WITH REACTIVE SIGNAL
 // ============================================================================
+
+import { createSignal } from "solid-js";
 
 let airlineCache: Map<string, AirlineInfo> | null = null;
 let airlineCachePromise: Promise<Map<string, AirlineInfo>> | null = null;
 
-// ============================================================================
-// HKIA API
-// ============================================================================
-
-const AIRLINE_JSON_URL =
-	"https://www.hongkongairport.com/iwov-resources/custom/json/airline_en.json";
+/**
+ * Reactive signal to track when airline data is loaded
+ * Components can use this to re-render when data becomes available
+ */
+const [airlineDataVersion, setAirlineDataVersion] = createSignal(0);
 
 /**
- * Fetch and parse airline data from HKIA
+ * Get the current airline data version (for reactive updates)
+ * Call this in a component to trigger re-render when data loads
+ */
+export function getAirlineDataVersion(): number {
+	return airlineDataVersion();
+}
+
+// ============================================================================
+// API CONFIGURATION
+// ============================================================================
+
+/**
+ * Cloudflare Worker proxy URL for CORS bypass
+ */
+const API_BASE_URL = "https://hkg-flight-proxy.lincoln995623.workers.dev/api";
+
+/**
+ * Fetch and parse airline data from Worker proxy
  * Results are cached for the session
  */
 export async function fetchAirlineData(): Promise<Map<string, AirlineInfo>> {
@@ -107,7 +125,7 @@ export async function fetchAirlineData(): Promise<Map<string, AirlineInfo>> {
 	// Start fetching
 	airlineCachePromise = (async () => {
 		try {
-			const response = await fetch(AIRLINE_JSON_URL);
+			const response = await fetch(`${API_BASE_URL}/airlines`);
 			if (!response.ok) {
 				throw new Error(
 					`Failed to fetch airline data: ${response.status}`,
@@ -138,6 +156,8 @@ export async function fetchAirlineData(): Promise<Map<string, AirlineInfo>> {
 			}
 
 			airlineCache = airlines;
+			// Trigger reactive update for components using sync functions
+			setAirlineDataVersion((v) => v + 1);
 			return airlines;
 		} catch (error) {
 			console.error("Failed to fetch airline data:", error);

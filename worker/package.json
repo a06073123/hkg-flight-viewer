@@ -1,0 +1,17 @@
+{
+	"name": "@hkg-flight-viewer/worker",
+	"version": "2.1.0",
+	"private": true,
+	"description": "Cloudflare Worker proxy for HKIA Flight API",
+	"scripts": {
+		"dev": "wrangler dev",
+		"deploy": "wrangler deploy",
+		"tail": "wrangler tail",
+		"types": "wrangler types"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20241127.0",
+		"typescript": "^5.7.0",
+		"wrangler": "^4.59.2"
+	}
+}

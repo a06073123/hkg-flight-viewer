@@ -1,121 +1,148 @@
 /**
  * HKIA Flight API Service
  *
- * Handles real-time API calls and static JSON loading
+ * Handles real-time API calls (via Cloudflare Worker proxy) and static JSON loading
+ *
+ * Architecture:
+ * - Live data: Single call to Worker proxy → returns all categories combined
+ * - Historical data: Static JSON files from /data/daily/*.json
  */
 
-import {
-	type ArchivedFlightItem,
-	parseApiResponse,
-	parseArchivedFlights,
-} from "@/lib/parser";
-import type { FlightRecord, RawApiResponse } from "@/types/flight";
+import { type ArchivedFlightItem, parseArchivedFlights } from "@/lib/parser";
+import type { FlightRecord } from "@/types/flight";
 
 // ============================================================================
 // CONFIGURATION
 // ============================================================================
 
-const API_BASE_URL = "https://www.hongkongairport.com/flightinfo-rest/rest";
-const STATIC_DATA_BASE = "/data";
+/**
+ * Cloudflare Worker proxy URL
+ * Required for CORS bypass + 403 prevention
+ * Worker returns today's flights (HK time) with all categories combined.
+ */
+const API_BASE_URL = "https://hkg-flight-proxy.lincoln995623.workers.dev/api";
 
-export const POLLING_INTERVAL = 5 * 60 * 1000; // 5 minutes
+const STATIC_DATA_BASE = import.meta.env.BASE_URL + "data";
+
+export const POLLING_INTERVAL = 1 * 60 * 1000; // 1 minute (matches Worker cache TTL)
 
 // ============================================================================
-// REAL-TIME API
+// REAL-TIME API (via Worker Proxy)
 // ============================================================================
 
-interface FetchFlightsOptions {
-	date: string; // YYYY-MM-DD
-	lang?: string;
-	arrival: boolean;
-	cargo: boolean;
+/**
+ * Worker API response format
+ */
+interface WorkerFlightsResponse {
+	date: string;
+	generated: string;
+	count: number;
+	flights: ArchivedFlightItem[];
 }
 
 /**
- * Fetch flights from HKIA API
+ * Fetch today's flights from Worker proxy
+ * Returns all categories (arrival/departure × passenger/cargo) combined
  */
-export async function fetchFlightsFromApi(
-	options: FetchFlightsOptions,
-): Promise<FlightRecord[]> {
-	const { date, lang = "en", arrival, cargo } = options;
+export async function fetchTodayFlights(): Promise<FlightRecord[]> {
+	if (!API_BASE_URL) {
+		console.warn(
+			"VITE_API_PROXY_URL not configured, returning empty array",
+		);
+		return [];
+	}
 
-	const url = new URL(`${API_BASE_URL}/flights`);
-	url.searchParams.set("date", date);
-	url.searchParams.set("lang", lang);
-	url.searchParams.set("arrival", String(arrival));
-	url.searchParams.set("cargo", String(cargo));
-
-	const response = await fetch(url.toString());
+	const response = await fetch(`${API_BASE_URL}/flights`);
 
 	if (!response.ok) {
 		throw new Error(`API request failed: ${response.status}`);
 	}
 
-	const data: RawApiResponse = await response.json();
-	return parseApiResponse(data, arrival, cargo);
+	const data: WorkerFlightsResponse = await response.json();
+	return parseArchivedFlights(data.flights);
 }
 
 /**
- * Fetch all flight categories for a given date
+ * Fetch arrivals only (filters from combined data)
  */
-export async function fetchAllFlights(
-	date: string,
-	lang = "en",
-): Promise<FlightRecord[]> {
-	const categories: Array<{ arrival: boolean; cargo: boolean }> = [
-		{ arrival: true, cargo: false },
-		{ arrival: false, cargo: false },
-		{ arrival: true, cargo: true },
-		{ arrival: false, cargo: true },
-	];
-
-	const results = await Promise.all(
-		categories.map((cat) => fetchFlightsFromApi({ date, lang, ...cat })),
-	);
-
-	return results.flat();
+export async function fetchArrivals(): Promise<FlightRecord[]> {
+	const all = await fetchTodayFlights();
+	return all.filter((f) => f.isArrival);
 }
 
 /**
- * Fetch arrivals only (passenger + cargo)
+ * Fetch departures only (filters from combined data)
  */
-export async function fetchArrivals(
-	date: string,
-	lang = "en",
-): Promise<FlightRecord[]> {
-	const [passenger, cargo] = await Promise.all([
-		fetchFlightsFromApi({ date, lang, arrival: true, cargo: false }),
-		fetchFlightsFromApi({ date, lang, arrival: true, cargo: true }),
-	]);
-	return [...passenger, ...cargo];
+export async function fetchDepartures(): Promise<FlightRecord[]> {
+	const all = await fetchTodayFlights();
+	return all.filter((f) => !f.isArrival);
 }
 
 /**
- * Fetch departures only (passenger + cargo)
+ * Fetch cargo flights only (filters from combined data)
  */
-export async function fetchDepartures(
-	date: string,
-	lang = "en",
-): Promise<FlightRecord[]> {
-	const [passenger, cargo] = await Promise.all([
-		fetchFlightsFromApi({ date, lang, arrival: false, cargo: false }),
-		fetchFlightsFromApi({ date, lang, arrival: false, cargo: true }),
-	]);
-	return [...passenger, ...cargo];
+export async function fetchCargoFlights(): Promise<FlightRecord[]> {
+	const all = await fetchTodayFlights();
+	return all.filter((f) => f.isCargo);
 }
 
 /**
- * Fetch cargo flights only (arrivals + departures)
+ * Alias for fetchTodayFlights (backward compatibility)
+ * @deprecated Use fetchTodayFlights() instead
  */
-export async function fetchCargoFlights(
-	date: string,
-	lang = "en",
-): Promise<FlightRecord[]> {
-	const [arrivals, departures] = await Promise.all([
-		fetchFlightsFromApi({ date, lang, arrival: true, cargo: true }),
-		fetchFlightsFromApi({ date, lang, arrival: false, cargo: true }),
-	]);
-	return [...arrivals, ...departures];
+export async function fetchAllFlights(): Promise<FlightRecord[]> {
+	return fetchTodayFlights();
+}
+
+// ============================================================================
+// AIRLINE DATA (via Worker Proxy)
+// ============================================================================
+
+/**
+ * Airline information from HKIA
+ */
+export interface AirlineInfo {
+	"icao-3": string;
+	"iata-2": string;
+	name: string;
+	"all-names": string[];
+	terminal: string;
+	aisle: string[];
+	icon: string;
+	"website-url": string;
+	"ground-handling-agent": string[];
+}
+
+/**
+ * Airlines API response
+ */
+export interface AirlinesResponse {
+	airline: Record<string, AirlineInfo>;
+	"ground-handling-agent": Record<string, { name: string; fullname: string }>;
+}
+
+/**
+ * Fetch airline information from Worker proxy
+ * Cached for 12 hours at edge
+ */
+export async function fetchAirlines(): Promise<AirlinesResponse | null> {
+	if (!API_BASE_URL) {
+		console.warn("VITE_API_PROXY_URL not configured");
+		return null;
+	}
+
+	try {
+		const response = await fetch(`${API_BASE_URL}/airlines`);
+
+		if (!response.ok) {
+			throw new Error(`API request failed: ${response.status}`);
+		}
+
+		return response.json();
+	} catch (error) {
+		console.error("Failed to fetch airlines:", error);
+		return null;
+	}
 }
 
 // ============================================================================

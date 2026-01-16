@@ -8,10 +8,10 @@
 import type { FlightRecord } from "@/types/flight";
 import { createResource, type Accessor } from "solid-js";
 import {
-	fetchAllFlights,
 	fetchArrivals,
 	fetchCargoFlights,
 	fetchDepartures,
+	fetchTodayFlights,
 	loadDailySnapshot,
 	loadFlightIndex,
 	loadGateIndex,
@@ -56,23 +56,12 @@ export function createGateHistoryResource(gate: Accessor<string>) {
 // ============================================================================
 
 /**
- * Get today's date in YYYY-MM-DD format (Hong Kong timezone)
- */
-function getTodayHKT(): string {
-	const now = new Date();
-	// HKT is UTC+8
-	const hkt = new Date(now.getTime() + 8 * 60 * 60 * 1000);
-	return hkt.toISOString().split("T")[0];
-}
-
-/**
- * Fetch live arrivals from HKIA API
+ * Fetch live arrivals from Worker proxy
  */
 export function createLiveArrivalsResource() {
 	const [data, { refetch, mutate }] = createResource(
 		async () => {
-			const date = getTodayHKT();
-			return fetchArrivals(date);
+			return fetchArrivals();
 		},
 		{ initialValue: [] as FlightRecord[] },
 	);
@@ -80,13 +69,12 @@ export function createLiveArrivalsResource() {
 }
 
 /**
- * Fetch live departures from HKIA API
+ * Fetch live departures from Worker proxy
  */
 export function createLiveDeparturesResource() {
 	const [data, { refetch, mutate }] = createResource(
 		async () => {
-			const date = getTodayHKT();
-			return fetchDepartures(date);
+			return fetchDepartures();
 		},
 		{ initialValue: [] as FlightRecord[] },
 	);
@@ -94,13 +82,12 @@ export function createLiveDeparturesResource() {
 }
 
 /**
- * Fetch live cargo flights from HKIA API
+ * Fetch live cargo flights from Worker proxy
  */
 export function createLiveCargoResource() {
 	const [data, { refetch, mutate }] = createResource(
 		async () => {
-			const date = getTodayHKT();
-			return fetchCargoFlights(date);
+			return fetchCargoFlights();
 		},
 		{ initialValue: [] as FlightRecord[] },
 	);
@@ -108,13 +95,12 @@ export function createLiveCargoResource() {
 }
 
 /**
- * Fetch all live flights from HKIA API
+ * Fetch all live flights from Worker proxy
  */
 export function createLiveAllFlightsResource() {
 	const [data, { refetch, mutate }] = createResource(
 		async () => {
-			const date = getTodayHKT();
-			return fetchAllFlights(date);
+			return fetchTodayFlights();
 		},
 		{ initialValue: [] as FlightRecord[] },
 	);

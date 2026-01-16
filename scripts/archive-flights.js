@@ -6,7 +6,11 @@
  *
  * Usage: node scripts/archive-flights.js [YYYY-MM-DD]
  *
- * Data Sources:
+ * Environment Variables:
+ * - USE_PROXY: Set to "true" to use Cloudflare Worker proxy (recommended for today's data)
+ * - PROXY_URL: Worker proxy URL (default: https://hkg-flight-proxy.lincoln995623.workers.dev)
+ *
+ * Data Sources (when not using proxy):
  * - Arrivals (Passenger): arrival=true, cargo=false
  * - Arrivals (Cargo): arrival=true, cargo=true
  * - Departures (Passenger): arrival=false, cargo=false
@@ -24,6 +28,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Configuration
+const USE_PROXY = process.env.USE_PROXY === "true";
+const PROXY_URL =
+	process.env.PROXY_URL ||
+	"https://hkg-flight-proxy.lincoln995623.workers.dev";
 const API_BASE_URL =
 	"https://www.hongkongairport.com/flightinfo-rest/rest/flights/past";
 const DATA_DIR = path.resolve(__dirname, "../public/data");
@@ -71,6 +79,23 @@ async function fetchFlightData(date, arrival, cargo) {
 			`Failed to fetch data (arrival=${arrival}, cargo=${cargo}):`,
 			error.message,
 		);
+		return null;
+	}
+}
+
+/**
+ * Fetch all flights from Worker proxy (today's data only)
+ * @returns {Promise<Array>} Array of flight records
+ */
+async function fetchFlightsFromProxy() {
+	try {
+		console.log(`Fetching from Worker proxy: ${PROXY_URL}/api/flights`);
+		const response = await axios.get(`${PROXY_URL}/api/flights`, {
+			timeout: 60000, // 60 seconds for combined request
+		});
+		return response.data.flights || [];
+	} catch (error) {
+		console.error(`Failed to fetch from proxy:`, error.message);
 		return null;
 	}
 }
@@ -250,6 +275,7 @@ async function archiveFlights(targetDate) {
 	console.log(`\n========================================`);
 	console.log(`HKG Flight Archiver`);
 	console.log(`Target Date: ${targetDate}`);
+	console.log(`Mode: ${USE_PROXY ? "Worker Proxy" : "Direct API"}`);
 	console.log(`========================================\n`);
 
 	// Ensure directories exist
@@ -258,32 +284,50 @@ async function archiveFlights(targetDate) {
 	await fs.ensureDir(GATES_INDEX_DIR);
 	console.log("Data directories ensured.");
 
-	const allFlights = [];
+	let allFlights = [];
 
-	// Fetch all four categories
-	for (const category of FLIGHT_CATEGORIES) {
-		console.log(`\nFetching ${category.label}...`);
+	if (USE_PROXY) {
+		// Use Worker proxy (only works for today's HK date)
+		console.log(`\nFetching all flights from Worker proxy...`);
+		const flights = await fetchFlightsFromProxy();
+		if (flights) {
+			allFlights = flights;
+			console.log(`  - Found ${allFlights.length} flights`);
+		} else {
+			console.log(
+				`  - Failed to fetch from proxy. Falling back to direct API...`,
+			);
+			// Fall through to direct API
+		}
+	}
 
-		const data = await fetchFlightData(
-			targetDate,
-			category.arrival,
-			category.cargo,
-		);
+	// Use direct API if proxy not enabled or failed
+	if (!USE_PROXY || allFlights.length === 0) {
+		// Fetch all four categories
+		for (const category of FLIGHT_CATEGORIES) {
+			console.log(`\nFetching ${category.label}...`);
 
-		if (data) {
-			const flights = extractFlights(
-				data,
+			const data = await fetchFlightData(
+				targetDate,
 				category.arrival,
 				category.cargo,
 			);
-			console.log(`  - Found ${flights.length} flights`);
-			allFlights.push(...flights);
-		} else {
-			console.log(`  - No data retrieved`);
-		}
 
-		// Rate limiting - wait 1 second between requests
-		await new Promise((resolve) => setTimeout(resolve, 1000));
+			if (data) {
+				const flights = extractFlights(
+					data,
+					category.arrival,
+					category.cargo,
+				);
+				console.log(`  - Found ${flights.length} flights`);
+				allFlights.push(...flights);
+			} else {
+				console.log(`  - No data retrieved`);
+			}
+
+			// Rate limiting - wait 1 second between requests
+			await new Promise((resolve) => setTimeout(resolve, 1000));
+		}
 	}
 
 	console.log(`\nTotal flights collected: ${allFlights.length}`);

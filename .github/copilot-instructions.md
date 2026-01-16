@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A serverless flight information viewer for Hong Kong International Airport (HKIA). Uses **static JSON sharding** for historical data and direct API calls for real-time updates. Deployed on GitHub Pages with no backend.
+A serverless flight information viewer for Hong Kong International Airport (HKIA). Uses **static JSON sharding** for historical data and **Cloudflare Worker proxy** for real-time updates. Deployed on GitHub Pages with no backend.
 
 ## Tech Stack
 
@@ -14,6 +14,7 @@ A serverless flight information viewer for Hong Kong International Airport (HKIA
 | Data Fetching | **SolidJS `createResource`** (native async handling)  |
 | Build         | **Vite** with TypeScript                              |
 | Scripts       | Node.js ES Modules (not CommonJS)                     |
+| API Proxy     | **Cloudflare Workers** (CORS bypass, edge caching)    |
 
 ## Critical Conventions
 
@@ -84,6 +85,18 @@ public/data/
 - **Four categories:** Must query all combinations of `arrival=[true,false]` × `cargo=[true,false]`
 - **Rate limit:** Add 1-second delay between API calls
 
+## Cloudflare Worker Proxy
+
+The project uses a Cloudflare Worker proxy (`worker/`) to bypass CORS and 403 issues:
+
+| Endpoint        | Cache TTL | Description                                   |
+| --------------- | --------- | --------------------------------------------- |
+| `/api/flights`  | 1 minute  | Today's flights (all 4 categories combined)   |
+| `/api/airlines` | 12 hours  | Airline info (check-in counters, names, etc.) |
+| `/api/health`   | -         | Health check                                  |
+
+**Worker URL:** `https://hkg-flight-proxy.lincoln995623.workers.dev`
+
 ## Key Files
 
 | File                         | Purpose                                            |
@@ -92,6 +105,7 @@ public/data/
 | `src/lib/parser.ts`          | Raw API → normalized `FlightRecord` transformation |
 | `src/lib/resources.ts`       | SolidJS createResource hooks                       |
 | `src/lib/api.ts`             | API service layer (fetch functions)                |
+| `worker/src/index.ts`        | Cloudflare Worker proxy                            |
 | `scripts/archive-flights.js` | Daily archiver (GitHub Actions)                    |
 | `scripts/archive-rolling.js` | Rolling archive for delayed flights                |
 | `scripts/reindex-flights.js` | Rebuild indexes from daily snapshots               |
@@ -107,6 +121,9 @@ npm run archive:rolling        # Rolling archive past 6 days (covers +5 day dela
 npm run archive:rolling 7      # Rolling archive past 7 days
 npm run reindex:clean # Rebuild all indexes from scratch
 npm run analyze      # Run data analysis on collected data
+
+# Archive with Worker proxy (for today's data only)
+USE_PROXY=true npm run archive
 ```
 
 ## Archive Strategy: Rolling Re-Archive

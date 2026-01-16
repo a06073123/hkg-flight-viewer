@@ -10,7 +10,7 @@
  */
 
 import { Tooltip } from "@/components/common";
-import { getAirlineNameSync } from "@/lib/airline-data";
+import { getAirlineDataVersion, getAirlineNameSync } from "@/lib/airline-data";
 import type { RawFlightInfo } from "@/types/flight";
 import { A } from "@solidjs/router";
 import { Package, PlaneLanding, PlaneTakeoff, Users } from "lucide-solid";
@@ -39,9 +39,15 @@ const flightNumberStyles: Record<FlightCardTheme, string> = {
 };
 
 export function FlightNumberBlock(props: FlightNumberBlockProps) {
+	// Subscribe to airline data version to re-render when data loads
+	// This must be called at the top level to track all usages of getAirlineNameSync
+	const _version = () => getAirlineDataVersion();
+	
 	const Icon = props.isArrival ? PlaneLanding : PlaneTakeoff;
-	const airlineName = () =>
-		getAirlineNameSync(props.operatingCarrier.airline);
+	const airlineName = () => {
+		_version(); // Triggers reactivity
+		return getAirlineNameSync(props.operatingCarrier.airline);
+	};
 	const airlineTitle = () =>
 		`${airlineName()} - ${props.operatingCarrier.airline}`;
 

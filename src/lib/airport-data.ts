@@ -28,11 +28,27 @@ export interface AirportInfo {
 }
 
 // ============================================================================
-// CACHE
+// CACHE WITH REACTIVE SIGNAL
 // ============================================================================
+
+import { createSignal } from "solid-js";
 
 let airportCache: Record<string, AirportInfo> | null = null;
 let cachePromise: Promise<Record<string, AirportInfo>> | null = null;
+
+/**
+ * Reactive signal to track when airport data is loaded
+ * Components can use this to re-render when data becomes available
+ */
+const [airportDataVersion, setAirportDataVersion] = createSignal(0);
+
+/**
+ * Get the current airport data version (for reactive updates)
+ * Call this in a component to trigger re-render when data loads
+ */
+export function getAirportDataVersion(): number {
+	return airportDataVersion();
+}
 
 // ============================================================================
 // DATA LOADING
@@ -59,6 +75,8 @@ async function fetchAirportData(): Promise<Record<string, AirportInfo>> {
 			}
 			const data = (await response.json()) as Record<string, AirportInfo>;
 			airportCache = data;
+			// Trigger reactive update for components using sync functions
+			setAirportDataVersion((v) => v + 1);
 			return data;
 		} catch (error) {
 			console.error("Error loading airport data:", error);

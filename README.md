@@ -97,53 +97,46 @@ npm run analyze
 
 ```
 hkg-flight-viewer/
-├── scripts/
-│   ├── archive-flights.js    # Daily data archiver (GitHub Actions)
-│   ├── reindex-flights.js    # Rebuild indexes from snapshots
-│   └── analyze-data.js       # Data analysis tool
+├── .github/
+│   ├── copilot-instructions.md  # AI assistant context
+│   └── workflows/
+│       ├── ci.yml               # CI (PR only)
+│       ├── deploy.yml           # Deploy to GitHub Pages
+│       └── archive.yml          # Daily archive (scheduled)
 │
-├── public/
-│   └── data/
-│       ├── daily/            # Full daily snapshots
-│       │   └── YYYY-MM-DD.json
-│       └── indexes/
-│           ├── flights/      # Per-flight history (max 50 entries)
-│           │   └── {flightNo}.json
-│           └── gates/        # Per-gate history (max 50 entries)
-│               └── {gateNo}.json
+├── worker/                      # Cloudflare Worker Proxy (Monorepo)
+│   ├── src/index.ts             # Worker entry point
+│   ├── wrangler.toml            # Cloudflare config
+│   └── package.json             # Worker dependencies
+│
+├── scripts/
+│   ├── archive-flights.js       # Daily data archiver
+│   ├── archive-rolling.js       # Rolling archive for delayed flights
+│   ├── reindex-flights.js       # Rebuild indexes from snapshots
+│   └── analyze-data.js          # Data analysis tool
+│
+├── public/data/
+│   ├── daily/                   # Full daily snapshots
+│   │   └── YYYY-MM-DD.json
+│   └── indexes/
+│       ├── flights/             # Per-flight history (max 50 entries)
+│       └── gates/               # Per-gate history (max 50 entries)
 │
 ├── src/
-│   ├── types/
-│   │   └── flight.ts         # TypeScript interfaces (no enums)
+│   ├── types/flight.ts          # TypeScript interfaces (no enums)
 │   ├── lib/
-│   │   ├── api.ts            # API service layer
-│   │   ├── parser.ts         # Data parsing utilities
-│   │   ├── parser.test.ts    # Parser tests
-│   │   └── resources.ts      # SolidJS createResource hooks
-│   ├── components/
-│   │   ├── dashboard/        # Dashboard components
-│   │   ├── flights/          # Flight display components
-│   │   ├── search/           # Search components
-│   │   └── layout/           # Layout components
-│   ├── pages/
-│   │   ├── landing/          # Home page (/)
-│   │   ├── live/             # Live flights (/live)
-│   │   ├── past/             # Historical data (/past)
-│   │   ├── flight/           # Flight history (/flight/:no)
-│   │   └── gate/             # Gate analytics (/gate/:id)
-│   ├── App.tsx               # Router setup
-│   └── index.tsx             # Entry point
+│   │   ├── api.ts               # API service layer
+│   │   ├── parser.ts            # Data parsing utilities
+│   │   └── resources.ts         # SolidJS createResource hooks
+│   ├── components/              # UI components (feature-based)
+│   ├── pages/                   # Route pages
+│   ├── App.tsx                  # Router setup
+│   └── index.tsx                # Entry point
 │
 ├── docs/
-│   ├── API.md                # HKIA API documentation
-│   └── data-analysis.json    # Analysis results
+│   └── API.md                   # HKIA API documentation
 │
-├── MILESTONE.md              # Project milestones
-├── CONTRIBUTING.md           # Branching strategy & guidelines
-└── .github/workflows/
-    ├── ci.yml                # CI (PR only)
-    ├── deploy.yml            # Deploy to GitHub Pages
-    └── archive.yml           # Daily archive (scheduled)
+└── package.json                 # Root dependencies & scripts
 ```
 
 ---
@@ -206,6 +199,38 @@ See [docs/API.md](docs/API.md) for comprehensive HKIA API documentation includin
 | **Categories** | 4 (Arrival/Departure × Passenger/Cargo) |
 | **Rate Limit** | Recommended 1 req/sec                   |
 
+### Cloudflare Worker Proxy
+
+For production deployment on GitHub Pages, a Cloudflare Worker proxy is required to:
+
+- Bypass CORS restrictions (HKIA API lacks `Access-Control-Allow-Origin`)
+- Prevent 403 errors from direct browser requests
+- Combine 4 API calls into 1 for better performance
+- Add edge caching (1 min for flights, 12h for airlines)
+
+**Endpoints:**
+
+| Endpoint        | Cache | Description                                   |
+| --------------- | ----- | --------------------------------------------- |
+| `/api/flights`  | 1 min | Today's flights (all categories combined)     |
+| `/api/airlines` | 12 hr | Airline info (check-in counters, names, etc.) |
+| `/api/health`   | -     | Health check                                  |
+
+**Setup:**
+
+```bash
+# Deploy the Worker
+cd worker
+npm install
+npm run deploy  # Requires: wrangler login
+
+# Update frontend config
+# Edit .env.production with your Worker URL:
+VITE_API_PROXY_URL=https://hkg-flight-proxy.lincoln995623.workers.dev/api
+```
+
+See [worker/README.md](worker/README.md) for detailed Worker documentation.
+
 ---
 
 ## 🔄 GitHub Actions Workflow
@@ -237,19 +262,35 @@ jobs:
 
 ## 📜 Available Scripts
 
+### Frontend
+
 | Command                         | Description                           |
 | ------------------------------- | ------------------------------------- |
 | `npm run dev`                   | Start development server              |
 | `npm run build`                 | Build for production                  |
 | `npm run preview`               | Preview production build              |
+| `npm run test`                  | Run tests in watch mode               |
+| `npm run test:run`              | Run tests once                        |
+
+### Data Archiving
+
+| Command                         | Description                           |
+| ------------------------------- | ------------------------------------- |
 | `npm run archive`               | Archive today's flight data           |
 | `npm run archive -- YYYY-MM-DD` | Archive specific date                 |
-| `npm run reindex`               | Rebuild indexes from daily snapshots  |
+| `npm run archive:rolling`       | Rolling archive past 6 days           |
 | `npm run reindex:clean`         | Clean and rebuild all indexes         |
 | `npm run analyze`               | Run comprehensive data analysis       |
-| `npm run fetch:airports`        | Update airport codes from OurAirports |
 
-> **Note:** All scripts output minified JSON by default for optimal file sizes.
+### Cloudflare Worker
+
+| Command                         | Description                           |
+| ------------------------------- | ------------------------------------- |
+| `npm run worker:dev`            | Start Worker dev server (port 8787)   |
+| `npm run worker:deploy`         | Deploy Worker to Cloudflare           |
+| `npm run worker:tail`           | View live Worker logs                 |
+
+> **Tip:** Use `USE_PROXY=true npm run archive` to archive via Worker proxy.
 
 ---
 
