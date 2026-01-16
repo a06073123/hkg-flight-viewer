@@ -23,48 +23,30 @@
 
 ## 🏗️ Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        GitHub Actions                            │
-│                    (Daily CRON at 00:30 HKT)                    │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    archive-flights.js                            │
-│                                                                 │
-│  1. Fetch from HKIA API (4 categories)                          │
-│  2. Save daily snapshot                                         │
-│  3. Update flight index shards                                  │
-│  4. Update gate index shards                                    │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     public/data/                                 │
-│                                                                 │
-│  ├── daily/                                                     │
-│  │   ├── 2025-10-16.json    ← Full daily snapshot               │
-│  │   ├── 2025-10-17.json                                        │
-│  │   └── ...                                                    │
-│  │                                                              │
-│  └── indexes/                                                   │
-│      ├── flights/                                               │
-│      │   ├── CX888.json     ← Last 50 occurrences of CX888     │
-│      │   └── ...                                                │
-│      └── gates/                                                 │
-│          ├── 23.json        ← Last 50 flights from Gate 23     │
-│          └── ...                                                │
-└─────────────────────────────┬───────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    SolidJS Frontend                              │
-│                                                                 │
-│  • Real-time: TanStack Solid Query → HKIA API                   │
-│  • Historical: Static fetch → /data/indexes/*.json              │
-│  • UI: Ark UI (Headless) + Tailwind CSS                         │
-└─────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph Actions["🔄 GitHub Actions (Daily 00:00 HKT)"]
+        Cron["archive-flights.js"]
+    end
+
+    Cron --> |"1. Fetch HKIA API"| API["HKIA Flight API"]
+    API --> |"2. Save snapshot"| Daily["daily/YYYY-MM-DD.json"]
+    Cron --> |"3. Update indexes"| IndexF["indexes/flights/*.json"]
+    Cron --> |"4. Update indexes"| IndexG["indexes/gates/*.json"]
+
+    subgraph Data["📁 public/data/"]
+        Daily
+        IndexF
+        IndexG
+    end
+
+    subgraph Frontend["⚡ SolidJS Frontend"]
+        Live["Live Page"]
+        Historical["Historical Pages"]
+    end
+
+    API -.-> |"5-min refresh"| Live
+    Data --> |"Static fetch"| Historical
 ```
 
 ---
@@ -235,7 +217,7 @@ The project includes automated daily data archiving:
 name: Daily Flight Archive
 on:
     schedule:
-        - cron: "30 16 * * *" # 00:30 HKT (16:30 UTC)
+        - cron: "30 16 * * *" # 00:00 HKT (16:00 UTC)
     workflow_dispatch:
 
 jobs:
@@ -274,13 +256,13 @@ jobs:
 
 See [MILESTONE.md](MILESTONE.md) for detailed project roadmap.
 
-| Milestone | Status         | Description                 |
-| --------- | -------------- | --------------------------- |
-| M1        | ✅ Complete    | Data Ingestion & Archiving  |
-| M2        | 🚧 In Progress | Domain Logic & Data Parsing |
-| M3        | ⏳ Planned     | Real-time Dashboard         |
-| M4        | ⏳ Planned     | Historical Search           |
-| M5        | ⏳ Planned     | UX Polish & Deployment      |
+| Milestone | Status         | Description                    |
+| --------- | -------------- | ------------------------------ |
+| M1        | ✅ Complete    | Data Ingestion & Archiving     |
+| M2        | ✅ Complete    | Domain Logic & Data Parsing    |
+| M3        | ✅ Complete    | Page Structure & Data Fetching |
+| M4        | 🚧 In Progress | UX Polish & Charts             |
+| M5        | ⏳ Planned     | Deployment & Production        |
 
 ---
 
@@ -290,7 +272,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## � Data Sources & Credits
+## 📦 Data Sources & Credits
 
 This project uses external data from the following sources. See [DATA-SOURCES.md](DATA-SOURCES.md) for complete licensing details.
 
@@ -308,7 +290,7 @@ This project uses external data from the following sources. See [DATA-SOURCES.md
 
 ---
 
-## �🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 - [Hong Kong International Airport](https://www.hongkongairport.com) for the public flight data API
 - [SolidJS](https://solidjs.com) community for the excellent framework

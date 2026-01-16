@@ -243,43 +243,58 @@ Based on analysis of 104,732 flight records:
 
 ### Status State Machine
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        DEPARTURES                                │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  (scheduled) → Boarding Soon → Boarding → Final Call            │
-│       │              │            │           │                 │
-│       │              └────────────┴───────────┘                 │
-│       │                          │                              │
-│       │                    Gate Closed                          │
-│       │                          │                              │
-│       ├──────────────────────────┼──────────────────────────────│
-│       │                          │                              │
-│       v                          v                              │
-│   Delayed ──────────────────→ Dep HH:MM                         │
-│       │                                                         │
-│       v                                                         │
-│   Cancelled                                                     │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+#### Departures
 
-┌─────────────────────────────────────────────────────────────────┐
-│                        ARRIVALS                                  │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  (scheduled) → Est at HH:MM → Landed HH:MM → At gate HH:MM      │
-│       │                                                         │
-│       ├──────────────────────────────────────────────────────────│
-│       │                                                         │
-│       v                                                         │
-│   Delayed ──────────────────→ At gate HH:MM                     │
-│       │                                                         │
-│       v                                                         │
-│   Cancelled                                                     │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+```mermaid
+stateDiagram-v2
+    direction LR
+
+    [*] --> Scheduled
+
+    Scheduled --> BoardingSoon: Gate assigned
+    Scheduled --> Delayed: Flight delayed
+
+    BoardingSoon --> Boarding: Boarding starts
+    Boarding --> FinalCall: Last call
+    FinalCall --> GateClosed: Gate closes
+
+    Delayed --> GateClosed: Recovers
+    Delayed --> Cancelled: Cannot recover
+
+    GateClosed --> Departed: Takes off
+
+    Departed --> [*]
+    Cancelled --> [*]
 ```
+
+> **Status Format:** `Dep HH:MM` or `Dep HH:MM (DD/MM/YYYY)`
+
+#### Arrivals
+
+```mermaid
+stateDiagram-v2
+    direction LR
+
+    [*] --> Scheduled
+
+    Scheduled --> Estimated: ETA updated
+    Scheduled --> Delayed: Flight delayed
+
+    Estimated --> Landed: Touches down
+    Delayed --> Landed: Recovers
+    Delayed --> Cancelled: Cannot recover
+
+    Landed --> AtGate: Arrives at gate
+
+    AtGate --> [*]
+    Cancelled --> [*]
+```
+
+> **Status Formats:**
+>
+> - Estimated: `Est at HH:MM`
+> - Landed: `Landed HH:MM`
+> - At Gate: `At gate HH:MM`
 
 ---
 

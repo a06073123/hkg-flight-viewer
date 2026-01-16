@@ -188,4 +188,6 @@ See `MILESTONE.md` for project status:
 
 - ✅ M1: Data Ingestion & Archiving
 - ✅ M2: Domain Logic & Data Parsing
-- ⏳ M3-M5: Frontend development
+- ✅ M3: Page Structure & Data Fetching
+- 🚧 M4: UX Polish & Charts
+- ⏳ M5: Deployment & Production

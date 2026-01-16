@@ -6,13 +6,27 @@ Thank you for your interest in contributing! This document outlines our branchin
 
 We use a simplified Git Flow model:
 
-```
-main
-  ├── develop (integration branch)
-  │     ├── feature/flight-history-stats
-  │     ├── feature/gate-analytics-charts
-  │     └── fix/date-picker-validation
-  └── hotfix/critical-bug (emergency fixes)
+```mermaid
+flowchart LR
+    subgraph Production
+        main[main]
+    end
+
+    subgraph Development
+        develop[develop]
+        feature["feature/*"]
+        fix["fix/*"]
+    end
+
+    subgraph Emergency
+        hotfix["hotfix/*"]
+    end
+
+    feature --> |PR| develop
+    fix --> |PR| develop
+    develop --> |Release| main
+    hotfix --> |PR| main
+    hotfix -.-> |Backport| develop
 ```
 
 ### Branch Types
@@ -55,8 +69,7 @@ git checkout -b feature/123-my-feature
 ### 2. During Development
 
 ```bash
-# Run type check and tests before committing
-npm run typecheck
+# Run tests before committing
 npm run test
 
 # Commit with conventional commit messages
@@ -110,7 +123,7 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 feat(dashboard): add date picker for archived data
 fix(parser): handle null terminal value in API response
 docs(readme): update installation instructions
-chore(deps): upgrade tanstack-query to v5.80
+chore(deps): upgrade solidjs to v1.9.5
 ```
 
 ## GitHub Actions
