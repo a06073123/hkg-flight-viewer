@@ -124,11 +124,13 @@ npm run tail
     npm run deploy
     ```
 
-3. **Update Frontend:**
-   After deployment, update `.env.production` with your Worker URL:
-    ```bash
-    VITE_API_PROXY_URL=https://hkg-flight-proxy.lincoln995623.workers.dev/api
+3. **Update Frontend (for fork users only):**
+   After deployment, update the API URL in `src/lib/api.ts` and `src/lib/airline-data.ts`:
+    ```typescript
+    const API_BASE_URL = "https://your-worker.your-subdomain.workers.dev/api";
     ```
+
+> **Note:** The main project already uses a pre-configured Worker at `https://hkg-flight-proxy.lincoln995623.workers.dev`. You only need to deploy your own if you're forking the project.
 
 ## Environment Variables
 

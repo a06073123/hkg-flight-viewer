@@ -2,7 +2,8 @@
 
 > 🛫 A high-performance, mobile-optimized flight information viewer for Hong Kong International Airport (HKIA)
 
-[![GitHub Pages](https://img.shields.io/badge/demo-GitHub%20Pages-blue)](https://github.com)
+[![GitHub Pages](https://img.shields.io/badge/demo-GitHub%20Pages-blue)](https://a06073123.github.io/hkg-flight-viewer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![SolidJS](https://img.shields.io/badge/SolidJS-1.9-blue?logo=solid)](https://solidjs.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue?logo=typescript)](https://typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.1-blue?logo=tailwindcss)](https://tailwindcss.com)
@@ -62,7 +63,7 @@ flowchart TB
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/hkg-flight-viewer.git
+git clone https://github.com/a06073123/hkg-flight-viewer.git
 cd hkg-flight-viewer
 
 # Install dependencies
@@ -216,17 +217,28 @@ For production deployment on GitHub Pages, a Cloudflare Worker proxy is required
 | `/api/airlines` | 12 hr | Airline info (check-in counters, names, etc.) |
 | `/api/health`   | -     | Health check                                  |
 
-**Setup:**
+**Default Worker (Ready to Use):**
+
+The project includes a pre-configured Cloudflare Worker proxy at:
+```
+https://hkg-flight-proxy.lincoln995623.workers.dev
+```
+
+**For Fork Users (Optional):**
+
+If you want to deploy your own Worker:
 
 ```bash
-# Deploy the Worker
+# 1. Deploy your own Worker
 cd worker
 npm install
-npm run deploy  # Requires: wrangler login
+wrangler login
+npm run deploy
 
-# Update frontend config
-# Edit .env.production with your Worker URL:
-VITE_API_PROXY_URL=https://hkg-flight-proxy.lincoln995623.workers.dev/api
+# 2. Update the API URL in src/lib/api.ts and src/lib/airline-data.ts:
+# const API_BASE_URL = "https://your-worker.your-subdomain.workers.dev/api"
+
+# 3. Update scripts/archive-flights.js PROXY_URL if using proxy for archiving
 ```
 
 See [worker/README.md](worker/README.md) for detailed Worker documentation.

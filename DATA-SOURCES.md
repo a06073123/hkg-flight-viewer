@@ -167,5 +167,5 @@ All data is provided "AS IS" without warranty of any kind. The maintainers of th
 
 For questions about data usage or licensing, please:
 
-- Open an issue on [GitHub](https://github.com/yourusername/hkg-flight-viewer/issues)
+- Open an issue on [GitHub](https://github.com/a06073123/hkg-flight-viewer/issues)
 - Contact the original data providers directly for authoritative guidance
