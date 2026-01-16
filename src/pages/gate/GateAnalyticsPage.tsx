@@ -3,14 +3,38 @@
  *
  * Shows gate usage history and statistics
  * Uses SolidJS createResource for data fetching
+ *
+ * Features:
+ * - Gate usage statistics
+ * - Top airlines using this gate
+ * - Check-in counter info for departures
+ * - Codeshare partner display
  */
 
 import { A, useParams } from "@solidjs/router";
-import { AlertTriangle, ArrowLeft, Clock, Plane } from "lucide-solid";
+import {
+	AlertTriangle,
+	ArrowLeft,
+	Clock,
+	Plane,
+	TrendingUp,
+	Users,
+} from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
 import { FlightStatus } from "../../components/flights/FlightCard";
 import { createGateHistoryResource } from "../../lib/resources";
 import type { FlightRecord } from "../../types/flight";
+
+/**
+ * Fixed widths for history list columns
+ */
+const HISTORY_COLUMNS = {
+	time: "w-[70px]",
+	flight: "w-[140px]",
+	destination: "w-[100px]",
+	checkin: "w-[80px]",
+	status: "flex-1",
+};
 
 export default function GateAnalyticsPage() {
 	const params = useParams<{ id: string }>();
@@ -61,7 +85,7 @@ export default function GateAnalyticsPage() {
 	});
 
 	return (
-		<div class="space-y-6">
+		<div class="mx-auto max-w-5xl space-y-6">
 			{/* Back Link */}
 			<A
 				href="/past"
@@ -71,20 +95,22 @@ export default function GateAnalyticsPage() {
 				Back to Historical Data
 			</A>
 
-			{/* Header */}
-			<div class="flex items-center gap-3">
-				<div class="gate-badge text-2xl">{params.id}</div>
-				<div>
-					<h1 class="text-3xl font-bold text-[#1A1A1B]">
-						Gate {params.id}
-					</h1>
-					<p class="text-gray-500">Departure Gate Analytics</p>
+			{/* Header - Fixed layout */}
+			<div class="rounded-xl bg-white p-6 shadow-md">
+				<div class="flex items-center gap-4">
+					<div class="gate-badge text-3xl">{params.id}</div>
+					<div>
+						<h1 class="text-3xl font-bold text-[#1A1A1B]">
+							Gate {params.id}
+						</h1>
+						<p class="text-gray-500">Departure Gate Analytics</p>
+					</div>
 				</div>
 			</div>
 
 			{/* Loading State */}
 			<Show when={gateHistory.loading}>
-				<div class="py-12 text-center text-gray-500">
+				<div class="rounded-lg bg-white py-12 text-center text-gray-500 shadow-md">
 					Loading gate history...
 				</div>
 			</Show>
@@ -102,7 +128,7 @@ export default function GateAnalyticsPage() {
 				</div>
 			</Show>
 
-			{/* Stats */}
+			{/* Stats - Fixed grid */}
 			<Show when={stats()}>
 				{(s) => (
 					<div class="grid gap-4 sm:grid-cols-3">
@@ -139,7 +165,7 @@ export default function GateAnalyticsPage() {
 						<div class="rounded-lg border-l-4 border-orange-500 bg-white p-4 shadow-sm">
 							<div class="flex items-center gap-3">
 								<div class="rounded-lg bg-orange-50 p-2">
-									<Plane class="h-5 w-5 text-orange-600" />
+									<TrendingUp class="h-5 w-5 text-orange-600" />
 								</div>
 								<div>
 									<div class="text-sm font-medium text-gray-500">
@@ -157,18 +183,16 @@ export default function GateAnalyticsPage() {
 
 			{/* Top Airlines */}
 			<Show when={stats()?.topAirlines.length}>
-				<div class="rounded-lg border bg-white shadow-sm">
-					<div class="border-b px-4 py-3">
-						<h2 class="font-semibold text-gray-900">
-							Top Airlines
-						</h2>
+				<div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+					<div class="border-b bg-[#003580] px-4 py-3">
+						<h2 class="font-semibold text-white">Top Airlines</h2>
 					</div>
 					<div class="divide-y">
 						<For each={stats()?.topAirlines}>
 							{([airline, count]) => (
 								<div class="flex items-center justify-between px-4 py-3">
 									<span class="text-gray-700">{airline}</span>
-									<span class="rounded-full bg-gray-100 px-2.5 py-0.5 text-sm font-medium text-gray-600">
+									<span class="rounded-full bg-[#003580]/10 px-2.5 py-0.5 text-sm font-medium text-[#003580]">
 										{count} flights
 									</span>
 								</div>
@@ -178,7 +202,7 @@ export default function GateAnalyticsPage() {
 				</div>
 			</Show>
 
-			{/* Recent Departures */}
+			{/* Recent Departures - Fixed layout */}
 			<Show when={departures().length > 0}>
 				<div class="space-y-4">
 					<h2 class="text-lg font-semibold text-gray-900">
@@ -187,23 +211,30 @@ export default function GateAnalyticsPage() {
 
 					<For each={groupedByDate().slice(0, 7)}>
 						{([date, flights]) => (
-							<div class="rounded-lg border bg-white shadow-sm">
-								<div class="border-b bg-gray-50 px-4 py-2">
-									<span class="font-medium text-gray-700">
+							<div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+								<div class="border-b bg-[#003580] px-4 py-2">
+									<span class="font-medium text-white">
 										{date}
 									</span>
 								</div>
 								<div class="divide-y">
 									<For each={flights}>
 										{(flight) => (
-											<div class="flex items-center justify-between px-4 py-3">
-												<div class="flex items-center gap-4">
-													<span class="text-sm font-medium text-gray-900">
-														{flight.time}
-													</span>
+											<div class="flex items-center gap-4 px-4 py-3">
+												{/* Time */}
+												<span
+													class={`${HISTORY_COLUMNS.time} shrink-0 text-sm font-bold text-[#1A1A1B]`}
+												>
+													{flight.time}
+												</span>
+
+												{/* Flight */}
+												<div
+													class={`${HISTORY_COLUMNS.flight} shrink-0`}
+												>
 													<A
 														href={`/flight/${flight.operatingCarrier.no.replace(/\s+/g, "")}`}
-														class="text-sm font-medium text-blue-600 hover:underline"
+														class="text-sm font-bold text-[#003580] hover:underline"
 													>
 														{
 															flight
@@ -211,14 +242,58 @@ export default function GateAnalyticsPage() {
 																.no
 														}
 													</A>
-													<span class="text-sm text-gray-500">
-														→{" "}
+													{/* Show codeshare count */}
+													<Show
+														when={
+															flight.codeshareCount >
+															0
+														}
+													>
+														<span class="ml-1 text-[10px] text-gray-400">
+															+
+															{
+																flight.codeshareCount
+															}
+														</span>
+													</Show>
+												</div>
+
+												{/* Destination */}
+												<span
+													class={`${HISTORY_COLUMNS.destination} shrink-0`}
+												>
+													<span class="inline-block rounded bg-[#C41230] px-2 py-0.5 text-xs font-bold text-white">
 														{flight.primaryAirport}
 													</span>
-												</div>
-												<FlightStatus
-													status={flight.status}
-												/>
+												</span>
+
+												{/* Check-in */}
+												<span
+													class={`${HISTORY_COLUMNS.checkin} shrink-0`}
+												>
+													<Show
+														when={flight.aisle}
+														fallback={
+															<span class="text-sm text-gray-400">
+																—
+															</span>
+														}
+													>
+														<span class="inline-flex items-center gap-1 text-xs text-[#003580]">
+															<Users class="h-3 w-3" />
+															Row {flight.aisle}
+														</span>
+													</Show>
+												</span>
+
+												{/* Status */}
+												<span
+													class={`${HISTORY_COLUMNS.status}`}
+												>
+													<FlightStatus
+														status={flight.status}
+													/>
+												</span>
 											</div>
 										)}
 									</For>

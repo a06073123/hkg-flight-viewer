@@ -2,7 +2,7 @@
  * Landing Page
  *
  * Site introduction and navigation guide - no data fetching
- * Uses HKIA Visual DNA color palette
+ * Uses HKIA Visual DNA color palette with fixed layouts
  */
 
 import { A } from "@solidjs/router";
@@ -11,13 +11,24 @@ import {
 	Clock,
 	DoorOpen,
 	History,
+	Luggage,
 	Package,
 	Plane,
 	PlaneLanding,
 	PlaneTakeoff,
 	Radio,
 	Search,
+	Users,
 } from "lucide-solid";
+
+/**
+ * Fixed grid layouts for consistent design
+ */
+const GRID_LAYOUTS = {
+	nav: "grid gap-6 md:grid-cols-2",
+	features: "grid gap-3 sm:grid-cols-2 lg:grid-cols-3",
+	info: "grid gap-4 text-sm text-gray-600 sm:grid-cols-2",
+};
 
 export default function LandingPage() {
 	return (
@@ -55,8 +66,8 @@ export default function LandingPage() {
 				</div>
 			</div>
 
-			{/* Main Navigation Cards */}
-			<div class="grid gap-6 md:grid-cols-2">
+			{/* Main Navigation Cards - Fixed grid */}
+			<div class={GRID_LAYOUTS.nav}>
 				{/* Live Flights Card */}
 				<A
 					href="/live"
@@ -126,12 +137,36 @@ export default function LandingPage() {
 				</A>
 			</div>
 
+			{/* Features Section */}
+			<div class="rounded-xl border-2 border-[#003580]/10 bg-white p-6">
+				<h3 class="mb-4 text-lg font-semibold text-[#1A1A1B]">
+					Features
+				</h3>
+				<div class={GRID_LAYOUTS.features}>
+					<FeatureItem
+						icon={Users}
+						title="Codeshare Info"
+						description="See all codeshare flight numbers"
+					/>
+					<FeatureItem
+						icon={DoorOpen}
+						title="Check-in Counter"
+						description="View check-in row for departures"
+					/>
+					<FeatureItem
+						icon={Luggage}
+						title="Baggage Claim"
+						description="Find your baggage belt & hall"
+					/>
+				</div>
+			</div>
+
 			{/* Quick Access Section */}
 			<div class="rounded-xl border-2 border-[#003580]/10 bg-white p-6">
 				<h3 class="mb-4 text-lg font-semibold text-[#1A1A1B]">
 					Quick Access
 				</h3>
-				<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+				<div class={GRID_LAYOUTS.features}>
 					<A
 						href="/flight/CX888"
 						class="flex items-center gap-2 rounded-lg border-2 border-gray-200 bg-white px-4 py-3 text-sm font-medium hover:border-[#003580] hover:bg-[#003580]/5"
@@ -150,8 +185,7 @@ export default function LandingPage() {
 						href="/gate/23"
 						class="flex items-center gap-2 rounded-lg border-2 border-gray-200 bg-white px-4 py-3 text-sm font-medium hover:border-[#003580] hover:bg-[#003580]/5"
 					>
-						<DoorOpen class="h-4 w-4 text-[#FFD700]" />
-						<span class="gate-badge">23</span>
+						<span class="gate-badge text-xs">23</span>
 						<span>Gate Analytics</span>
 					</A>
 				</div>
@@ -162,7 +196,7 @@ export default function LandingPage() {
 				<h3 class="mb-4 text-lg font-semibold text-[#1A1A1B]">
 					About the Data
 				</h3>
-				<div class="grid gap-4 text-sm text-gray-600 sm:grid-cols-2">
+				<div class={GRID_LAYOUTS.info}>
 					<div class="flex items-start gap-3">
 						<div class="rounded-lg bg-[#003580]/10 p-2">
 							<Clock class="h-5 w-5 text-[#003580]" />
@@ -200,9 +234,30 @@ export default function LandingPage() {
 					href="https://github.com"
 					class="hover:text-[#003580] hover:underline"
 				>
-					Open Source Project
+					View on GitHub
 				</a>
 			</p>
+		</div>
+	);
+}
+
+/**
+ * Feature item component for consistent display
+ */
+function FeatureItem(props: {
+	icon: typeof Clock;
+	title: string;
+	description: string;
+}) {
+	return (
+		<div class="flex items-start gap-3 rounded-lg bg-gray-50 p-3">
+			<div class="rounded-lg bg-[#003580]/10 p-2">
+				<props.icon class="h-4 w-4 text-[#003580]" />
+			</div>
+			<div>
+				<p class="font-medium text-[#1A1A1B]">{props.title}</p>
+				<p class="text-xs text-gray-500">{props.description}</p>
+			</div>
 		</div>
 	);
 }

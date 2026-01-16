@@ -16,7 +16,7 @@ import {
 	Search,
 } from "lucide-solid";
 import { createMemo, createSignal, Show, Suspense } from "solid-js";
-import { FlightTable } from "../../components/dashboard";
+import { FlightCardList } from "../../components/flights";
 import { SearchBar } from "../../components/search";
 import { filterFlights, sortFlightsByTime } from "../../lib/api";
 import { createDailySnapshotResource } from "../../lib/resources";
@@ -250,23 +250,23 @@ export default function PastPage() {
 							}
 						>
 							<Tabs.Content value="departures">
-								<FlightTable
+								<FlightCardList
 									flights={filteredDepartures()}
-									isArrival={false}
+									type="departures"
 									isLoading={snapshot.loading}
 								/>
 							</Tabs.Content>
 							<Tabs.Content value="arrivals">
-								<FlightTable
+								<FlightCardList
 									flights={filteredArrivals()}
-									isArrival={true}
+									type="arrivals"
 									isLoading={snapshot.loading}
 								/>
 							</Tabs.Content>
 							<Tabs.Content value="cargo">
-								<FlightTable
+								<FlightCardList
 									flights={filteredCargo()}
-									isArrival={false}
+									type="cargo"
 									isLoading={snapshot.loading}
 								/>
 							</Tabs.Content>

@@ -14,7 +14,7 @@ import {
 	RefreshCw,
 } from "lucide-solid";
 import { createMemo, createSignal, onCleanup, Suspense } from "solid-js";
-import { FlightTable } from "../../components/dashboard";
+import { FlightCardList } from "../../components/flights";
 import { SearchBar } from "../../components/search";
 import { filterFlights, sortFlightsByTime } from "../../lib/api";
 import {
@@ -133,8 +133,8 @@ export default function LivePage() {
 				</div>
 			</div>
 
-			{/* Search Bar */}
-			<div class="max-w-md">
+			{/* Search Bar - Fixed width container */}
+			<div class="w-full max-w-lg">
 				<SearchBar
 					value={searchQuery()}
 					onInput={setSearchQuery}
@@ -194,23 +194,23 @@ export default function LivePage() {
 						}
 					>
 						<Tabs.Content value="departures">
-							<FlightTable
+							<FlightCardList
 								flights={filteredDepartures()}
-								isArrival={false}
+								type="departures"
 								isLoading={departures.loading}
 							/>
 						</Tabs.Content>
 						<Tabs.Content value="arrivals">
-							<FlightTable
+							<FlightCardList
 								flights={filteredArrivals()}
-								isArrival={true}
+								type="arrivals"
 								isLoading={arrivals.loading}
 							/>
 						</Tabs.Content>
 						<Tabs.Content value="cargo">
-							<FlightTable
+							<FlightCardList
 								flights={filteredCargo()}
-								isArrival={false}
+								type="cargo"
 								isLoading={cargo.loading}
 							/>
 						</Tabs.Content>

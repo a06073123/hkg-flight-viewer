@@ -3,6 +3,12 @@
  *
  * Shows historical data and on-time performance for a specific flight number
  * Uses SolidJS createResource for data fetching
+ *
+ * Displays:
+ * - Flight statistics
+ * - Codeshare partners
+ * - Check-in counter (departures) or Hall (arrivals)
+ * - Gate/Baggage claim information
  */
 
 import { A, useParams } from "@solidjs/router";
@@ -11,8 +17,11 @@ import {
 	ArrowLeft,
 	Calendar,
 	Clock,
+	DoorOpen,
+	Luggage,
 	Plane,
 	TrendingUp,
+	Users,
 } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
 import { FlightStatus } from "../../components/flights/FlightCard";
@@ -20,12 +29,31 @@ import { createFlightHistoryResource } from "../../lib/resources";
 import type { FlightRecord } from "../../types/flight";
 import { StatusType } from "../../types/flight";
 
+/**
+ * Fixed grid layout for statistics
+ */
+const STAT_GRID = "grid gap-4 sm:grid-cols-2 lg:grid-cols-4";
+
+/**
+ * Fixed widths for history list columns
+ */
+const HISTORY_COLUMNS = {
+	time: "w-[70px]",
+	route: "w-[120px]",
+	checkinHall: "w-[80px]",
+	gateBelt: "w-[70px]",
+	status: "flex-1",
+};
+
 export default function FlightHistoryPage() {
 	const params = useParams<{ no: string }>();
 
 	const [history] = createFlightHistoryResource(() => params.no);
 
 	const occurrences = createMemo(() => history()?.occurrences ?? []);
+
+	// Get sample flight for displaying codeshare info
+	const sampleFlight = createMemo(() => occurrences()[0]);
 
 	// Calculate on-time statistics
 	const stats = createMemo(() => {
@@ -65,7 +93,7 @@ export default function FlightHistoryPage() {
 	});
 
 	return (
-		<div class="space-y-6">
+		<div class="mx-auto max-w-5xl space-y-6">
 			{/* Back Link */}
 			<A
 				href="/past"
@@ -75,34 +103,58 @@ export default function FlightHistoryPage() {
 				Back to Historical Data
 			</A>
 
-			{/* Header */}
-			<div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-				<div class="flex items-center gap-3">
-					<div class="rounded-lg bg-[#003580] p-3">
-						<Plane class="h-8 w-8 text-[#FFD700]" />
+			{/* Header - Fixed layout */}
+			<div class="rounded-xl bg-white p-6 shadow-md">
+				<div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+					<div class="flex items-center gap-4">
+						<div class="rounded-lg bg-[#003580] p-3">
+							<Plane class="h-8 w-8 text-[#FFD700]" />
+						</div>
+						<div>
+							<h1 class="text-3xl font-bold text-[#1A1A1B]">
+								{params.no}
+							</h1>
+							<Show when={sampleFlight()}>
+								<p class="text-lg text-gray-500">
+									{sampleFlight()!.operatingCarrier.airline}
+								</p>
+							</Show>
+						</div>
 					</div>
-					<div>
-						<h1 class="text-3xl font-bold text-[#1A1A1B]">
-							{params.no}
-						</h1>
-						<Show when={occurrences()[0]}>
-							<p class="text-lg text-gray-500">
-								{occurrences()[0].operatingCarrier.airline}
-							</p>
-						</Show>
-					</div>
+
+					<Show when={history()}>
+						<div class="text-sm text-gray-400">
+							Last updated: {history()?.updatedAt}
+						</div>
+					</Show>
 				</div>
 
-				<Show when={history()}>
-					<div class="text-sm text-gray-400">
-						Last updated: {history()?.updatedAt}
+				{/* Codeshare Partners */}
+				<Show when={sampleFlight()?.codeshareCount ?? 0 > 0}>
+					<div class="mt-4 border-t pt-4">
+						<div class="flex items-center gap-2 text-sm text-gray-600">
+							<Users class="h-4 w-4" />
+							<span class="font-medium">Codeshare Partners:</span>
+						</div>
+						<div class="mt-2 flex flex-wrap gap-2">
+							<For each={sampleFlight()!.flights.slice(1)}>
+								{(cs) => (
+									<span class="inline-block rounded bg-gray-100 px-2.5 py-1 text-sm font-medium text-gray-700">
+										{cs.no}
+										<span class="ml-1 text-gray-400">
+											({cs.airline})
+										</span>
+									</span>
+								)}
+							</For>
+						</div>
 					</div>
 				</Show>
 			</div>
 
 			{/* Loading State */}
 			<Show when={history.loading}>
-				<div class="py-12 text-center text-gray-500">
+				<div class="rounded-lg bg-white py-12 text-center text-gray-500 shadow-md">
 					Loading flight history...
 				</div>
 			</Show>
@@ -120,10 +172,10 @@ export default function FlightHistoryPage() {
 				</div>
 			</Show>
 
-			{/* Stats Cards */}
+			{/* Stats Cards - Fixed grid */}
 			<Show when={stats()}>
 				{(s) => (
-					<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+					<div class={STAT_GRID}>
 						<StatCard
 							icon={Calendar}
 							label="Total Records"
@@ -152,7 +204,7 @@ export default function FlightHistoryPage() {
 				)}
 			</Show>
 
-			{/* Flight History List */}
+			{/* Flight History List - Fixed layout */}
 			<Show when={occurrences().length > 0}>
 				<div class="space-y-4">
 					<h2 class="text-lg font-semibold text-gray-900">
@@ -161,35 +213,125 @@ export default function FlightHistoryPage() {
 
 					<For each={groupedByDate()}>
 						{([date, flights]) => (
-							<div class="rounded-lg border bg-white shadow-sm">
-								<div class="border-b bg-gray-50 px-4 py-2">
-									<span class="font-medium text-gray-700">
+							<div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+								<div class="border-b bg-[#003580] px-4 py-2">
+									<span class="font-medium text-white">
 										{date}
 									</span>
 								</div>
 								<div class="divide-y">
 									<For each={flights}>
 										{(flight) => (
-											<div class="flex items-center justify-between px-4 py-3">
-												<div class="flex items-center gap-4">
-													<span class="text-sm font-medium text-gray-900">
-														{flight.time}
-													</span>
-													<span class="text-sm text-gray-500">
+											<div class="flex items-center gap-4 px-4 py-3">
+												{/* Time */}
+												<span
+													class={`${HISTORY_COLUMNS.time} shrink-0 text-sm font-bold text-[#1A1A1B]`}
+												>
+													{flight.time}
+												</span>
+
+												{/* Route */}
+												<span
+													class={`${HISTORY_COLUMNS.route} shrink-0`}
+												>
+													<span class="inline-block rounded bg-[#C41230] px-2 py-0.5 text-xs font-bold text-white">
 														{flight.isArrival
 															? "From"
 															: "To"}{" "}
 														{flight.primaryAirport}
 													</span>
-													<Show when={flight.gate}>
-														<span class="text-sm text-gray-400">
-															Gate {flight.gate}
-														</span>
+												</span>
+
+												{/* Check-in / Hall */}
+												<span
+													class={`${HISTORY_COLUMNS.checkinHall} shrink-0`}
+												>
+													<Show
+														when={!flight.isArrival}
+														fallback={
+															<Show
+																when={
+																	flight.hall
+																}
+																fallback={
+																	<span class="text-sm text-gray-400">
+																		—
+																	</span>
+																}
+															>
+																<span class="inline-flex items-center gap-1 text-xs text-emerald-600">
+																	<DoorOpen class="h-3 w-3" />
+																	Hall{" "}
+																	{
+																		flight.hall
+																	}
+																</span>
+															</Show>
+														}
+													>
+														<Show
+															when={flight.aisle}
+															fallback={
+																<span class="text-sm text-gray-400">
+																	—
+																</span>
+															}
+														>
+															<span class="inline-flex items-center gap-1 text-xs text-[#003580]">
+																<Users class="h-3 w-3" />
+																Row{" "}
+																{flight.aisle}
+															</span>
+														</Show>
 													</Show>
-												</div>
-												<FlightStatus
-													status={flight.status}
-												/>
+												</span>
+
+												{/* Gate / Belt */}
+												<span
+													class={`${HISTORY_COLUMNS.gateBelt} shrink-0`}
+												>
+													<Show
+														when={
+															flight.isArrival
+																? flight.baggageClaim
+																: flight.gate
+														}
+														fallback={
+															<span class="text-sm text-gray-400">
+																—
+															</span>
+														}
+													>
+														<Show
+															when={
+																flight.isArrival
+															}
+															fallback={
+																<span class="gate-badge inline-block text-xs">
+																	{
+																		flight.gate
+																	}
+																</span>
+															}
+														>
+															<span class="inline-flex items-center gap-1 text-xs text-gray-600">
+																<Luggage class="h-3 w-3" />
+																{
+																	flight.baggageClaim
+																}
+															</span>
+														</Show>
+													</Show>
+												</span>
+
+												{/* Status */}
+												<span
+													class={`${HISTORY_COLUMNS.status}`}
+												>
+													<FlightStatus
+														status={flight.status}
+													/>
+												</span>
 											</div>
 										)}
 									</For>
