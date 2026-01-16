@@ -44,15 +44,20 @@ export const Layout: ParentComponent = (props) => {
 
 			{/* Footer */}
 			<footer class="border-t border-[#003580]/20 bg-white py-4 text-center text-sm text-gray-500">
-				<p>
-					Data from{" "}
+				<p class="text-center text-xs text-gray-400">
+					Data sourced from{" "}
 					<a
-						href="https://www.hongkongairport.com"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="text-[#003580] hover:underline"
+						href="https://data.gov.hk/en-data/dataset/aahk-team1-flight-info"
+						class="hover:text-[#003580] hover:underline"
 					>
 						Hong Kong International Airport
+					</a>{" "}
+					•{" "}
+					<a
+						href="https://github.com/a06073123/hkg-flight-viewer"
+						class="hover:text-[#003580] hover:underline"
+					>
+						View on GitHub
 					</a>
 				</p>
 			</footer>

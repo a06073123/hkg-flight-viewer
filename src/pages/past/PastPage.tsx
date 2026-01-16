@@ -16,6 +16,7 @@ import {
 	Search,
 } from "lucide-solid";
 import { createMemo, createSignal, Show, Suspense } from "solid-js";
+import { DatePicker } from "../../components/common";
 import { FlightCardList } from "../../components/flights";
 import { SearchBar } from "../../components/search";
 import { filterFlights, sortFlightsByTime } from "../../lib/api";
@@ -112,15 +113,11 @@ export default function PastPage() {
 				</div>
 
 				{/* Date Picker */}
-				<div class="flex items-center gap-2">
-					<Calendar class="h-4 w-4 text-[#003580]" />
-					<input
-						type="date"
-						value={selectedDate()}
-						onInput={(e) => setSelectedDate(e.currentTarget.value)}
-						class="rounded-lg border-2 border-[#003580]/30 px-3 py-2 text-sm focus:border-[#003580] focus:outline-none focus:ring-1 focus:ring-[#003580]"
-					/>
-				</div>
+				<DatePicker
+					value={selectedDate()}
+					onChange={setSelectedDate}
+					label="Select date"
+				/>
 			</div>
 
 			{/* Quick Stats - HKIA Style */}

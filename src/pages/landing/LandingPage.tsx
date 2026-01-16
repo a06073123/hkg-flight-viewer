@@ -35,7 +35,7 @@ export default function LandingPage() {
 		<div class="mx-auto max-w-4xl space-y-8">
 			{/* Hero Section - HKIA Deep Blue */}
 			<div class="rounded-2xl bg-[#003580] p-8 text-white shadow-xl">
-				<div class="flex items-center gap-3">
+				<div class="flex items-center gap-3 justify-center">
 					<Plane class="h-10 w-10 text-[#FFD700]" />
 					<h1 class="text-3xl font-bold">HKG Flight Viewer</h1>
 				</div>
@@ -48,7 +48,7 @@ export default function LandingPage() {
 				</p>
 
 				{/* Quick Action Buttons */}
-				<div class="mt-6 flex flex-wrap gap-3">
+				<div class="mt-6 flex flex-wrap gap-3 justify-center">
 					<A
 						href="/live"
 						class="inline-flex items-center gap-2 rounded-lg bg-[#FFD700] px-4 py-2.5 font-semibold text-[#003580] transition-colors hover:bg-yellow-300"
@@ -226,17 +226,6 @@ export default function LandingPage() {
 					</div>
 				</div>
 			</div>
-
-			{/* Footer */}
-			<p class="text-center text-xs text-gray-400">
-				Data sourced from Hong Kong International Airport •{" "}
-				<a
-					href="https://github.com"
-					class="hover:text-[#003580] hover:underline"
-				>
-					View on GitHub
-				</a>
-			</p>
 		</div>
 	);
 }
