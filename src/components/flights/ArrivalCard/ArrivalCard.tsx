@@ -31,7 +31,7 @@ export function ArrivalCard(props: ArrivalCardProps) {
 			{/* Main Content Area */}
 			<div class="flex">
 				{/* Left: Belt Display - Emerald theme - Fixed width */}
-				<div class="flex w-24 shrink-0 flex-col items-center justify-center bg-emerald-600 p-4">
+				<div class="flex w-32 shrink-0 flex-col items-center justify-center bg-emerald-600 p-4">
 					<Show
 						when={flight.baggageClaim}
 						fallback={
@@ -131,7 +131,7 @@ export function ArrivalCard(props: ArrivalCardProps) {
 						</div>
 
 						{/* Codeshare Partners - Fixed width area */}
-						<div class="w-24 shrink-0">
+						<div class="w-32 shrink-0">
 							<Show when={flight.codeshareCount > 0}>
 								<Tooltip
 									content={

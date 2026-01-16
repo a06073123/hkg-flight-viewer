@@ -30,7 +30,7 @@ export function DepartureCard(props: DepartureCardProps) {
 			{/* Main Content Area */}
 			<div class="flex">
 				{/* Left: Gate Display - HKIA Style (Blue background, Yellow text) - Fixed width */}
-				<div class="flex w-24 shrink-0 flex-col items-center justify-center bg-[#003580] p-4">
+				<div class="flex w-32 shrink-0 flex-col items-center justify-center bg-[#003580] p-4">
 					<Show
 						when={flight.gate}
 						fallback={
@@ -132,7 +132,7 @@ export function DepartureCard(props: DepartureCardProps) {
 						</div>
 
 						{/* Codeshare Partners - Fixed width area */}
-						<div class="w-24 shrink-0">
+						<div class="w-32 shrink-0">
 							<Show when={flight.codeshareCount > 0}>
 								<Tooltip
 									content={
