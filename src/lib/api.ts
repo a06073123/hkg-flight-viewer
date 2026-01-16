@@ -22,7 +22,13 @@ import type { FlightRecord } from "@/types/flight";
  */
 const API_BASE_URL = "https://hkg-flight-proxy.lincoln995623.workers.dev/api";
 
-const STATIC_DATA_BASE = import.meta.env.BASE_URL + "data";
+/**
+ * GitHub raw URL for static data files
+ * Data is stored in the repo and fetched directly from GitHub raw
+ * This avoids bloating the build output with large JSON files
+ */
+const STATIC_DATA_BASE =
+	"https://raw.githubusercontent.com/a06073123/hkg-flight-viewer/main/public/data";
 
 export const POLLING_INTERVAL = 1 * 60 * 1000; // 1 minute (matches Worker cache TTL)
 

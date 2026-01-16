@@ -35,19 +35,19 @@ flowchart TB
     Cron --> |"3. Update indexes"| IndexF["indexes/flights/*.json"]
     Cron --> |"4. Update indexes"| IndexG["indexes/gates/*.json"]
 
-    subgraph Data["📁 public/data/"]
+    subgraph Data["📁 public/data/ (GitHub Raw)"]
         Daily
         IndexF
         IndexG
     end
 
-    subgraph Frontend["⚡ SolidJS Frontend"]
+    subgraph Frontend["⚡ SolidJS Frontend (GitHub Pages)"]
         Live["Live Page"]
         Historical["Historical Pages"]
     end
 
-    API -.-> |"5-min refresh"| Live
-    Data --> |"Static fetch"| Historical
+    API -.-> |"1-min refresh"| Live
+    Data --> |"GitHub Raw URL"| Historical
 ```
 
 ---
@@ -116,7 +116,7 @@ hkg-flight-viewer/
 │   ├── reindex-flights.js       # Rebuild indexes from snapshots
 │   └── analyze-data.js          # Data analysis tool
 │
-├── public/data/
+├── public/data/                 # NOT included in build (fetched via GitHub Raw)
 │   ├── daily/                   # Full daily snapshots
 │   │   └── YYYY-MM-DD.json
 │   └── indexes/

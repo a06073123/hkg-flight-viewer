@@ -69,6 +69,19 @@ const [data] = createResource(source, fetcher);
 
 ## Data Architecture
 
+### Static Data Strategy
+
+Historical data is stored in `public/data/` but **NOT included in the build**.
+The frontend fetches data directly from GitHub Raw URLs:
+```
+https://raw.githubusercontent.com/a06073123/hkg-flight-viewer/main/public/data/...
+```
+
+This approach:
+- Keeps build output small (~1MB instead of 100MB+)
+- Data updates via GitHub Actions without rebuilding frontend
+- Free CDN caching from GitHub's infrastructure
+
 ### Sharding Strategy (public/data/)
 
 ```

@@ -55,6 +55,13 @@ export function getAirportDataVersion(): number {
 // ============================================================================
 
 /**
+ * GitHub raw URL for airport data
+ * Fetched directly from the repo to avoid build bloat
+ */
+const AIRPORTS_DATA_URL =
+	"https://raw.githubusercontent.com/a06073123/hkg-flight-viewer/main/public/data/airports/airports.json";
+
+/**
  * Fetch airport data from airports.json
  */
 async function fetchAirportData(): Promise<Record<string, AirportInfo>> {
@@ -68,7 +75,7 @@ async function fetchAirportData(): Promise<Record<string, AirportInfo>> {
 
 	cachePromise = (async () => {
 		try {
-			const response = await fetch("/data/airports/airports.json");
+			const response = await fetch(AIRPORTS_DATA_URL);
 			if (!response.ok) {
 				console.warn("Failed to load airport data, using fallback");
 				return {};
