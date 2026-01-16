@@ -11,12 +11,13 @@
  */
 
 import { A } from "@solidjs/router";
-import { Clock, Luggage, PlaneLanding, Users } from "lucide-solid";
+import { Luggage, PlaneLanding, Users } from "lucide-solid";
 import { For, Show } from "solid-js";
 import { getAirlineNameSync } from "../../../lib/airline-data";
 import { getAirportName } from "../../../lib/airport-data";
 import type { FlightRecord } from "../../../types/flight";
-import { FlightStatus } from "../FlightCard";
+import { Tooltip } from "../../common";
+import { FlightTimeStatus } from "../FlightCard";
 
 export interface ArrivalCardProps {
 	flight: FlightRecord;
@@ -80,51 +81,91 @@ export function ArrivalCard(props: ArrivalCardProps) {
 								<p class="mt-1 text-sm text-gray-600">
 									{getAirportName(flight.primaryAirport)}
 									<Show when={flight.hasViaStops}>
-										<span class="ml-2 text-gray-400">
-											via{" "}
-											{flight.route.slice(1).join(" → ")}
-										</span>
+										<Tooltip
+											content={
+												<div class="space-y-1">
+													<p class="font-medium">
+														Route Details
+													</p>
+													{flight.route.map(
+														(
+															airport: string,
+															i: number,
+														) => (
+															<p>
+																{i + 1}.{" "}
+																{airport} -{" "}
+																{getAirportName(
+																	airport,
+																)}
+															</p>
+														),
+													)}
+												</div>
+											}
+											positioning={{
+												placement: "bottom",
+											}}
+										>
+											<span class="ml-2 cursor-help text-gray-400 underline decoration-dotted">
+												via{" "}
+												{flight.route
+													.slice(1)
+													.join(" → ")}
+											</span>
+										</Tooltip>
 									</Show>
 								</p>
 							</div>
 						</div>
 
-						{/* Codeshare Partners - Dynamic columns based on count */}
+						{/* Codeshare Partners - with Tooltip for full list */}
 						<Show when={flight.codeshareCount > 0}>
-							<div class="flex items-start gap-2">
-								<Users class="mt-0.5 h-3.5 w-3.5 shrink-0 text-gray-400" />
-								<div
-									class={`grid gap-x-4 gap-y-0.5 ${flight.codeshareCount > 5 ? "grid-cols-2" : "grid-cols-1"}`}
-								>
-									<For each={flight.flights.slice(1, 11)}>
-										{(cs) => (
-											<span class="text-xs text-gray-500">
-												{cs.no}
-											</span>
-										)}
-									</For>
+							<Tooltip
+								content={
+									<div class="space-y-1">
+										<p class="font-medium">
+											Codeshare Partners (
+											{flight.codeshareCount})
+										</p>
+										{flight.flights
+											.slice(1)
+											.map((partner) => (
+												<p>
+													{partner.no} -{" "}
+													{getAirlineNameSync(
+														partner.airline,
+													)}
+												</p>
+											))}
+									</div>
+								}
+								positioning={{ placement: "bottom" }}
+							>
+								<div class="flex cursor-help items-start gap-2">
+									<Users class="mt-0.5 h-3.5 w-3.5 shrink-0 text-gray-400" />
+									<div
+										class={`grid gap-x-4 gap-y-0.5 ${flight.codeshareCount > 5 ? "grid-cols-2" : "grid-cols-1"}`}
+									>
+										<For each={flight.flights.slice(1, 11)}>
+											{(cs) => (
+												<span class="text-xs text-gray-500">
+													{cs.no}
+												</span>
+											)}
+										</For>
+									</div>
 								</div>
-							</div>
+							</Tooltip>
 						</Show>
 					</div>
 
 					{/* Right Column: Time + Status */}
 					<div class="flex flex-col items-end justify-between">
-						{/* Scheduled Time - Large */}
-						<div class="text-right">
-							<div class="flex items-center gap-1.5 text-gray-400">
-								<Clock class="h-3.5 w-3.5" />
-								<span class="text-xs uppercase">Scheduled</span>
-							</div>
-							<span class="text-4xl font-black tabular-nums text-[#1A1A1B]">
-								{flight.time}
-							</span>
-						</div>
-
-						{/* Status */}
-						<div class="mt-2">
-							<FlightStatus status={flight.status} />
-						</div>
+						<FlightTimeStatus
+							scheduledTime={flight.time}
+							status={flight.status}
+						/>
 					</div>
 				</div>
 			</div>

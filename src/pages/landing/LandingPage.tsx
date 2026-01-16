@@ -20,6 +20,7 @@ import {
 	Search,
 	Users,
 } from "lucide-solid";
+import { FlightSearch } from "../../components/search";
 
 /**
  * Fixed grid layouts for consistent design
@@ -159,6 +160,22 @@ export default function LandingPage() {
 						description="Find your baggage belt & hall"
 					/>
 				</div>
+			</div>
+
+			{/* Flight Search Section */}
+			<div class="rounded-xl border-2 border-[#003580]/10 bg-white p-6">
+				<h3 class="mb-4 text-lg font-semibold text-[#1A1A1B]">
+					<Search class="mr-2 inline-block h-5 w-5 text-[#003580]" />
+					Flight Search
+				</h3>
+				<p class="mb-4 text-sm text-gray-600">
+					Enter a flight number to view its history and on-time
+					performance (e.g., CX888, UO 192)
+				</p>
+				<FlightSearch
+					mode="navigate"
+					placeholder="Search flight number..."
+				/>
 			</div>
 
 			{/* Quick Access Section */}

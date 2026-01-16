@@ -15,7 +15,7 @@ import {
 } from "lucide-solid";
 import { createMemo, createSignal, onCleanup, Suspense } from "solid-js";
 import { FlightCardList } from "../../components/flights";
-import { SearchBar } from "../../components/search";
+import { FlightSearch } from "../../components/search";
 import { filterFlights, sortFlightsByTime } from "../../lib/api";
 import {
 	createLiveArrivalsResource,
@@ -135,9 +135,10 @@ export default function LivePage() {
 
 			{/* Search Bar - Fixed width container */}
 			<div class="w-full max-w-lg">
-				<SearchBar
+				<FlightSearch
+					mode="filter"
 					value={searchQuery()}
-					onInput={setSearchQuery}
+					onFilter={setSearchQuery}
 					placeholder="Search by flight number, destination, or airline..."
 					resultCount={getCurrentCount()}
 				/>

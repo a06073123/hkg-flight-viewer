@@ -72,8 +72,7 @@ Defined TypeScript interfaces and parsing utilities.
 | File                | Tests |
 | ------------------- | ----- |
 | `src/lib/parser.ts` | 37    |
-| `FlightCard.tsx`    | 9     |
-| **Total**           | 46 ✅ |
+| **Total**           | 37 ✅ |
 
 ---
 
@@ -94,20 +93,30 @@ flowchart TD
     Past --> GateDetail["/gate/:id Gate Analytics"]
 ```
 
-| Route         | Data Source  | Features                                      |
-| ------------- | ------------ | --------------------------------------------- |
-| `/`           | None         | Site introduction                             |
-| `/live`       | HKIA API     | Departures/Arrivals/Cargo tabs, 5-min refresh |
-| `/past`       | Static JSON  | Date picker, Departures/Arrivals/Cargo tabs   |
-| `/flight/:no` | Static Index | Flight history, on-time stats                 |
-| `/gate/:id`   | Static Index | Gate usage analytics                          |
+| Route          | Data Source  | Features                                               |
+| -------------- | ------------ | ------------------------------------------------------ |
+| `/`            | None         | Site introduction                                      |
+| `/live`        | HKIA API     | Departures/Arrivals/Cargo tabs, 5-min refresh          |
+| `/past/:date?` | Static JSON  | Date picker, URL param, Departures/Arrivals/Cargo tabs |
+| `/flight/:no`  | Static Index | Flight history, on-time stats                          |
+| `/gate/:id`    | Static Index | Gate usage analytics                                   |
 
 ### Components
 
-- `DepartureCard` / `ArrivalCard` / `CargoFlightCard` - HKIA Visual DNA styling
+- `DepartureCard` / `ArrivalCard` / `CargoFlightCard` - HKIA Visual DNA styling with Tooltip
+- `FlightTimeStatus` - Integrated time + status display with delay visualization
+- `FlightStatus` - Compact status badge (for tables)
 - `FlightCardList` - Virtualized flight list
-- `SearchBar` - Filter flights by text
+- `FlightSearch` - Unified search (navigate/filter modes)
 - `Layout` - Navigation with Home/Live/History links
+
+### Ark UI Components
+
+- `Tabs` - Tab navigation (LivePage, PastPage)
+- `DatePicker` - Date selection (PastPage)
+- `Tooltip` - Hover information (all flight cards)
+- `Collapsible` - Expandable sections (FlightHistoryPage, GateAnalyticsPage)
+- `Combobox` - Search with suggestions (FlightSearch)
 
 ---
 

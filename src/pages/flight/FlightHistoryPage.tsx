@@ -24,6 +24,7 @@ import {
 	Users,
 } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
+import { Collapsible } from "../../components/common";
 import { FlightStatus } from "../../components/flights/FlightCard";
 import { createFlightHistoryResource } from "../../lib/resources";
 import type { FlightRecord } from "../../types/flight";
@@ -213,130 +214,124 @@ export default function FlightHistoryPage() {
 
 					<For each={groupedByDate()}>
 						{([date, flights]) => (
-							<div class="overflow-hidden rounded-lg border bg-white shadow-sm">
-								<div class="border-b bg-[#003580] px-4 py-2">
-									<span class="font-medium text-white">
+							<Collapsible
+								trigger={
+									<span class="font-medium">
 										{date}
+										<span class="ml-2 text-sm font-normal text-blue-200">
+											({flights.length} flight
+											{flights.length > 1 ? "s" : ""})
+										</span>
 									</span>
-								</div>
-								<div class="divide-y">
-									<For each={flights}>
-										{(flight) => (
-											<div class="flex items-center gap-4 px-4 py-3">
-												{/* Time */}
-												<span
-													class={`${HISTORY_COLUMNS.time} shrink-0 text-sm font-bold text-[#1A1A1B]`}
-												>
-													{flight.time}
-												</span>
+								}
+							>
+								<For each={flights}>
+									{(flight) => (
+										<div class="flex items-center gap-4 px-4 py-3">
+											{/* Time */}
+											<span
+												class={`${HISTORY_COLUMNS.time} shrink-0 text-sm font-bold text-[#1A1A1B]`}
+											>
+												{flight.time}
+											</span>
 
-												{/* Route */}
-												<span
-													class={`${HISTORY_COLUMNS.route} shrink-0`}
-												>
-													<span class="inline-block rounded bg-[#C41230] px-2 py-0.5 text-xs font-bold text-white">
-														{flight.isArrival
-															? "From"
-															: "To"}{" "}
-														{flight.primaryAirport}
-													</span>
+											{/* Route */}
+											<span
+												class={`${HISTORY_COLUMNS.route} shrink-0`}
+											>
+												<span class="inline-block rounded bg-[#C41230] px-2 py-0.5 text-xs font-bold text-white">
+													{flight.isArrival
+														? "From"
+														: "To"}{" "}
+													{flight.primaryAirport}
 												</span>
+											</span>
 
-												{/* Check-in / Hall */}
-												<span
-													class={`${HISTORY_COLUMNS.checkinHall} shrink-0`}
-												>
-													<Show
-														when={!flight.isArrival}
-														fallback={
-															<Show
-																when={
-																	flight.hall
-																}
-																fallback={
-																	<span class="text-sm text-gray-400">
-																		—
-																	</span>
-																}
-															>
-																<span class="inline-flex items-center gap-1 text-xs text-emerald-600">
-																	<DoorOpen class="h-3 w-3" />
-																	Hall{" "}
-																	{
-																		flight.hall
-																	}
-																</span>
-															</Show>
-														}
-													>
+											{/* Check-in / Hall */}
+											<span
+												class={`${HISTORY_COLUMNS.checkinHall} shrink-0`}
+											>
+												<Show
+													when={!flight.isArrival}
+													fallback={
 														<Show
-															when={flight.aisle}
+															when={flight.hall}
 															fallback={
 																<span class="text-sm text-gray-400">
 																	—
 																</span>
 															}
 														>
-															<span class="inline-flex items-center gap-1 text-xs text-[#003580]">
-																<Users class="h-3 w-3" />
-																Row{" "}
-																{flight.aisle}
+															<span class="inline-flex items-center gap-1 text-xs text-emerald-600">
+																<DoorOpen class="h-3 w-3" />
+																Hall{" "}
+																{flight.hall}
 															</span>
 														</Show>
-													</Show>
-												</span>
-
-												{/* Gate / Belt */}
-												<span
-													class={`${HISTORY_COLUMNS.gateBelt} shrink-0`}
+													}
 												>
 													<Show
-														when={
-															flight.isArrival
-																? flight.baggageClaim
-																: flight.gate
-														}
+														when={flight.aisle}
 														fallback={
 															<span class="text-sm text-gray-400">
 																—
 															</span>
 														}
 													>
-														<Show
-															when={
-																flight.isArrival
-															}
-															fallback={
-																<span class="gate-badge inline-block text-xs">
-																	{
-																		flight.gate
-																	}
-																</span>
-															}
-														>
-															<span class="inline-flex items-center gap-1 text-xs text-gray-600">
-																<Luggage class="h-3 w-3" />
-																{
-																	flight.baggageClaim
-																}
-															</span>
-														</Show>
+														<span class="inline-flex items-center gap-1 text-xs text-[#003580]">
+															<Users class="h-3 w-3" />
+															Row {flight.aisle}
+														</span>
 													</Show>
-												</span>
+												</Show>
+											</span>
 
-												{/* Status */}
-												<span
-													class={`${HISTORY_COLUMNS.status}`}
+											{/* Gate / Belt */}
+											<span
+												class={`${HISTORY_COLUMNS.gateBelt} shrink-0`}
+											>
+												<Show
+													when={
+														flight.isArrival
+															? flight.baggageClaim
+															: flight.gate
+													}
+													fallback={
+														<span class="text-sm text-gray-400">
+															—
+														</span>
+													}
 												>
-													<FlightStatus
-														status={flight.status}
-													/>
-												</span>
-											</div>
-										)}
-									</For>
-								</div>
-							</div>
+													<Show
+														when={flight.isArrival}
+														fallback={
+															<span class="gate-badge inline-block text-xs">
+																{flight.gate}
+															</span>
+														}
+													>
+														<span class="inline-flex items-center gap-1 text-xs text-gray-600">
+															<Luggage class="h-3 w-3" />
+															{
+																flight.baggageClaim
+															}
+														</span>
+													</Show>
+												</Show>
+											</span>
+
+											{/* Status */}
+											<span
+												class={`${HISTORY_COLUMNS.status}`}
+											>
+												<FlightStatus
+													status={flight.status}
+												/>
+											</span>
+										</div>
+									)}
+								</For>
+							</Collapsible>
 						)}
 					</For>
 				</div>

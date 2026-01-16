@@ -21,6 +21,7 @@ import {
 	Users,
 } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
+import { Collapsible } from "../../components/common";
 import { FlightStatus } from "../../components/flights/FlightCard";
 import { createGateHistoryResource } from "../../lib/resources";
 import type { FlightRecord } from "../../types/flight";
@@ -211,94 +212,90 @@ export default function GateAnalyticsPage() {
 
 					<For each={groupedByDate().slice(0, 7)}>
 						{([date, flights]) => (
-							<div class="overflow-hidden rounded-lg border bg-white shadow-sm">
-								<div class="border-b bg-[#003580] px-4 py-2">
-									<span class="font-medium text-white">
+							<Collapsible
+								trigger={
+									<span class="font-medium">
 										{date}
+										<span class="ml-2 text-sm font-normal text-blue-200">
+											({flights.length} flight
+											{flights.length > 1 ? "s" : ""})
+										</span>
 									</span>
-								</div>
-								<div class="divide-y">
-									<For each={flights}>
-										{(flight) => (
-											<div class="flex items-center gap-4 px-4 py-3">
-												{/* Time */}
-												<span
-													class={`${HISTORY_COLUMNS.time} shrink-0 text-sm font-bold text-[#1A1A1B]`}
-												>
-													{flight.time}
-												</span>
+								}
+							>
+								<For each={flights}>
+									{(flight) => (
+										<div class="flex items-center gap-4 px-4 py-3">
+											{/* Time */}
+											<span
+												class={`${HISTORY_COLUMNS.time} shrink-0 text-sm font-bold text-[#1A1A1B]`}
+											>
+												{flight.time}
+											</span>
 
-												{/* Flight */}
-												<div
-													class={`${HISTORY_COLUMNS.flight} shrink-0`}
+											{/* Flight */}
+											<div
+												class={`${HISTORY_COLUMNS.flight} shrink-0`}
+											>
+												<A
+													href={`/flight/${flight.operatingCarrier.no.replace(/\s+/g, "")}`}
+													class="text-sm font-bold text-[#003580] hover:underline"
 												>
-													<A
-														href={`/flight/${flight.operatingCarrier.no.replace(/\s+/g, "")}`}
-														class="text-sm font-bold text-[#003580] hover:underline"
-													>
-														{
-															flight
-																.operatingCarrier
-																.no
-														}
-													</A>
-													{/* Show codeshare count */}
-													<Show
-														when={
-															flight.codeshareCount >
-															0
-														}
-													>
-														<span class="ml-1 text-[10px] text-gray-400">
-															+
-															{
-																flight.codeshareCount
-															}
-														</span>
-													</Show>
-												</div>
-
-												{/* Destination */}
-												<span
-													class={`${HISTORY_COLUMNS.destination} shrink-0`}
+													{flight.operatingCarrier.no}
+												</A>
+												{/* Show codeshare count */}
+												<Show
+													when={
+														flight.codeshareCount >
+														0
+													}
 												>
-													<span class="inline-block rounded bg-[#C41230] px-2 py-0.5 text-xs font-bold text-white">
-														{flight.primaryAirport}
+													<span class="ml-1 text-[10px] text-gray-400">
+														+{flight.codeshareCount}
 													</span>
-												</span>
-
-												{/* Check-in */}
-												<span
-													class={`${HISTORY_COLUMNS.checkin} shrink-0`}
-												>
-													<Show
-														when={flight.aisle}
-														fallback={
-															<span class="text-sm text-gray-400">
-																—
-															</span>
-														}
-													>
-														<span class="inline-flex items-center gap-1 text-xs text-[#003580]">
-															<Users class="h-3 w-3" />
-															Row {flight.aisle}
-														</span>
-													</Show>
-												</span>
-
-												{/* Status */}
-												<span
-													class={`${HISTORY_COLUMNS.status}`}
-												>
-													<FlightStatus
-														status={flight.status}
-													/>
-												</span>
+												</Show>
 											</div>
-										)}
-									</For>
-								</div>
-							</div>
+
+											{/* Destination */}
+											<span
+												class={`${HISTORY_COLUMNS.destination} shrink-0`}
+											>
+												<span class="inline-block rounded bg-[#C41230] px-2 py-0.5 text-xs font-bold text-white">
+													{flight.primaryAirport}
+												</span>
+											</span>
+
+											{/* Check-in */}
+											<span
+												class={`${HISTORY_COLUMNS.checkin} shrink-0`}
+											>
+												<Show
+													when={flight.aisle}
+													fallback={
+														<span class="text-sm text-gray-400">
+															—
+														</span>
+													}
+												>
+													<span class="inline-flex items-center gap-1 text-xs text-[#003580]">
+														<Users class="h-3 w-3" />
+														Row {flight.aisle}
+													</span>
+												</Show>
+											</span>
+
+											{/* Status */}
+											<span
+												class={`${HISTORY_COLUMNS.status}`}
+											>
+												<FlightStatus
+													status={flight.status}
+												/>
+											</span>
+										</div>
+									)}
+								</For>
+							</Collapsible>
 						)}
 					</For>
 				</div>

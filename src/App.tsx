@@ -23,7 +23,7 @@ function App() {
 		<Router root={Layout}>
 			<Route path="/" component={LandingPage} />
 			<Route path="/live" component={LivePage} />
-			<Route path="/past" component={PastPage} />
+			<Route path="/past/:date?" component={PastPage} />
 			<Route path="/flight/:no" component={FlightHistoryPage} />
 			<Route path="/gate/:id" component={GateAnalyticsPage} />
 		</Router>

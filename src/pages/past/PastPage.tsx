@@ -3,25 +3,53 @@
  *
  * Historical flight data browser from archived JSON
  * Uses SolidJS createResource for data fetching
+ *
+ * Supports URL parameter: /past/:date
+ * Date formats: yyyy-MM-dd or yyyyMMdd
  */
 
 import { Tabs } from "@ark-ui/solid";
-import { A } from "@solidjs/router";
+import { useNavigate, useParams } from "@solidjs/router";
 import {
 	Calendar,
 	History,
 	Package,
 	PlaneLanding,
 	PlaneTakeoff,
-	Search,
 } from "lucide-solid";
-import { createMemo, createSignal, Show, Suspense } from "solid-js";
+import {
+	createEffect,
+	createMemo,
+	createSignal,
+	Show,
+	Suspense,
+} from "solid-js";
 import { DatePicker } from "../../components/common";
 import { FlightCardList } from "../../components/flights";
-import { SearchBar } from "../../components/search";
+import { FlightSearch } from "../../components/search";
 import { filterFlights, sortFlightsByTime } from "../../lib/api";
 import { createDailySnapshotResource } from "../../lib/resources";
 import type { FlightRecord } from "../../types/flight";
+
+/**
+ * Parse date from URL parameter
+ * Supports: yyyy-MM-dd or yyyyMMdd
+ */
+function parseDateParam(param: string | undefined): string | null {
+	if (!param) return null;
+
+	// Already in yyyy-MM-dd format
+	if (/^\d{4}-\d{2}-\d{2}$/.test(param)) {
+		return param;
+	}
+
+	// yyyyMMdd format - convert to yyyy-MM-dd
+	if (/^\d{8}$/.test(param)) {
+		return `${param.slice(0, 4)}-${param.slice(4, 6)}-${param.slice(6, 8)}`;
+	}
+
+	return null;
+}
 
 // Default to yesterday (likely has complete data)
 function getYesterdayHKT(): string {
@@ -32,11 +60,31 @@ function getYesterdayHKT(): string {
 }
 
 export default function PastPage() {
-	const [selectedDate, setSelectedDate] = createSignal(getYesterdayHKT());
+	const params = useParams<{ date?: string }>();
+	const navigate = useNavigate();
+
+	// Initialize date from URL param or default to yesterday
+	const initialDate = () => parseDateParam(params.date) ?? getYesterdayHKT();
+	const [selectedDate, setSelectedDate] = createSignal(initialDate());
 	const [activeTab, setActiveTab] = createSignal<
 		"departures" | "arrivals" | "cargo"
 	>("departures");
 	const [searchQuery, setSearchQuery] = createSignal("");
+
+	// Sync URL when date changes
+	const handleDateChange = (date: string) => {
+		setSelectedDate(date);
+		navigate(`/past/${date}`, { replace: true });
+	};
+
+	// Update date when URL param changes (including when navigating to /past without param)
+	createEffect(() => {
+		const parsed = parseDateParam(params.date);
+		const newDate = parsed ?? getYesterdayHKT();
+		if (newDate !== selectedDate()) {
+			setSelectedDate(newDate);
+		}
+	});
 
 	// Load snapshot for selected date
 	const [snapshot] = createDailySnapshotResource(selectedDate);
@@ -115,7 +163,7 @@ export default function PastPage() {
 				{/* Date Picker */}
 				<DatePicker
 					value={selectedDate()}
-					onChange={setSelectedDate}
+					onChange={handleDateChange}
 					label="Select date"
 				/>
 			</div>
@@ -165,20 +213,14 @@ export default function PastPage() {
 			{/* Search Bar */}
 			<div class="flex flex-col gap-3 sm:flex-row sm:items-center">
 				<div class="max-w-md flex-1">
-					<SearchBar
+					<FlightSearch
+						mode="filter"
 						value={searchQuery()}
-						onInput={setSearchQuery}
+						onFilter={setSearchQuery}
 						placeholder="Search by flight number, destination, or airline..."
 						resultCount={getCurrentCount()}
 					/>
 				</div>
-				<A
-					href="/flight/"
-					class="inline-flex items-center gap-1.5 rounded-lg border-2 border-[#003580] bg-white px-3 py-2 text-sm font-medium text-[#003580] hover:bg-[#003580] hover:text-white transition-colors"
-				>
-					<Search class="h-4 w-4" />
-					Flight Lookup
-				</A>
 			</div>
 
 			{/* Tabs - HKIA Style */}

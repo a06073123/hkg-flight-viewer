@@ -2,4 +2,9 @@
  * Search Components Barrel Export
  */
 
-export { SearchBar, type SearchBarProps } from "./SearchBar";
+export {
+	FlightSearch,
+	normalizeFlightNumber,
+	type FlightSearchOption,
+	type FlightSearchProps,
+} from "./FlightSearch";

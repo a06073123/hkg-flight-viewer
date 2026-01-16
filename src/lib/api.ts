@@ -227,7 +227,15 @@ export function getTodayDate(): string {
 }
 
 /**
+ * Normalize string by removing spaces and converting to lowercase
+ */
+function normalizeForSearch(str: string): string {
+	return str.replace(/\s+/g, "").toLowerCase();
+}
+
+/**
  * Filter flights by search query
+ * Supports space-insensitive matching (e.g., "uo192" matches "UO 192")
  */
 export function filterFlights(
 	flights: FlightRecord[],
@@ -235,22 +243,24 @@ export function filterFlights(
 ): FlightRecord[] {
 	if (!query.trim()) return flights;
 
-	const normalizedQuery = query.toLowerCase().trim();
+	const normalizedQuery = normalizeForSearch(query);
+	const lowerQuery = query.toLowerCase().trim();
 
 	return flights.filter((flight) => {
-		// Search by flight number
-		const flightNoMatch = flight.flights.some((f) =>
-			f.no.toLowerCase().includes(normalizedQuery),
-		);
+		// Search by flight number (space-insensitive)
+		const flightNoMatch = flight.flights.some((f) => {
+			const normalizedNo = normalizeForSearch(f.no);
+			return normalizedNo.includes(normalizedQuery);
+		});
 
 		// Search by airport code
 		const airportMatch =
-			flight.primaryAirport.toLowerCase().includes(normalizedQuery) ||
-			flight.route.some((r) => r.toLowerCase().includes(normalizedQuery));
+			flight.primaryAirport.toLowerCase().includes(lowerQuery) ||
+			flight.route.some((r) => r.toLowerCase().includes(lowerQuery));
 
 		// Search by airline
 		const airlineMatch = flight.flights.some((f) =>
-			f.airline.toLowerCase().includes(normalizedQuery),
+			f.airline.toLowerCase().includes(lowerQuery),
 		);
 
 		return flightNoMatch || airportMatch || airlineMatch;

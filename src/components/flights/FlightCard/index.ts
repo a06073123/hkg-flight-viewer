@@ -1,6 +1,9 @@
 /**
- * FlightCard Component Barrel Export
+ * Flight Status Components Barrel Export
  */
 
-export { FlightCard, type FlightCardProps } from "./FlightCard";
 export { FlightStatus, type FlightStatusProps } from "./FlightStatus";
+export {
+	FlightTimeStatus,
+	type FlightTimeStatusProps,
+} from "./FlightTimeStatus";
