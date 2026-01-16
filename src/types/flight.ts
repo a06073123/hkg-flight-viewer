@@ -195,11 +195,17 @@ export interface ParsedStatus {
 	/** Extracted time if present (HH:MM) */
 	time?: string;
 
-	/** Extracted date if present (different from scheduled date) */
+	/** Extracted date if present (DD/MM/YYYY format from API) */
 	date?: string;
+
+	/** Normalized date (YYYY-MM-DD format) for comparison */
+	normalizedDate?: string;
 
 	/** Whether the status indicates the flight was on a different date */
 	isDifferentDate: boolean;
+
+	/** Number of days offset from scheduled date (negative = early, positive = delayed) */
+	dayOffset?: number;
 }
 
 /**

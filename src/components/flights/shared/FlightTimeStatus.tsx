@@ -147,18 +147,33 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 				</div>
 
 				{/* Main time (large, consistent position) */}
-				<div
-					class={`${timeSize} font-black tabular-nums leading-tight ${timeColor()}`}
-				>
-					{mainTime()}
-				</div>
-
-				{/* Cross-day indicator */}
-				<Show when={props.status.isDifferentDate && props.status.date}>
-					<span class="text-[10px] text-gray-500">
-						({props.status.date})
+				<div class="flex items-center justify-end gap-1">
+					<span
+						class={`${timeSize} font-black tabular-nums leading-tight ${timeColor()}`}
+					>
+						{mainTime()}
 					</span>
-				</Show>
+					{/* Day offset badge for multi-day delays */}
+					<Show
+						when={
+							props.status.dayOffset &&
+							props.status.dayOffset !== 0
+						}
+					>
+						<span
+							class={`rounded px-1 py-0.5 text-xs font-bold ${
+								(props.status.dayOffset ?? 0) >= 2
+									? "bg-red-100 text-red-700"
+									: (props.status.dayOffset ?? 0) >= 1
+										? "bg-orange-100 text-orange-700"
+										: "bg-blue-100 text-blue-700"
+							}`}
+						>
+							{(props.status.dayOffset ?? 0) > 0 ? "+" : ""}
+							{props.status.dayOffset}d
+						</span>
+					</Show>
+				</div>
 
 				{/* Original time when changed (shown below as secondary) */}
 				<Show when={timeChanged() && !hasNoTime()}>

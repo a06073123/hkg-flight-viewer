@@ -11,14 +11,60 @@
  * Usage: node scripts/analyze-data.js
  */
 
+import dayjs from "dayjs";
+import customParseFormat from "dayjs/plugin/customParseFormat.js";
 import fs from "fs-extra";
 import path from "path";
 import { fileURLToPath } from "url";
+
+dayjs.extend(customParseFormat);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const DAILY_DIR = path.resolve(__dirname, "../public/data/daily");
+
+/**
+ * Calculate the day offset between scheduled date and actual date in status
+ * @param {string} scheduledDate - Scheduled date in YYYY-MM-DD format
+ * @param {string} status - Status string like "Dep 13:50 (17/01/2025)"
+ * @returns {number|null} - Day offset (positive = delayed, negative = early)
+ */
+function calculateDayOffset(scheduledDate, status) {
+	if (!scheduledDate || !status) return null;
+
+	// Extract date from status: (DD/MM/YYYY) or (DD/MM)
+	const dateMatch = status.match(/\((\d{2})\/(\d{2})(?:\/(\d{4}))?\)/);
+	if (!dateMatch) return null;
+
+	const [, day, month, year] = dateMatch;
+	const scheduledDayjs = dayjs(scheduledDate, "YYYY-MM-DD");
+
+	if (!scheduledDayjs.isValid()) return null;
+
+	// If year is not in status, infer it from scheduled date
+	let actualYear = year;
+	if (!actualYear) {
+		// Assume same year, but handle year boundary
+		actualYear = scheduledDayjs.year().toString();
+
+		// If scheduled is late December and actual is early January, it's next year
+		if (scheduledDayjs.month() === 11 && parseInt(month) === 1) {
+			actualYear = (scheduledDayjs.year() + 1).toString();
+		}
+		// If scheduled is early January and actual is late December, it's previous year
+		if (scheduledDayjs.month() === 0 && parseInt(month) === 12) {
+			actualYear = (scheduledDayjs.year() - 1).toString();
+		}
+	}
+
+	const actualDateStr = `${actualYear}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+	const actualDayjs = dayjs(actualDateStr, "YYYY-MM-DD");
+
+	if (!actualDayjs.isValid()) return null;
+
+	return actualDayjs.diff(scheduledDayjs, "day");
+}
 
 async function analyzeData() {
 	console.log("\n" + "=".repeat(60));
@@ -57,6 +103,7 @@ async function analyzeData() {
 		gates: new Map(),
 		baggageClaims: new Map(),
 		timeSlots: new Map(), // hourly distribution
+		dayOffset: new Map(), // day offset distribution (delay/early)
 	};
 
 	// Special cases
@@ -68,6 +115,13 @@ async function analyzeData() {
 		cancelledFlights: [],
 		delayedFlights: [],
 		emptyStatus: [],
+		// Day offset extremes
+		maxDelay: null, // most delayed (positive offset)
+		maxDelayDays: 0,
+		maxEarly: null, // most early (negative offset)
+		maxEarlyDays: 0,
+		delayedBy2Plus: [], // flights delayed by +2 or more days
+		earlyBy1Plus: [], // flights early by -1 or more days
 	};
 
 	// Process each file
@@ -155,6 +209,67 @@ async function analyzeData() {
 					date: flight.date,
 					flight: flight.flight[0].no,
 				});
+			}
+
+			// Day offset analysis (delay/early detection)
+			const dayOffset = calculateDayOffset(flight.date, statusRaw);
+			if (dayOffset !== null) {
+				distributions.dayOffset.set(
+					dayOffset,
+					(distributions.dayOffset.get(dayOffset) || 0) + 1,
+				);
+
+				// Track extreme delays (+2 days or more)
+				if (dayOffset >= 2 && examples.delayedBy2Plus.length < 20) {
+					examples.delayedBy2Plus.push({
+						date: flight.date,
+						time: flight.time,
+						flight: flight.flight[0].no,
+						status: statusRaw,
+						dayOffset: dayOffset,
+						isCargo: flight.isCargo,
+					});
+				}
+
+				// Track extreme early (-1 days or less)
+				if (dayOffset <= -1 && examples.earlyBy1Plus.length < 20) {
+					examples.earlyBy1Plus.push({
+						date: flight.date,
+						time: flight.time,
+						flight: flight.flight[0].no,
+						status: statusRaw,
+						dayOffset: dayOffset,
+						isCargo: flight.isCargo,
+					});
+				}
+
+				// Track max delay
+				if (dayOffset > examples.maxDelayDays) {
+					examples.maxDelayDays = dayOffset;
+					examples.maxDelay = {
+						date: flight.date,
+						time: flight.time,
+						flight: flight.flight[0].no,
+						airline: flight.flight[0].airline,
+						status: statusRaw,
+						origin_dest: flight.origin_dest,
+						isCargo: flight.isCargo,
+					};
+				}
+
+				// Track max early
+				if (dayOffset < examples.maxEarlyDays) {
+					examples.maxEarlyDays = dayOffset;
+					examples.maxEarly = {
+						date: flight.date,
+						time: flight.time,
+						flight: flight.flight[0].no,
+						airline: flight.flight[0].airline,
+						status: statusRaw,
+						origin_dest: flight.origin_dest,
+						isCargo: flight.isCargo,
+					};
+				}
 			}
 
 			// Terminal analysis
@@ -365,6 +480,77 @@ async function analyzeData() {
 	console.log("Delayed flights examples:", examples.delayedFlights);
 	console.log("Empty status examples:", examples.emptyStatus);
 
+	console.log("\n\n⏱️  DAY OFFSET DISTRIBUTION (Delay/Early Analysis)");
+	console.log("-".repeat(40));
+	const dayOffsets = [...distributions.dayOffset.entries()].sort(
+		(a, b) => a[0] - b[0],
+	);
+	for (const [offset, count] of dayOffsets) {
+		const pct = ((count / stats.totalFlights) * 100).toFixed(2);
+		let label;
+		if (offset === 0) label = "Same day (on schedule)";
+		else if (offset > 0)
+			label = `+${offset} day${offset > 1 ? "s" : ""} (delayed)`;
+		else label = `${offset} day${offset < -1 ? "s" : ""} (early)`;
+		console.log(
+			`${label.padEnd(25)} ${count.toLocaleString().padStart(8)} (${pct}%)`,
+		);
+	}
+
+	console.log("\n\n🚨 EXTREME DELAY CASES");
+	console.log("-".repeat(40));
+	if (examples.maxDelay) {
+		console.log(`Most delayed flight: +${examples.maxDelayDays} days`);
+		console.log(JSON.stringify(examples.maxDelay, null, 2));
+	} else {
+		console.log("No delayed flights found with date info.");
+	}
+
+	console.log("\n\n⚡ EXTREME EARLY CASES");
+	console.log("-".repeat(40));
+	if (examples.maxEarly) {
+		console.log(`Most early flight: ${examples.maxEarlyDays} days`);
+		console.log(JSON.stringify(examples.maxEarly, null, 2));
+	} else {
+		console.log("No early flights found with date info.");
+	}
+
+	console.log("\n\n📋 FLIGHTS DELAYED BY +2 DAYS OR MORE");
+	console.log("-".repeat(40));
+	if (examples.delayedBy2Plus.length > 0) {
+		console.log(`Found ${examples.delayedBy2Plus.length} examples:`);
+		// Sort by dayOffset descending
+		const sorted = examples.delayedBy2Plus.sort(
+			(a, b) => b.dayOffset - a.dayOffset,
+		);
+		for (const f of sorted) {
+			const cargoTag = f.isCargo ? " [CARGO]" : "";
+			console.log(
+				`  +${f.dayOffset}d: ${f.flight} (${f.date} ${f.time}) → ${f.status}${cargoTag}`,
+			);
+		}
+	} else {
+		console.log("No flights delayed by +2 days or more.");
+	}
+
+	console.log("\n\n📋 FLIGHTS EARLY BY -1 DAY OR MORE");
+	console.log("-".repeat(40));
+	if (examples.earlyBy1Plus.length > 0) {
+		console.log(`Found ${examples.earlyBy1Plus.length} examples:`);
+		// Sort by dayOffset ascending
+		const sorted = examples.earlyBy1Plus.sort(
+			(a, b) => a.dayOffset - b.dayOffset,
+		);
+		for (const f of sorted) {
+			const cargoTag = f.isCargo ? " [CARGO]" : "";
+			console.log(
+				`  ${f.dayOffset}d: ${f.flight} (${f.date} ${f.time}) → ${f.status}${cargoTag}`,
+			);
+		}
+	} else {
+		console.log("No flights early by -1 day or more.");
+	}
+
 	// Save analysis results to file
 	const analysisResult = {
 		generatedAt: new Date().toISOString(),
@@ -387,8 +573,19 @@ async function analyzeData() {
 			topBaggageClaims: Object.fromEntries(baggage),
 			topAirlines: Object.fromEntries(airlines),
 			timeSlots: Object.fromEntries(distributions.timeSlots),
+			dayOffset: Object.fromEntries(distributions.dayOffset),
 		},
 		airlineCodeMapping: Object.fromEntries(distributions.airlineCodes),
+		extremeCases: {
+			maxDelay: examples.maxDelay
+				? { ...examples.maxDelay, dayOffset: examples.maxDelayDays }
+				: null,
+			maxEarly: examples.maxEarly
+				? { ...examples.maxEarly, dayOffset: examples.maxEarlyDays }
+				: null,
+			delayedBy2Plus: examples.delayedBy2Plus,
+			earlyBy1Plus: examples.earlyBy1Plus,
+		},
 	};
 
 	const outputPath = path.resolve(__dirname, "../docs/data-analysis.json");

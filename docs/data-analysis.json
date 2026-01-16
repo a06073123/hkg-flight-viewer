@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-01-15T12:26:22.557Z",
+  "generatedAt": "2026-01-16T08:40:34.384Z",
   "dateRange": {
     "from": "2025-10-16",
     "to": "2026-01-16",
     "daysCount": 93
   },
   "statistics": {
-    "totalFlights": 104732,
-    "arrivals": 52107,
+    "totalFlights": 104733,
+    "arrivals": 52108,
     "departures": 52625,
     "cargo": 24468,
-    "passenger": 80264
+    "passenger": 80265
   },
   "distributions": {
     "flightArraySize": {
       "1": 51984,
-      "2": 33364,
+      "2": 33365,
       "3": 6330,
       "4": 5890,
       "5": 3227,
@@ -26,33 +26,28 @@
       "10": 91
     },
     "originDestArraySize": {
-      "1": 94533,
+      "1": 94534,
       "2": 8954,
       "3": 1085,
       "4": 160
     },
     "statusPatterns": {
-      "At gate HH:MM": 48564,
-      "At gate HH:MM (DD/MM/YYYY)": 1474,
+      "At gate HH:MM": 48658,
+      "At gate HH:MM (DD/MM/YYYY)": 1485,
       "Cancelled": 2734,
-      "Dep HH:MM": 49153,
-      "Dep HH:MM (DD/MM/YYYY)": 1468,
+      "Dep HH:MM": 49237,
+      "Dep HH:MM (DD/MM/YYYY)": 1478,
       "Delayed": 4,
-      "Est at HH:MM": 183,
-      "Est at HH:MM (DD/MM/YYYY)": 41,
-      "Landed HH:MM": 8,
-      "": 1071,
-      "Gate Closed": 13,
-      "Final Call": 7,
-      "Boarding Soon": 9,
-      "Boarding": 3
+      "Est at HH:MM": 99,
+      "Est at HH:MM (DD/MM/YYYY)": 29,
+      "": 1009
     },
     "terminals": {
       "T1": 40126
     },
     "halls": {
-      "B": 17737,
-      "A": 21806
+      "B": 17748,
+      "A": 21810
     },
     "aisles": {
       "A": 7726,
@@ -74,10 +69,10 @@
       "10": 710,
       "11": 532,
       "24": 582,
-      "26": 554,
+      "26": 555,
       "40": 539,
+      "62": 525,
       "201": 564,
-      "202": 525,
       "203": 581,
       "205": 579,
       "206": 553,
@@ -85,31 +80,31 @@
       "208": 529,
       "209": 555,
       "211": 561,
-      "213": 565,
+      "213": 566,
       "215": 554,
       "217": 535,
       "219": 553
     },
     "topBaggageClaims": {
-      "2": 2738,
-      "3": 2777,
-      "5": 2637,
-      "6": 2668,
-      "7": 2542,
+      "2": 2739,
+      "3": 2780,
+      "5": 2638,
+      "6": 2666,
+      "7": 2541,
       "8": 2794,
       "9": 2814,
-      "10": 2833,
-      "12": 3097,
+      "10": 2835,
+      "12": 3099,
       "13": 3087,
-      "14": 2742,
-      "15": 2732,
-      "16": 3123,
+      "14": 2747,
+      "15": 2734,
+      "16": 3125,
       "17": 2936
     },
     "topAirlines": {
       "CPA": 49895,
       "HKE": 11904,
-      "CRK": 10806,
+      "CRK": 10807,
       "QTR": 9955,
       "MGL": 7497,
       "FIN": 7181,
@@ -119,7 +114,7 @@
       "BAW": 5297,
       "CES": 3389,
       "THY": 3193,
-      "CHH": 2985,
+      "CHH": 2986,
       "QFA": 2578,
       "EVA": 2566,
       "MAS": 2540,
@@ -153,7 +148,7 @@
       "21": 4814,
       "22": 4340,
       "23": 4111,
-      "00": 3856,
+      "00": 3857,
       "01": 2802,
       "04": 1975,
       "05": 2216,
@@ -163,6 +158,14 @@
       "09": 5014,
       "02": 1743,
       "03": 1869
+    },
+    "dayOffset": {
+      "1": 2416,
+      "2": 173,
+      "3": 54,
+      "4": 11,
+      "5": 2,
+      "-1": 336
     }
   },
   "airlineCodeMapping": {
@@ -321,5 +324,356 @@
     "3G": "WCM",
     "GH": "IGT",
     "HE": "HGO"
+  },
+  "extremeCases": {
+    "maxDelay": {
+      "date": "2025-11-20",
+      "time": "07:00",
+      "flight": "N8 589",
+      "airline": "NCR",
+      "status": "Dep 09:36 (25/11/2025)",
+      "origin_dest": [
+        "CMB",
+        "JNB"
+      ],
+      "isCargo": true,
+      "dayOffset": 5
+    },
+    "maxEarly": {
+      "date": "2025-10-16",
+      "time": "00:15",
+      "flight": "UO 671",
+      "airline": "HKE",
+      "status": "At gate 23:57 (15/10/2025)",
+      "origin_dest": [
+        "NGO"
+      ],
+      "isCargo": false,
+      "dayOffset": -1
+    },
+    "delayedBy2Plus": [
+      {
+        "date": "2025-10-19",
+        "time": "08:35",
+        "flight": "MP 9461",
+        "status": "At gate 04:54 (22/10/2025)",
+        "dayOffset": 3,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-19",
+        "time": "19:20",
+        "flight": "5Y 8533",
+        "status": "At gate 15:03 (22/10/2025)",
+        "dayOffset": 3,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-19",
+        "time": "11:40",
+        "flight": "MP 9462",
+        "status": "Dep 07:18 (22/10/2025)",
+        "dayOffset": 3,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-19",
+        "time": "21:15",
+        "flight": "5Y 8533",
+        "status": "Dep 17:20 (22/10/2025)",
+        "dayOffset": 3,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-16",
+        "time": "12:50",
+        "flight": "RH 9486",
+        "status": "At gate 00:27 (18/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-16",
+        "time": "22:55",
+        "flight": "N8 805",
+        "status": "At gate 05:40 (18/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-16",
+        "time": "07:40",
+        "flight": "RH 392",
+        "status": "Dep 12:53 (18/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-17",
+        "time": "12:20",
+        "flight": "RH 393",
+        "status": "At gate 17:04 (19/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-17",
+        "time": "13:25",
+        "flight": "K4 702",
+        "status": "Dep 05:35 (19/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-18",
+        "time": "02:40",
+        "flight": "ET 3219",
+        "status": "Dep 05:23 (20/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-18",
+        "time": "07:40",
+        "flight": "RH 392",
+        "status": "Dep 08:34 (20/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-20",
+        "time": "04:00",
+        "flight": "CT 117",
+        "status": "At gate 04:12 (22/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-20",
+        "time": "07:00",
+        "flight": "CT 118",
+        "status": "Dep 14:30 (22/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-21",
+        "time": "07:25",
+        "flight": "5Y 9476",
+        "status": "At gate 02:50 (23/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-21",
+        "time": "08:55",
+        "flight": "K4 517",
+        "status": "Dep 02:59 (23/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-22",
+        "time": "09:35",
+        "flight": "RH 9487",
+        "status": "Dep 05:24 (24/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-22",
+        "time": "21:40",
+        "flight": "D0 525",
+        "status": "Dep 05:55 (24/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-23",
+        "time": "00:35",
+        "flight": "QY 576",
+        "status": "At gate 01:06 (25/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-23",
+        "time": "05:25",
+        "flight": "5Y 8523",
+        "status": "At gate 13:33 (25/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-23",
+        "time": "06:30",
+        "flight": "K4 518",
+        "status": "At gate 21:13 (25/10/2025)",
+        "dayOffset": 2,
+        "isCargo": true
+      }
+    ],
+    "earlyBy1Plus": [
+      {
+        "date": "2025-10-16",
+        "time": "00:15",
+        "flight": "UO 671",
+        "status": "At gate 23:57 (15/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-16",
+        "time": "00:35",
+        "flight": "UO 651",
+        "status": "At gate 23:51 (15/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-16",
+        "time": "00:10",
+        "flight": "KZ 203",
+        "status": "At gate 23:52 (15/10/2025)",
+        "dayOffset": -1,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-16",
+        "time": "00:05",
+        "flight": "7L 1148",
+        "status": "Dep 13:22 (15/10/2025)",
+        "dayOffset": -1,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-16",
+        "time": "19:45",
+        "flight": "ET 3793",
+        "status": "Dep 19:32 (15/10/2025)",
+        "dayOffset": -1,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-17",
+        "time": "00:05",
+        "flight": "CX 782",
+        "status": "At gate 23:21 (16/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-17",
+        "time": "00:15",
+        "flight": "UO 671",
+        "status": "At gate 23:46 (16/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-17",
+        "time": "00:25",
+        "flight": "UO 529",
+        "status": "At gate 23:48 (16/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-17",
+        "time": "00:35",
+        "flight": "UO 651",
+        "status": "At gate 23:59 (16/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-18",
+        "time": "00:15",
+        "flight": "UO 671",
+        "status": "At gate 23:53 (17/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-18",
+        "time": "00:25",
+        "flight": "CX 469",
+        "status": "At gate 23:51 (17/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-18",
+        "time": "00:10",
+        "flight": "KZ 203",
+        "status": "At gate 23:42 (17/10/2025)",
+        "dayOffset": -1,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-19",
+        "time": "00:15",
+        "flight": "UO 671",
+        "status": "At gate 23:47 (18/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-19",
+        "time": "00:05",
+        "flight": "LD 681",
+        "status": "At gate 23:44 (18/10/2025)",
+        "dayOffset": -1,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-20",
+        "time": "00:05",
+        "flight": "CX 782",
+        "status": "At gate 23:38 (19/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-20",
+        "time": "00:15",
+        "flight": "UO 671",
+        "status": "At gate 23:54 (19/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-20",
+        "time": "00:00",
+        "flight": "ET 3785",
+        "status": "Dep 17:17 (19/10/2025)",
+        "dayOffset": -1,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-21",
+        "time": "00:25",
+        "flight": "UO 529",
+        "status": "At gate 23:56 (20/10/2025)",
+        "dayOffset": -1,
+        "isCargo": false
+      },
+      {
+        "date": "2025-10-21",
+        "time": "00:15",
+        "flight": "K4 612",
+        "status": "At gate 23:54 (20/10/2025)",
+        "dayOffset": -1,
+        "isCargo": true
+      },
+      {
+        "date": "2025-10-21",
+        "time": "00:35",
+        "flight": "TH 3092",
+        "status": "At gate 23:57 (20/10/2025)",
+        "dayOffset": -1,
+        "isCargo": true
+      }
+    ]
   }
 }

@@ -12,6 +12,7 @@
     "test:coverage": "vitest run --coverage",
     "archive": "node scripts/archive-flights.js",
     "archive:today": "node scripts/archive-flights.js",
+    "archive:rolling": "node scripts/archive-rolling.js",
     "reindex": "node scripts/reindex-flights.js",
     "reindex:clean": "node scripts/reindex-flights.js --clean",
     "analyze": "node scripts/analyze-data.js",

@@ -5,9 +5,10 @@
  * - Minimal height (single line)
  * - Show key info: actual/estimated time + status badge
  * - Color-coded for quick scanning
+ * - Show day offset for extreme delays (e.g., "+2d" for 2 days delayed)
  *
- * Layout: [Time Change Indicator] [Actual Time] [Status Badge]
- * Example: "→ 23:18 ✓ On Time" or "→ 23:25 Delayed"
+ * Layout: [Time Change Indicator] [Actual Time] [Day Offset] [Status Badge]
+ * Example: "→ 23:18 ✓ OK" or "→ 13:45 +2d Est"
  */
 
 import type { ParsedStatus } from "@/types/flight";
@@ -66,27 +67,53 @@ const ACTUAL_TIME_STATUSES: Set<StatusType> = new Set([
 	StatusType.AtGate,
 ]);
 
+/**
+ * Format day offset as a compact string
+ * e.g., +1d, +2d, -1d
+ */
+function formatDayOffset(offset: number): string {
+	if (offset === 0) return "";
+	const sign = offset > 0 ? "+" : "";
+	return `${sign}${offset}d`;
+}
+
 export const CompactTimeStatus: Component<CompactTimeStatusProps> = (props) => {
 	const hasActualTime = () => ACTUAL_TIME_STATUSES.has(props.status.type);
 	const timeChanged = () =>
 		props.status.time && props.scheduledTime !== props.status.time;
-	const isOnTime = () => hasActualTime() && !timeChanged();
+	const isOnTime = () =>
+		hasActualTime() && !timeChanged() && !props.status.dayOffset;
 	const isCancelled = () => props.status.type === StatusType.Cancelled;
 
 	// Display time: actual/estimated if changed, otherwise scheduled
 	const displayTime = () => props.status.time || props.scheduledTime;
 
-	// Time color
+	// Day offset display
+	const dayOffsetText = () => {
+		const offset = props.status.dayOffset;
+		if (offset === undefined || offset === 0) return null;
+		return formatDayOffset(offset);
+	};
+
+	// Time color - extreme delays get special treatment
 	const timeColor = () => {
 		if (isCancelled()) return "text-gray-400 line-through";
 		if (isOnTime()) return "text-emerald-600";
+
+		const offset = props.status.dayOffset ?? 0;
+
+		// Extreme delay (2+ days)
+		if (offset >= 2) return "text-red-600";
+		// Significant delay (1 day)
+		if (offset >= 1) return "text-orange-600";
+
 		if (timeChanged() && hasActualTime()) return "text-emerald-600";
 		if (timeChanged()) return "text-amber-600";
 		return "text-gray-600";
 	};
 
 	return (
-		<div class="flex items-center gap-2">
+		<div class="flex items-center gap-1.5">
 			{/* Time display */}
 			<div class="flex items-center gap-1">
 				{/* Show scheduled → actual if changed */}
@@ -102,10 +129,16 @@ export const CompactTimeStatus: Component<CompactTimeStatusProps> = (props) => {
 					{displayTime()}
 				</span>
 
-				{/* Cross-day indicator */}
-				<Show when={props.status.isDifferentDate && props.status.date}>
-					<span class="text-[10px] text-gray-400">
-						({props.status.date})
+				{/* Day offset badge for multi-day delays */}
+				<Show when={dayOffsetText()}>
+					<span
+						class={`rounded px-1 py-0.5 text-[9px] font-bold ${
+							(props.status.dayOffset ?? 0) >= 2
+								? "bg-red-100 text-red-700"
+								: "bg-orange-100 text-orange-700"
+						}`}
+					>
+						{dayOffsetText()}
 					</span>
 				</Show>
 			</div>

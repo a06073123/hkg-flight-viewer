@@ -93,6 +93,7 @@ public/data/
 | `src/lib/resources.ts`       | SolidJS createResource hooks                       |
 | `src/lib/api.ts`             | API service layer (fetch functions)                |
 | `scripts/archive-flights.js` | Daily archiver (GitHub Actions)                    |
+| `scripts/archive-rolling.js` | Rolling archive for delayed flights                |
 | `scripts/reindex-flights.js` | Rebuild indexes from daily snapshots               |
 | `docs/API.md`                | Complete HKIA API documentation                    |
 
@@ -102,8 +103,35 @@ public/data/
 npm run dev          # Start Vite dev server
 npm run archive      # Archive today's flight data
 npm run archive -- 2026-01-15  # Archive specific date
+npm run archive:rolling        # Rolling archive past 6 days (covers +5 day delays)
+npm run archive:rolling 7      # Rolling archive past 7 days
 npm run reindex:clean # Rebuild all indexes from scratch
 npm run analyze      # Run data analysis on collected data
+```
+
+## Archive Strategy: Rolling Re-Archive
+
+Cargo flights can be delayed by up to **+5 days** (based on data analysis). To ensure final departure status is captured:
+
+1. **Daily cron** archives D-1 through D-6 (not just D-1)
+2. **Each re-archive** overwrites previous snapshot with updated status
+3. **Result**: Even +5 day delays get final "Dep" status instead of stale "Est"
+
+### Day Offset Distribution (from data analysis)
+
+| Offset  | Count  | Description                                                        |
+| ------- | ------ | ------------------------------------------------------------------ |
+| -1 day  | 0.32%  | Normal early arrivals (midnight flights arriving before scheduled) |
+| +1 day  | 2.31%  | Common next-day delays                                             |
+| +2 days | 0.17%  | Significant delays                                                 |
+| +3 days | 0.05%  | Severe delays                                                      |
+| +4 days | 0.01%  | Extreme delays                                                     |
+| +5 days | <0.01% | Maximum observed (cargo flights)                                   |
+
+```
+Day 1 (01/16): Archives 01/15 → status: "Est at 13:45 (20/01)"
+Day 2-5: Re-archives 01/15 → status still "Est"
+Day 6 (01/21): Re-archives 01/15 → status: "Dep 13:50 (20/01)" ✅
 ```
 
 ## Flight Data Model

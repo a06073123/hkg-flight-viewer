@@ -34,9 +34,35 @@ const STATUS_PATTERNS = {
 };
 
 /**
- * Parse raw status string into structured ParsedStatus
+ * Convert DD/MM/YYYY to YYYY-MM-DD format
  */
-export function parseStatus(rawStatus: string): ParsedStatus {
+function normalizeDateFormat(dateStr: string): string {
+	const [day, month, year] = dateStr.split("/");
+	return `${year}-${month}-${day}`;
+}
+
+/**
+ * Calculate day offset between two dates
+ * @param scheduledDate - Scheduled date in YYYY-MM-DD format
+ * @param actualDate - Actual date in YYYY-MM-DD format
+ * @returns Number of days (positive = delayed, negative = early)
+ */
+function calculateDayOffset(scheduledDate: string, actualDate: string): number {
+	const scheduled = new Date(scheduledDate);
+	const actual = new Date(actualDate);
+	const diffMs = actual.getTime() - scheduled.getTime();
+	return Math.round(diffMs / (1000 * 60 * 60 * 24));
+}
+
+/**
+ * Parse raw status string into structured ParsedStatus
+ * @param rawStatus - Raw status string from API
+ * @param scheduledDate - Optional scheduled date for day offset calculation (YYYY-MM-DD)
+ */
+export function parseStatus(
+	rawStatus: string,
+	scheduledDate?: string,
+): ParsedStatus {
 	const status = rawStatus.trim();
 
 	// Empty status
@@ -66,51 +92,57 @@ export function parseStatus(rawStatus: string): ParsedStatus {
 		};
 	}
 
+	// Helper to build result with date normalization
+	const buildResult = (
+		type: StatusType,
+		time: string,
+		dateStr?: string,
+	): ParsedStatus => {
+		const result: ParsedStatus = {
+			raw: status,
+			type,
+			time,
+			isDifferentDate: !!dateStr,
+		};
+
+		if (dateStr) {
+			result.date = dateStr;
+			result.normalizedDate = normalizeDateFormat(dateStr);
+
+			// Calculate day offset if scheduled date is provided
+			if (scheduledDate) {
+				result.dayOffset = calculateDayOffset(
+					scheduledDate,
+					result.normalizedDate,
+				);
+			}
+		}
+
+		return result;
+	};
+
 	// Departed pattern
 	const depMatch = status.match(STATUS_PATTERNS.departed);
 	if (depMatch) {
-		return {
-			raw: status,
-			type: StatusType.Departed,
-			time: depMatch[1],
-			date: depMatch[2],
-			isDifferentDate: !!depMatch[2],
-		};
+		return buildResult(StatusType.Departed, depMatch[1], depMatch[2]);
 	}
 
 	// At gate pattern
 	const gateMatch = status.match(STATUS_PATTERNS.atGate);
 	if (gateMatch) {
-		return {
-			raw: status,
-			type: StatusType.AtGate,
-			time: gateMatch[1],
-			date: gateMatch[2],
-			isDifferentDate: !!gateMatch[2],
-		};
+		return buildResult(StatusType.AtGate, gateMatch[1], gateMatch[2]);
 	}
 
 	// Landed pattern
 	const landedMatch = status.match(STATUS_PATTERNS.landed);
 	if (landedMatch) {
-		return {
-			raw: status,
-			type: StatusType.Landed,
-			time: landedMatch[1],
-			isDifferentDate: false,
-		};
+		return buildResult(StatusType.Landed, landedMatch[1]);
 	}
 
 	// Estimated pattern
 	const estMatch = status.match(STATUS_PATTERNS.estimated);
 	if (estMatch) {
-		return {
-			raw: status,
-			type: StatusType.Estimated,
-			time: estMatch[1],
-			date: estMatch[2],
-			isDifferentDate: !!estMatch[2],
-		};
+		return buildResult(StatusType.Estimated, estMatch[1], estMatch[2]);
 	}
 
 	// Unknown pattern
@@ -195,8 +227,8 @@ export function parseFlightItem(
 		isArrival,
 	);
 
-	// Parse status
-	const status = parseStatus(item.status);
+	// Parse status with scheduled date for day offset calculation
+	const status = parseStatus(item.status, date);
 
 	// Parse hall for arrivals
 	let hall: ArrivalHall | undefined;
