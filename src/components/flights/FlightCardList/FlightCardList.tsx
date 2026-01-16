@@ -20,24 +20,35 @@ export interface FlightCardListProps {
 }
 
 /**
- * Loading skeleton for flight cards
+ * Loading skeleton for flight cards - HKIA style
  */
 function FlightCardSkeleton() {
 	return (
-		<div class="animate-pulse rounded-lg border-2 border-gray-100 bg-white p-4">
-			<div class="flex items-start gap-4">
-				<div class="h-12 w-16 rounded bg-gray-200" />
-				<div class="flex-1 space-y-2">
-					<div class="h-5 w-24 rounded bg-gray-200" />
-					<div class="h-3 w-32 rounded bg-gray-200" />
+		<div class="animate-pulse overflow-hidden rounded-xl bg-white shadow-md">
+			<div class="flex">
+				{/* Left side panel skeleton */}
+				<div class="w-24 bg-gray-200 p-4">
+					<div class="mx-auto h-10 w-12 rounded bg-gray-300" />
 				</div>
-				<div class="h-6 w-20 rounded bg-gray-200" />
+				{/* Content area skeleton */}
+				<div class="flex-1 p-5">
+					<div class="flex items-start justify-between">
+						<div class="flex items-baseline gap-4">
+							<div class="h-9 w-16 rounded bg-gray-200" />
+							<div class="space-y-2">
+								<div class="h-6 w-24 rounded bg-gray-200" />
+								<div class="h-4 w-32 rounded bg-gray-200" />
+							</div>
+						</div>
+						<div class="h-6 w-20 rounded bg-gray-200" />
+					</div>
+					<div class="mt-4 h-10 w-20 rounded bg-gray-200" />
+				</div>
 			</div>
-			<div class="mt-4 h-8 w-20 rounded bg-gray-200" />
-			<div class="mt-4 flex gap-4 border-t border-gray-100 pt-3">
-				<div class="h-6 w-24 rounded bg-gray-200" />
-				<div class="h-6 w-16 rounded bg-gray-200" />
-				<div class="h-6 w-20 rounded bg-gray-200" />
+			{/* Bottom bar skeleton */}
+			<div class="flex gap-6 border-t border-gray-100 bg-gray-50/50 px-5 py-3">
+				<div class="h-5 w-24 rounded bg-gray-200" />
+				<div class="h-5 w-20 rounded bg-gray-200" />
 			</div>
 		</div>
 	);
@@ -70,7 +81,7 @@ function EmptyState(props: { type: FlightCardListType }) {
 
 export function FlightCardList(props: FlightCardListProps) {
 	return (
-		<div class="space-y-3">
+		<div class="space-y-4">
 			<Show
 				when={!props.isLoading}
 				fallback={
