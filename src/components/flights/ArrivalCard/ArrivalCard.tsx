@@ -5,13 +5,15 @@
  * References actual Hong Kong Airport FIDS design:
  * - Prominent belt/hall display
  * - Emerald green theme for arrivals
- * - Clear time and flight number display
- * - Status prominently displayed
+ * - Time and status prominently displayed on right
+ * - Green origin label with airport name
+ * - Codeshare partners in grid layout (5 rows x 2 columns max)
  */
 
 import { A } from "@solidjs/router";
-import { Luggage, PlaneLanding, Users } from "lucide-solid";
+import { Clock, Luggage, PlaneLanding, Users } from "lucide-solid";
 import { For, Show } from "solid-js";
+import { getAirportName } from "../../../lib/airport-data";
 import type { FlightRecord } from "../../../types/flight";
 import { FlightStatus } from "../FlightCard";
 
@@ -27,7 +29,7 @@ export function ArrivalCard(props: ArrivalCardProps) {
 			{/* Main Content Area */}
 			<div class="flex">
 				{/* Left: Belt Display - Emerald theme */}
-				<div class="flex w-24 flex-col items-center justify-center bg-emerald-600 p-4">
+				<div class="flex w-32 flex-col items-center justify-center bg-emerald-600 p-4">
 					<Show
 						when={flight.baggageClaim}
 						fallback={
@@ -48,70 +50,91 @@ export function ArrivalCard(props: ArrivalCardProps) {
 				</div>
 
 				{/* Center: Flight Info */}
-				<div class="flex flex-1 flex-col p-5">
-					{/* Top Row: Time + Flight Number + Status */}
-					<div class="flex items-start justify-between gap-4">
-						<div class="flex items-baseline gap-4">
-							{/* Time - Large and Bold */}
-							<span class="text-3xl font-black tabular-nums text-[#1A1A1B]">
-								{flight.time}
-							</span>
-
-							{/* Flight Number */}
-							<div>
+				<div class="flex flex-1 gap-4 p-5">
+					{/* Left Column: Flight details */}
+					<div class="flex flex-1 flex-row gap-x-5">
+						<div class="flex flex-col">
+							{/* Flight Number and Airline */}
+							<div class="flex flex-col items-start">
 								<A
 									href={`/flight/${flight.operatingCarrier.no.replace(/\s+/g, "")}`}
-									class="flex items-center gap-1.5 text-xl font-bold text-emerald-700 hover:text-emerald-800"
+									class="flex items-center gap-1.5 text-3xl font-bold text-emerald-700 hover:text-emerald-800"
 								>
 									<PlaneLanding class="h-5 w-5" />
 									{flight.operatingCarrier.no}
 								</A>
-								<p class="text-sm text-gray-500">
+								<span class="text-center text-sm text-gray-500">
 									{flight.operatingCarrier.airline}
+								</span>
+							</div>
+
+							{/* Origin - Emerald Label Style with Airport Name */}
+							<div class="mt-4">
+								<span class="inline-block rounded bg-emerald-600 px-4 py-1.5 text-lg font-bold tracking-wider text-white shadow-sm">
+									{flight.primaryAirport}
+								</span>
+								<p class="mt-1 text-sm text-gray-600">
+									{getAirportName(flight.primaryAirport)}
+									<Show when={flight.hasViaStops}>
+										<span class="ml-2 text-gray-400">
+											via{" "}
+											{flight.route.slice(1).join(" → ")}
+										</span>
+									</Show>
 								</p>
 							</div>
 						</div>
 
-						{/* Status - Right aligned */}
-						<div class="shrink-0">
-							<FlightStatus status={flight.status} />
-						</div>
+						{/* Codeshare Partners - Dynamic columns based on count */}
+						<Show when={flight.codeshareCount > 0}>
+							<div class="flex items-start gap-2">
+								<Users class="mt-0.5 h-3.5 w-3.5 shrink-0 text-gray-400" />
+								<div
+									class={`grid gap-x-4 gap-y-0.5 ${flight.codeshareCount > 5 ? "grid-cols-2" : "grid-cols-1"}`}
+								>
+									<For each={flight.flights.slice(1, 11)}>
+										{(cs) => (
+											<span class="text-xs text-gray-500">
+												{cs.no}
+											</span>
+										)}
+									</For>
+								</div>
+							</div>
+						</Show>
 					</div>
 
-					{/* Codeshare Partners */}
-					<Show when={flight.codeshareCount > 0}>
-						<div class="mt-2 flex items-center gap-2">
-							<Users class="h-3.5 w-3.5 text-gray-400" />
-							<div class="flex flex-wrap gap-1.5">
-								<For each={flight.flights.slice(1)}>
-									{(cs) => (
-										<span class="rounded bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-600">
-											{cs.no}
-										</span>
-									)}
-								</For>
+					{/* Right Column: Time + Status */}
+					<div class="flex flex-col items-end justify-between">
+						{/* Scheduled Time - Large */}
+						<div class="text-right">
+							<div class="flex items-center gap-1.5 text-gray-400">
+								<Clock class="h-3.5 w-3.5" />
+								<span class="text-xs uppercase">Scheduled</span>
 							</div>
-						</div>
-					</Show>
-
-					{/* Origin - Green Label Style */}
-					<div class="mt-4">
-						<div class="flex items-center gap-3">
-							<span class="inline-block rounded bg-emerald-600 px-4 py-1.5 text-lg font-bold tracking-wider text-white shadow-sm">
-								{flight.primaryAirport}
+							<span class="text-4xl font-black tabular-nums text-[#1A1A1B]">
+								{flight.time}
 							</span>
-							<Show when={flight.hasViaStops}>
-								<span class="text-sm text-gray-500">
-									via {flight.route.slice(1).join(" → ")}
-								</span>
-							</Show>
+						</div>
+
+						{/* Status */}
+						<div class="mt-2">
+							<FlightStatus status={flight.status} />
 						</div>
 					</div>
 				</div>
 			</div>
 
-			{/* Bottom Bar: Hall, Terminal */}
+			{/* Bottom Bar: Terminal first, then Arrival Hall */}
 			<div class="flex items-center gap-6 border-t border-gray-100 bg-gray-50/50 px-5 py-3">
+				{/* Terminal */}
+				<div class="flex items-center gap-2">
+					<span class="text-sm text-gray-600">Terminal:</span>
+					<span class="text-sm font-semibold text-[#1A1A1B]">
+						{flight.terminal || "T1"}
+					</span>
+				</div>
+
 				{/* Arrival Hall */}
 				<div class="flex items-center gap-2">
 					<span class="text-sm text-gray-600">Arrival Hall:</span>
@@ -123,14 +146,6 @@ export function ArrivalCard(props: ArrivalCardProps) {
 							{flight.hall}
 						</span>
 					</Show>
-				</div>
-
-				{/* Terminal */}
-				<div class="flex items-center gap-2">
-					<span class="text-sm text-gray-600">Terminal:</span>
-					<span class="text-sm font-semibold text-[#1A1A1B]">
-						{flight.terminal || "T1"}
-					</span>
 				</div>
 
 				{/* Luggage Icon */}
