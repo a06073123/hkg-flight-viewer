@@ -20,7 +20,7 @@ function App() {
 	});
 
 	return (
-		<Router root={Layout}>
+		<Router base="/hkg-flight-viewer" root={Layout}>
 			<Route path="/" component={LandingPage} />
 			<Route path="/live" component={LivePage} />
 			<Route path="/past/:date?" component={PastPage} />

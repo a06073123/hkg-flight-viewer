@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Redirecting...</title>
+		<script>
+			// GitHub Pages SPA redirect
+			// Redirects 404 to index.html with the path preserved
+			const path = window.location.pathname;
+			const search = window.location.search;
+			const hash = window.location.hash;
+
+			// Store the intended path and redirect to the app
+			sessionStorage.setItem("spa-redirect", path + search + hash);
+			window.location.replace("/hkg-flight-viewer/");
+		</script>
+	</head>
+	<body>
+		<noscript>
+			<meta http-equiv="refresh" content="0; url=/hkg-flight-viewer/" />
+		</noscript>
+		<p>Redirecting...</p>
+	</body>
+</html>
