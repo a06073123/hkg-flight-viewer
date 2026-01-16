@@ -25,7 +25,7 @@ import {
 } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
 import { Collapsible } from "../../components/common";
-import { FlightStatus } from "../../components/flights/FlightCard";
+import { FlightTimeStatus } from "../../components/flights/shared";
 import { createFlightHistoryResource } from "../../lib/resources";
 import type { FlightRecord } from "../../types/flight";
 import { StatusType } from "../../types/flight";
@@ -324,8 +324,10 @@ export default function FlightHistoryPage() {
 											<span
 												class={`${HISTORY_COLUMNS.status}`}
 											>
-												<FlightStatus
+												<FlightTimeStatus
+													scheduledTime={flight.time}
 													status={flight.status}
+													compact={true}
 												/>
 											</span>
 										</div>
