@@ -5,6 +5,15 @@
  * Uses SolidJS createResource for data fetching
  */
 
+import { FlightCardList } from "@/components/flights";
+import { FlightSearch } from "@/components/search";
+import { filterFlights, sortFlightsByTime } from "@/lib/api";
+import {
+	createLiveArrivalsResource,
+	createLiveCargoResource,
+	createLiveDeparturesResource,
+} from "@/lib/resources";
+import type { FlightRecord } from "@/types/flight";
 import { Tabs } from "@ark-ui/solid";
 import {
 	Package,
@@ -14,15 +23,6 @@ import {
 	RefreshCw,
 } from "lucide-solid";
 import { createMemo, createSignal, onCleanup, Suspense } from "solid-js";
-import { FlightCardList } from "../../components/flights";
-import { FlightSearch } from "../../components/search";
-import { filterFlights, sortFlightsByTime } from "../../lib/api";
-import {
-	createLiveArrivalsResource,
-	createLiveCargoResource,
-	createLiveDeparturesResource,
-} from "../../lib/resources";
-import type { FlightRecord } from "../../types/flight";
 
 // Refresh interval: 5 minutes
 const REFRESH_INTERVAL = 5 * 60 * 1000;

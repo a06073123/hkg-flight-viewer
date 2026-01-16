@@ -5,6 +5,7 @@
  * Uses HKIA Visual DNA color palette with fixed layouts
  */
 
+import { FlightSearch } from "@/components/search";
 import { A } from "@solidjs/router";
 import {
 	Calendar,
@@ -20,7 +21,6 @@ import {
 	Search,
 	Users,
 } from "lucide-solid";
-import { FlightSearch } from "../../components/search";
 
 /**
  * Fixed grid layouts for consistent design

@@ -5,7 +5,6 @@
  * Layout: [Gate] | [Flight Number + Codeshare] | [Destination] | [Time + Status]
  */
 
-import type { FlightRecord } from "../../../types/flight";
 import {
 	DepartureBottomBar,
 	DestinationBlock,
@@ -13,7 +12,8 @@ import {
 	FlightNumberBlock,
 	FlightTimeStatus,
 	GatePanel,
-} from "../shared";
+} from "@/components/flights/shared";
+import type { FlightRecord } from "@/types/flight";
 
 export interface DepartureCardProps {
 	flight: FlightRecord;

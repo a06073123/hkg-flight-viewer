@@ -9,10 +9,10 @@
  * Used in the center section of flight cards
  */
 
+import { Tooltip } from "@/components/common";
+import { getAirportName } from "@/lib/airport-data";
 import { ArrowRight } from "lucide-solid";
 import { Show } from "solid-js";
-import { getAirportName } from "../../../lib/airport-data";
-import { Tooltip } from "../../common";
 import type { FlightCardTheme } from "./FlightCardLayout";
 
 export interface DestinationBlockProps {

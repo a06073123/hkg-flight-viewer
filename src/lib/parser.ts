@@ -17,7 +17,7 @@ import {
 	type RawApiResponse,
 	type RawFlightListItem,
 	StatusType,
-} from "../types/flight";
+} from "@/types/flight";
 
 // ============================================================================
 // STATUS PARSING

@@ -2,13 +2,13 @@
  * Tests for parser utilities
  */
 
-import { describe, expect, it } from "vitest";
 import {
 	FlightCategory,
 	FlightDirection,
 	type RawFlightListItem,
 	StatusType,
-} from "../types/flight";
+} from "@/types/flight";
+import { describe, expect, it } from "vitest";
 import {
 	compareFlightLists,
 	detectFlightChanges,

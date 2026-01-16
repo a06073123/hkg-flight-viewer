@@ -5,8 +5,8 @@
  * @see https://docs.solidjs.com/guides/fetching-data
  */
 
+import type { FlightRecord } from "@/types/flight";
 import { createResource, type Accessor } from "solid-js";
-import type { FlightRecord } from "../types/flight";
 import {
 	fetchAllFlights,
 	fetchArrivals,

@@ -5,7 +5,6 @@
  * Layout: [Stand] | [Flight Number + Codeshare + Cargo Badge] | [Origin/Dest] | [Time + Status]
  */
 
-import type { FlightRecord } from "../../../types/flight";
 import {
 	CargoBottomBar,
 	DestinationBlock,
@@ -13,7 +12,8 @@ import {
 	FlightNumberBlock,
 	FlightTimeStatus,
 	StandPanel,
-} from "../shared";
+} from "@/components/flights/shared";
+import type { FlightRecord } from "@/types/flight";
 
 export interface CargoFlightCardProps {
 	flight: FlightRecord;

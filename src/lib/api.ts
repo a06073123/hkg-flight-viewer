@@ -8,8 +8,8 @@ import {
 	type ArchivedFlightItem,
 	parseApiResponse,
 	parseArchivedFlights,
-} from "../lib/parser";
-import type { FlightRecord, RawApiResponse } from "../types/flight";
+} from "@/lib/parser";
+import type { FlightRecord, RawApiResponse } from "@/types/flight";
 
 // ============================================================================
 // CONFIGURATION

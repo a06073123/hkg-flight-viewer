@@ -9,12 +9,12 @@
  * Used in the left section of flight cards
  */
 
+import { Tooltip } from "@/components/common";
+import { getAirlineNameSync } from "@/lib/airline-data";
+import type { RawFlightInfo } from "@/types/flight";
 import { A } from "@solidjs/router";
 import { Package, PlaneLanding, PlaneTakeoff, Users } from "lucide-solid";
 import { For, Show } from "solid-js";
-import { getAirlineNameSync } from "../../../lib/airline-data";
-import type { RawFlightInfo } from "../../../types/flight";
-import { Tooltip } from "../../common";
 import type { FlightCardTheme } from "./FlightCardLayout";
 
 export interface FlightNumberBlockProps {

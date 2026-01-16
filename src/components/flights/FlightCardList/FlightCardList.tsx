@@ -5,12 +5,12 @@
  * Supports: DepartureCard, ArrivalCard, CargoFlightCard
  */
 
+import { ArrivalCard } from "@/components/flights/ArrivalCard";
+import { CargoFlightCard } from "@/components/flights/CargoFlightCard";
+import { DepartureCard } from "@/components/flights/DepartureCard";
+import { FlightCardSkeleton } from "@/components/flights/shared";
+import type { FlightRecord } from "@/types/flight";
 import { For, Show } from "solid-js";
-import type { FlightRecord } from "../../../types/flight";
-import { ArrivalCard } from "../ArrivalCard";
-import { CargoFlightCard } from "../CargoFlightCard";
-import { DepartureCard } from "../DepartureCard";
-import { FlightCardSkeleton } from "../shared";
 
 export type FlightCardListType = "departures" | "arrivals" | "cargo";
 

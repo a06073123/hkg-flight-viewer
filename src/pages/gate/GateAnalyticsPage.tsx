@@ -11,6 +11,10 @@
  * - Codeshare partner display
  */
 
+import { Collapsible } from "@/components/common";
+import { FlightTimeStatus } from "@/components/flights/shared";
+import { createGateHistoryResource } from "@/lib/resources";
+import type { FlightRecord } from "@/types/flight";
 import { A, useParams } from "@solidjs/router";
 import {
 	AlertTriangle,
@@ -21,10 +25,6 @@ import {
 	Users,
 } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
-import { Collapsible } from "../../components/common";
-import { FlightTimeStatus } from "../../components/flights/shared";
-import { createGateHistoryResource } from "../../lib/resources";
-import type { FlightRecord } from "../../types/flight";
 
 /**
  * Fixed widths for history list columns

@@ -11,6 +11,11 @@
  * - Gate/Baggage claim information
  */
 
+import { Collapsible } from "@/components/common";
+import { FlightTimeStatus } from "@/components/flights/shared";
+import { createFlightHistoryResource } from "@/lib/resources";
+import type { FlightRecord } from "@/types/flight";
+import { StatusType } from "@/types/flight";
 import { A, useParams } from "@solidjs/router";
 import {
 	AlertTriangle,
@@ -24,11 +29,6 @@ import {
 	Users,
 } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
-import { Collapsible } from "../../components/common";
-import { FlightTimeStatus } from "../../components/flights/shared";
-import { createFlightHistoryResource } from "../../lib/resources";
-import type { FlightRecord } from "../../types/flight";
-import { StatusType } from "../../types/flight";
 
 /**
  * Fixed grid layout for statistics

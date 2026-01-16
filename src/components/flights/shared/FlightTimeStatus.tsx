@@ -16,11 +16,11 @@
  * - UNKNOWN: Original time with gray badge
  */
 
+import type { ParsedStatus } from "@/types/flight";
+import { StatusType } from "@/types/flight";
 import { Check, Clock } from "lucide-solid";
 import type { Component } from "solid-js";
 import { Match, Show, Switch } from "solid-js";
-import type { ParsedStatus } from "../../../types/flight";
-import { StatusType } from "../../../types/flight";
 
 export interface FlightTimeStatusProps {
 	/** Scheduled time (HH:MM) */

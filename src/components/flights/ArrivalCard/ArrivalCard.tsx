@@ -5,7 +5,6 @@
  * Layout: [Belt] | [Flight Number + Codeshare] | [Origin] | [Time + Status]
  */
 
-import type { FlightRecord } from "../../../types/flight";
 import {
 	ArrivalBottomBar,
 	BeltPanel,
@@ -13,7 +12,8 @@ import {
 	FlightCardLayout,
 	FlightNumberBlock,
 	FlightTimeStatus,
-} from "../shared";
+} from "@/components/flights/shared";
+import type { FlightRecord } from "@/types/flight";
 
 export interface ArrivalCardProps {
 	flight: FlightRecord;
