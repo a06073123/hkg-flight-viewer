@@ -41,6 +41,8 @@ jobs:
         run: npm ci
 
       - name: Archive flights (rolling strategy)
+        env:
+          TZ: Asia/Hong_Kong
         run: |
           if [ -n "${{ inputs.date }}" ]; then
             # Manual single date archive
@@ -48,8 +50,10 @@ jobs:
           else
             # Rolling archive: D-1 through D-N to capture delayed flight updates
             # Data analysis shows max delay is +5 days, so default is 6 days
+            # Uses HKT timezone for date calculation (cron runs at 00:00 HKT)
             ROLLING_DAYS=${{ inputs.rolling_days || 6 }}
-            echo "🔄 Rolling archive for past $ROLLING_DAYS days..."
+            echo "🔄 Rolling archive for past $ROLLING_DAYS days (HKT timezone)..."
+            echo "📅 Current HKT time: $(date '+%Y-%m-%d %H:%M:%S %Z')"
             
             for i in $(seq 1 $ROLLING_DAYS); do
               DATE=$(date -d "-${i} day" +%Y-%m-%d)
