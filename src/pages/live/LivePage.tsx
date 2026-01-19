@@ -3,16 +3,14 @@
  *
  * Real-time flight information from HKIA API
  * Uses SolidJS createResource for data fetching
+ *
+ * Performance optimized: Single API call shared across all tabs
  */
 
 import { FlightCardList } from "@/components/flights";
 import { FlightSearch } from "@/components/search";
 import { filterFlights, sortFlightsByTime } from "@/lib/api";
-import {
-	createLiveArrivalsResource,
-	createLiveCargoResource,
-	createLiveDeparturesResource,
-} from "@/lib/resources";
+import { createLiveAllFlightsResource } from "@/lib/resources";
 import type { FlightRecord } from "@/types/flight";
 import { StatusType } from "@/types/flight";
 import { Switch, Tabs } from "@ark-ui/solid";
@@ -76,29 +74,29 @@ export default function LivePage() {
 	const [searchQuery, setSearchQuery] = createSignal("");
 	const [showCompleted, setShowCompleted] = createSignal(false);
 
-	// Live data resources
-	const [arrivals, { refetch: refetchArrivals }] =
-		createLiveArrivalsResource();
-	const [departures, { refetch: refetchDepartures }] =
-		createLiveDeparturesResource();
-	const [cargo, { refetch: refetchCargo }] = createLiveCargoResource();
+	// Single shared resource for all flight data (optimized: 1 API call instead of 3)
+	const [allFlights, { refetch }] = createLiveAllFlightsResource();
 
 	// Auto-refresh timer
 	const timer = setInterval(() => {
-		refetchArrivals();
-		refetchDepartures();
-		refetchCargo();
+		refetch();
 	}, REFRESH_INTERVAL);
 
 	onCleanup(() => clearInterval(timer));
 
-	// Filter to passenger flights only for arrivals/departures tabs
+	// Derive passenger arrivals from shared data
 	const passengerArrivals = createMemo(() =>
-		(arrivals() ?? []).filter((f: FlightRecord) => !f.isCargo),
+		(allFlights() ?? []).filter((f: FlightRecord) => f.isArrival && !f.isCargo),
 	);
 
+	// Derive passenger departures from shared data
 	const passengerDepartures = createMemo(() =>
-		(departures() ?? []).filter((f: FlightRecord) => !f.isCargo),
+		(allFlights() ?? []).filter((f: FlightRecord) => !f.isArrival && !f.isCargo),
+	);
+
+	// Derive cargo flights from shared data
+	const cargoFlights = createMemo(() =>
+		(allFlights() ?? []).filter((f: FlightRecord) => f.isCargo),
 	);
 
 	// Apply search filter and optionally hide completed flights
@@ -124,7 +122,7 @@ export default function LivePage() {
 
 	const filteredCargo = createMemo(() => {
 		let flights = sortFlightsByTime(
-			filterFlights(cargo() ?? [], searchQuery()),
+			filterFlights(cargoFlights(), searchQuery()),
 		);
 		if (!showCompleted()) {
 			flights = flights.filter((f) => !isCompletedFlight(f));
@@ -133,13 +131,10 @@ export default function LivePage() {
 	});
 
 
-	const isLoading = () =>
-		arrivals.loading || departures.loading || cargo.loading;
+	const isLoading = () => allFlights.loading;
 
 	const handleRefresh = () => {
-		refetchArrivals();
-		refetchDepartures();
-		refetchCargo();
+		refetch();
 	};
 
 	const lastUpdated = () =>
@@ -160,44 +155,44 @@ export default function LivePage() {
 	};
 
 	return (
-		<div class="space-y-4">
+		<div class="space-y-3 sm:space-y-4">
 			{/* Header */}
-			<div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-				<div class="flex items-center gap-3">
-					<div class="rounded-lg bg-[#003580] p-2">
-						<Plane class="h-6 w-6 text-[#FFD700]" />
+			<div class="flex flex-col gap-3 sm:gap-4 sm:flex-row sm:items-center sm:justify-between">
+				<div class="flex items-center gap-2 sm:gap-3">
+					<div class="rounded-lg bg-[#003580] p-1.5 sm:p-2">
+						<Plane class="h-5 w-5 text-[#FFD700] sm:h-6 sm:w-6" />
 					</div>
 					<div>
-						<h1 class="text-2xl font-bold text-[#1A1A1B]">
+						<h1 class="text-xl font-bold text-[#1A1A1B] sm:text-2xl">
 							Live Flights
 						</h1>
-						<p class="text-sm text-gray-500">
+						<p class="text-xs text-gray-500 sm:text-sm">
 							Real-time data from HKIA
 						</p>
 					</div>
 				</div>
 
 				<div class="flex items-center gap-2">
-					<span class="text-xs text-gray-500">
-						Last updated: {lastUpdated()}
+					<span class="text-[10px] text-gray-500 xs:text-xs">
+						Updated: {lastUpdated()}
 					</span>
 					<button
 						type="button"
 						onClick={handleRefresh}
 						disabled={isLoading()}
-						class="inline-flex items-center gap-1.5 rounded-lg border-2 border-[#003580] bg-white px-3 py-2 text-sm font-medium text-[#003580] shadow-sm hover:bg-[#003580] hover:text-white transition-colors disabled:opacity-50"
+						class="inline-flex items-center gap-1 rounded-lg border-2 border-[#003580] bg-white px-2 py-1.5 text-xs font-medium text-[#003580] shadow-sm hover:bg-[#003580] hover:text-white transition-colors disabled:opacity-50 sm:gap-1.5 sm:px-3 sm:py-2 sm:text-sm"
 					>
 						<RefreshCw
-							class={`h-4 w-4 ${isLoading() ? "animate-spin" : ""}`}
+							class={`h-3.5 w-3.5 sm:h-4 sm:w-4 ${isLoading() ? "animate-spin" : ""}`}
 						/>
-						Refresh
+						<span class="hidden xs:inline">Refresh</span>
 					</button>
 				</div>
 			</div>
 
 			{/* Search Bar and Filters */}
-			<div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-				<div class="w-full max-w-lg">
+			<div class="flex flex-col gap-2 sm:gap-3 sm:flex-row sm:items-center sm:justify-between">
+				<div class="w-full sm:max-w-lg">
 					<FlightSearch
 						mode="filter"
 						value={searchQuery()}
@@ -213,16 +208,16 @@ export default function LivePage() {
 					onCheckedChange={(details) =>
 						setShowCompleted(details.checked)
 					}
-					class="flex items-center gap-2"
+					class="flex shrink-0 items-center gap-1.5 sm:gap-2"
 				>
-					<Switch.Label class="flex cursor-pointer items-center gap-1.5 text-sm text-gray-600">
-						<EyeOff class="h-4 w-4" />
+					<Switch.Label class="flex cursor-pointer items-center gap-1 text-xs text-gray-600 sm:gap-1.5 sm:text-sm">
+						<EyeOff class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
 					</Switch.Label>
-					<Switch.Control class="inline-flex h-6 w-11 cursor-pointer items-center rounded-full bg-gray-200 p-0.5 transition-colors data-[state=checked]:bg-[#003580]">
-						<Switch.Thumb class="h-5 w-5 rounded-full bg-white shadow-md transition-transform data-[state=checked]:translate-x-5" />
+					<Switch.Control class="inline-flex h-5 w-9 cursor-pointer items-center rounded-full bg-gray-200 p-0.5 transition-colors sm:h-6 sm:w-11 data-[state=checked]:bg-[#003580]">
+						<Switch.Thumb class="h-4 w-4 rounded-full bg-white shadow-md transition-transform sm:h-5 sm:w-5 data-[state=checked]:translate-x-4 sm:data-[state=checked]:translate-x-5" />
 					</Switch.Control>
-					<Switch.Label class="flex cursor-pointer items-center gap-1.5 text-sm text-gray-600">
-						<Eye class="h-4 w-4" />
+					<Switch.Label class="flex cursor-pointer items-center gap-1 text-xs text-gray-600 sm:gap-1.5 sm:text-sm">
+						<Eye class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
 					</Switch.Label>
 					<Switch.HiddenInput />
 				</Switch.Root>
@@ -237,43 +232,43 @@ export default function LivePage() {
 					)
 				}
 			>
-				<Tabs.List class="flex gap-1 border-b-2 border-[#003580]/20">
+				<Tabs.List class="flex gap-0.5 overflow-x-auto border-b-2 border-[#003580]/20 xs:gap-1">
 					<Tabs.Trigger
 						value="departures"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-[#003580] data-selected:border-[#003580] data-selected:text-[#003580] data-selected:font-bold"
+						class="flex shrink-0 items-center gap-1 border-b-2 border-transparent px-2 py-2 text-xs font-medium text-gray-500 transition-colors hover:text-[#003580] xs:gap-1.5 xs:px-3 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm data-selected:border-[#003580] data-selected:text-[#003580] data-selected:font-bold"
 					>
-						<PlaneTakeoff class="h-4 w-4" />
-						Departures
-						<span class="rounded-full bg-[#003580]/10 px-2 py-0.5 text-xs text-[#003580]">
+						<PlaneTakeoff class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+						<span class="hidden xs:inline">Departures</span>
+						<span class="rounded-full bg-[#003580]/10 px-1.5 py-0.5 text-[10px] text-[#003580] sm:px-2 sm:text-xs">
 							{passengerDepartures().length}
 						</span>
 					</Tabs.Trigger>
 					<Tabs.Trigger
 						value="arrivals"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-emerald-600 data-selected:border-emerald-500 data-selected:text-emerald-600 data-selected:font-bold"
+						class="flex shrink-0 items-center gap-1 border-b-2 border-transparent px-2 py-2 text-xs font-medium text-gray-500 transition-colors hover:text-emerald-600 xs:gap-1.5 xs:px-3 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm data-selected:border-emerald-500 data-selected:text-emerald-600 data-selected:font-bold"
 					>
-						<PlaneLanding class="h-4 w-4" />
-						Arrivals
-						<span class="rounded-full bg-emerald-100 px-2 py-0.5 text-xs text-emerald-600">
+						<PlaneLanding class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+						<span class="hidden xs:inline">Arrivals</span>
+						<span class="rounded-full bg-emerald-100 px-1.5 py-0.5 text-[10px] text-emerald-600 sm:px-2 sm:text-xs">
 							{passengerArrivals().length}
 						</span>
 					</Tabs.Trigger>
 					<Tabs.Trigger
 						value="cargo"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-orange-600 data-selected:border-orange-500 data-selected:text-orange-600 data-selected:font-bold"
+						class="flex shrink-0 items-center gap-1 border-b-2 border-transparent px-2 py-2 text-xs font-medium text-gray-500 transition-colors hover:text-orange-600 xs:gap-1.5 xs:px-3 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm data-selected:border-orange-500 data-selected:text-orange-600 data-selected:font-bold"
 					>
-						<Package class="h-4 w-4" />
-						Cargo
-						<span class="rounded-full bg-orange-100 px-2 py-0.5 text-xs text-orange-600">
-							{(cargo() ?? []).length}
+						<Package class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+						<span class="hidden xs:inline">Cargo</span>
+						<span class="rounded-full bg-orange-100 px-1.5 py-0.5 text-[10px] text-orange-600 sm:px-2 sm:text-xs">
+							{cargoFlights().length}
 						</span>
 					</Tabs.Trigger>
 				</Tabs.List>
 
-				<div class="mt-4">
+				<div class="mt-3 sm:mt-4">
 					<Suspense
 						fallback={
-							<div class="py-12 text-center text-gray-500">
+							<div class="py-8 text-center text-sm text-gray-500 sm:py-12">
 								Loading flights...
 							</div>
 						}
@@ -282,21 +277,21 @@ export default function LivePage() {
 							<FlightCardList
 								flights={filteredDepartures()}
 								type="departures"
-								isLoading={departures.loading}
+								isLoading={allFlights.loading}
 							/>
 						</Tabs.Content>
 						<Tabs.Content value="arrivals">
 							<FlightCardList
 								flights={filteredArrivals()}
 								type="arrivals"
-								isLoading={arrivals.loading}
+								isLoading={allFlights.loading}
 							/>
 						</Tabs.Content>
 						<Tabs.Content value="cargo">
 							<FlightCardList
 								flights={filteredCargo()}
 								type="cargo"
-								isLoading={cargo.loading}
+								isLoading={allFlights.loading}
 							/>
 						</Tabs.Content>
 					</Suspense>
@@ -304,7 +299,7 @@ export default function LivePage() {
 			</Tabs.Root>
 
 			{/* Auto-refresh notice */}
-			<p class="text-center text-xs text-gray-400">
+			<p class="text-center text-[10px] text-gray-400 sm:text-xs">
 				Data refreshes automatically every 5 minutes
 			</p>
 		</div>

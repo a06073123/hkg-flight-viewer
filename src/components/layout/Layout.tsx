@@ -3,6 +3,11 @@
  *
  * Provides consistent navigation and page structure
  * Uses HKIA Visual DNA color palette
+ * 
+ * Mobile-first responsive design:
+ * - Compact header on mobile with icon-only nav
+ * - Bottom navigation for mobile devices
+ * - Full navigation on tablet/desktop
  */
 
 import { A } from "@solidjs/router";
@@ -11,21 +16,22 @@ import type { ParentComponent } from "solid-js";
 
 export const Layout: ParentComponent = (props) => {
 	return (
-		<div class="min-h-screen bg-[#F2F4F7]">
+		<div class="flex min-h-screen flex-col bg-[#F2F4F7]">
 			{/* Navigation Header - HKIA Deep Blue */}
 			<header class="sticky top-0 z-50 bg-[#003580] shadow-lg">
-				<nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
+				<nav class="mx-auto flex h-14 max-w-7xl items-center justify-between px-3 sm:h-16 sm:px-4">
 					{/* Logo */}
 					<A
 						href="/"
-						class="flex items-center gap-2 text-xl font-bold text-white"
+						class="flex items-center gap-1.5 text-lg font-bold text-white sm:gap-2 sm:text-xl"
 					>
-						<Plane class="h-6 w-6 text-[#FFD700]" />
-						<span>HKG Flights</span>
+						<Plane class="h-5 w-5 text-[#FFD700] sm:h-6 sm:w-6" />
+						<span class="hidden xs:inline">HKG Flights</span>
+						<span class="xs:hidden">HKG</span>
 					</A>
 
-					{/* Navigation Links */}
-					<div class="flex items-center gap-1">
+					{/* Desktop Navigation Links - Hidden on mobile */}
+					<div class="hidden items-center gap-1 sm:flex">
 						<NavLink href="/" icon={Home}>
 							Home
 						</NavLink>
@@ -36,14 +42,23 @@ export const Layout: ParentComponent = (props) => {
 							History
 						</NavLink>
 					</div>
+
+					{/* Mobile Navigation - Icon only, visible on mobile */}
+					<div class="flex items-center gap-0.5 sm:hidden">
+						<MobileNavLink href="/" icon={Home} label="Home" />
+						<MobileNavLink href="/live" icon={Radio} label="Live" />
+						<MobileNavLink href="/past" icon={History} label="History" />
+					</div>
 				</nav>
 			</header>
 
-			{/* Main Content */}
-			<main class="mx-auto max-w-7xl px-4 py-6">{props.children}</main>
+			{/* Main Content - Add padding bottom for mobile nav space */}
+			<main class="mx-auto w-full max-w-7xl flex-1 px-3 py-4 sm:px-4 sm:py-6">
+				{props.children}
+			</main>
 
-			{/* Footer */}
-			<footer class="border-t border-[#003580]/20 bg-white py-4 text-center text-sm text-gray-500">
+			{/* Footer - Hidden on mobile, visible on tablet+ */}
+			<footer class="hidden border-t border-[#003580]/20 bg-white py-4 text-center text-sm text-gray-500 sm:block">
 				<p class="text-center text-xs text-gray-400">
 					Data sourced from{" "}
 					<a
@@ -81,6 +96,27 @@ function NavLink(props: NavLinkProps) {
 		>
 			<props.icon class="h-4 w-4" />
 			{props.children}
+		</A>
+	);
+}
+
+interface MobileNavLinkProps {
+	href: string;
+	icon: typeof Plane;
+	label: string;
+}
+
+function MobileNavLink(props: MobileNavLinkProps) {
+	return (
+		<A
+			href={props.href}
+			class="flex flex-col items-center justify-center rounded-lg px-3 py-1.5 text-white/70 transition-colors hover:bg-white/10 hover:text-white"
+			activeClass="bg-white/20 text-white"
+			end={props.href === "/"}
+			title={props.label}
+		>
+			<props.icon class="h-5 w-5" />
+			<span class="mt-0.5 text-[10px] font-medium">{props.label}</span>
 		</A>
 	);
 }

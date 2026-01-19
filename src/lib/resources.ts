@@ -8,12 +8,10 @@
 import type { FlightRecord } from "@/types/flight";
 import { createResource, type Accessor } from "solid-js";
 import {
-	fetchArrivals,
-	fetchCargoFlights,
-	fetchDepartures,
 	fetchTodayFlights,
 	loadDailySnapshot,
 	loadFlightIndex,
+	loadFlightNumbersList,
 	loadGateIndex,
 } from "./api";
 
@@ -56,46 +54,11 @@ export function createGateHistoryResource(gate: Accessor<string>) {
 // ============================================================================
 
 /**
- * Fetch live arrivals from Worker proxy
- */
-export function createLiveArrivalsResource() {
-	const [data, { refetch, mutate }] = createResource(
-		async () => {
-			return fetchArrivals();
-		},
-		{ initialValue: [] as FlightRecord[] },
-	);
-	return [data, { refetch, mutate }] as const;
-}
-
-/**
- * Fetch live departures from Worker proxy
- */
-export function createLiveDeparturesResource() {
-	const [data, { refetch, mutate }] = createResource(
-		async () => {
-			return fetchDepartures();
-		},
-		{ initialValue: [] as FlightRecord[] },
-	);
-	return [data, { refetch, mutate }] as const;
-}
-
-/**
- * Fetch live cargo flights from Worker proxy
- */
-export function createLiveCargoResource() {
-	const [data, { refetch, mutate }] = createResource(
-		async () => {
-			return fetchCargoFlights();
-		},
-		{ initialValue: [] as FlightRecord[] },
-	);
-	return [data, { refetch, mutate }] as const;
-}
-
-/**
  * Fetch all live flights from Worker proxy
+ * 
+ * This is the primary resource for live data.
+ * Components should use this and filter client-side to avoid
+ * multiple API calls (the API returns all categories combined).
  */
 export function createLiveAllFlightsResource() {
 	const [data, { refetch, mutate }] = createResource(
@@ -105,4 +68,22 @@ export function createLiveAllFlightsResource() {
 		{ initialValue: [] as FlightRecord[] },
 	);
 	return [data, { refetch, mutate }] as const;
+}
+
+// ============================================================================
+// FLIGHT LIST RESOURCE (for search autocomplete)
+// ============================================================================
+
+/**
+ * Load all available flight numbers for search autocomplete
+ *
+ * Returns a flat list of flight number entries that can be
+ * transformed into FlightSearchOption[] for the search component.
+ *
+ * This is loaded once on component mount and cached.
+ */
+export function createFlightListResource() {
+	return createResource(loadFlightNumbersList, {
+		initialValue: [],
+	});
 }

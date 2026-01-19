@@ -10,7 +10,7 @@ import { CargoFlightCard } from "@/components/flights/CargoFlightCard";
 import { DepartureCard } from "@/components/flights/DepartureCard";
 import { FlightCardSkeleton } from "@/components/flights/shared";
 import type { FlightRecord } from "@/types/flight";
-import { For, Show } from "solid-js";
+import { For, Match, Show, Switch } from "solid-js";
 
 export type FlightCardListType = "departures" | "arrivals" | "cargo";
 
@@ -45,6 +45,25 @@ function EmptyState(props: { type: FlightCardListType }) {
 	);
 }
 
+/**
+ * Render appropriate card based on type using Switch/Match (cleaner than nested Show)
+ */
+function FlightCard(props: { flight: FlightRecord; type: FlightCardListType }) {
+	return (
+		<Switch>
+			<Match when={props.type === "cargo"}>
+				<CargoFlightCard flight={props.flight} />
+			</Match>
+			<Match when={props.type === "arrivals"}>
+				<ArrivalCard flight={props.flight} />
+			</Match>
+			<Match when={props.type === "departures"}>
+				<DepartureCard flight={props.flight} />
+			</Match>
+		</Switch>
+	);
+}
+
 export function FlightCardList(props: FlightCardListProps) {
 	return (
 		<div class="space-y-4">
@@ -66,21 +85,7 @@ export function FlightCardList(props: FlightCardListProps) {
 				>
 					<For each={props.flights}>
 						{(flight) => (
-							<Show
-								when={props.type === "cargo"}
-								fallback={
-									<Show
-										when={props.type === "arrivals"}
-										fallback={
-											<DepartureCard flight={flight} />
-										}
-									>
-										<ArrivalCard flight={flight} />
-									</Show>
-								}
-							>
-								<CargoFlightCard flight={flight} />
-							</Show>
+							<FlightCard flight={flight} type={props.type} />
 						)}
 					</For>
 				</Show>

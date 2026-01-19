@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* Custom breakpoints for mobile-first design */
+@theme {
+	--breakpoint-xs: 480px;
+}
+
 /* HKIA Visual DNA Color Palette */
 :root {
 	/* Primary: HKIA Deep Blue - Header, navigation */

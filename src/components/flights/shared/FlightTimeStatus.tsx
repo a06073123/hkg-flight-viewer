@@ -121,16 +121,17 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 		return "text-[#1A1A1B]";
 	};
 
-	// Fixed dimensions
-	const containerWidth = props.compact ? "w-28" : "w-44";
-	const timeSize = props.compact ? "text-2xl" : "text-3xl";
+	// Responsive dimensions
+	const timeSize = props.compact 
+		? "text-xl sm:text-2xl" 
+		: "text-2xl sm:text-3xl";
 
 	return (
-		<div class={`flex flex-col items-end ${containerWidth}`}>
+		<div class="flex flex-col items-center xs:items-end">
 			{/* === MAIN TIME DISPLAY (always same position) === */}
-			<div class="text-right">
+			<div class="text-center xs:text-right">
 				{/* Time label */}
-				<div class="flex items-center justify-end gap-1 text-gray-400">
+				<div class="flex items-center justify-center gap-1 text-gray-400 xs:justify-end">
 					<Clock class="h-3 w-3" />
 					<span class="text-[10px] uppercase tracking-wide">
 						<Switch fallback="Scheduled">
@@ -147,7 +148,7 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 				</div>
 
 				{/* Main time (large, consistent position) */}
-				<div class="flex items-center justify-end gap-1">
+				<div class="flex items-center justify-center gap-1 xs:justify-end">
 					<span
 						class={`${timeSize} font-black tabular-nums leading-tight ${timeColor()}`}
 					>
@@ -161,7 +162,7 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 						}
 					>
 						<span
-							class={`rounded px-1 py-0.5 text-xs font-bold ${
+							class={`rounded px-1 py-0.5 text-[10px] font-bold sm:text-xs ${
 								(props.status.dayOffset ?? 0) >= 2
 									? "bg-red-100 text-red-700"
 									: (props.status.dayOffset ?? 0) >= 1
@@ -177,9 +178,9 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 
 				{/* Original time when changed (shown below as secondary) */}
 				<Show when={timeChanged() && !hasNoTime()}>
-					<div class="mt-0.5 flex items-center justify-end gap-1 text-gray-400">
+					<div class="mt-0.5 flex items-center justify-center gap-1 text-gray-400 xs:justify-end">
 						<span class="text-[10px]">was</span>
-						<span class="text-sm tabular-nums line-through decoration-red-400">
+						<span class="text-xs tabular-nums line-through decoration-red-400 sm:text-sm">
 							{props.scheduledTime}
 						</span>
 					</div>
@@ -187,12 +188,12 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 			</div>
 
 			{/* === STATUS BADGE === */}
-			<div class={props.compact ? "mt-1" : "mt-2"}>
+			<div class={props.compact ? "mt-1" : "mt-1.5 sm:mt-2"}>
 				<Show
 					when={isOnTime()}
 					fallback={
 						<span
-							class={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ${statusStyles[props.status.type]}`}
+							class={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold sm:px-2.5 sm:text-xs ${statusStyles[props.status.type]}`}
 							data-status={props.status.type}
 						>
 							{statusLabels[props.status.type]}
@@ -200,7 +201,7 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 					}
 				>
 					{/* On Time badge - special style */}
-					<span class="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-semibold text-emerald-700">
+					<span class="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-semibold text-emerald-700 sm:px-2.5 sm:text-xs">
 						<Check class="h-3 w-3" />
 						On Time
 					</span>

@@ -3,6 +3,10 @@
  *
  * Displays passenger arrival flight information in a HKIA-inspired card format
  * Layout: [Belt] | [Flight Number + Codeshare] | [Origin] | [Time + Status]
+ * 
+ * Mobile-first responsive design:
+ * - Stacked layout on mobile
+ * - Horizontal layout on tablet+
  */
 
 import {
@@ -51,8 +55,8 @@ export function ArrivalCard(props: ArrivalCardProps) {
 				isArrival={true}
 			/>
 
-			{/* Right: Time + Status */}
-			<div class="flex w-44 shrink-0 flex-col items-end justify-center">
+			{/* Right: Time + Status - Responsive width */}
+			<div class="flex w-full shrink-0 flex-col items-center justify-center xs:w-auto xs:items-end sm:w-36 md:w-44">
 				<FlightTimeStatus
 					scheduledTime={flight.time}
 					status={flight.status}

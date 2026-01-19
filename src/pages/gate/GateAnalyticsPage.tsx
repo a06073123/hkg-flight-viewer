@@ -2,13 +2,13 @@
  * Gate Analytics Page
  *
  * HKIA-inspired IDF (Information Display) style gate information
- * Compact design for efficient data review
+ * Mobile-first responsive design with card-based layout
  *
  * Features:
  * - Large prominent gate number (IDF style)
- * - Inline compact stats
+ * - Responsive stats display (stacked on mobile, inline on desktop)
  * - Top airlines in horizontal chips
- * - Collapsible date groups with compact rows
+ * - Collapsible date groups with responsive flight cards
  */
 
 import { Collapsible } from "@/components/common";
@@ -18,17 +18,6 @@ import type { FlightRecord } from "@/types/flight";
 import { A, useParams } from "@solidjs/router";
 import { AlertTriangle, ArrowLeft, Users } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
-
-/**
- * Fixed widths for departure list columns (compact)
- */
-const COLUMNS = {
-	time: "w-[50px]",
-	flight: "w-[90px]",
-	destination: "w-[60px]",
-	checkin: "w-[70px]",
-	status: "flex-1",
-};
 
 export default function GateAnalyticsPage() {
 	const params = useParams<{ id: string }>();
@@ -89,48 +78,48 @@ export default function GateAnalyticsPage() {
 				Back to Historical Data
 			</A>
 
-			{/* IDF Style Header - Compact single row */}
+			{/* IDF Style Header - Mobile responsive */}
 			<div class="overflow-hidden rounded-lg bg-[#1a1a1b] shadow-lg">
-				{/* Main IDF Display */}
-				<div class="flex items-center gap-6 px-6 py-4">
+				{/* Main IDF Display - Stacked on mobile, inline on tablet+ */}
+				<div class="flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:gap-6 sm:px-6">
 					{/* Gate Number - Large IDF style */}
-					<div class="flex items-center gap-3">
-						<span class="text-sm font-medium uppercase tracking-widest text-amber-400">
+					<div class="flex items-center justify-center gap-2 sm:gap-3 sm:justify-start">
+						<span class="text-xs font-medium uppercase tracking-widest text-amber-400 sm:text-sm">
 							Gate
 						</span>
-						<span class="font-mono text-5xl font-black tracking-tight text-amber-400 drop-shadow-[0_0_10px_rgba(251,191,36,0.4)]">
+						<span class="font-mono text-4xl font-black tracking-tight text-amber-400 drop-shadow-[0_0_10px_rgba(251,191,36,0.4)] sm:text-5xl">
 							{params.id}
 						</span>
 					</div>
 
-					{/* Divider */}
-					<div class="h-12 w-px bg-gray-700" />
+					{/* Divider - Hidden on mobile */}
+					<div class="hidden h-12 w-px bg-gray-700 sm:block" />
 
-					{/* Stats - Inline compact */}
+					{/* Stats - Grid on mobile, inline on tablet+ */}
 					<Show when={stats()}>
 						{(s) => (
-							<div class="flex items-center gap-6 text-sm">
-								<div class="text-center">
-									<div class="text-2xl font-bold text-white">
+							<div class="grid grid-cols-3 gap-2 text-center sm:flex sm:items-center sm:gap-6">
+								<div>
+									<div class="text-xl font-bold text-white sm:text-2xl">
 										{s().total}
 									</div>
-									<div class="text-xs text-gray-400">
+									<div class="text-[10px] text-gray-400 sm:text-xs">
 										Departures
 									</div>
 								</div>
-								<div class="text-center">
-									<div class="text-2xl font-bold text-white">
+								<div>
+									<div class="text-xl font-bold text-white sm:text-2xl">
 										{s().uniqueDates}
 									</div>
-									<div class="text-xs text-gray-400">
+									<div class="text-[10px] text-gray-400 sm:text-xs">
 										Days
 									</div>
 								</div>
-								<div class="text-center">
-									<div class="text-2xl font-bold text-white">
+								<div>
+									<div class="text-xl font-bold text-white sm:text-2xl">
 										{s().avgPerDay}
 									</div>
-									<div class="text-xs text-gray-400">
+									<div class="text-[10px] text-gray-400 sm:text-xs">
 										Per Day
 									</div>
 								</div>
@@ -138,13 +127,13 @@ export default function GateAnalyticsPage() {
 						)}
 					</Show>
 
-					{/* Top Airlines - Horizontal chips */}
+					{/* Top Airlines - Wrap on mobile, inline on tablet+ */}
 					<Show when={stats()?.topAirlines.length}>
-						<div class="ml-auto flex items-center gap-2">
-							<span class="text-xs text-gray-500">Top:</span>
+						<div class="flex flex-wrap items-center gap-1.5 border-t border-gray-700 pt-3 sm:ml-auto sm:gap-2 sm:border-0 sm:pt-0">
+							<span class="text-[10px] text-gray-500 sm:text-xs">Top:</span>
 							<For each={stats()?.topAirlines.slice(0, 3)}>
 								{([airline, count]) => (
-									<span class="rounded bg-gray-800 px-2 py-1 text-xs font-medium text-gray-300">
+									<span class="rounded bg-gray-800 px-1.5 py-0.5 text-[10px] font-medium text-gray-300 sm:px-2 sm:py-1 sm:text-xs">
 										{airline}{" "}
 										<span class="text-amber-400">
 											{count}
@@ -192,95 +181,134 @@ export default function GateAnalyticsPage() {
 									</span>
 								}
 							>
-								{/* Table Header */}
-								<div class="flex items-center gap-3 border-b bg-gray-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wider text-gray-500">
-									<span class={COLUMNS.time}>Time</span>
-									<span class={COLUMNS.flight}>Flight</span>
-									<span class={COLUMNS.destination}>
-										Dest
-									</span>
-									<span class={COLUMNS.checkin}>
-										Check-in
-									</span>
-									<span class={COLUMNS.status}>Status</span>
+								{/* Table Header - Hidden on mobile */}
+								<div class="hidden items-center gap-3 border-b bg-gray-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wider text-gray-500 sm:flex">
+									<span class="w-[50px]">Time</span>
+									<span class="w-[90px]">Flight</span>
+									<span class="w-[60px]">Dest</span>
+									<span class="w-[70px]">Check-in</span>
+									<span class="flex-1">Status</span>
 								</div>
 
-								{/* Flight Rows - Compact */}
-								<For each={flights}>
-									{(flight) => (
-										<div class="flex items-center gap-3 border-b border-gray-100 px-3 py-1.5 last:border-b-0 hover:bg-gray-50">
-											{/* Time */}
-											<span
-												class={`${COLUMNS.time} shrink-0 text-sm font-bold tabular-nums text-[#1A1A1B]`}
-											>
-												{flight.time}
-											</span>
-
-											{/* Flight */}
-											<div
-												class={`${COLUMNS.flight} shrink-0`}
-											>
-												<A
-													href={`/flight/${flight.operatingCarrier.no.replace(/\s+/g, "")}`}
-													class="text-sm font-semibold text-[#003580] hover:underline"
-												>
-													{flight.operatingCarrier.no}
-												</A>
-												<Show
-													when={
-														flight.codeshareCount >
-														0
-													}
-												>
-													<span class="ml-0.5 text-[9px] text-gray-400">
-														+{flight.codeshareCount}
-													</span>
-												</Show>
-											</div>
-
-											{/* Destination */}
-											<span
-												class={`${COLUMNS.destination} shrink-0`}
-											>
-												<span class="inline-block rounded bg-[#C41230] px-1.5 py-0.5 text-[10px] font-bold text-white">
-													{flight.primaryAirport}
-												</span>
-											</span>
-
-											{/* Check-in */}
-											<span
-												class={`${COLUMNS.checkin} shrink-0`}
-											>
-												<Show
-													when={flight.aisle}
-													fallback={
-														<span class="text-xs text-gray-400">
-															—
-														</span>
-													}
-												>
-													<span class="inline-flex items-center gap-0.5 text-[10px] text-[#003580]">
-														<Users class="h-2.5 w-2.5" />
-														{flight.aisle}
-													</span>
-												</Show>
-											</span>
-
-											{/* Status */}
-											<span class={COLUMNS.status}>
-												<CompactTimeStatus
-													scheduledTime={flight.time}
-													status={flight.status}
-												/>
-											</span>
-										</div>
-									)}
-								</For>
+								{/* Flight Cards - Card on mobile, row on tablet+ */}
+								<div class="divide-y divide-gray-100">
+									<For each={flights}>
+										{(flight) => (
+											<GateFlightCard flight={flight} />
+										)}
+									</For>
+								</div>
 							</Collapsible>
 						)}
 					</For>
 				</div>
 			</Show>
+		</div>
+	);
+}
+
+/**
+ * Gate Flight Card Component
+ * Mobile-first responsive card layout for flight information
+ */
+function GateFlightCard(props: { flight: FlightRecord }) {
+	const flight = () => props.flight;
+
+	return (
+		<div class="group bg-white p-3 transition-colors hover:bg-gray-50 sm:flex sm:items-center sm:gap-3 sm:px-3 sm:py-1.5">
+			{/* Mobile Layout: Stacked card */}
+			<div class="flex items-start justify-between gap-2 sm:hidden">
+				{/* Left: Time + Flight */}
+				<div class="flex items-center gap-2">
+					<span class="text-base font-bold tabular-nums text-[#1A1A1B]">
+						{flight().time}
+					</span>
+					<A
+						href={`/flight/${flight().operatingCarrier.no.replace(/\s+/g, "")}`}
+						class="text-base font-semibold text-[#003580] hover:underline"
+					>
+						{flight().operatingCarrier.no}
+					</A>
+					<Show when={flight().codeshareCount > 0}>
+						<span class="text-[10px] text-gray-400">
+							+{flight().codeshareCount}
+						</span>
+					</Show>
+				</div>
+
+				{/* Right: Destination badge */}
+				<span class="inline-block rounded bg-[#C41230] px-1.5 py-0.5 text-[10px] font-bold text-white">
+					{flight().primaryAirport}
+				</span>
+			</div>
+
+			{/* Mobile: Second row - Check-in + Status */}
+			<div class="mt-2 flex items-center justify-between gap-2 sm:hidden">
+				<Show
+					when={flight().aisle}
+					fallback={
+						<span class="text-xs text-gray-400">No check-in info</span>
+					}
+				>
+					<span class="inline-flex items-center gap-1 text-xs text-[#003580]">
+						<Users class="h-3 w-3" />
+						Row {flight().aisle}
+					</span>
+				</Show>
+				<CompactTimeStatus
+					scheduledTime={flight().time}
+					status={flight().status}
+				/>
+			</div>
+
+			{/* Desktop Layout: Inline row (hidden on mobile) */}
+			{/* Time */}
+			<span class="hidden w-[50px] shrink-0 text-sm font-bold tabular-nums text-[#1A1A1B] sm:block">
+				{flight().time}
+			</span>
+
+			{/* Flight */}
+			<div class="hidden w-[90px] shrink-0 sm:block">
+				<A
+					href={`/flight/${flight().operatingCarrier.no.replace(/\s+/g, "")}`}
+					class="text-sm font-semibold text-[#003580] hover:underline"
+				>
+					{flight().operatingCarrier.no}
+				</A>
+				<Show when={flight().codeshareCount > 0}>
+					<span class="ml-0.5 text-[9px] text-gray-400">
+						+{flight().codeshareCount}
+					</span>
+				</Show>
+			</div>
+
+			{/* Destination */}
+			<span class="hidden w-[60px] shrink-0 sm:block">
+				<span class="inline-block rounded bg-[#C41230] px-1.5 py-0.5 text-[10px] font-bold text-white">
+					{flight().primaryAirport}
+				</span>
+			</span>
+
+			{/* Check-in */}
+			<span class="hidden w-[70px] shrink-0 sm:block">
+				<Show
+					when={flight().aisle}
+					fallback={<span class="text-xs text-gray-400">—</span>}
+				>
+					<span class="inline-flex items-center gap-0.5 text-[10px] text-[#003580]">
+						<Users class="h-2.5 w-2.5" />
+						{flight().aisle}
+					</span>
+				</Show>
+			</span>
+
+			{/* Status */}
+			<span class="hidden flex-1 sm:block">
+				<CompactTimeStatus
+					scheduledTime={flight().time}
+					status={flight().status}
+				/>
+			</span>
 		</div>
 	);
 }
