@@ -118,11 +118,13 @@ The project uses a Cloudflare Worker proxy (`worker/`) to bypass CORS and 403 is
 | `src/lib/parser.ts`          | Raw API → normalized `FlightRecord` transformation |
 | `src/lib/resources.ts`       | SolidJS createResource hooks                       |
 | `src/lib/api.ts`             | API service layer (fetch functions)                |
+| `src/lib/date-utils.ts`      | HKT timezone date utilities                        |
 | `worker/src/index.ts`        | Cloudflare Worker proxy                            |
 | `scripts/archive-flights.js` | Daily archiver (GitHub Actions)                    |
 | `scripts/archive-rolling.js` | Rolling archive for delayed flights                |
 | `scripts/reindex-flights.js` | Rebuild indexes from daily snapshots               |
 | `docs/API.md`                | Complete HKIA API documentation                    |
+| `docs/AIRPORT-LAYOUT.md`     | HKIA terminal & gate layout reference (for M5)     |
 
 ## NPM Scripts
 
@@ -247,5 +249,50 @@ See `MILESTONE.md` for project status:
 - ✅ M1: Data Ingestion & Archiving
 - ✅ M2: Domain Logic & Data Parsing
 - ✅ M3: Page Structure & Data Fetching
-- 🚧 M4: UX Polish & Charts
-- ⏳ M5: Deployment & Production
+- 🚧 M4: UI/UX Refactor & Performance Optimization (Performance & Mobile)
+- ⏳ M5: HKIA Virtual Map & Spatial Visualization (Virtual Map)
+
+## M4 Technical Specifications
+
+### Virtual List Performance Formula
+
+When handling historical data (e.g., 1,125 flights per day), rendering cost:
+
+$$Total\_Nodes = Records \times Nodes\_per\_Record$$
+
+With 20 nodes per record → 20,000+ DOM nodes. Virtual scrolling limits this to:
+
+$$Visible\_Nodes = (Viewport\_Height / Item\_Height) + Buffer$$
+
+### Mobile Breakpoints
+
+| Breakpoint | Width  | Layout          |
+| ---------- | ------ | --------------- |
+| `xs`       | 480px  | Stacked cards   |
+| `sm`       | 640px  | Stacked cards   |
+| `md`       | 768px  | Table rows      |
+| `lg`       | 1024px | Full table      |
+
+## M5 Technical Specifications
+
+### Gate Marker Data Structure
+
+```typescript
+// src/types/map.ts
+interface GateMarker {
+  id: string;       // "Gate 41"
+  x: number;        // SVG coordinate
+  y: number;
+  currentFlight?: string;
+  status: "boarding" | "scheduled" | "idle";
+}
+```
+
+### Gate Status Colors
+
+| Color  | Status                              |
+| ------ | ----------------------------------- |
+| 🔵 Blue | Scheduled / Preparing               |
+| 🟡 Yellow (blinking) | Boarding / Final Call |
+| ⚫ Gray | Idle                                |
+

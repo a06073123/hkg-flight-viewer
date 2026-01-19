@@ -310,13 +310,13 @@ jobs:
 
 See [MILESTONE.md](MILESTONE.md) for detailed project roadmap.
 
-| Milestone | Status         | Description                    |
-| --------- | -------------- | ------------------------------ |
-| M1        | ✅ Complete    | Data Ingestion & Archiving     |
-| M2        | ✅ Complete    | Domain Logic & Data Parsing    |
-| M3        | ✅ Complete    | Page Structure & Data Fetching |
-| M4        | 🚧 In Progress | UX Polish & Charts             |
-| M5        | ⏳ Planned     | Deployment & Production        |
+| Milestone | Status         | Description                          |
+| --------- | -------------- | ------------------------------------ |
+| M1        | ✅ Complete    | Data Ingestion & Archiving           |
+| M2        | ✅ Complete    | Domain Logic & Data Parsing          |
+| M3        | ✅ Complete    | Page Structure & Data Fetching       |
+| M4        | 🚧 In Progress | Performance & Mobile Optimization    |
+| M5        | ⏳ Planned     | HKIA Virtual Map & Visualization     |
 
 ---
 
