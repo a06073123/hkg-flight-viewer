@@ -134,3 +134,44 @@ body {
 .flight-row:hover {
 	background-color: #fff9e5;
 }
+
+/* Custom Scrollbar Utilities */
+@utility scrollbar-thin {
+	scrollbar-width: thin;
+}
+
+@utility scrollbar-track-transparent {
+	scrollbar-color: var(--tw-scrollbar-thumb, #d1d5db) transparent;
+}
+
+@utility scrollbar-thumb-gray-300 {
+	--tw-scrollbar-thumb: #d1d5db;
+	scrollbar-color: var(--tw-scrollbar-thumb) transparent;
+}
+
+@utility scrollbar-thumb-gray-400 {
+	--tw-scrollbar-thumb: #9ca3af;
+	scrollbar-color: var(--tw-scrollbar-thumb) transparent;
+}
+
+/* Webkit scrollbar styling for browsers that support it */
+.scrollbar-thin::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+	background: transparent;
+	border-radius: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+	background-color: #d1d5db;
+	border-radius: 4px;
+	border: 2px solid transparent;
+	background-clip: padding-box;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+	background-color: #9ca3af;
+}

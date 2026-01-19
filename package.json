@@ -21,27 +21,28 @@
 		"worker:deploy": "npm run deploy --prefix worker",
 		"worker:tail": "npm run tail --prefix worker"
 	},
-  "dependencies": {
-    "@ark-ui/solid": "^5.30.0",
-    "@solidjs/router": "^0.15.4",
-    "lucide-solid": "^0.562.0",
-    "solid-js": "^1.9.10"
-  },
-  "devDependencies": {
-    "@solidjs/testing-library": "^0.8.10",
-    "@tailwindcss/vite": "^4.1.18",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/user-event": "^14.6.1",
-    "@types/node": "^24.10.1",
-    "@vitest/coverage-v8": "^4.0.17",
-    "axios": "^1.13.2",
-    "dayjs": "^1.11.19",
-    "fs-extra": "^11.3.3",
-    "jsdom": "^27.4.0",
-    "tailwindcss": "^4.1.18",
-    "typescript": "~5.9.3",
-    "vite": "^7.2.4",
-    "vite-plugin-solid": "^2.11.10",
-    "vitest": "^4.0.17"
-  }
+	"dependencies": {
+		"@ark-ui/solid": "^5.30.0",
+		"@solidjs/router": "^0.15.4",
+		"@tanstack/solid-virtual": "^3.13.18",
+		"lucide-solid": "^0.562.0",
+		"solid-js": "^1.9.10"
+	},
+	"devDependencies": {
+		"@solidjs/testing-library": "^0.8.10",
+		"@tailwindcss/vite": "^4.1.18",
+		"@testing-library/jest-dom": "^6.9.1",
+		"@testing-library/user-event": "^14.6.1",
+		"@types/node": "^24.10.1",
+		"@vitest/coverage-v8": "^4.0.17",
+		"axios": "^1.13.2",
+		"dayjs": "^1.11.19",
+		"fs-extra": "^11.3.3",
+		"jsdom": "^27.4.0",
+		"tailwindcss": "^4.1.18",
+		"typescript": "~5.9.3",
+		"vite": "^7.2.4",
+		"vite-plugin-solid": "^2.11.10",
+		"vitest": "^4.0.17"
+	}
 }

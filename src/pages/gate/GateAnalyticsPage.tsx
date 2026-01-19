@@ -16,7 +16,7 @@ import { CompactTimeStatus } from "@/components/history";
 import { createGateHistoryResource } from "@/lib/resources";
 import type { FlightRecord } from "@/types/flight";
 import { A, useParams } from "@solidjs/router";
-import { AlertTriangle, ArrowLeft, Users } from "lucide-solid";
+import { ArrowLeft, TriangleAlert, Users } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
 
 export default function GateAnalyticsPage() {
@@ -156,7 +156,7 @@ export default function GateAnalyticsPage() {
 			{/* Not Found State */}
 			<Show when={!gateHistory.loading && !gateHistory()}>
 				<div class="rounded-lg border-2 border-dashed bg-gray-50 py-8 text-center">
-					<AlertTriangle class="mx-auto h-10 w-10 text-gray-400" />
+					<TriangleAlert class="mx-auto h-10 w-10 text-gray-400" />
 					<h2 class="mt-3 text-lg font-medium text-gray-900">
 						No Data Found
 					</h2>

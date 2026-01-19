@@ -11,7 +11,7 @@
  */
 
 import { A } from "@solidjs/router";
-import { History, Home, Plane, Radio } from "lucide-solid";
+import { History, House, Plane, Radio } from "lucide-solid";
 import type { ParentComponent } from "solid-js";
 
 export const Layout: ParentComponent = (props) => {
@@ -32,7 +32,7 @@ export const Layout: ParentComponent = (props) => {
 
 					{/* Desktop Navigation Links - Hidden on mobile */}
 					<div class="hidden items-center gap-1 sm:flex">
-						<NavLink href="/" icon={Home}>
+						<NavLink href="/" icon={House}>
 							Home
 						</NavLink>
 						<NavLink href="/live" icon={Radio}>
@@ -45,7 +45,7 @@ export const Layout: ParentComponent = (props) => {
 
 					{/* Mobile Navigation - Icon only, visible on mobile */}
 					<div class="flex items-center gap-0.5 sm:hidden">
-						<MobileNavLink href="/" icon={Home} label="Home" />
+						<MobileNavLink href="/" icon={House} label="Home" />
 						<MobileNavLink href="/live" icon={Radio} label="Live" />
 						<MobileNavLink href="/past" icon={History} label="History" />
 					</div>
