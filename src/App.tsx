@@ -9,6 +9,7 @@ import {
 	GateAnalyticsPage,
 	LandingPage,
 	LivePage,
+	MapPage,
 	PastPage,
 } from "./pages";
 
@@ -23,6 +24,7 @@ function App() {
 		<Router base="/hkg-flight-viewer" root={Layout}>
 			<Route path="/" component={LandingPage} />
 			<Route path="/live" component={LivePage} />
+			<Route path="/map" component={MapPage} />
 			<Route path="/past/:date?" component={PastPage} />
 			<Route path="/flight/:no" component={FlightHistoryPage} />
 			<Route path="/gate/:id" component={GateAnalyticsPage} />
