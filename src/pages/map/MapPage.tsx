@@ -1,32 +1,32 @@
 /**
  * Map Page
  *
- * Virtual airport map showing all passenger gates with real-time flight status.
- * Layout: Midfield Concourse at top, then Main Building (North/South/West aprons).
+ * Virtual airport map showing HKIA Terminal 1 in actual Y-shape layout.
+ * Gate markers positioned using real coordinates from map-coords.ts.
  *
  * Features:
+ * - SVG-based map with actual terminal structure
  * - Gate markers with flight numbers and status colors
  * - Click on gate to show popup with live and historical data
- * - Grouped by terminal area for easy navigation
  */
 
 import { createLiveAllFlightsResource } from "@/lib/resources";
 import type { FlightRecord } from "@/types/flight";
 import { GateStatus } from "@/types/map";
-import { DoorOpen, Map, Plane, RefreshCw } from "lucide-solid";
+import { DoorOpen, Grid3X3, Map, Plane, RefreshCw } from "lucide-solid";
 import { createMemo, createSignal, For, Show } from "solid-js";
-import { GateCard, GatePopup } from "./components";
+import { AirportMap, GateCard, GatePopup } from "./components";
 import {
-    getGateDisplayData,
-    getGatesForArea,
-    type GateDisplayData,
+	getGateDisplayData,
+	getGatesForArea,
+	type GateDisplayData,
 } from "./utils/gate-utils";
 
-/** Gate status color classes */
-const STATUS_COLORS = {
-	[GateStatus.Boarding]: "bg-yellow-400 animate-pulse",
-	[GateStatus.Scheduled]: "bg-blue-500",
-	[GateStatus.Idle]: "bg-gray-300",
+/** Legend color classes */
+const LEGEND_COLORS = {
+	boarding: "bg-emerald-500",
+	scheduled: "bg-[#003580]",
+	idle: "bg-gray-300",
 } as const;
 
 export default function MapPage() {
@@ -37,6 +37,9 @@ export default function MapPage() {
 	const [selectedGate, setSelectedGate] = createSignal<GateDisplayData | null>(
 		null
 	);
+
+	// View mode toggle (map vs grid)
+	const [viewMode, setViewMode] = createSignal<"map" | "grid">("map");
 
 	// Build gate-to-flight mapping from live data
 	const gateFlightMap = createMemo(() => {
@@ -54,42 +57,65 @@ export default function MapPage() {
 		return map;
 	});
 
-	// Get gates for each area with flight data
-	const midfieldGates = createMemo(() =>
-		getGateDisplayData(getGatesForArea("midfield"), gateFlightMap())
-	);
-	const northGates = createMemo(() =>
-		getGateDisplayData(getGatesForArea("north"), gateFlightMap())
-	);
-	const southGates = createMemo(() =>
-		getGateDisplayData(getGatesForArea("south"), gateFlightMap())
-	);
-	const westGates = createMemo(() =>
-		getGateDisplayData(getGatesForArea("west"), gateFlightMap())
-	);
-	const satelliteGates = createMemo(() =>
-		getGateDisplayData(getGatesForArea("satellite"), gateFlightMap())
-	);
+	// Get gates for each area with flight data (for grid view)
+	const allGatesDisplayData = createMemo(() => {
+		const midfield = getGateDisplayData(
+			getGatesForArea("midfield"),
+			gateFlightMap()
+		);
+		const north = getGateDisplayData(
+			getGatesForArea("north"),
+			gateFlightMap()
+		);
+		const south = getGateDisplayData(
+			getGatesForArea("south"),
+			gateFlightMap()
+		);
+		const west = getGateDisplayData(getGatesForArea("west"), gateFlightMap());
+		const satellite = getGateDisplayData(
+			getGatesForArea("satellite"),
+			gateFlightMap()
+		);
+
+		return { midfield, north, south, west, satellite };
+	});
 
 	// Stats
 	const stats = createMemo(() => {
+		const data = allGatesDisplayData();
 		const allGates = [
-			...midfieldGates(),
-			...northGates(),
-			...southGates(),
-			...westGates(),
-			...satelliteGates(),
+			...data.midfield,
+			...data.north,
+			...data.south,
+			...data.west,
+			...data.satellite,
 		];
-		const occupied = allGates.filter((g) => g.status !== GateStatus.Idle).length;
+		const occupied = allGates.filter(
+			(g) => g.status !== GateStatus.Idle
+		).length;
 		return {
 			total: allGates.length,
 			occupied,
-			boarding: allGates.filter((g) => g.status === GateStatus.Boarding).length,
+			boarding: allGates.filter((g) => g.status === GateStatus.Boarding)
+				.length,
 		};
 	});
 
-	const handleGateClick = (gate: GateDisplayData) => {
-		setSelectedGate(gate);
+	// Handle gate click from SVG map
+	const handleSvgGateClick = (gateNumber: string, flight?: FlightRecord) => {
+		// Build simplified GateDisplayData for popup
+		const gateData: GateDisplayData = {
+			id: gateNumber,
+			gateNumber,
+			area: "north", // Default, popup will show correct info from flight
+			flight,
+			status: flight ? getStatusFromFlight(flight) : GateStatus.Idle,
+			flightNumber: flight
+				? `${flight.operatingCarrier.iataCode}${flight.operatingCarrier.flightNumber}`
+				: undefined,
+			destination: flight?.primaryAirport,
+		};
+		setSelectedGate(gateData);
 	};
 
 	const handleClosePopup = () => {
@@ -106,26 +132,57 @@ export default function MapPage() {
 						HKIA Virtual Map
 					</h1>
 					<p class="mt-1 text-sm text-gray-500">
-						香港國際機場登機閘口地圖
+						香港國際機場 T1 登機閘口地圖
 					</p>
 				</div>
 
-				{/* Stats & Refresh */}
-				<div class="flex items-center gap-3">
+				{/* Stats & Controls */}
+				<div class="flex flex-wrap items-center gap-3">
+					{/* Stats */}
 					<div class="flex items-center gap-4 text-sm">
 						<div class="flex items-center gap-1.5">
 							<DoorOpen class="h-4 w-4 text-gray-500" />
 							<span class="text-gray-600">{stats().total} Gates</span>
 						</div>
 						<div class="flex items-center gap-1.5">
-							<Plane class="h-4 w-4 text-blue-500" />
+							<Plane class="h-4 w-4 text-[#003580]" />
 							<span class="text-gray-600">{stats().occupied} Active</span>
 						</div>
 						<div class="flex items-center gap-1.5">
-							<span class={`h-3 w-3 rounded-full ${STATUS_COLORS[GateStatus.Boarding]}`} />
+							<span class={`h-3 w-3 rounded-full ${LEGEND_COLORS.boarding}`} />
 							<span class="text-gray-600">{stats().boarding} Boarding</span>
 						</div>
 					</div>
+
+					{/* View Toggle */}
+					<div class="flex rounded-lg border border-gray-200 bg-white p-0.5">
+						<button
+							type="button"
+							onClick={() => setViewMode("map")}
+							class={`flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
+								viewMode() === "map"
+									? "bg-[#003580] text-white"
+									: "text-gray-600 hover:bg-gray-100"
+							}`}
+						>
+							<Map class="h-4 w-4" />
+							Map
+						</button>
+						<button
+							type="button"
+							onClick={() => setViewMode("grid")}
+							class={`flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
+								viewMode() === "grid"
+									? "bg-[#003580] text-white"
+									: "text-gray-600 hover:bg-gray-100"
+							}`}
+						>
+							<Grid3X3 class="h-4 w-4" />
+							Grid
+						</button>
+					</div>
+
+					{/* Refresh */}
 					<button
 						type="button"
 						onClick={() => refetch()}
@@ -143,18 +200,25 @@ export default function MapPage() {
 
 			{/* Legend */}
 			<div class="flex flex-wrap items-center gap-4 rounded-lg bg-white p-3 shadow-sm sm:gap-6">
-				<span class="text-xs font-medium text-gray-500 uppercase">Status:</span>
+				<span class="text-xs font-medium uppercase text-gray-500">
+					Status:
+				</span>
 				<div class="flex items-center gap-1.5">
-					<span class={`h-3 w-3 rounded-full ${STATUS_COLORS[GateStatus.Boarding]}`} />
+					<span class={`h-3 w-3 rounded-full ${LEGEND_COLORS.boarding}`} />
 					<span class="text-sm text-gray-600">Boarding</span>
 				</div>
 				<div class="flex items-center gap-1.5">
-					<span class={`h-3 w-3 rounded-full ${STATUS_COLORS[GateStatus.Scheduled]}`} />
+					<span class={`h-3 w-3 rounded-full ${LEGEND_COLORS.scheduled}`} />
 					<span class="text-sm text-gray-600">Scheduled</span>
 				</div>
 				<div class="flex items-center gap-1.5">
-					<span class={`h-3 w-3 rounded-full ${STATUS_COLORS[GateStatus.Idle]}`} />
+					<span class={`h-3 w-3 rounded-full ${LEGEND_COLORS.idle}`} />
 					<span class="text-sm text-gray-600">Idle</span>
+				</div>
+				<span class="mx-2 text-gray-300">|</span>
+				<div class="flex items-center gap-1.5">
+					<span class="h-3 w-3 rounded-full bg-yellow-400 ring-1 ring-yellow-500" />
+					<span class="text-sm text-gray-600">Jet Bridge</span>
 				</div>
 			</div>
 
@@ -165,81 +229,124 @@ export default function MapPage() {
 				</div>
 			</Show>
 
-			{/* Gate Areas */}
+			{/* Map View */}
 			<Show when={!liveFlights.loading || liveFlights()}>
-				{/* T1 Midfield Concourse - Top */}
-				<GateAreaSection
-					title="T1 Midfield Concourse"
-					subtitle="中場客運廊 • APM Connection"
-					gates={midfieldGates()}
-					onGateClick={handleGateClick}
-					color="purple"
-				/>
-
-				{/* T1 Main Building */}
-				<div class="space-y-4">
-					<h2 class="text-lg font-semibold text-[#1A1A1B]">
-						T1 Main Building
-						<span class="ml-2 text-sm font-normal text-gray-500">
-							主航廈大樓
-						</span>
-					</h2>
-
-					<div class="grid gap-4 lg:grid-cols-2">
-						{/* North Apron */}
-						<GateAreaSection
-							title="North Apron"
-							subtitle="北面停機坪 • Gates N5-N70"
-							gates={northGates()}
-							onGateClick={handleGateClick}
-							color="blue"
-							compact
+				<Show
+					when={viewMode() === "map"}
+					fallback={
+						<GridView
+							data={allGatesDisplayData()}
+							onGateClick={setSelectedGate}
 						/>
-
-						{/* South Apron */}
-						<GateAreaSection
-							title="South Apron"
-							subtitle="南面停機坪 • Gates S1-S47"
-							gates={southGates()}
-							onGateClick={handleGateClick}
-							color="green"
-							compact
-						/>
-					</div>
-
-					<div class="grid gap-4 lg:grid-cols-2">
-						{/* West Apron */}
-						<GateAreaSection
-							title="West Apron"
-							subtitle="西面停機坪 • Gates W40-W71"
-							gates={westGates()}
-							onGateClick={handleGateClick}
-							color="orange"
-							compact
-						/>
-
-						{/* Satellite Concourse */}
-						<GateAreaSection
-							title="Satellite Concourse"
-							subtitle="衛星客運廊 • Sky Bridge"
-							gates={satelliteGates()}
-							onGateClick={handleGateClick}
-							color="teal"
-							compact
-						/>
-					</div>
-				</div>
+					}
+				>
+					<AirportMap
+						gateFlightMap={gateFlightMap()}
+						onGateClick={handleSvgGateClick}
+					/>
+				</Show>
 			</Show>
 
 			{/* Gate Popup */}
 			<Show when={selectedGate()}>
-				{(gate) => (
-					<GatePopup
-						gate={gate()}
-						onClose={handleClosePopup}
-					/>
-				)}
+				{(gate) => <GatePopup gate={gate()} onClose={handleClosePopup} />}
 			</Show>
+		</div>
+	);
+}
+
+/** Helper to determine status from flight */
+function getStatusFromFlight(flight: FlightRecord): GateStatus {
+	const status = flight.status.raw.toLowerCase();
+	if (
+		status.includes("boarding") ||
+		status.includes("final call") ||
+		status.includes("gate closed")
+	) {
+		return GateStatus.Boarding;
+	}
+	if (
+		status.includes("scheduled") ||
+		status.includes("delayed") ||
+		status.includes("at gate") ||
+		status.includes("est")
+	) {
+		return GateStatus.Scheduled;
+	}
+	return GateStatus.Idle;
+}
+
+/** Grid View Component (original layout) */
+interface GridViewProps {
+	data: {
+		midfield: GateDisplayData[];
+		north: GateDisplayData[];
+		south: GateDisplayData[];
+		west: GateDisplayData[];
+		satellite: GateDisplayData[];
+	};
+	onGateClick: (gate: GateDisplayData) => void;
+}
+
+function GridView(props: GridViewProps) {
+	return (
+		<div class="space-y-4">
+			{/* Midfield */}
+			<GateAreaSection
+				title="T1 Midfield Concourse"
+				subtitle="中場客運廊 • APM Connection"
+				gates={props.data.midfield}
+				onGateClick={props.onGateClick}
+				color="purple"
+			/>
+
+			{/* Main Building */}
+			<div class="space-y-4">
+				<h2 class="text-lg font-semibold text-[#1A1A1B]">
+					T1 Main Building
+					<span class="ml-2 text-sm font-normal text-gray-500">
+						主航廈大樓
+					</span>
+				</h2>
+
+				<div class="grid gap-4 lg:grid-cols-2">
+					<GateAreaSection
+						title="North Apron"
+						subtitle="北面停機坪"
+						gates={props.data.north}
+						onGateClick={props.onGateClick}
+						color="blue"
+						compact
+					/>
+					<GateAreaSection
+						title="South Apron"
+						subtitle="南面停機坪"
+						gates={props.data.south}
+						onGateClick={props.onGateClick}
+						color="green"
+						compact
+					/>
+				</div>
+
+				<div class="grid gap-4 lg:grid-cols-2">
+					<GateAreaSection
+						title="West Apron"
+						subtitle="西面停機坪"
+						gates={props.data.west}
+						onGateClick={props.onGateClick}
+						color="orange"
+						compact
+					/>
+					<GateAreaSection
+						title="Satellite Concourse"
+						subtitle="衛星客運廊 • Sky Bridge"
+						gates={props.data.satellite}
+						onGateClick={props.onGateClick}
+						color="teal"
+						compact
+					/>
+				</div>
+			</div>
 		</div>
 	);
 }
@@ -272,9 +379,7 @@ const headerColors = {
 
 function GateAreaSection(props: GateAreaSectionProps) {
 	return (
-		<div
-			class={`rounded-xl border-2 p-4 ${areaColors[props.color]}`}
-		>
+		<div class={`rounded-xl border-2 p-4 ${areaColors[props.color]}`}>
 			<div class="mb-3 flex items-center justify-between">
 				<div>
 					<h3 class={`font-semibold ${headerColors[props.color]}`}>
@@ -282,9 +387,7 @@ function GateAreaSection(props: GateAreaSectionProps) {
 					</h3>
 					<p class="text-xs text-gray-500">{props.subtitle}</p>
 				</div>
-				<span class="text-sm text-gray-400">
-					{props.gates.length} gates
-				</span>
+				<span class="text-sm text-gray-400">{props.gates.length} gates</span>
 			</div>
 
 			<div
@@ -296,10 +399,7 @@ function GateAreaSection(props: GateAreaSectionProps) {
 			>
 				<For each={props.gates}>
 					{(gate) => (
-						<GateCard
-							gate={gate}
-							onClick={() => props.onGateClick(gate)}
-						/>
+						<GateCard gate={gate} onClick={() => props.onGateClick(gate)} />
 					)}
 				</For>
 			</div>

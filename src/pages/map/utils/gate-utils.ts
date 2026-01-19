@@ -5,8 +5,8 @@
  */
 
 import {
-    type StandInfo,
-    getStandsByArea,
+	type StandInfo,
+	getStandsByArea,
 } from "@/lib/map-coords";
 import type { FlightRecord } from "@/types/flight";
 import type { ApronArea, GateStatus } from "@/types/map";
@@ -22,14 +22,14 @@ export interface GateDisplayData {
 	gateNumber: string;
 	/** Apron area */
 	area: ApronArea;
-	/** Maximum aircraft size */
-	size: "F" | "E" | "C";
 	/** Current flight (if any) */
 	flight?: FlightRecord;
 	/** Current status */
 	status: GateStatus;
 	/** Flight number display */
 	flightNumber?: string;
+	/** Destination airport IATA code */
+	destination?: string;
 }
 
 /**
@@ -103,12 +103,10 @@ export function getGateDisplayData(
 			id: stand.id,
 			gateNumber,
 			area: stand.area,
-			size: stand.size,
 			flight,
 			status: getGateStatus(flight),
-			flightNumber: flight?.operatingCarrier
-				? `${flight.operatingCarrier.airline}${flight.operatingCarrier.flightNumber}`
-				: undefined,
+			flightNumber: flight ? formatFlightNumber(flight) : undefined,
+			destination: flight?.primaryAirport,
 		});
 	}
 
@@ -120,4 +118,13 @@ export function getGateDisplayData(
 	});
 
 	return result;
+}
+
+/**
+ * Format flight number for display
+ * Uses IATA code (e.g., "CX406") instead of ICAO code (e.g., "CPA406")
+ */
+export function formatFlightNumber(flight: FlightRecord): string {
+	const { iataCode, flightNumber } = flight.operatingCarrier;
+	return `${iataCode}${flightNumber}`;
 }

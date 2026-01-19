@@ -1,7 +1,7 @@
 /**
  * Gate Card Component
  *
- * Compact gate display showing gate number, flight, and status.
+ * Compact gate display showing gate number, flight, and destination.
  * Clickable to show detailed popup.
  */
 
@@ -28,49 +28,43 @@ export function GateCard(props: GateCardProps) {
 			type="button"
 			onClick={props.onClick}
 			class={`
-				group relative flex flex-col items-center justify-center rounded-lg border-2 p-1.5 transition-all
+				group relative flex h-full w-full flex-col items-center justify-center rounded-lg border-2 transition-all
 				hover:scale-105 hover:shadow-md
 				${isActive() ? "border-gray-300 bg-white" : "border-gray-200 bg-gray-50"}
 				${props.gate.status === GateStatus.Boarding ? `ring-2 ${colors().ring} ${animationClass()}` : ""}
 			`}
-			title={`Gate ${props.gate.gateNumber}${props.gate.flightNumber ? ` - ${props.gate.flightNumber}` : ""}`}
+			title={`Gate ${props.gate.gateNumber}${props.gate.flightNumber ? ` - ${props.gate.flightNumber}` : ""}${props.gate.destination ? ` → ${props.gate.destination}` : ""}`}
 		>
 			{/* Status indicator dot */}
 			<span
-				class={`absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full ring-2 ring-white ${colors().dotBg}`}
+				class={`absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full ring-1 ring-white ${colors().dotBg}`}
 			/>
 
 			{/* Gate number */}
 			<span
-				class={`text-xs font-bold ${isActive() ? "text-[#003580]" : "text-gray-400"}`}
+				class={`text-[10px] font-bold leading-tight ${isActive() ? "text-[#003580]" : "text-gray-400"}`}
 			>
 				{props.gate.gateNumber}
 			</span>
 
 			{/* Flight number (if any) */}
 			<Show when={props.gate.flightNumber}>
-				<span class="mt-0.5 max-w-full truncate text-[9px] font-medium text-gray-600">
+				<span class="max-w-full truncate text-[8px] font-medium leading-tight text-gray-600">
 					{props.gate.flightNumber}
+				</span>
+			</Show>
+
+			{/* Destination airport code */}
+			<Show when={props.gate.destination}>
+				<span class="text-[8px] font-semibold leading-tight text-amber-600">
+					{props.gate.destination}
 				</span>
 			</Show>
 
 			{/* Empty indicator */}
 			<Show when={!props.gate.flightNumber}>
-				<span class="mt-0.5 text-[9px] text-gray-300">—</span>
+				<span class="text-[8px] text-gray-300">—</span>
 			</Show>
-
-			{/* Size indicator */}
-			<span
-				class={`mt-0.5 text-[8px] ${
-					props.gate.size === "F"
-						? "font-semibold text-purple-500"
-						: props.gate.size === "E"
-							? "text-blue-400"
-							: "text-gray-400"
-				}`}
-			>
-				{props.gate.size}
-			</span>
 		</button>
 	);
 }
