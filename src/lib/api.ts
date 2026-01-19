@@ -69,30 +69,6 @@ export async function fetchTodayFlights(): Promise<FlightRecord[]> {
 }
 
 /**
- * Fetch arrivals only (filters from combined data)
- */
-export async function fetchArrivals(): Promise<FlightRecord[]> {
-	const all = await fetchTodayFlights();
-	return all.filter((f) => f.isArrival);
-}
-
-/**
- * Fetch departures only (filters from combined data)
- */
-export async function fetchDepartures(): Promise<FlightRecord[]> {
-	const all = await fetchTodayFlights();
-	return all.filter((f) => !f.isArrival);
-}
-
-/**
- * Fetch cargo flights only (filters from combined data)
- */
-export async function fetchCargoFlights(): Promise<FlightRecord[]> {
-	const all = await fetchTodayFlights();
-	return all.filter((f) => f.isCargo);
-}
-
-/**
  * Alias for fetchTodayFlights (backward compatibility)
  * @deprecated Use fetchTodayFlights() instead
  */

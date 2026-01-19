@@ -3,16 +3,14 @@
  *
  * Real-time flight information from HKIA API
  * Uses SolidJS createResource for data fetching
+ *
+ * Performance optimized: Single API call shared across all tabs
  */
 
 import { FlightCardList } from "@/components/flights";
 import { FlightSearch } from "@/components/search";
 import { filterFlights, sortFlightsByTime } from "@/lib/api";
-import {
-	createLiveArrivalsResource,
-	createLiveCargoResource,
-	createLiveDeparturesResource,
-} from "@/lib/resources";
+import { createLiveAllFlightsResource } from "@/lib/resources";
 import type { FlightRecord } from "@/types/flight";
 import { StatusType } from "@/types/flight";
 import { Switch, Tabs } from "@ark-ui/solid";
@@ -76,29 +74,29 @@ export default function LivePage() {
 	const [searchQuery, setSearchQuery] = createSignal("");
 	const [showCompleted, setShowCompleted] = createSignal(false);
 
-	// Live data resources
-	const [arrivals, { refetch: refetchArrivals }] =
-		createLiveArrivalsResource();
-	const [departures, { refetch: refetchDepartures }] =
-		createLiveDeparturesResource();
-	const [cargo, { refetch: refetchCargo }] = createLiveCargoResource();
+	// Single shared resource for all flight data (optimized: 1 API call instead of 3)
+	const [allFlights, { refetch }] = createLiveAllFlightsResource();
 
 	// Auto-refresh timer
 	const timer = setInterval(() => {
-		refetchArrivals();
-		refetchDepartures();
-		refetchCargo();
+		refetch();
 	}, REFRESH_INTERVAL);
 
 	onCleanup(() => clearInterval(timer));
 
-	// Filter to passenger flights only for arrivals/departures tabs
+	// Derive passenger arrivals from shared data
 	const passengerArrivals = createMemo(() =>
-		(arrivals() ?? []).filter((f: FlightRecord) => !f.isCargo),
+		(allFlights() ?? []).filter((f: FlightRecord) => f.isArrival && !f.isCargo),
 	);
 
+	// Derive passenger departures from shared data
 	const passengerDepartures = createMemo(() =>
-		(departures() ?? []).filter((f: FlightRecord) => !f.isCargo),
+		(allFlights() ?? []).filter((f: FlightRecord) => !f.isArrival && !f.isCargo),
+	);
+
+	// Derive cargo flights from shared data
+	const cargoFlights = createMemo(() =>
+		(allFlights() ?? []).filter((f: FlightRecord) => f.isCargo),
 	);
 
 	// Apply search filter and optionally hide completed flights
@@ -124,7 +122,7 @@ export default function LivePage() {
 
 	const filteredCargo = createMemo(() => {
 		let flights = sortFlightsByTime(
-			filterFlights(cargo() ?? [], searchQuery()),
+			filterFlights(cargoFlights(), searchQuery()),
 		);
 		if (!showCompleted()) {
 			flights = flights.filter((f) => !isCompletedFlight(f));
@@ -133,13 +131,10 @@ export default function LivePage() {
 	});
 
 
-	const isLoading = () =>
-		arrivals.loading || departures.loading || cargo.loading;
+	const isLoading = () => allFlights.loading;
 
 	const handleRefresh = () => {
-		refetchArrivals();
-		refetchDepartures();
-		refetchCargo();
+		refetch();
 	};
 
 	const lastUpdated = () =>
@@ -265,7 +260,7 @@ export default function LivePage() {
 						<Package class="h-4 w-4" />
 						Cargo
 						<span class="rounded-full bg-orange-100 px-2 py-0.5 text-xs text-orange-600">
-							{(cargo() ?? []).length}
+							{cargoFlights().length}
 						</span>
 					</Tabs.Trigger>
 				</Tabs.List>
@@ -282,21 +277,21 @@ export default function LivePage() {
 							<FlightCardList
 								flights={filteredDepartures()}
 								type="departures"
-								isLoading={departures.loading}
+								isLoading={allFlights.loading}
 							/>
 						</Tabs.Content>
 						<Tabs.Content value="arrivals">
 							<FlightCardList
 								flights={filteredArrivals()}
 								type="arrivals"
-								isLoading={arrivals.loading}
+								isLoading={allFlights.loading}
 							/>
 						</Tabs.Content>
 						<Tabs.Content value="cargo">
 							<FlightCardList
 								flights={filteredCargo()}
 								type="cargo"
-								isLoading={cargo.loading}
+								isLoading={allFlights.loading}
 							/>
 						</Tabs.Content>
 					</Suspense>

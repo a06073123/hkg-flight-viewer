@@ -11,7 +11,7 @@
 
 import { Tooltip } from "@/components/common";
 import { getAirlineDataVersion, getAirlineNameSync } from "@/lib/airline-data";
-import type { RawFlightInfo } from "@/types/flight";
+import type { FlightIdentifier } from "@/types/flight";
 import { A } from "@solidjs/router";
 import { Package, PlaneLanding, PlaneTakeoff, Users } from "lucide-solid";
 import { For, Show } from "solid-js";
@@ -19,9 +19,9 @@ import type { FlightCardTheme } from "./FlightCardLayout";
 
 export interface FlightNumberBlockProps {
 	/** Operating carrier info */
-	operatingCarrier: RawFlightInfo;
+	operatingCarrier: FlightIdentifier;
 	/** All flights including operating carrier (first) and codeshares (rest) */
-	flights: RawFlightInfo[];
+	flights: FlightIdentifier[];
 	/** Total codeshare count (excluding operating carrier) */
 	codeshareCount: number;
 	/** Theme variant */

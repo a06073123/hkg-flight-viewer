@@ -12,7 +12,7 @@
 import { Tooltip } from "@/components/common";
 import { getAirportDataVersion, getAirportName } from "@/lib/airport-data";
 import { ArrowRight } from "lucide-solid";
-import { Show } from "solid-js";
+import { Index, Show } from "solid-js";
 import type { FlightCardTheme } from "./FlightCardLayout";
 
 export interface DestinationBlockProps {
@@ -92,12 +92,14 @@ export function DestinationBlock(props: DestinationBlockProps) {
 					content={
 						<div class="space-y-1">
 							<p class="font-medium">Route Details</p>
-							{props.route.map((airport, i) => (
-								<p>
-									{i + 1}. {airport} -{" "}
-									{getAirportName(airport)}
-								</p>
-							))}
+							<Index each={props.route}>
+								{(airport, i) => (
+									<p>
+										{i + 1}. {airport()} -{" "}
+										{getAirportName(airport())}
+									</p>
+								)}
+							</Index>
 						</div>
 					}
 					positioning={{ placement: "bottom" }}
