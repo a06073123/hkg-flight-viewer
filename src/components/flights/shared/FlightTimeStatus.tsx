@@ -16,6 +16,13 @@
  * - UNKNOWN: Original time with gray badge
  */
 
+import {
+	getStatusBadgeClasses,
+	hasNoTimeUpdate,
+	isBoardingStatus,
+	isCompletedStatus,
+	STATUS_LABELS,
+} from "@/lib/status-config";
 import type { ParsedStatus } from "@/types/flight";
 import { StatusType } from "@/types/flight";
 import { Check, Clock } from "lucide-solid";
@@ -31,68 +38,11 @@ export interface FlightTimeStatusProps {
 	compact?: boolean;
 }
 
-// Status badge styles (HKIA-inspired)
-const statusStyles: Record<StatusType, string> = {
-	// Completed states
-	[StatusType.Departed]: "bg-[#003580]/10 text-[#003580]",
-	[StatusType.Landed]: "bg-[#003580]/10 text-[#003580]",
-	[StatusType.AtGate]: "bg-[#003580]/10 text-[#003580]",
-
-	// Urgent boarding states
-	[StatusType.Boarding]: "bg-amber-500 text-white",
-	[StatusType.BoardingSoon]: "bg-amber-100 text-amber-800",
-	[StatusType.FinalCall]: "bg-red-500 text-white animate-pulse",
-	[StatusType.GateClosed]: "bg-gray-700 text-white",
-
-	// Alert states
-	[StatusType.Cancelled]: "bg-[#C41230] text-white",
-	[StatusType.Delayed]: "bg-red-100 text-[#C41230]",
-
-	// Informational
-	[StatusType.Estimated]: "bg-amber-50 text-amber-700",
-	[StatusType.Unknown]: "bg-gray-100 text-gray-500",
-};
-
-const statusLabels: Record<StatusType, string> = {
-	[StatusType.Departed]: "Departed",
-	[StatusType.Landed]: "Landed",
-	[StatusType.AtGate]: "At Gate",
-	[StatusType.Boarding]: "Boarding",
-	[StatusType.BoardingSoon]: "Boarding Soon",
-	[StatusType.FinalCall]: "Final Call",
-	[StatusType.GateClosed]: "Gate Closed",
-	[StatusType.Cancelled]: "Cancelled",
-	[StatusType.Delayed]: "Delayed",
-	[StatusType.Estimated]: "Estimated",
-	[StatusType.Unknown]: "Scheduled",
-};
-
-/** Status types that indicate flight has actual time */
-const ACTUAL_TIME_STATUSES: Set<StatusType> = new Set([
-	StatusType.Departed,
-	StatusType.Landed,
-	StatusType.AtGate,
-]);
-
-/** Status types that indicate flight is in boarding process */
-const BOARDING_STATUSES: Set<StatusType> = new Set([
-	StatusType.Boarding,
-	StatusType.BoardingSoon,
-	StatusType.FinalCall,
-	StatusType.GateClosed,
-]);
-
-/** Status types with no meaningful time update */
-const NO_TIME_STATUSES: Set<StatusType> = new Set([
-	StatusType.Cancelled,
-	StatusType.Unknown,
-]);
-
 export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
-	// Computed states
-	const hasActualTime = () => ACTUAL_TIME_STATUSES.has(props.status.type);
-	const isBoarding = () => BOARDING_STATUSES.has(props.status.type);
-	const hasNoTime = () => NO_TIME_STATUSES.has(props.status.type);
+	// Computed states using centralized helpers
+	const hasActualTime = () => isCompletedStatus(props.status.type);
+	const isBoarding = () => isBoardingStatus(props.status.type);
+	const hasNoTime = () => hasNoTimeUpdate(props.status.type);
 	const isEstimated = () =>
 		props.status.type === StatusType.Estimated ||
 		props.status.type === StatusType.Delayed;
@@ -111,7 +61,7 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 		return props.scheduledTime;
 	};
 
-	// Time color based on status
+	// Time color based on status - use centralized config for status-based color
 	const timeColor = () => {
 		if (isOnTime()) return "text-emerald-600";
 		if (timeChanged() && hasActualTime()) return "text-emerald-600";
@@ -193,10 +143,10 @@ export const FlightTimeStatus: Component<FlightTimeStatusProps> = (props) => {
 					when={isOnTime()}
 					fallback={
 						<span
-							class={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold sm:px-2.5 sm:text-xs ${statusStyles[props.status.type]}`}
+							class={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold sm:px-2.5 sm:text-xs ${getStatusBadgeClasses(props.status.type)}`}
 							data-status={props.status.type}
 						>
-							{statusLabels[props.status.type]}
+							{STATUS_LABELS[props.status.type]}
 						</span>
 					}
 				>

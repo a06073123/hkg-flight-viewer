@@ -11,6 +11,11 @@
  * Example: "→ 23:18 ✓ OK" or "→ 13:45 +2d Est"
  */
 
+import {
+	getStatusBadgeClasses,
+	isCompletedStatus,
+	STATUS_LABELS_COMPACT,
+} from "@/lib/status-config";
 import type { ParsedStatus } from "@/types/flight";
 import { StatusType } from "@/types/flight";
 import { Check, Clock } from "lucide-solid";
@@ -24,49 +29,6 @@ export interface CompactTimeStatusProps {
 	status: ParsedStatus;
 }
 
-// Compact badge styles
-const badgeStyles: Record<StatusType, string> = {
-	// Completed - subtle
-	[StatusType.Departed]: "bg-[#003580]/10 text-[#003580]",
-	[StatusType.Landed]: "bg-[#003580]/10 text-[#003580]",
-	[StatusType.AtGate]: "bg-[#003580]/10 text-[#003580]",
-
-	// Urgent - bold
-	[StatusType.Boarding]: "bg-amber-500 text-white",
-	[StatusType.BoardingSoon]: "bg-amber-100 text-amber-800",
-	[StatusType.FinalCall]: "bg-red-500 text-white",
-	[StatusType.GateClosed]: "bg-gray-700 text-white",
-
-	// Alert
-	[StatusType.Cancelled]: "bg-[#C41230] text-white",
-	[StatusType.Delayed]: "bg-red-100 text-[#C41230]",
-
-	// Info
-	[StatusType.Estimated]: "bg-amber-50 text-amber-700",
-	[StatusType.Unknown]: "bg-gray-100 text-gray-500",
-};
-
-const badgeLabels: Record<StatusType, string> = {
-	[StatusType.Departed]: "Dep",
-	[StatusType.Landed]: "Arr",
-	[StatusType.AtGate]: "Gate",
-	[StatusType.Boarding]: "Board",
-	[StatusType.BoardingSoon]: "Soon",
-	[StatusType.FinalCall]: "Final",
-	[StatusType.GateClosed]: "Closed",
-	[StatusType.Cancelled]: "Canx",
-	[StatusType.Delayed]: "Delay",
-	[StatusType.Estimated]: "Est",
-	[StatusType.Unknown]: "Sched",
-};
-
-/** Status types with actual completion time */
-const ACTUAL_TIME_STATUSES: Set<StatusType> = new Set([
-	StatusType.Departed,
-	StatusType.Landed,
-	StatusType.AtGate,
-]);
-
 /**
  * Format day offset as a compact string
  * e.g., +1d, +2d, -1d
@@ -78,7 +40,7 @@ function formatDayOffset(offset: number): string {
 }
 
 export const CompactTimeStatus: Component<CompactTimeStatusProps> = (props) => {
-	const hasActualTime = () => ACTUAL_TIME_STATUSES.has(props.status.type);
+	const hasActualTime = () => isCompletedStatus(props.status.type);
 	const timeChanged = () =>
 		props.status.time && props.scheduledTime !== props.status.time;
 	const isOnTime = () =>
@@ -154,12 +116,12 @@ export const CompactTimeStatus: Component<CompactTimeStatusProps> = (props) => {
 				}
 			>
 				<span
-					class={`inline-flex items-center gap-0.5 rounded px-1.5 py-0.5 text-[10px] font-semibold ${badgeStyles[props.status.type]}`}
+					class={`inline-flex items-center gap-0.5 rounded px-1.5 py-0.5 text-[10px] font-semibold ${getStatusBadgeClasses(props.status.type)}`}
 				>
 					<Show when={props.status.type === StatusType.Estimated}>
 						<Clock class="h-2.5 w-2.5" />
 					</Show>
-					{badgeLabels[props.status.type]}
+					{STATUS_LABELS_COMPACT[props.status.type]}
 				</span>
 			</Show>
 		</div>

@@ -8,15 +8,18 @@
 
 import { CompactTimeStatus } from "@/components/history";
 import { createGateHistoryResource } from "@/lib/resources";
+import {
+	GATE_STATUS_LABELS,
+	getGateStatusBadgeClasses,
+} from "@/lib/status-config";
 import type { FlightRecord } from "@/types/flight";
-import { GateStatus } from "@/types/map";
 import { A } from "@solidjs/router";
 import {
-    Calendar,
-    DoorOpen,
-    ExternalLink,
-    Plane,
-    X,
+	Calendar,
+	DoorOpen,
+	ExternalLink,
+	Plane,
+	X,
 } from "lucide-solid";
 import { createMemo, For, onCleanup, onMount, Show } from "solid-js";
 import type { GateDisplayData } from "../utils/gate-utils";
@@ -25,18 +28,6 @@ export interface GatePopupProps {
 	gate: GateDisplayData;
 	onClose: () => void;
 }
-
-const statusLabels = {
-	[GateStatus.Boarding]: "Boarding",
-	[GateStatus.Scheduled]: "Scheduled",
-	[GateStatus.Idle]: "Idle",
-};
-
-const statusColors = {
-	[GateStatus.Boarding]: "bg-yellow-100 text-yellow-800 border-yellow-300",
-	[GateStatus.Scheduled]: "bg-blue-100 text-blue-800 border-blue-300",
-	[GateStatus.Idle]: "bg-gray-100 text-gray-600 border-gray-300",
-};
 
 export function GatePopup(props: GatePopupProps) {
 	// Load historical data for this gate
@@ -106,11 +97,11 @@ export function GatePopup(props: GatePopupProps) {
 						</h3>
 
 						<div
-							class={`rounded-lg border-2 p-4 ${statusColors[props.gate.status]}`}
+							class={`rounded-lg border-2 p-4 ${getGateStatusBadgeClasses(props.gate.status)}`}
 						>
 							<div class="flex items-center justify-between">
 								<span class="font-medium">
-									{statusLabels[props.gate.status]}
+									{GATE_STATUS_LABELS[props.gate.status]}
 								</span>
 								<Show
 									when={props.gate.flight}

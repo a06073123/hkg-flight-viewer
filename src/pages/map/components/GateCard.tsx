@@ -5,6 +5,10 @@
  * Clickable to show detailed popup.
  */
 
+import {
+	GATE_STATUS_COLORS,
+	getGateStatusAnimationClass,
+} from "@/lib/status-config";
 import { GateStatus } from "@/types/map";
 import { Show } from "solid-js";
 import type { GateDisplayData } from "../utils/gate-utils";
@@ -14,14 +18,10 @@ export interface GateCardProps {
 	onClick: () => void;
 }
 
-const statusBgColors = {
-	[GateStatus.Boarding]: "bg-yellow-400",
-	[GateStatus.Scheduled]: "bg-blue-500",
-	[GateStatus.Idle]: "bg-gray-200",
-};
-
 export function GateCard(props: GateCardProps) {
 	const isActive = () => props.gate.status !== GateStatus.Idle;
+	const colors = () => GATE_STATUS_COLORS[props.gate.status];
+	const animationClass = () => getGateStatusAnimationClass(props.gate.status);
 
 	return (
 		<button
@@ -31,13 +31,13 @@ export function GateCard(props: GateCardProps) {
 				group relative flex flex-col items-center justify-center rounded-lg border-2 p-1.5 transition-all
 				hover:scale-105 hover:shadow-md
 				${isActive() ? "border-gray-300 bg-white" : "border-gray-200 bg-gray-50"}
-				${props.gate.status === GateStatus.Boarding ? "ring-2 ring-yellow-300 animate-pulse" : ""}
+				${props.gate.status === GateStatus.Boarding ? `ring-2 ${colors().ring} ${animationClass()}` : ""}
 			`}
 			title={`Gate ${props.gate.gateNumber}${props.gate.flightNumber ? ` - ${props.gate.flightNumber}` : ""}`}
 		>
 			{/* Status indicator dot */}
 			<span
-				class={`absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full ring-2 ring-white ${statusBgColors[props.gate.status]}`}
+				class={`absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full ring-2 ring-white ${colors().dotBg}`}
 			/>
 
 			{/* Gate number */}
