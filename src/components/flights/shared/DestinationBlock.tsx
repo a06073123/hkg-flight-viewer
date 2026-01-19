@@ -7,6 +7,10 @@
  * - Via stops tooltip if multi-leg route
  *
  * Used in the center section of flight cards
+ * 
+ * Mobile-first responsive design:
+ * - Compact centered layout on mobile
+ * - Larger badges and text on tablet+
  */
 
 import { Tooltip } from "@/components/common";
@@ -60,12 +64,12 @@ export function DestinationBlock(props: DestinationBlockProps) {
 	return (
 		<div class="flex min-w-0 flex-1 flex-col items-center justify-center">
 			{/* Label */}
-			<div class="flex items-center gap-1.5">
+			<div class="flex items-center gap-1">
 				<ArrowRight
-					class={`h-4 w-4 ${labelStyles[props.theme]} ${props.isArrival ? "rotate-180" : ""}`}
+					class={`h-3 w-3 sm:h-4 sm:w-4 ${labelStyles[props.theme]} ${props.isArrival ? "rotate-180" : ""}`}
 				/>
 				<span
-					class={`text-xs font-medium uppercase tracking-wide ${labelStyles[props.theme]}`}
+					class={`text-[10px] font-medium uppercase tracking-wide sm:text-xs ${labelStyles[props.theme]}`}
 				>
 					{label()}
 				</span>
@@ -73,14 +77,14 @@ export function DestinationBlock(props: DestinationBlockProps) {
 
 			{/* Airport Code Badge */}
 			<span
-				class={`mt-1 inline-block rounded-lg px-4 py-1.5 text-2xl font-black tracking-wider text-white shadow-sm ${badgeStyles[props.theme]}`}
+				class={`mt-0.5 inline-block rounded-md px-2.5 py-1 text-lg font-black tracking-wider text-white shadow-sm sm:mt-1 sm:rounded-lg sm:px-4 sm:py-1.5 sm:text-2xl ${badgeStyles[props.theme]}`}
 			>
 				{props.airportCode}
 			</span>
 
 			{/* Airport Name */}
 			<p
-				class="mt-1 max-w-full truncate text-center text-sm text-gray-600"
+				class="mt-0.5 max-w-full truncate text-center text-xs text-gray-600 sm:mt-1 sm:text-sm"
 				title={airportName()}
 			>
 				{airportName()}
@@ -104,7 +108,7 @@ export function DestinationBlock(props: DestinationBlockProps) {
 					}
 					positioning={{ placement: "bottom" }}
 				>
-					<span class="mt-0.5 cursor-help text-xs text-gray-400 underline decoration-dotted">
+					<span class="mt-0.5 cursor-help text-[10px] text-gray-400 underline decoration-dotted sm:text-xs">
 						via {viaStops()}
 					</span>
 				</Tooltip>

@@ -7,6 +7,10 @@
  * - Codeshare partners list (if any)
  *
  * Used in the left section of flight cards
+ * 
+ * Mobile-first responsive design:
+ * - Compact layout on mobile (full width, smaller text)
+ * - Fixed width on tablet+ for consistent alignment
  */
 
 import { Tooltip } from "@/components/common";
@@ -52,38 +56,38 @@ export function FlightNumberBlock(props: FlightNumberBlockProps) {
 		`${airlineName()} - ${props.operatingCarrier.airline}`;
 
 	return (
-		<div class="flex w-44 shrink-0 flex-col">
+		<div class="flex w-full shrink-0 flex-col xs:w-auto sm:w-36 md:w-44">
 			{/* Flight Number and Airline */}
 			<div class="flex flex-col items-start">
-				<div class="flex items-center gap-2">
+				<div class="flex items-center gap-1.5 sm:gap-2">
 					<A
 						href={`/flight/${props.operatingCarrier.no.replace(/\s+/g, "")}`}
-						class={`flex items-center gap-1.5 text-2xl font-bold ${flightNumberStyles[props.theme]}`}
+						class={`flex items-center gap-1 text-lg font-bold sm:gap-1.5 sm:text-xl md:text-2xl ${flightNumberStyles[props.theme]}`}
 					>
-						<Icon class="h-5 w-5 shrink-0" />
+						<Icon class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" />
 						<span class="truncate">
 							{props.operatingCarrier.no}
 						</span>
 					</A>
 					{/* Cargo Badge */}
 					<Show when={props.isCargo}>
-						<span class="inline-flex shrink-0 items-center gap-1 rounded-full bg-orange-100 px-2 py-0.5 text-xs font-bold uppercase text-orange-700">
-							<Package class="h-3 w-3" />
-							Cargo
+						<span class="inline-flex shrink-0 items-center gap-0.5 rounded-full bg-orange-100 px-1.5 py-0.5 text-[10px] font-bold uppercase text-orange-700 sm:gap-1 sm:px-2 sm:text-xs">
+							<Package class="h-2.5 w-2.5 sm:h-3 sm:w-3" />
+							<span class="hidden xs:inline">Cargo</span>
 						</span>
 					</Show>
 				</div>
 				<span
-					class="w-full truncate text-sm text-gray-500"
+					class="w-full truncate text-xs text-gray-500 sm:text-sm"
 					title={airlineTitle()}
 				>
-					{airlineName()} - {props.operatingCarrier.airline}
+					{airlineName()}
 				</span>
 			</div>
 
 			{/* Codeshare Partners */}
 			<Show when={props.codeshareCount > 0}>
-				<div class="mt-2">
+				<div class="mt-1.5 sm:mt-2">
 					<Tooltip
 						content={
 							<div class="space-y-1">
@@ -104,18 +108,18 @@ export function FlightNumberBlock(props: FlightNumberBlockProps) {
 						}
 						positioning={{ placement: "bottom" }}
 					>
-						<div class="flex cursor-help items-center gap-1.5">
-							<Users class="h-3.5 w-3.5 shrink-0 text-gray-400" />
-							<div class="flex flex-wrap gap-x-2 gap-y-0.5">
+						<div class="flex cursor-help items-center gap-1 sm:gap-1.5">
+							<Users class="h-3 w-3 shrink-0 text-gray-400 sm:h-3.5 sm:w-3.5" />
+							<div class="flex flex-wrap gap-x-1.5 gap-y-0.5 sm:gap-x-2">
 								<For each={props.flights.slice(1, 4)}>
 									{(cs) => (
-										<span class="text-xs text-gray-500">
+										<span class="text-[10px] text-gray-500 sm:text-xs">
 											{cs.no}
 										</span>
 									)}
 								</For>
 								<Show when={props.codeshareCount > 3}>
-									<span class="text-xs text-gray-400">
+									<span class="text-[10px] text-gray-400 sm:text-xs">
 										+{props.codeshareCount - 3}
 									</span>
 								</Show>

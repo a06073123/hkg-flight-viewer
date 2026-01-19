@@ -141,7 +141,7 @@ export function FlightSearch(props: FlightSearchProps) {
 	};
 
 	return (
-		<div class={`flex items-center gap-3 ${props.class ?? ""}`}>
+		<div class={`flex items-center gap-2 sm:gap-3 ${props.class ?? ""}`}>
 			<Combobox.Root
 				collection={collection()}
 				inputValue={inputValue()}
@@ -153,8 +153,8 @@ export function FlightSearch(props: FlightSearchProps) {
 				<Combobox.Label class="sr-only">Search Flights</Combobox.Label>
 				<Combobox.Control class="relative flex items-center">
 					{/* Search Icon */}
-					<div class="pointer-events-none absolute left-3 flex items-center">
-						<Search class="h-5 w-5 text-gray-400" />
+					<div class="pointer-events-none absolute left-2 flex items-center sm:left-3">
+						<Search class="h-4 w-4 text-gray-400 sm:h-5 sm:w-5" />
 					</div>
 
 					{/* Input */}
@@ -165,7 +165,7 @@ export function FlightSearch(props: FlightSearchProps) {
 								? "Enter flight number (e.g., CX888)"
 								: "Search by flight number, destination, or airline...")
 						}
-						class={`block w-full rounded-lg border bg-white py-2.5 pl-10 pr-10 text-sm text-gray-900 placeholder-gray-500 transition-colors focus:outline-none focus:ring-2 ${
+						class={`block w-full rounded-lg border bg-white py-2 pl-8 pr-8 text-xs text-gray-900 placeholder-gray-500 transition-colors focus:outline-none focus:ring-2 sm:py-2.5 sm:pl-10 sm:pr-10 sm:text-sm ${
 							!isValid()
 								? "border-red-300 focus:border-red-500 focus:ring-red-500/20"
 								: "border-gray-300 focus:border-[#003580] focus:ring-[#003580]/20"
@@ -175,10 +175,10 @@ export function FlightSearch(props: FlightSearchProps) {
 					{/* Clear Button */}
 					<Show when={inputValue()}>
 						<Combobox.ClearTrigger
-							class="absolute right-3 flex items-center text-gray-400 hover:text-gray-600"
+							class="absolute right-2 flex items-center text-gray-400 hover:text-gray-600 sm:right-3"
 							onClick={handleClear}
 						>
-							<X class="h-4 w-4" />
+							<X class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
 						</Combobox.ClearTrigger>
 					</Show>
 				</Combobox.Control>
@@ -252,9 +252,10 @@ export function FlightSearch(props: FlightSearchProps) {
 					props.mode === "filter" && props.resultCount !== undefined
 				}
 			>
-				<div class="w-20 shrink-0 text-right">
-					<span class="whitespace-nowrap rounded-full bg-[#003580]/10 px-2.5 py-1 text-xs font-medium text-[#003580]">
-						{props.resultCount} found
+				<div class="shrink-0 text-right">
+					<span class="whitespace-nowrap rounded-full bg-[#003580]/10 px-1.5 py-0.5 text-[10px] font-medium text-[#003580] sm:px-2.5 sm:py-1 sm:text-xs">
+						<span class="hidden xs:inline">{props.resultCount} found</span>
+						<span class="xs:hidden">{props.resultCount}</span>
 					</span>
 				</div>
 			</Show>

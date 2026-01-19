@@ -12,6 +12,7 @@ import { DatePicker } from "@/components/common";
 import { FlightCardList } from "@/components/flights";
 import { FlightSearch } from "@/components/search";
 import { filterFlights, sortFlightsByTime } from "@/lib/api";
+import { getYesterdayHKT, parseDateParam } from "@/lib/date-utils";
 import { createDailySnapshotResource } from "@/lib/resources";
 import type { FlightRecord } from "@/types/flight";
 import { Tabs } from "@ark-ui/solid";
@@ -30,34 +31,6 @@ import {
 	Show,
 	Suspense,
 } from "solid-js";
-
-/**
- * Parse date from URL parameter
- * Supports: yyyy-MM-dd or yyyyMMdd
- */
-function parseDateParam(param: string | undefined): string | null {
-	if (!param) return null;
-
-	// Already in yyyy-MM-dd format
-	if (/^\d{4}-\d{2}-\d{2}$/.test(param)) {
-		return param;
-	}
-
-	// yyyyMMdd format - convert to yyyy-MM-dd
-	if (/^\d{8}$/.test(param)) {
-		return `${param.slice(0, 4)}-${param.slice(4, 6)}-${param.slice(6, 8)}`;
-	}
-
-	return null;
-}
-
-// Default to yesterday (likely has complete data)
-function getYesterdayHKT(): string {
-	const now = new Date();
-	const hkt = new Date(now.getTime() + 8 * 60 * 60 * 1000);
-	hkt.setDate(hkt.getDate() - 1);
-	return hkt.toISOString().split("T")[0];
-}
 
 export default function PastPage() {
 	const params = useParams<{ date?: string }>();
@@ -143,18 +116,18 @@ export default function PastPage() {
 	});
 
 	return (
-		<div class="space-y-4">
+		<div class="space-y-3 sm:space-y-4">
 			{/* Header */}
-			<div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-				<div class="flex items-center gap-3">
-					<div class="rounded-lg bg-[#003580] p-2">
-						<History class="h-6 w-6 text-[#FFD700]" />
+			<div class="flex flex-col gap-3 sm:gap-4 sm:flex-row sm:items-center sm:justify-between">
+				<div class="flex items-center gap-2 sm:gap-3">
+					<div class="rounded-lg bg-[#003580] p-1.5 sm:p-2">
+						<History class="h-5 w-5 text-[#FFD700] sm:h-6 sm:w-6" />
 					</div>
 					<div>
-						<h1 class="text-2xl font-bold text-[#1A1A1B]">
+						<h1 class="text-xl font-bold text-[#1A1A1B] sm:text-2xl">
 							Historical Data
 						</h1>
-						<p class="text-sm text-gray-500">
+						<p class="text-xs text-gray-500 sm:text-sm">
 							Browse archived flight records
 						</p>
 					</div>
@@ -170,40 +143,41 @@ export default function PastPage() {
 
 			{/* Quick Stats - HKIA Style */}
 			<Show when={snapshot()}>
-				<div class="grid grid-cols-2 gap-3 sm:grid-cols-5">
-					<div class="rounded-lg border-l-4 border-[#003580] bg-white p-3 shadow-sm">
-						<p class="text-xs font-medium text-gray-500">Total</p>
-						<p class="text-2xl font-bold text-[#003580]">
+				<div class="grid grid-cols-3 gap-2 xs:grid-cols-5 sm:gap-3">
+					<div class="rounded-lg border-l-4 border-[#003580] bg-white p-2 shadow-sm sm:p-3">
+						<p class="text-[10px] font-medium text-gray-500 sm:text-xs">Total</p>
+						<p class="text-lg font-bold text-[#003580] sm:text-2xl">
 							{stats().total}
 						</p>
 					</div>
-					<div class="rounded-lg border-l-4 border-blue-500 bg-white p-3 shadow-sm">
-						<p class="text-xs font-medium text-gray-500">
-							Passenger
+					<div class="rounded-lg border-l-4 border-blue-500 bg-white p-2 shadow-sm sm:p-3">
+						<p class="text-[10px] font-medium text-gray-500 sm:text-xs">
+							<span class="hidden xs:inline">Passenger</span>
+							<span class="xs:hidden">Pax</span>
 						</p>
-						<p class="text-2xl font-bold text-blue-600">
+						<p class="text-lg font-bold text-blue-600 sm:text-2xl">
 							{stats().passenger}
 						</p>
 					</div>
-					<div class="rounded-lg border-l-4 border-orange-500 bg-white p-3 shadow-sm">
-						<p class="text-xs font-medium text-gray-500">Cargo</p>
-						<p class="text-2xl font-bold text-orange-600">
+					<div class="rounded-lg border-l-4 border-orange-500 bg-white p-2 shadow-sm sm:p-3">
+						<p class="text-[10px] font-medium text-gray-500 sm:text-xs">Cargo</p>
+						<p class="text-lg font-bold text-orange-600 sm:text-2xl">
 							{stats().cargo}
 						</p>
 					</div>
-					<div class="rounded-lg border-l-4 border-emerald-500 bg-white p-3 shadow-sm">
-						<p class="text-xs font-medium text-gray-500">
+					<div class="hidden rounded-lg border-l-4 border-emerald-500 bg-white p-2 shadow-sm xs:block sm:p-3">
+						<p class="text-[10px] font-medium text-gray-500 sm:text-xs">
 							Arrivals
 						</p>
-						<p class="text-2xl font-bold text-emerald-600">
+						<p class="text-lg font-bold text-emerald-600 sm:text-2xl">
 							{stats().arrivals}
 						</p>
 					</div>
-					<div class="rounded-lg border-l-4 border-[#003580] bg-white p-3 shadow-sm">
-						<p class="text-xs font-medium text-gray-500">
+					<div class="hidden rounded-lg border-l-4 border-[#003580] bg-white p-2 shadow-sm xs:block sm:p-3">
+						<p class="text-[10px] font-medium text-gray-500 sm:text-xs">
 							Departures
 						</p>
-						<p class="text-2xl font-bold text-[#003580]">
+						<p class="text-lg font-bold text-[#003580] sm:text-2xl">
 							{stats().departures}
 						</p>
 					</div>
@@ -211,8 +185,8 @@ export default function PastPage() {
 			</Show>
 
 			{/* Search Bar */}
-			<div class="flex flex-col gap-3 sm:flex-row sm:items-center">
-				<div class="max-w-md flex-1">
+			<div class="flex flex-col gap-2 sm:gap-3 sm:flex-row sm:items-center">
+				<div class="w-full sm:max-w-md sm:flex-1">
 					<FlightSearch
 						mode="filter"
 						value={searchQuery()}
@@ -232,43 +206,43 @@ export default function PastPage() {
 					)
 				}
 			>
-				<Tabs.List class="flex gap-1 border-b-2 border-[#003580]/20">
+				<Tabs.List class="flex gap-0.5 overflow-x-auto border-b-2 border-[#003580]/20 xs:gap-1">
 					<Tabs.Trigger
 						value="departures"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-[#003580] data-selected:border-[#003580] data-selected:text-[#003580] data-selected:font-bold"
+						class="flex shrink-0 items-center gap-1 border-b-2 border-transparent px-2 py-2 text-xs font-medium text-gray-500 transition-colors hover:text-[#003580] xs:gap-1.5 xs:px-3 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm data-selected:border-[#003580] data-selected:text-[#003580] data-selected:font-bold"
 					>
-						<PlaneTakeoff class="h-4 w-4" />
-						Departures
-						<span class="rounded-full bg-[#003580]/10 px-2 py-0.5 text-xs text-[#003580]">
+						<PlaneTakeoff class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+						<span class="hidden xs:inline">Departures</span>
+						<span class="rounded-full bg-[#003580]/10 px-1.5 py-0.5 text-[10px] text-[#003580] sm:px-2 sm:text-xs">
 							{passengerDepartures().length}
 						</span>
 					</Tabs.Trigger>
 					<Tabs.Trigger
 						value="arrivals"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-emerald-600 data-selected:border-emerald-500 data-selected:text-emerald-600 data-selected:font-bold"
+						class="flex shrink-0 items-center gap-1 border-b-2 border-transparent px-2 py-2 text-xs font-medium text-gray-500 transition-colors hover:text-emerald-600 xs:gap-1.5 xs:px-3 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm data-selected:border-emerald-500 data-selected:text-emerald-600 data-selected:font-bold"
 					>
-						<PlaneLanding class="h-4 w-4" />
-						Arrivals
-						<span class="rounded-full bg-emerald-100 px-2 py-0.5 text-xs text-emerald-600">
+						<PlaneLanding class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+						<span class="hidden xs:inline">Arrivals</span>
+						<span class="rounded-full bg-emerald-100 px-1.5 py-0.5 text-[10px] text-emerald-600 sm:px-2 sm:text-xs">
 							{passengerArrivals().length}
 						</span>
 					</Tabs.Trigger>
 					<Tabs.Trigger
 						value="cargo"
-						class="flex items-center gap-2 border-b-2 border-transparent px-4 py-2.5 text-sm font-medium text-gray-500 transition-colors hover:text-orange-600 data-selected:border-orange-500 data-selected:text-orange-600 data-selected:font-bold"
+						class="flex shrink-0 items-center gap-1 border-b-2 border-transparent px-2 py-2 text-xs font-medium text-gray-500 transition-colors hover:text-orange-600 xs:gap-1.5 xs:px-3 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm data-selected:border-orange-500 data-selected:text-orange-600 data-selected:font-bold"
 					>
-						<Package class="h-4 w-4" />
-						Cargo
-						<span class="rounded-full bg-orange-100 px-2 py-0.5 text-xs text-orange-600">
+						<Package class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+						<span class="hidden xs:inline">Cargo</span>
+						<span class="rounded-full bg-orange-100 px-1.5 py-0.5 text-[10px] text-orange-600 sm:px-2 sm:text-xs">
 							{cargoFlights().length}
 						</span>
 					</Tabs.Trigger>
 				</Tabs.List>
 
-				<div class="mt-4">
+				<div class="mt-3 sm:mt-4">
 					<Suspense
 						fallback={
-							<div class="py-12 text-center text-gray-500">
+							<div class="py-8 text-center text-sm text-gray-500 sm:py-12">
 								Loading historical data...
 							</div>
 						}
@@ -276,12 +250,12 @@ export default function PastPage() {
 						<Show
 							when={snapshot()}
 							fallback={
-								<div class="rounded-lg border-2 border-dashed bg-gray-50 py-12 text-center">
-									<Calendar class="mx-auto h-12 w-12 text-gray-400" />
-									<h2 class="mt-4 text-lg font-medium text-gray-900">
+								<div class="rounded-lg border-2 border-dashed bg-gray-50 py-8 text-center sm:py-12">
+									<Calendar class="mx-auto h-10 w-10 text-gray-400 sm:h-12 sm:w-12" />
+									<h2 class="mt-3 text-base font-medium text-gray-900 sm:mt-4 sm:text-lg">
 										No Data for Selected Date
 									</h2>
-									<p class="mt-2 text-gray-500">
+									<p class="mt-1.5 text-sm text-gray-500 sm:mt-2">
 										Try selecting a different date from the
 										archive.
 									</p>
@@ -316,7 +290,7 @@ export default function PastPage() {
 
 			{/* Archive info */}
 			<Show when={snapshot()}>
-				<p class="text-center text-xs text-gray-400">
+				<p class="text-center text-[10px] text-gray-400 sm:text-xs">
 					Archived at {snapshot()?.archivedAt} • Data from{" "}
 					{selectedDate()}
 				</p>

@@ -11,6 +11,7 @@ import {
 	fetchTodayFlights,
 	loadDailySnapshot,
 	loadFlightIndex,
+	loadFlightNumbersList,
 	loadGateIndex,
 } from "./api";
 
@@ -67,4 +68,22 @@ export function createLiveAllFlightsResource() {
 		{ initialValue: [] as FlightRecord[] },
 	);
 	return [data, { refetch, mutate }] as const;
+}
+
+// ============================================================================
+// FLIGHT LIST RESOURCE (for search autocomplete)
+// ============================================================================
+
+/**
+ * Load all available flight numbers for search autocomplete
+ *
+ * Returns a flat list of flight number entries that can be
+ * transformed into FlightSearchOption[] for the search component.
+ *
+ * This is loaded once on component mount and cached.
+ */
+export function createFlightListResource() {
+	return createResource(loadFlightNumbersList, {
+		initialValue: [],
+	});
 }

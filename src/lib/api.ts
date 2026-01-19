@@ -233,6 +233,64 @@ export async function loadGateIndex(gate: string): Promise<GateIndex | null> {
 }
 
 // ============================================================================
+// FLIGHT LIST INDEX
+// ============================================================================
+
+/**
+ * Flight list entry for search autocomplete
+ */
+export interface FlightListEntry {
+	/** Flight number without spaces (e.g., "CX888") */
+	flightNo: string;
+	/** Airline code (e.g., "CX") */
+	airline: string;
+}
+
+/**
+ * Load flight numbers list from GitHub API
+ * Uses GitHub Contents API to list files in indexes/flights directory
+ *
+ * @returns Array of flight number entries extracted from file names
+ */
+export async function loadFlightNumbersList(): Promise<FlightListEntry[]> {
+	try {
+		// Use GitHub API to list directory contents
+		const response = await fetch(
+			"https://api.github.com/repos/a06073123/hkg-flight-viewer/contents/public/data/indexes/flights",
+			{
+				headers: {
+					Accept: "application/vnd.github.v3+json",
+				},
+			},
+		);
+
+		if (!response.ok) {
+			console.warn("Failed to load flight list from GitHub API");
+			return [];
+		}
+
+		const files: Array<{ name: string; type: string }> = await response.json();
+
+		// Extract flight numbers from file names (e.g., "CX888.json" -> "CX888")
+		const entries: FlightListEntry[] = [];
+		for (const file of files) {
+			if (file.type === "file" && file.name.endsWith(".json")) {
+				const flightNo = file.name.replace(".json", "");
+				// Extract airline code (letters before digits)
+				const match = flightNo.match(/^([A-Z0-9]{2})/);
+				const airline = match ? match[1] : "";
+				entries.push({ flightNo, airline });
+			}
+		}
+
+		return entries;
+	} catch (error) {
+		console.error("Failed to load flight numbers list:", error);
+		return [];
+	}
+}
+
+// ============================================================================
 // UTILITIES
 // ============================================================================
 

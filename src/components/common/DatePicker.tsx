@@ -81,13 +81,13 @@ export function DatePicker(props: DatePickerProps) {
 				</ArkDatePicker.Label>
 			)}
 
-			<ArkDatePicker.Control class="flex items-center gap-2">
+			<ArkDatePicker.Control class="flex items-center gap-1.5 sm:gap-2">
 				<ArkDatePicker.Input
-					class="w-36 rounded-lg border-2 border-[#003580]/30 bg-white px-3 py-2 text-sm text-[#1A1A1B] placeholder:text-gray-400 focus:border-[#003580] focus:outline-none focus:ring-1 focus:ring-[#003580] disabled:cursor-not-allowed disabled:opacity-50"
+					class="w-28 rounded-lg border-2 border-[#003580]/30 bg-white px-2 py-1.5 text-xs text-[#1A1A1B] placeholder:text-gray-400 focus:border-[#003580] focus:outline-none focus:ring-1 focus:ring-[#003580] disabled:cursor-not-allowed disabled:opacity-50 sm:w-36 sm:px-3 sm:py-2 sm:text-sm"
 					placeholder="Select date"
 				/>
-				<ArkDatePicker.Trigger class="rounded-lg border-2 border-[#003580]/30 bg-white p-2 text-[#003580] transition-colors hover:border-[#003580] hover:bg-[#003580]/5 focus:outline-none focus:ring-2 focus:ring-[#003580] disabled:cursor-not-allowed disabled:opacity-50">
-					<Calendar class="h-4 w-4" />
+				<ArkDatePicker.Trigger class="rounded-lg border-2 border-[#003580]/30 bg-white p-1.5 text-[#003580] transition-colors hover:border-[#003580] hover:bg-[#003580]/5 focus:outline-none focus:ring-2 focus:ring-[#003580] disabled:cursor-not-allowed disabled:opacity-50 sm:p-2">
+					<Calendar class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
 				</ArkDatePicker.Trigger>
 			</ArkDatePicker.Control>
 

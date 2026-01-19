@@ -2,6 +2,10 @@
  * BottomBar Components - Terminal, Check-in, Hall, Direction displays
  *
  * Shared components for the bottom metadata bar of flight cards
+ * 
+ * Mobile-first responsive design:
+ * - Compact text on mobile
+ * - Normal sizing on tablet+
  */
 
 import { A } from "@solidjs/router";
@@ -38,9 +42,9 @@ export interface CargoBottomBarProps {
  */
 export function TerminalDisplay(props: TerminalDisplayProps) {
 	return (
-		<div class="flex items-center gap-2">
-			<span class="text-sm text-gray-600">Terminal:</span>
-			<span class="text-sm font-semibold text-[#1A1A1B]">
+		<div class="flex shrink-0 items-center gap-1 sm:gap-2">
+			<span class="text-xs text-gray-600 sm:text-sm">Terminal:</span>
+			<span class="text-xs font-semibold text-[#1A1A1B] sm:text-sm">
 				{props.terminal || "T1"}
 			</span>
 		</div>
@@ -52,14 +56,14 @@ export function TerminalDisplay(props: TerminalDisplayProps) {
  */
 export function CheckInDisplay(props: CheckInDisplayProps) {
 	return (
-		<div class="flex items-center gap-2">
-			<DoorOpen class="h-4 w-4 text-[#003580]" />
-			<span class="text-sm text-gray-600">Check-in:</span>
+		<div class="flex shrink-0 items-center gap-1 sm:gap-2">
+			<DoorOpen class="h-3.5 w-3.5 text-[#003580] sm:h-4 sm:w-4" />
+			<span class="hidden text-xs text-gray-600 xs:inline sm:text-sm">Check-in:</span>
 			<Show
 				when={props.aisle}
-				fallback={<span class="text-sm text-gray-400">—</span>}
+				fallback={<span class="text-xs text-gray-400 sm:text-sm">—</span>}
 			>
-				<span class="rounded bg-[#003580] px-2.5 py-0.5 text-sm font-bold text-white">
+				<span class="rounded bg-[#003580] px-1.5 py-0.5 text-xs font-bold text-white sm:px-2.5 sm:text-sm">
 					Row {props.aisle}
 				</span>
 			</Show>
@@ -72,13 +76,13 @@ export function CheckInDisplay(props: CheckInDisplayProps) {
  */
 export function ArrivalHallDisplay(props: ArrivalHallDisplayProps) {
 	return (
-		<div class="flex items-center gap-2">
-			<span class="text-sm text-gray-600">Arrival Hall:</span>
+		<div class="flex shrink-0 items-center gap-1 sm:gap-2">
+			<span class="hidden text-xs text-gray-600 xs:inline sm:text-sm">Hall:</span>
 			<Show
 				when={props.hall}
-				fallback={<span class="text-sm text-gray-400">—</span>}
+				fallback={<span class="text-xs text-gray-400 sm:text-sm">—</span>}
 			>
-				<span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-emerald-600 text-sm font-bold text-white">
+				<span class="inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-600 text-xs font-bold text-white sm:h-7 sm:w-7 sm:text-sm">
 					{props.hall}
 				</span>
 			</Show>
@@ -91,9 +95,9 @@ export function ArrivalHallDisplay(props: ArrivalHallDisplayProps) {
  */
 export function BaggageClaimIndicator() {
 	return (
-		<div class="ml-auto flex items-center gap-1 text-amber-600">
-			<Luggage class="h-4 w-4" />
-			<span class="text-xs font-medium">Baggage Claim</span>
+		<div class="ml-auto flex shrink-0 items-center gap-1 text-amber-600">
+			<Luggage class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+			<span class="hidden text-xs font-medium xs:inline">Baggage</span>
 		</div>
 	);
 }
@@ -136,15 +140,15 @@ export function CargoBottomBar(props: CargoBottomBarProps) {
 
 			{/* Gate (for departures) */}
 			<Show when={!props.isArrival}>
-				<div class="flex items-center gap-2">
-					<span class="text-sm text-gray-600">Gate:</span>
+				<div class="flex shrink-0 items-center gap-1 sm:gap-2">
+					<span class="hidden text-xs text-gray-600 xs:inline sm:text-sm">Gate:</span>
 					<Show
 						when={props.gate}
-						fallback={<span class="text-sm text-gray-400">—</span>}
+						fallback={<span class="text-xs text-gray-400 sm:text-sm">—</span>}
 					>
 						<A
 							href={`/gate/${props.gate}`}
-							class="inline-block rounded bg-[#003580] px-2.5 py-0.5 text-sm font-bold text-[#FFD700] hover:opacity-90"
+							class="inline-block rounded bg-[#003580] px-1.5 py-0.5 text-xs font-bold text-[#FFD700] hover:opacity-90 sm:px-2.5 sm:text-sm"
 						>
 							{props.gate}
 						</A>
@@ -154,13 +158,13 @@ export function CargoBottomBar(props: CargoBottomBarProps) {
 
 			{/* Belt (for arrivals) */}
 			<Show when={props.isArrival}>
-				<div class="flex items-center gap-2">
-					<span class="text-sm text-gray-600">Belt:</span>
+				<div class="flex shrink-0 items-center gap-1 sm:gap-2">
+					<span class="hidden text-xs text-gray-600 xs:inline sm:text-sm">Belt:</span>
 					<Show
 						when={props.belt}
-						fallback={<span class="text-sm text-gray-400">—</span>}
+						fallback={<span class="text-xs text-gray-400 sm:text-sm">—</span>}
 					>
-						<span class="rounded bg-amber-500 px-2.5 py-0.5 text-sm font-bold text-white">
+						<span class="rounded bg-amber-500 px-1.5 py-0.5 text-xs font-bold text-white sm:px-2.5 sm:text-sm">
 							{props.belt}
 						</span>
 					</Show>
@@ -170,7 +174,7 @@ export function CargoBottomBar(props: CargoBottomBarProps) {
 			{/* Direction Badge */}
 			<div class="ml-auto">
 				<span
-					class={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ${
+					class={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold sm:gap-1.5 sm:px-3 sm:py-1 sm:text-xs ${
 						props.isArrival
 							? "bg-emerald-100 text-emerald-700"
 							: "bg-blue-100 text-blue-700"
@@ -178,17 +182,17 @@ export function CargoBottomBar(props: CargoBottomBarProps) {
 				>
 					<Show
 						when={props.isArrival}
-						fallback={<PlaneTakeoff class="h-3.5 w-3.5" />}
+						fallback={<PlaneTakeoff class="h-3 w-3 sm:h-3.5 sm:w-3.5" />}
 					>
-						<PlaneLanding class="h-3.5 w-3.5" />
+						<PlaneLanding class="h-3 w-3 sm:h-3.5 sm:w-3.5" />
 					</Show>
-					{props.isArrival ? "Arrival" : "Departure"}
+					<span class="hidden xs:inline">{props.isArrival ? "Arrival" : "Departure"}</span>
 				</span>
 			</div>
 
 			{/* Cargo Icon */}
-			<div class="flex items-center gap-1 text-orange-600">
-				<Warehouse class="h-4 w-4" />
+			<div class="flex shrink-0 items-center gap-1 text-orange-600">
+				<Warehouse class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
 			</div>
 		</>
 	);
