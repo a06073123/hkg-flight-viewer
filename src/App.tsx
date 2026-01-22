@@ -5,19 +5,18 @@ import { Layout } from "./components/layout";
 import { initAirlineData } from "./lib/airline-data";
 import { initAirportData } from "./lib/airport-data";
 import {
-	FlightHistoryPage,
-	GateAnalyticsPage,
-	LandingPage,
-	LivePage,
-	MapPage,
-	PastPage,
+    FlightHistoryPage,
+    GateAnalyticsPage,
+    LandingPage,
+    LivePage,
+    MapPage,
+    PastPage,
 } from "./pages";
 
 function App() {
-	// Pre-load airport and airline data for sync functions
+	// Pre-load airport and airline data in parallel for sync functions
 	onMount(() => {
-		initAirportData();
-		initAirlineData();
+		Promise.all([initAirportData(), initAirlineData()]);
 	});
 
 	return (

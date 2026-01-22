@@ -16,9 +16,10 @@ import { ArrivalCard } from "@/components/flights/ArrivalCard";
 import { CargoFlightCard } from "@/components/flights/CargoFlightCard";
 import { DepartureCard } from "@/components/flights/DepartureCard";
 import { FlightCardSkeleton } from "@/components/flights/shared";
+import { useIsXL } from "@/lib/use-breakpoint";
 import type { FlightRecord } from "@/types/flight";
 import { createVirtualizer } from "@tanstack/solid-virtual";
-import { createEffect, createMemo, createSignal, For, Match, on, onCleanup, onMount, Show, Switch } from "solid-js";
+import { createEffect, createMemo, For, Match, on, Show, Switch } from "solid-js";
 
 export type VirtualFlightCardListType = "departures" | "arrivals" | "cargo";
 
@@ -36,8 +37,6 @@ export interface VirtualFlightCardListProps {
 const ESTIMATED_ITEM_HEIGHT = 190;
 /** Extra items to render above/below viewport for smoother scrolling */
 const OVERSCAN_COUNT = 5;
-/** Breakpoint for 2-column layout (xl) */
-const TWO_COLUMN_BREAKPOINT = 1280;
 
 /**
  * Empty state component
@@ -93,22 +92,9 @@ export function VirtualFlightCardList(props: VirtualFlightCardListProps) {
 	// Container height for scroll area
 	const containerHeight = () => props.height ?? "calc(100vh - 300px)";
 
-	// Track if we should use 2-column layout
-	const [isTwoColumn, setIsTwoColumn] = createSignal(false);
-
-	// Check viewport width and update column count
-	onMount(() => {
-		const enableTwoCol = props.enableTwoColumn !== false;
-		if (!enableTwoCol) return;
-
-		const checkWidth = () => {
-			setIsTwoColumn(window.innerWidth >= TWO_COLUMN_BREAKPOINT);
-		};
-		checkWidth();
-
-		window.addEventListener("resize", checkWidth);
-		onCleanup(() => window.removeEventListener("resize", checkWidth));
-	});
+	// Use shared breakpoint hook for 2-column layout (deduplicates resize listeners)
+	const isXL = useIsXL();
+	const isTwoColumn = () => props.enableTwoColumn !== false && isXL();
 
 	// Calculate column count for virtualizer
 	const columnCount = () => (isTwoColumn() ? 2 : 1);
