@@ -19,16 +19,9 @@ import type { FlightRecord } from "@/types/flight";
  * Cloudflare Worker proxy URL
  * Required for CORS bypass + 403 prevention
  * Worker returns today's flights (HK time) with all categories combined.
+ * Also provides D1 database access for historical data.
  */
 const API_BASE_URL = "https://hkg-flight-proxy.lincoln995623.workers.dev/api";
-
-/**
- * GitHub raw URL for static data files
- * Data is stored in the repo and fetched directly from GitHub raw
- * This avoids bloating the build output with large JSON files
- */
-const STATIC_DATA_BASE =
-	"https://raw.githubusercontent.com/a06073123/hkg-flight-viewer/main/public/data";
 
 export const POLLING_INTERVAL = 1 * 60 * 1000; // 1 minute (matches Worker cache TTL)
 
@@ -128,6 +121,76 @@ export async function fetchAirlines(): Promise<AirlinesResponse | null> {
 }
 
 // ============================================================================
+// D1 API (Historical Data via Worker)
+// ============================================================================
+
+/**
+ * D1 API flight record format
+ */
+interface D1FlightRecord {
+	date: string;
+	time: string;
+	flightNo: string;
+	airline: string;
+	originDest: string;
+	status: string;
+	gateBaggage: string;
+	terminal: string;
+	isArrival: boolean;
+	isCargo: boolean;
+	codeshares: string[] | null;
+}
+
+/**
+ * D1 flight history response
+ */
+interface D1FlightHistoryResponse {
+	flightNo: string;
+	count: number;
+	flights: D1FlightRecord[];
+}
+
+/**
+ * D1 gate history response
+ */
+interface D1GateHistoryResponse {
+	gate: string;
+	count: number;
+	departures: D1FlightRecord[];
+}
+
+/**
+ * Convert D1 API record to ArchivedFlightItem format for parsing
+ */
+function convertD1FlightToArchived(d1: D1FlightRecord): ArchivedFlightItem {
+	// Build flight array with primary flight and codeshares
+	const flights: Array<{ no: string; airline: string }> = [
+		{ no: d1.flightNo, airline: d1.airline },
+	];
+
+	if (d1.codeshares) {
+		for (const cs of d1.codeshares) {
+			// Extract airline code from codeshare (e.g., "GF 4062" -> "GF")
+			const airlineCode = cs.split(" ")[0] || "";
+			flights.push({ no: cs, airline: airlineCode });
+		}
+	}
+
+	return {
+		date: d1.date,
+		time: d1.time,
+		flight: flights,
+		origin_dest: d1.originDest ? d1.originDest.split(",").map(s => s.trim()) : [],
+		status: d1.status,
+		gate_baggage: d1.gateBaggage,
+		terminal: d1.terminal,
+		isArrival: d1.isArrival,
+		isCargo: d1.isCargo,
+		_raw: { aisle: "", hall: "" },
+	};
+}
+
+// ============================================================================
 // STATIC JSON (Historical Data)
 // ============================================================================
 
@@ -151,7 +214,7 @@ interface RawDailySnapshot {
 }
 
 /**
- * Flight history index (loaded from static JSON)
+ * Flight history index (loaded from D1 API)
  */
 export interface FlightIndex {
 	flightNo: string;
@@ -160,7 +223,7 @@ export interface FlightIndex {
 }
 
 /**
- * Gate usage index (loaded from static JSON)
+ * Gate usage index (loaded from D1 API)
  */
 export interface GateIndex {
 	gate: string;
@@ -169,13 +232,13 @@ export interface GateIndex {
 }
 
 /**
- * Load daily snapshot from static JSON and parse into FlightRecord format
+ * Load daily snapshot from D1 API and parse into FlightRecord format
  */
 export async function loadDailySnapshot(
 	date: string,
 ): Promise<LoadedDailySnapshot | null> {
 	try {
-		const response = await fetch(`${STATIC_DATA_BASE}/daily/${date}.json`);
+		const response = await fetch(`${API_BASE_URL}/history/date/${date}`);
 		if (!response.ok) return null;
 		const raw: RawDailySnapshot = await response.json();
 		return {
@@ -189,45 +252,50 @@ export async function loadDailySnapshot(
 }
 
 /**
- * Load flight history index
+ * Load flight history index from D1 API
  */
 export async function loadFlightIndex(
 	flightNo: string,
 ): Promise<FlightIndex | null> {
 	try {
-		// Normalize flight number: "CX 888" -> "CX888"
-		const normalized = flightNo.replace(/\s+/g, "");
+		// D1 API stores flight numbers with spaces (e.g., "CX 888")
+		// We need to preserve the format for URL encoding
+		const encoded = encodeURIComponent(flightNo);
 		const response = await fetch(
-			`${STATIC_DATA_BASE}/indexes/flights/${normalized}.json`,
+			`${API_BASE_URL}/history/flight/${encoded}?limit=100`,
 		);
 		if (!response.ok) return null;
-		const rawFlights: ArchivedFlightItem[] = await response.json();
+
+		const data: D1FlightHistoryResponse = await response.json();
 		return {
-			flightNo: normalized,
+			flightNo: data.flightNo,
 			updatedAt: new Date().toISOString(),
-			occurrences: parseArchivedFlights(rawFlights),
+			occurrences: data.flights.map(convertD1FlightToArchived).flatMap(f => parseArchivedFlights([f])),
 		};
-	} catch {
+	} catch (error) {
+		console.error("Failed to load flight history from D1:", error);
 		return null;
 	}
 }
 
 /**
- * Load gate usage index
+ * Load gate usage index from D1 API
  */
 export async function loadGateIndex(gate: string): Promise<GateIndex | null> {
 	try {
 		const response = await fetch(
-			`${STATIC_DATA_BASE}/indexes/gates/${gate}.json`,
+			`${API_BASE_URL}/history/gate/${encodeURIComponent(gate)}?limit=100`,
 		);
 		if (!response.ok) return null;
-		const rawFlights: ArchivedFlightItem[] = await response.json();
+
+		const data: D1GateHistoryResponse = await response.json();
 		return {
-			gate,
+			gate: data.gate,
 			updatedAt: new Date().toISOString(),
-			departures: parseArchivedFlights(rawFlights),
+			departures: data.departures.map(convertD1FlightToArchived).flatMap(f => parseArchivedFlights([f])),
 		};
-	} catch {
+	} catch (error) {
+		console.error("Failed to load gate history from D1:", error);
 		return null;
 	}
 }
@@ -240,50 +308,44 @@ export async function loadGateIndex(gate: string): Promise<GateIndex | null> {
  * Flight list entry for search autocomplete
  */
 export interface FlightListEntry {
-	/** Flight number without spaces (e.g., "CX888") */
+	/** Flight number with spaces (e.g., "CX 888") - matches D1 format */
 	flightNo: string;
 	/** Airline code (e.g., "CX") */
 	airline: string;
 }
 
 /**
- * Load flight numbers list from GitHub API
- * Uses GitHub Contents API to list files in indexes/flights directory
+ * Raw D1 flight list response
+ */
+interface D1FlightListResponse {
+	count: number;
+	generatedAt: string;
+	flights: Array<{
+		no: string;
+		airline: string;
+	}>;
+}
+
+/**
+ * Load flight numbers list from D1 API
+ * Uses the Worker's /api/flight-list endpoint for search autocomplete
  *
- * @returns Array of flight number entries extracted from file names
+ * @returns Array of flight number entries
  */
 export async function loadFlightNumbersList(): Promise<FlightListEntry[]> {
 	try {
-		// Use GitHub API to list directory contents
-		const response = await fetch(
-			"https://api.github.com/repos/a06073123/hkg-flight-viewer/contents/public/data/indexes/flights",
-			{
-				headers: {
-					Accept: "application/vnd.github.v3+json",
-				},
-			},
-		);
+		const response = await fetch(`${API_BASE_URL}/flight-list`);
 
 		if (!response.ok) {
-			console.warn("Failed to load flight list from GitHub API");
+			console.warn("Failed to load flight list from D1 API");
 			return [];
 		}
 
-		const files: Array<{ name: string; type: string }> = await response.json();
-
-		// Extract flight numbers from file names (e.g., "CX888.json" -> "CX888")
-		const entries: FlightListEntry[] = [];
-		for (const file of files) {
-			if (file.type === "file" && file.name.endsWith(".json")) {
-				const flightNo = file.name.replace(".json", "");
-				// Extract airline code (letters before digits)
-				const match = flightNo.match(/^([A-Z0-9]{2})/);
-				const airline = match ? match[1] : "";
-				entries.push({ flightNo, airline });
-			}
-		}
-
-		return entries;
+		const data: D1FlightListResponse = await response.json();
+		return (data.flights || []).map((f) => ({
+			flightNo: f.no,
+			airline: f.airline,
+		}));
 	} catch (error) {
 		console.error("Failed to load flight numbers list:", error);
 		return [];
