@@ -1,22 +1,23 @@
 /**
- * Airport Map Component (Bridge Gates Only)
+ * Airport Map Component (Bridge/Frontal Gates Only)
  *
- * Renders HKIA Terminal 1 layout with only bridge-boarding gates.
+ * Renders HKIA Terminal 1 layout with only bridge-boarding (Frontal) gates.
  * Remote stands (bus boarding) are excluded - will be handled separately.
  *
- * Bridge Gates: 57 total
- * - N Series: 20 gates (N5-N70 frontal)
- * - S Series: 16 gates (S1-S47 frontal)
- * - W Series: 12 gates (W40-W71 frontal)
- * - R Series: 9 gates (R13-R21 satellite)
+ * Bridge Gates: 76 total
+ * - D Series: 19 gates (D201-D219 Midfield Frontal, via APM then bridge)
+ * - N Series: 20 gates (N5-N70 North Apron Frontal)
+ * - S Series: 16 gates (S1-S47 South Apron Frontal)
+ * - W Series: 12 gates (W40-W71 West Apron Frontal)
+ * - R Series: 9 gates (R13-R21 Satellite Frontal, via Sky Bridge)
  *
- * Excluded Remote Stands:
+ * Excluded Remote Stands (Bus Boarding):
  * - N141-N145 (5 gates)
  * - S101-S111 (11 gates)
  * - W121-W126 (6 gates)
- * - D201-D319 (38 gates) - Midfield uses APM, not direct bridge
+ * - D301-D319 (19 gates) - Overnight parking only
  *
- * ViewBox: 836 283 830 652 (optimized for bridge gates only)
+ * ViewBox: 32 283 1633 652 (full terminal coverage)
  */
 
 import type { FlightRecord } from "@/types/flight";
@@ -35,17 +36,17 @@ export interface AirportMapProps {
 // CONFIGURATION (based on bridge_gates_map.svg viewBox)
 // ============================================================================
 
-// SVG viewBox: "836 283 830 652" - optimized for bridge gates only
-const VIEWBOX_X = 836;
+// SVG viewBox: "32 283 1633 652" - full terminal coverage
+const VIEWBOX_X = 32;
 const VIEWBOX_Y = 283;
-const MAP_WIDTH = 830;
+const MAP_WIDTH = 1633;
 const MAP_HEIGHT = 652;
 
 // Aspect ratio for CSS (width / height)
-const ASPECT_RATIO = MAP_WIDTH / MAP_HEIGHT; // ~1.273
+const ASPECT_RATIO = MAP_WIDTH / MAP_HEIGHT; // ~2.504
 
 // Gate size as percentage of container width
-const GATE_WIDTH_PERCENT = 5; // 5% of container width (larger due to smaller map)
+const GATE_WIDTH_PERCENT = 3; // 3% of container width
 const GATE_HEIGHT_PERCENT = GATE_WIDTH_PERCENT * ASPECT_RATIO;
 
 // ============================================================================
@@ -53,7 +54,7 @@ const GATE_HEIGHT_PERCENT = GATE_WIDTH_PERCENT * ASPECT_RATIO;
 // Frontal stands only - passengers can walk directly via bridge
 // ============================================================================
 
-type GateArea = "north" | "south" | "west" | "satellite";
+type GateArea = "midfield" | "north" | "south" | "west" | "satellite";
 
 interface GateDefinition {
 	id: string;
@@ -61,6 +62,30 @@ interface GateDefinition {
 	y: number;
 	area: GateArea;
 }
+
+// D Series - Midfield Concourse Frontal (19 gates)
+// Connected via APM, then passengers use jet bridge
+const D_GATES: GateDefinition[] = [
+	{ id: "D201", x: 507, y: 348, area: "midfield" },
+	{ id: "D202", x: 383, y: 352, area: "midfield" },
+	{ id: "D203", x: 508, y: 400, area: "midfield" },
+	{ id: "D204", x: 382, y: 401, area: "midfield" },
+	{ id: "D205", x: 508, y: 449, area: "midfield" },
+	{ id: "D206", x: 383, y: 450, area: "midfield" },
+	{ id: "D207", x: 507, y: 499, area: "midfield" },
+	{ id: "D208", x: 382, y: 501, area: "midfield" },
+	{ id: "D209", x: 508, y: 550, area: "midfield" },
+	{ id: "D210", x: 382, y: 551, area: "midfield" },
+	{ id: "D211", x: 506, y: 612, area: "midfield" },
+	{ id: "D212", x: 382, y: 681, area: "midfield" },
+	{ id: "D213", x: 508, y: 664, area: "midfield" },
+	{ id: "D214", x: 383, y: 738, area: "midfield" },
+	{ id: "D215", x: 508, y: 713, area: "midfield" },
+	{ id: "D216", x: 382, y: 792, area: "midfield" },
+	{ id: "D217", x: 507, y: 764, area: "midfield" },
+	{ id: "D218", x: 383, y: 846, area: "midfield" },
+	{ id: "D219", x: 509, y: 814, area: "midfield" },
+];
 
 // N Series - North Apron Frontal (20 gates)
 const N_GATES: GateDefinition[] = [
@@ -122,7 +147,8 @@ const W_GATES: GateDefinition[] = [
 	{ id: "W71", x: 892, y: 406, area: "west" },
 ];
 
-// R Series - Satellite Concourse (9 gates)
+// R Series - Satellite Concourse Frontal (9 gates)
+// Connected via Sky Bridge, then passengers use jet bridge
 const R_GATES: GateDefinition[] = [
 	{ id: "R13", x: 1514, y: 339, area: "satellite" },
 	{ id: "R14", x: 1513, y: 368, area: "satellite" },
@@ -135,8 +161,9 @@ const R_GATES: GateDefinition[] = [
 	{ id: "R21", x: 1423, y: 341, area: "satellite" },
 ];
 
-// All bridge gates combined (57 gates total)
+// All bridge gates combined (76 gates total)
 const BRIDGE_GATES: GateDefinition[] = [
+	...D_GATES,
 	...N_GATES,
 	...S_GATES,
 	...W_GATES,
@@ -165,6 +192,8 @@ function getPercentPosition(
  */
 function mapGateAreaToApronArea(area: GateArea): ApronArea {
 	switch (area) {
+		case "midfield":
+			return "midfield";
 		case "north":
 			return "north";
 		case "south":
@@ -209,7 +238,7 @@ function getDestination(flight: FlightRecord | undefined): string | undefined {
 }
 
 function extractGateNumber(gateId: string): string {
-	return gateId.replace(/^[NSWR]/, "");
+	return gateId.replace(/^[DNSWR]/, "");
 }
 
 // ============================================================================
@@ -258,12 +287,15 @@ export function AirportMap(props: AirportMapProps) {
 			</div>
 
 			{/* Area Legend */}
-			<div class="mb-4 flex flex-wrap items-center gap-4 text-xs text-slate-500">
+			<div class="mb-4 flex flex-wrap items-center gap-3 text-xs text-slate-500">
+				<span class="rounded bg-red-500 px-2 py-0.5 text-white">
+					D: 中場 (APM)
+				</span>
 				<span class="rounded bg-blue-500 px-2 py-0.5 text-white">N: 北</span>
 				<span class="rounded bg-emerald-500 px-2 py-0.5 text-white">S: 南</span>
 				<span class="rounded bg-purple-500 px-2 py-0.5 text-white">W: 西</span>
 				<span class="rounded bg-amber-500 px-2 py-0.5 text-white">
-					R: 衛星廳
+					R: 衛星廳 (天橋)
 				</span>
 			</div>
 
@@ -298,7 +330,8 @@ export function AirportMap(props: AirportMapProps) {
 
 			{/* Stats */}
 			<div class="mt-3 text-center text-xs text-slate-500">
-				登機橋閘口: 57 (N: 20, S: 16, W: 12, R: 9) | 遠端閘口 (巴士登機) 將另行顯示
+				登機橋閘口: 76 (D: 19, N: 20, S: 16, W: 12, R: 9) | 遠端閘口 (巴士登機)
+				將另行顯示
 			</div>
 		</div>
 	);
