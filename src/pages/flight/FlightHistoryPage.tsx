@@ -16,12 +16,12 @@ import type { FlightRecord } from "@/types/flight";
 import { StatusType } from "@/types/flight";
 import { A, useParams } from "@solidjs/router";
 import {
-	AlertTriangle,
 	ArrowLeft,
 	Calendar,
 	Clock,
 	Plane,
 	TrendingUp,
+	TriangleAlert,
 	Users,
 } from "lucide-solid";
 import { createMemo, For, Show } from "solid-js";
@@ -147,7 +147,7 @@ export default function FlightHistoryPage() {
 			{/* Not Found State */}
 			<Show when={!history.loading && !history()}>
 				<div class="rounded-lg border-2 border-dashed bg-gray-50 py-12 text-center">
-					<AlertTriangle class="mx-auto h-12 w-12 text-gray-400" />
+					<TriangleAlert class="mx-auto h-12 w-12 text-gray-400" />
 					<h2 class="mt-4 text-lg font-medium text-gray-900">
 						No History Found
 					</h2>
@@ -180,7 +180,7 @@ export default function FlightHistoryPage() {
 							color="yellow"
 						/>
 						<StatCard
-							icon={AlertTriangle}
+							icon={TriangleAlert}
 							label="Cancelled"
 							value={s().cancelled.toString()}
 							color="red"

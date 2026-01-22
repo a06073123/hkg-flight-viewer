@@ -7,7 +7,7 @@
  * Performance optimized: Single API call shared across all tabs
  */
 
-import { FlightCardList } from "@/components/flights";
+import { VirtualFlightCardList } from "@/components/flights";
 import { FlightSearch } from "@/components/search";
 import { filterFlights, sortFlightsByTime } from "@/lib/api";
 import { createLiveAllFlightsResource } from "@/lib/resources";
@@ -274,21 +274,21 @@ export default function LivePage() {
 						}
 					>
 						<Tabs.Content value="departures">
-							<FlightCardList
+							<VirtualFlightCardList
 								flights={filteredDepartures()}
 								type="departures"
 								isLoading={allFlights.loading}
 							/>
 						</Tabs.Content>
 						<Tabs.Content value="arrivals">
-							<FlightCardList
+							<VirtualFlightCardList
 								flights={filteredArrivals()}
 								type="arrivals"
 								isLoading={allFlights.loading}
 							/>
 						</Tabs.Content>
 						<Tabs.Content value="cargo">
-							<FlightCardList
+							<VirtualFlightCardList
 								flights={filteredCargo()}
 								type="cargo"
 								isLoading={allFlights.loading}

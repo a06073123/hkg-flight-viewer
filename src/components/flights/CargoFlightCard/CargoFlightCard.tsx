@@ -47,7 +47,6 @@ export function CargoFlightCard(props: CargoFlightCardProps) {
 				codeshareCount={flight.codeshareCount}
 				theme="cargo"
 				isArrival={isArrival()}
-				isCargo={true}
 			/>
 
 			{/* Center: Origin/Destination */}

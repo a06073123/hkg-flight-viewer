@@ -1,0 +1,315 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="32 283 1633 652" width="1633" height="652">
+    <style>.d{fill:#e74c3c}.n{fill:#3498db}.s{fill:#2ecc71}.w{fill:#9b59b6}.r{fill:#f39c12}.l{font:bold
+        10px Arial;fill:#fff;text-anchor:middle;dominant-baseline:central}</style>
+    <g id="gates">
+        <!-- D Series - Midfield Frontal (19 gates) -->
+        <g transform="translate(507,348)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D201</text>
+        </g>
+        <g transform="translate(383,352)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D202</text>
+        </g>
+        <g transform="translate(508,400)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D203</text>
+        </g>
+        <g transform="translate(382,401)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D204</text>
+        </g>
+        <g transform="translate(508,449)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D205</text>
+        </g>
+        <g transform="translate(383,450)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D206</text>
+        </g>
+        <g transform="translate(507,499)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D207</text>
+        </g>
+        <g transform="translate(382,501)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D208</text>
+        </g>
+        <g transform="translate(508,550)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D209</text>
+        </g>
+        <g transform="translate(382,551)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D210</text>
+        </g>
+        <g transform="translate(506,612)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D211</text>
+        </g>
+        <g transform="translate(382,681)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D212</text>
+        </g>
+        <g transform="translate(508,664)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D213</text>
+        </g>
+        <g transform="translate(383,738)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D214</text>
+        </g>
+        <g transform="translate(508,713)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D215</text>
+        </g>
+        <g transform="translate(382,792)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D216</text>
+        </g>
+        <g transform="translate(507,764)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D217</text>
+        </g>
+        <g transform="translate(383,846)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D218</text>
+        </g>
+        <g transform="translate(509,814)">
+            <rect x="-12" y="-12" width="24" height="24" class="d" rx="4" />
+            <text class="l">D219</text>
+        </g>
+        <!-- N Series - North Apron Frontal (20 gates) -->
+        <g transform="translate(1608,512)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N5</text>
+        </g>
+        <g transform="translate(1641,458)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N6</text>
+        </g>
+        <g transform="translate(1641,409)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N7</text>
+        </g>
+        <g transform="translate(1640,358)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N8</text>
+        </g>
+        <g transform="translate(1641,307)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N9</text>
+        </g>
+        <g transform="translate(1573,534)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N10</text>
+        </g>
+        <g transform="translate(1537,555)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N12</text>
+        </g>
+        <g transform="translate(1489,555)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N24</text>
+        </g>
+        <g transform="translate(1441,556)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N26</text>
+        </g>
+        <g transform="translate(1389,556)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N28</text>
+        </g>
+        <g transform="translate(1335,556)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N30</text>
+        </g>
+        <g transform="translate(1284,556)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N32</text>
+        </g>
+        <g transform="translate(1233,555)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N34</text>
+        </g>
+        <g transform="translate(1179,518)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N36</text>
+        </g>
+        <g transform="translate(1134,477)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N60</text>
+        </g>
+        <g transform="translate(1092,432)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N62</text>
+        </g>
+        <g transform="translate(1048,392)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N64</text>
+        </g>
+        <g transform="translate(1004,350)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N66</text>
+        </g>
+        <g transform="translate(927,334)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N68</text>
+        </g>
+        <g transform="translate(865,336)">
+            <rect x="-12" y="-12" width="24" height="24" class="n" rx="4" />
+            <text class="l">N70</text>
+        </g>
+        <!-- S Series - South Apron Frontal (16 gates) -->
+        <g transform="translate(1641,760)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S1</text>
+        </g>
+        <g transform="translate(1641,811)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S2</text>
+        </g>
+        <g transform="translate(1640,860)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S3</text>
+        </g>
+        <g transform="translate(1641,911)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S4</text>
+        </g>
+        <g transform="translate(1605,708)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S11</text>
+        </g>
+        <g transform="translate(1554,663)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S23</text>
+        </g>
+        <g transform="translate(1499,662)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S25</text>
+        </g>
+        <g transform="translate(1448,663)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S27</text>
+        </g>
+        <g transform="translate(1380,662)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S29</text>
+        </g>
+        <g transform="translate(1330,665)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S31</text>
+        </g>
+        <g transform="translate(1279,663)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S33</text>
+        </g>
+        <g transform="translate(1230,664)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S35</text>
+        </g>
+        <g transform="translate(1162,712)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S41</text>
+        </g>
+        <g transform="translate(1127,751)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S43</text>
+        </g>
+        <g transform="translate(1089,787)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S45</text>
+        </g>
+        <g transform="translate(1052,828)">
+            <rect x="-12" y="-12" width="24" height="24" class="s" rx="4" />
+            <text class="l">S47</text>
+        </g>
+        <!-- W Series - West Apron Frontal (12 gates) -->
+        <g transform="translate(1063,650)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W40</text>
+        </g>
+        <g transform="translate(1023,688)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W42</text>
+        </g>
+        <g transform="translate(986,723)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W44</text>
+        </g>
+        <g transform="translate(949,761)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W46</text>
+        </g>
+        <g transform="translate(911,799)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W48</text>
+        </g>
+        <g transform="translate(877,835)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W50</text>
+        </g>
+        <g transform="translate(1070,582)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W61</text>
+        </g>
+        <g transform="translate(1035,546)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W63</text>
+        </g>
+        <g transform="translate(1000,510)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W65</text>
+        </g>
+        <g transform="translate(962,476)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W67</text>
+        </g>
+        <g transform="translate(929,440)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W69</text>
+        </g>
+        <g transform="translate(892,406)">
+            <rect x="-12" y="-12" width="24" height="24" class="w" rx="4" />
+            <text class="l">W71</text>
+        </g>
+        <!-- R Series - Satellite (9 gates) -->
+        <g transform="translate(1514,339)">
+            <rect x="-12" y="-12" width="24" height="24" class="r" rx="4" />
+            <text class="l">R13</text>
+        </g>
+        <g transform="translate(1513,368)">
+            <rect x="-12" y="-12" width="24" height="24" class="r" rx="4" />
+            <text class="l">R14</text>
+        </g>
+        <g transform="translate(1513,396)">
+            <rect x="-12" y="-12" width="24" height="24" class="r" rx="4" />
+            <text class="l">R15</text>
+        </g>
+        <g transform="translate(1484,429)">
+            <rect x="-12" y="-12" width="24" height="24" class="r" rx="4" />
+            <text class="l">R16</text>
+        </g>
+        <g transform="translate(1454,429)">
+            <rect x="-12" y="-12" width="24" height="24" class="r" rx="4" />
+            <text class="l">R17</text>
+        </g>
+        <g transform="translate(1424,429)">
+            <rect x="-12" y="-12" width="24" height="24" class="r" rx="4" />
+            <text class="l">R18</text>
+        </g>
+        <g transform="translate(1424,400)">
+            <rect x="-12" y="-12" width="24" height="24" class="r" rx="4" />
+            <text class="l">R19</text>
+        </g>
+        <g transform="translate(1424,371)">
+            <rect x="-12" y="-12" width="24" height="24" class="r" rx="4" />
+            <text class="l">R20</text>
+        </g>
+        <g transform="translate(1423,341)">
+            <rect x="-12" y="-12" width="24" height="24" class="r" rx="4" />
+            <text class="l">R21</text>
+        </g>
+    </g>
+</svg>

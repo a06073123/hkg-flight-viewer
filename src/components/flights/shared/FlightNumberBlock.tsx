@@ -17,7 +17,7 @@ import { Tooltip } from "@/components/common";
 import { getAirlineDataVersion, getAirlineNameSync } from "@/lib/airline-data";
 import type { FlightIdentifier } from "@/types/flight";
 import { A } from "@solidjs/router";
-import { Package, PlaneLanding, PlaneTakeoff, Users } from "lucide-solid";
+import { PlaneLanding, PlaneTakeoff, Users } from "lucide-solid";
 import { For, Show } from "solid-js";
 import type { FlightCardTheme } from "./FlightCardLayout";
 
@@ -32,8 +32,6 @@ export interface FlightNumberBlockProps {
 	theme: FlightCardTheme;
 	/** Whether this is an arrival flight */
 	isArrival?: boolean;
-	/** Whether this is a cargo flight */
-	isCargo?: boolean;
 }
 
 const flightNumberStyles: Record<FlightCardTheme, string> = {
@@ -69,13 +67,6 @@ export function FlightNumberBlock(props: FlightNumberBlockProps) {
 							{props.operatingCarrier.no}
 						</span>
 					</A>
-					{/* Cargo Badge */}
-					<Show when={props.isCargo}>
-						<span class="inline-flex shrink-0 items-center gap-0.5 rounded-full bg-orange-100 px-1.5 py-0.5 text-[10px] font-bold uppercase text-orange-700 sm:gap-1 sm:px-2 sm:text-xs">
-							<Package class="h-2.5 w-2.5 sm:h-3 sm:w-3" />
-							<span class="hidden xs:inline">Cargo</span>
-						</span>
-					</Show>
 				</div>
 				<span
 					class="w-full truncate text-xs text-gray-500 sm:text-sm"

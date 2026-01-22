@@ -9,7 +9,7 @@
  */
 
 import { DatePicker } from "@/components/common";
-import { FlightCardList } from "@/components/flights";
+import { VirtualFlightCardList } from "@/components/flights";
 import { FlightSearch } from "@/components/search";
 import { filterFlights, sortFlightsByTime } from "@/lib/api";
 import { getYesterdayHKT, parseDateParam } from "@/lib/date-utils";
@@ -263,21 +263,21 @@ export default function PastPage() {
 							}
 						>
 							<Tabs.Content value="departures">
-								<FlightCardList
+								<VirtualFlightCardList
 									flights={filteredDepartures()}
 									type="departures"
 									isLoading={snapshot.loading}
 								/>
 							</Tabs.Content>
 							<Tabs.Content value="arrivals">
-								<FlightCardList
+								<VirtualFlightCardList
 									flights={filteredArrivals()}
 									type="arrivals"
 									isLoading={snapshot.loading}
 								/>
 							</Tabs.Content>
 							<Tabs.Content value="cargo">
-								<FlightCardList
+								<VirtualFlightCardList
 									flights={filteredCargo()}
 									type="cargo"
 									isLoading={snapshot.loading}

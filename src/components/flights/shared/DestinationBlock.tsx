@@ -54,9 +54,17 @@ export function DestinationBlock(props: DestinationBlockProps) {
 	// Via stops display depends on direction
 	const viaStops = () => {
 		if (props.isArrival) {
-			return props.route.slice(1).join(" → ");
+			return props.route.slice(1);
 		}
-		return props.route.slice(0, -1).join(" → ");
+		return props.route.slice(0, -1);
+	};
+
+	// Compact via display - just show count if multiple
+	const viaDisplay = () => {
+		const stops = viaStops();
+		if (stops.length === 0) return "";
+		if (stops.length === 1) return `via ${stops[0]}`;
+		return `via ${stops[0]} +${stops.length - 1}`;
 	};
 
 	const label = () => (props.isArrival ? "From" : "To");
@@ -90,7 +98,7 @@ export function DestinationBlock(props: DestinationBlockProps) {
 				{airportName()}
 			</p>
 
-			{/* Via Stops */}
+			{/* Via Stops - compact single line */}
 			<Show when={props.hasViaStops}>
 				<Tooltip
 					content={
@@ -108,8 +116,8 @@ export function DestinationBlock(props: DestinationBlockProps) {
 					}
 					positioning={{ placement: "bottom" }}
 				>
-					<span class="mt-0.5 cursor-help text-[10px] text-gray-400 underline decoration-dotted sm:text-xs">
-						via {viaStops()}
+					<span class="mt-0.5 max-w-full cursor-help truncate text-[10px] text-gray-400 underline decoration-dotted sm:text-xs">
+						{viaDisplay()}
 					</span>
 				</Tooltip>
 			</Show>
