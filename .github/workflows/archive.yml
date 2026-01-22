@@ -23,6 +23,7 @@ jobs:
   archive:
     name: Archive Flight Data to D1
     runs-on: ubuntu-latest
+    environment: cloudflare
 
     steps:
       - name: Checkout
