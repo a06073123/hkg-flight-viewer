@@ -13,12 +13,13 @@
 ## ✨ Features
 
 - **📱 Mobile-First Design** - Optimized for travelers at the airport
-- **⚡ Real-time Updates** - Live flight data with auto-refresh every 5 minutes
-- **📊 Historical Data** - Access 93+ days of archived flight data
+- **⚡ Real-time Updates** - Live flight data with 1-minute edge caching
+- **📊 Historical Data** - 100k+ flights stored in Cloudflare D1 database
 - **🔍 Smart Search** - Search by flight number, airline, or destination
 - **🚪 Gate Analytics** - View flight history for any gate
-- **📦 Cargo Flights** - Integrated cargo view in both Live and Historical modes
-- **📦 Serverless Architecture** - Deployed on GitHub Pages, no backend required
+- **📦 Cargo Flights** - Integrated cargo view with alphanumeric IATA codes
+- **🚀 Virtual Scrolling** - Smooth performance with 1000+ flight lists
+- **☁️ Edge Computing** - Cloudflare Worker + D1 for sub-millisecond queries
 
 ---
 
@@ -27,18 +28,15 @@
 ```mermaid
 flowchart TB
     subgraph Actions["🔄 GitHub Actions (Daily 00:00 HKT)"]
-        Cron["archive-flights.js"]
+        Cron["archive-to-d1.js"]
     end
 
     Cron --> |"1. Fetch HKIA API"| API["HKIA Flight API"]
-    API --> |"2. Save snapshot"| Daily["daily/YYYY-MM-DD.json"]
-    Cron --> |"3. Update indexes"| IndexF["indexes/flights/*.json"]
-    Cron --> |"4. Update indexes"| IndexG["indexes/gates/*.json"]
+    Cron --> |"2. Archive to D1"| D1[("Cloudflare D1\n100k+ flights")]
 
-    subgraph Data["📁 public/data/ (GitHub Raw)"]
-        Daily
-        IndexF
-        IndexG
+    subgraph Worker["☁️ Cloudflare Worker"]
+        Proxy["API Proxy"]
+        D1
     end
 
     subgraph Frontend["⚡ SolidJS Frontend (GitHub Pages)"]
@@ -46,8 +44,9 @@ flowchart TB
         Historical["Historical Pages"]
     end
 
-    API -.-> |"1-min refresh"| Live
-    Data --> |"GitHub Raw URL"| Historical
+    API -.-> |"via Worker"| Proxy
+    Proxy --> |"1-min cache"| Live
+    D1 --> |"History API"| Historical
 ```
 
 ---
@@ -73,23 +72,21 @@ npm install
 npm run dev
 ```
 
-### Data Archiving
+### Data Archiving (to D1 Database)
 
 ```bash
-# Archive today's flight data
+# Set environment variables
+export CLOUDFLARE_ACCOUNT_ID="your-account-id"
+export CLOUDFLARE_API_TOKEN="your-api-token"
+
+# Archive today's flight data to D1
 npm run archive
 
 # Archive a specific date
 npm run archive -- 2026-01-15
 
-# Rebuild all indexes from daily snapshots
-npm run reindex
-
-# Clean rebuild (removes existing indexes first)
-npm run reindex:clean
-
-# Analyze all collected data
-npm run analyze
+# Rolling archive past 6 days (for delayed flights)
+npm run archive:rolling
 ```
 
 ---
@@ -103,39 +100,55 @@ hkg-flight-viewer/
 │   └── workflows/
 │       ├── ci.yml               # CI (PR only)
 │       ├── deploy.yml           # Deploy to GitHub Pages
-│       └── archive.yml          # Daily archive (scheduled)
+│       └── archive.yml          # Daily archive → D1 (scheduled)
 │
-├── worker/                      # Cloudflare Worker Proxy (Monorepo)
-│   ├── src/index.ts             # Worker entry point
+├── worker/                      # Cloudflare Worker + D1 (Monorepo)
+│   ├── src/index.ts             # Worker entry (API + D1 queries)
+│   ├── schema.sql               # D1 database schema
+│   ├── api.http                 # REST Client test file
 │   ├── wrangler.toml            # Cloudflare config
 │   └── package.json             # Worker dependencies
 │
 ├── scripts/
-│   ├── archive-flights.js       # Daily data archiver
-│   ├── archive-rolling.js       # Rolling archive for delayed flights
-│   ├── reindex-flights.js       # Rebuild indexes from snapshots
-│   └── analyze-data.js          # Data analysis tool
+│   ├── archive-to-d1.js         # Daily archiver → D1 database
+│   └── fetch-airport-data.js    # Airport codes updater
 │
-├── public/data/                 # NOT included in build (fetched via GitHub Raw)
-│   ├── daily/                   # Full daily snapshots
-│   │   └── YYYY-MM-DD.json
-│   └── indexes/
-│       ├── flights/             # Per-flight history (max 50 entries)
-│       └── gates/               # Per-gate history (max 50 entries)
+├── public/data/
+│   └── airports/                # Static airport code data
+│       └── airports.json
 │
 ├── src/
-│   ├── types/flight.ts          # TypeScript interfaces (no enums)
+│   ├── types/
+│   │   ├── flight.ts            # Flight interfaces (no enums)
+│   │   └── map.ts               # Map marker types
 │   ├── lib/
 │   │   ├── api.ts               # API service layer
 │   │   ├── parser.ts            # Data parsing utilities
-│   │   └── resources.ts         # SolidJS createResource hooks
-│   ├── components/              # UI components (feature-based)
-│   ├── pages/                   # Route pages
+│   │   ├── resources.ts         # SolidJS createResource hooks
+│   │   ├── date-utils.ts        # HKT timezone utilities
+│   │   ├── status-config.ts     # Flight status styling
+│   │   ├── airline-data.ts      # Airline info loader
+│   │   └── airport-data.ts      # Airport code lookups
+│   ├── components/
+│   │   ├── common/              # Shared UI (Tooltip, DatePicker, etc.)
+│   │   ├── flights/             # FlightCard variants, FlightCardList
+│   │   ├── history/             # FlightHistoryTable, CompactTimeStatus
+│   │   ├── search/              # FlightSearch with autocomplete
+│   │   └── layout/              # Layout wrapper
+│   ├── pages/
+│   │   ├── landing/             # Home page
+│   │   ├── live/                # Real-time flights
+│   │   ├── past/                # Historical browser
+│   │   ├── flight/              # Per-flight history
+│   │   ├── gate/                # Gate analytics
+│   │   └── map/                 # HKIA virtual map (M5)
 │   ├── App.tsx                  # Router setup
 │   └── index.tsx                # Entry point
 │
 ├── docs/
-│   └── API.md                   # HKIA API documentation
+│   ├── API.md                   # HKIA API documentation
+│   ├── AIRPORT-LAYOUT.md        # HKIA terminal & gate reference
+│   └── MIGRATION-D1.md          # D1 migration guide
 │
 └── package.json                 # Root dependencies & scripts
 ```
@@ -158,27 +171,20 @@ hkg-flight-viewer/
 
 ## 📊 Data Statistics
 
-Based on analysis of 93 days (2025-10-16 to 2026-01-16):
+Stored in Cloudflare D1 database:
 
 | Metric            | Value          |
 | ----------------- | -------------- |
-| **Total Flights** | 104,732        |
-| **Daily Average** | ~1,126 flights |
-| **Arrivals**      | 52,107 (49.8%) |
-| **Departures**    | 52,625 (50.2%) |
-| **Passenger**     | 80,264 (76.6%) |
-| **Cargo**         | 24,468 (23.4%) |
-| **Airlines**      | 144 unique     |
+| **Total Flights** | 100,000+       |
+| **Daily Average** | ~1,100 flights |
+| **Airlines**      | 97+ mapped     |
+| **Date Range**    | 2025-10-16 ~   |
 
-### Top Airlines
+### D1 Database
 
-| Rank | Airline                 | Flights |
-| ---- | ----------------------- | ------- |
-| 1    | Cathay Pacific (CX)     | 49,895  |
-| 2    | HK Express (UO)         | 11,904  |
-| 3    | Hong Kong Airlines (HX) | 10,806  |
-| 4    | Qatar Airways (QR)      | 9,955   |
-| 5    | Finnair (AY)            | 7,181   |
+- **Name:** `hkg-flights`
+- **Size:** ~52 MB
+- **Location:** Cloudflare Edge (global)
 
 ---
 
@@ -200,48 +206,36 @@ See [docs/API.md](docs/API.md) for comprehensive HKIA API documentation includin
 | **Categories** | 4 (Arrival/Departure × Passenger/Cargo) |
 | **Rate Limit** | Recommended 1 req/sec                   |
 
-### Cloudflare Worker Proxy
+### Cloudflare Worker + D1 Database
 
-For production deployment on GitHub Pages, a Cloudflare Worker proxy is required to:
+The project uses a Cloudflare Worker with D1 database for:
 
-- Bypass CORS restrictions (HKIA API lacks `Access-Control-Allow-Origin`)
-- Prevent 403 errors from direct browser requests
-- Combine 4 API calls into 1 for better performance
-- Add edge caching (1 min for flights, 12h for airlines)
+- **CORS Proxy** - Bypass HKIA API restrictions
+- **Edge Caching** - 1 min for flights, 12h for airlines
+- **D1 Database** - Store 100k+ historical flight records
+- **History API** - Query flight/gate history with sub-ms latency
 
 **Endpoints:**
 
-| Endpoint        | Cache | Description                                   |
-| --------------- | ----- | --------------------------------------------- |
-| `/api/flights`  | 1 min | Today's flights (all categories combined)     |
-| `/api/airlines` | 12 hr | Airline info (check-in counters, names, etc.) |
-| `/api/health`   | -     | Health check                                  |
+| Endpoint | Cache | Description |
+| -------- | ----- | ----------- |
+| `/api/flights` | 1 min | Today's flights (all categories) |
+| `/api/airlines` | 12 hr | Airline info |
+| `/api/history/flight/:no` | - | Flight history (fuzzy match) |
+| `/api/history/gate/:id` | - | Gate departure history |
+| `/api/history/date/:date` | - | All flights for a date |
+| `/api/flight-list` | 1 hr | Unique flight numbers |
+| `/api/stats` | - | Database statistics |
 
 **Default Worker (Ready to Use):**
 
-The project includes a pre-configured Cloudflare Worker proxy at:
 ```
 https://hkg-flight-proxy.lincoln995623.workers.dev
 ```
 
-**For Fork Users (Optional):**
+> 💡 Use [`worker/api.http`](worker/api.http) with [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) to test APIs in VS Code.
 
-If you want to deploy your own Worker:
-
-```bash
-# 1. Deploy your own Worker
-cd worker
-npm install
-wrangler login
-npm run deploy
-
-# 2. Update the API URL in src/lib/api.ts and src/lib/airline-data.ts:
-# const API_BASE_URL = "https://your-worker.your-subdomain.workers.dev/api"
-
-# 3. Update scripts/archive-flights.js PROXY_URL if using proxy for archiving
-```
-
-See [worker/README.md](worker/README.md) for detailed Worker documentation.
+See [worker/README.md](worker/README.md) for deployment instructions.
 
 ---
 
@@ -284,15 +278,16 @@ jobs:
 | `npm run test`                  | Run tests in watch mode               |
 | `npm run test:run`              | Run tests once                        |
 
-### Data Archiving
+### Data Archiving (D1 Database)
 
 | Command                         | Description                           |
 | ------------------------------- | ------------------------------------- |
-| `npm run archive`               | Archive today's flight data           |
-| `npm run archive -- YYYY-MM-DD` | Archive specific date                 |
+| `npm run archive`               | Archive today's data to D1            |
+| `npm run archive -- YYYY-MM-DD` | Archive specific date to D1           |
 | `npm run archive:rolling`       | Rolling archive past 6 days           |
-| `npm run reindex:clean`         | Clean and rebuild all indexes         |
-| `npm run analyze`               | Run comprehensive data analysis       |
+| `npm run archive:rolling 7`     | Rolling archive past 7 days           |
+
+> **Note:** Requires `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` environment variables.
 
 ### Cloudflare Worker
 
@@ -312,10 +307,10 @@ See [MILESTONE.md](MILESTONE.md) for detailed project roadmap.
 
 | Milestone | Status         | Description                          |
 | --------- | -------------- | ------------------------------------ |
-| M1        | ✅ Complete    | Data Ingestion & Archiving           |
+| M1        | ✅ Complete    | Data Ingestion & D1 Archiving        |
 | M2        | ✅ Complete    | Domain Logic & Data Parsing          |
 | M3        | ✅ Complete    | Page Structure & Data Fetching       |
-| M4        | 🚧 In Progress | Performance & Mobile Optimization    |
+| M4        | 🚧 In Progress | Virtual List & Mobile Optimization   |
 | M5        | ⏳ Planned     | HKIA Virtual Map & Visualization     |
 
 ---
