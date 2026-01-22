@@ -57,6 +57,40 @@ const [data] = createResource(source, fetcher);
 </Suspense>
 ```
 
+### TanStack Solid-Virtual
+
+Using `@tanstack/solid-virtual` for virtualized lists. **Key patterns:**
+
+```typescript
+// ✅ Correct - Direct ref pattern (NOT createSignal)
+let scrollElement: HTMLDivElement | undefined;
+
+const virtualizer = createVirtualizer({
+  count: () => items().length,
+  getScrollElement: () => scrollElement,  // Direct ref
+  estimateSize: () => 120,
+  overscan: 5,
+});
+
+// getVirtualItems() and getTotalSize() are already reactive!
+// TanStack uses internal Proxy to return reactive store/signal values
+<div ref={scrollElement} style={{ height: '600px', overflow: 'auto' }}>
+  <div style={{ height: `${virtualizer.getTotalSize()}px` }}>
+    <For each={virtualizer.getVirtualItems()}>
+      {(virtualRow) => <div style={{ transform: `translateY(${virtualRow.start}px)` }}>
+        {items()[virtualRow.index]}
+      </div>}
+    </For>
+  </div>
+</div>
+```
+
+**Important:**
+- Use `let ref: HTMLDivElement | undefined` pattern, NOT `createSignal`
+- `getVirtualItems()` returns a reactive SolidJS store (no `createMemo` wrapper needed)
+- `getTotalSize()` returns a reactive signal value
+- Always provide `overscan` for smooth scrolling
+
 ## Page Structure
 
 | Route         | Page          | Description                        |
