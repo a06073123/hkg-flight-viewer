@@ -9,17 +9,17 @@
 import { CompactTimeStatus } from "@/components/history";
 import { createGateHistoryResource } from "@/lib/resources";
 import {
-	GATE_STATUS_LABELS,
-	getGateStatusBadgeClasses,
+    GATE_STATUS_LABELS,
+    getGateStatusBadgeClasses,
 } from "@/lib/status-config";
 import type { FlightRecord } from "@/types/flight";
 import { A } from "@solidjs/router";
 import {
-	Calendar,
-	DoorOpen,
-	ExternalLink,
-	Plane,
-	X,
+    Calendar,
+    DoorOpen,
+    ExternalLink,
+    Plane,
+    X,
 } from "lucide-solid";
 import { createMemo, For, onCleanup, onMount, Show } from "solid-js";
 import type { GateDisplayData } from "../utils/gate-utils";
@@ -73,7 +73,7 @@ export function GatePopup(props: GatePopupProps) {
 								Gate {props.gate.gateNumber}
 							</h2>
 							<p class="text-xs text-blue-200 capitalize">
-								{props.gate.area} Apron • Code {props.gate.size}
+								{props.gate.area} Apron
 							</p>
 						</div>
 					</div>

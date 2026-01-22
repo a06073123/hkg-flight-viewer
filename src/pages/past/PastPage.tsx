@@ -25,7 +25,6 @@ import {
 	PlaneTakeoff,
 } from "lucide-solid";
 import {
-	createEffect,
 	createMemo,
 	createSignal,
 	Show,
@@ -36,28 +35,21 @@ export default function PastPage() {
 	const params = useParams<{ date?: string }>();
 	const navigate = useNavigate();
 
-	// Initialize date from URL param or default to yesterday
-	const initialDate = () => parseDateParam(params.date) ?? getYesterdayHKT();
-	const [selectedDate, setSelectedDate] = createSignal(initialDate());
+	// Use URL as single source of truth for date
+	// Derive selected date from URL param
+	const selectedDate = createMemo(() => 
+		parseDateParam(params.date) ?? getYesterdayHKT()
+	);
+
 	const [activeTab, setActiveTab] = createSignal<
 		"departures" | "arrivals" | "cargo"
 	>("departures");
 	const [searchQuery, setSearchQuery] = createSignal("");
 
-	// Sync URL when date changes
+	// Only update URL, selectedDate will derive from it
 	const handleDateChange = (date: string) => {
-		setSelectedDate(date);
 		navigate(`/past/${date}`, { replace: true });
 	};
-
-	// Update date when URL param changes (including when navigating to /past without param)
-	createEffect(() => {
-		const parsed = parseDateParam(params.date);
-		const newDate = parsed ?? getYesterdayHKT();
-		if (newDate !== selectedDate()) {
-			setSelectedDate(newDate);
-		}
-	});
 
 	// Load snapshot for selected date
 	const [snapshot] = createDailySnapshotResource(selectedDate);

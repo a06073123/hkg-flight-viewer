@@ -18,7 +18,7 @@ import { DepartureCard } from "@/components/flights/DepartureCard";
 import { FlightCardSkeleton } from "@/components/flights/shared";
 import type { FlightRecord } from "@/types/flight";
 import { createVirtualizer } from "@tanstack/solid-virtual";
-import { createMemo, createSignal, For, Match, onCleanup, onMount, Show, Switch } from "solid-js";
+import { createEffect, createMemo, createSignal, For, Match, on, onCleanup, onMount, Show, Switch } from "solid-js";
 
 export type VirtualFlightCardListType = "departures" | "arrivals" | "cargo";
 
@@ -87,7 +87,8 @@ function FlightCard(props: {
 }
 
 export function VirtualFlightCardList(props: VirtualFlightCardListProps) {
-	let parentRef: HTMLDivElement | undefined;
+	// Direct ref for scroll element (SolidJS pattern for tanstack-virtual)
+	let scrollElement: HTMLDivElement | undefined;
 
 	// Container height for scroll area
 	const containerHeight = () => props.height ?? "calc(100vh - 300px)";
@@ -122,7 +123,7 @@ export function VirtualFlightCardList(props: VirtualFlightCardListProps) {
 		get count() {
 			return rowCount();
 		},
-		getScrollElement: () => parentRef ?? null,
+		getScrollElement: () => scrollElement ?? null,
 		estimateSize: () => ESTIMATED_ITEM_HEIGHT,
 		overscan: OVERSCAN_COUNT,
 		// Gap between rows
@@ -139,6 +140,22 @@ export function VirtualFlightCardList(props: VirtualFlightCardListProps) {
 		}
 		return flights;
 	};
+
+	// Reset virtualizer when flights data changes
+	createEffect(
+		on(
+			() => props.flights.length,
+			(length, prevLength) => {
+				// Only reset when data actually changes (not on initial render)
+				if (prevLength !== undefined && length !== prevLength) {
+					// Force remeasure all items
+					virtualizer.measure();
+					// Scroll to top
+					virtualizer.scrollToIndex(0);
+				}
+			}
+		)
+	);
 
 	return (
 		<Show
@@ -157,11 +174,10 @@ export function VirtualFlightCardList(props: VirtualFlightCardListProps) {
 			<Show when={props.flights.length > 0} fallback={<EmptyState type={props.type} />}>
 				{/* Scrollable container with custom scrollbar */}
 				<div
-					ref={parentRef}
+					ref={scrollElement}
 					class="overflow-auto rounded-lg pr-2 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-300 hover:scrollbar-thumb-gray-400"
 					style={{
 						height: containerHeight(),
-						"contain": "strict",
 					}}
 				>
 					{/* Inner container with total height for scroll sizing */}
@@ -176,13 +192,7 @@ export function VirtualFlightCardList(props: VirtualFlightCardListProps) {
 						<For each={virtualizer.getVirtualItems()}>
 							{(virtualRow) => (
 								<div
-									data-row-index={virtualRow.index}
-									ref={(el) => {
-										// Measure the row's actual height
-										queueMicrotask(() => {
-											virtualizer.measureElement(el);
-										});
-									}}
+									data-index={virtualRow.index}
 									style={{
 										position: "absolute",
 										top: 0,
