@@ -1,5 +1,5 @@
 -- HKG Flight Viewer D1 Schema
--- Version: 1.0.0
+-- Version: 1.1.0
 -- Created: 2026-01-22
 
 -- Main flights table with denormalized structure for query performance
@@ -16,10 +16,19 @@ CREATE TABLE IF NOT EXISTS flights (
     is_arrival INTEGER NOT NULL,           -- 0 = departure, 1 = arrival
     is_cargo INTEGER NOT NULL,             -- 0 = passenger, 1 = cargo
     codeshares TEXT,                       -- JSON array of codeshare flight numbers
-    raw_data TEXT,                         -- Full JSON for additional fields
     archived_at TEXT NOT NULL,             -- When this record was archived
     
     UNIQUE(date, time, flight_no, is_arrival)
+);
+
+-- ICAO to IATA code mapping table (auto-populated from raw flight data)
+-- Used for fuzzy flight number search (e.g., "ANA814" → "NH 814")
+-- Source: flight.airline (ICAO) + flight.no prefix (IATA)
+CREATE TABLE IF NOT EXISTS airlines (
+    icao_code TEXT PRIMARY KEY,            -- ICAO 3-letter code (e.g., "UPS", "CPA", "ANA")
+    iata_code TEXT NOT NULL,               -- IATA 2-letter code (e.g., "5X", "CX", "NH")
+    sample_flight TEXT,                    -- Sample flight number for debugging
+    updated_at TEXT                        -- Last update timestamp
 );
 
 -- Indexes for common queries
@@ -28,6 +37,8 @@ CREATE INDEX IF NOT EXISTS idx_flights_flight_no ON flights(flight_no);
 CREATE INDEX IF NOT EXISTS idx_flights_airline ON flights(airline);
 CREATE INDEX IF NOT EXISTS idx_flights_gate ON flights(gate_baggage) WHERE is_arrival = 0;
 CREATE INDEX IF NOT EXISTS idx_flights_date_time ON flights(date, time);
+CREATE INDEX IF NOT EXISTS idx_airlines_iata ON airlines(iata_code);
+CREATE INDEX IF NOT EXISTS idx_airlines_icao ON airlines(icao_code);
 
 -- Gate usage view for analytics
 CREATE VIEW IF NOT EXISTS gate_departures AS

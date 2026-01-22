@@ -1,8 +1,8 @@
 /**
- * HKG Flight Data Archiving Script - D1 Direct Write
+ * HKG Flight Data Archiving Script - D1 Batch API
  *
  * This script fetches flight data from Hong Kong International Airport's API
- * and writes directly to Cloudflare D1 database.
+ * and writes directly to Cloudflare D1 database using the Batch API.
  *
  * Usage: node scripts/archive-to-d1.js [YYYY-MM-DD]
  *
@@ -74,13 +74,14 @@ async function fetchFlightData(date, arrival, cargo) {
 }
 
 /**
- * Extract flights from API response
+ * Extract flights from API response and collect ICAO↔IATA mappings
  * @param {object} apiResponse - Raw API response
  * @param {boolean} isArrival - Whether this is arrival data
  * @param {boolean} isCargo - Whether this is cargo data
+ * @param {Map<string, {iata: string, sample: string}>} airlineMap - Map to collect ICAO→IATA mappings
  * @returns {Array} Array of normalized flight records
  */
-function extractFlights(apiResponse, isArrival, isCargo) {
+function extractFlights(apiResponse, isArrival, isCargo, airlineMap) {
 	const flights = [];
 
 	if (!apiResponse || !Array.isArray(apiResponse)) {
@@ -99,11 +100,27 @@ function extractFlights(apiResponse, isArrival, isCargo) {
 			const primaryFlight = flightInfos[0];
 			const codeshares = flightInfos.slice(1).map((f) => f.no);
 
+			// Extract ICAO→IATA mapping from raw data
+			// flight.no format: "5X 055" (IATA code + space + number)
+			// flight.airline: "UPS" (ICAO code)
+			const flightNo = primaryFlight.no || "";
+			const icaoCode = primaryFlight.airline || "";
+			
+			// Extract IATA code from flight number (before the space)
+			const spaceIndex = flightNo.indexOf(" ");
+			if (spaceIndex > 0 && icaoCode) {
+				const iataCode = flightNo.substring(0, spaceIndex);
+				// Only store if we haven't seen this ICAO code or if IATA is shorter (prefer 2-letter)
+				if (!airlineMap.has(icaoCode) || iataCode.length <= 2) {
+					airlineMap.set(icaoCode, { iata: iataCode, sample: flightNo });
+				}
+			}
+
 			const record = {
 				date: date,
 				time: flight.time || "",
-				flight_no: primaryFlight.no, // With space, e.g., "CX 888"
-				airline: primaryFlight.airline,
+				flight_no: flightNo, // With space, e.g., "CX 888"
+				airline: icaoCode,   // ICAO code, e.g., "CPA"
 				origin_dest: isArrival
 					? (Array.isArray(flight.origin) ? flight.origin.join(",") : flight.origin || "")
 					: (Array.isArray(flight.destination) ? flight.destination.join(",") : flight.destination || ""),
@@ -115,7 +132,6 @@ function extractFlights(apiResponse, isArrival, isCargo) {
 				is_arrival: isArrival ? 1 : 0,
 				is_cargo: isCargo ? 1 : 0,
 				codeshares: codeshares.length > 0 ? JSON.stringify(codeshares) : null,
-				raw_data: null, // Not storing raw data anymore
 			};
 
 			flights.push(record);
@@ -126,32 +142,31 @@ function extractFlights(apiResponse, isArrival, isCargo) {
 }
 
 /**
- * Execute SQL query on D1 via REST API
- * @param {string} sql - SQL query
- * @param {Array} params - Query parameters
+ * Execute multiple SQL statements in a batch via D1 raw endpoint
+ * @param {Array<{sql: string, params: Array}>} statements - Array of SQL statements
  * @returns {Promise<object>} Query result
  */
-async function executeD1Query(sql, params = []) {
-	const url = `https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/d1/database/${D1_DATABASE_ID}/query`;
+async function executeD1Batch(statements) {
+	const url = `https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/d1/database/${D1_DATABASE_ID}/raw`;
 
 	try {
 		const response = await axios.post(
 			url,
-			{ sql, params },
+			{ batch: statements },
 			{
 				headers: {
 					Authorization: `Bearer ${CLOUDFLARE_API_TOKEN}`,
 					"Content-Type": "application/json",
 				},
-				timeout: 60000,
+				timeout: 120000,
 			}
 		);
 
 		if (!response.data.success) {
-			throw new Error(response.data.errors?.[0]?.message || "D1 query failed");
+			throw new Error(response.data.errors?.[0]?.message || "D1 batch failed");
 		}
 
-		return response.data.result[0];
+		return response.data.result;
 	} catch (error) {
 		if (error.response?.data?.errors) {
 			throw new Error(error.response.data.errors[0]?.message || "D1 API error");
@@ -166,61 +181,114 @@ async function executeD1Query(sql, params = []) {
  */
 async function deleteExistingRecords(date) {
 	console.log(`Deleting existing records for ${date}...`);
-	const result = await executeD1Query("DELETE FROM flights WHERE date = ?", [date]);
-	console.log(`  - Deleted ${result.meta?.changes || 0} existing records`);
+	const results = await executeD1Batch([
+		{ sql: "DELETE FROM flights WHERE date = ?", params: [date] }
+	]);
+	console.log(`  - Deleted ${results[0]?.meta?.changes || 0} existing records`);
 }
 
 /**
- * Insert flights in batches
+ * Insert flights in batches using D1 batch API
  * @param {Array} flights - Array of flight records
  */
 async function insertFlights(flights) {
-	console.log(`Inserting ${flights.length} flights to D1...`);
+	console.log(`Inserting ${flights.length} flights via batch API...`);
 
 	const archivedAt = new Date().toISOString();
-	let inserted = 0;
-	let errors = 0;
+	const BATCH_SIZE = 50;
+	let totalInserted = 0;
+	let totalErrors = 0;
 
-	// Insert one by one to handle UNIQUE constraint gracefully
-	for (const flight of flights) {
+	for (let i = 0; i < flights.length; i += BATCH_SIZE) {
+		const batch = flights.slice(i, i + BATCH_SIZE);
+
+		const statements = batch.map((flight) => ({
+			sql: `INSERT OR REPLACE INTO flights 
+				(date, time, flight_no, airline, origin_dest, status, 
+				 gate_baggage, terminal, is_arrival, is_cargo, codeshares, archived_at)
+				VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+			params: [
+				flight.date,
+				flight.time,
+				flight.flight_no,
+				flight.airline,
+				flight.origin_dest,
+				flight.status,
+				flight.gate_baggage,
+				flight.terminal,
+				flight.is_arrival,
+				flight.is_cargo,
+				flight.codeshares,
+				archivedAt,
+			],
+		}));
+
 		try {
-			await executeD1Query(
-				`INSERT OR REPLACE INTO flights 
-					(date, time, flight_no, airline, origin_dest, status, 
-					 gate_baggage, terminal, is_arrival, is_cargo, codeshares, raw_data, archived_at)
-				VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
-				[
-					flight.date,
-					flight.time,
-					flight.flight_no,
-					flight.airline,
-					flight.origin_dest,
-					flight.status,
-					flight.gate_baggage,
-					flight.terminal,
-					flight.is_arrival,
-					flight.is_cargo,
-					flight.codeshares,
-					flight.raw_data,
-					archivedAt,
-				]
-			);
-			inserted++;
+			const results = await executeD1Batch(statements);
+			const inserted = results.reduce((sum, r) => sum + (r.meta?.changes || 0), 0);
+			totalInserted += inserted;
+			console.log(`  - Batch ${Math.floor(i / BATCH_SIZE) + 1}: ${inserted} rows`);
 		} catch (error) {
-			errors++;
-			if (errors <= 3) {
-				console.warn(`  - Insert error for ${flight.flight_no}: ${error.message}`);
-			}
-		}
-
-		// Progress indicator
-		if (inserted % 100 === 0) {
-			console.log(`  - Progress: ${inserted}/${flights.length}`);
+			totalErrors += batch.length;
+			console.error(`  - Batch ${Math.floor(i / BATCH_SIZE) + 1} failed: ${error.message}`);
 		}
 	}
 
-	console.log(`  - Inserted: ${inserted}, Errors: ${errors}`);
-	return inserted;
+	console.log(`  - Total: ${totalInserted} inserted, ${totalErrors} errors`);
+	return totalInserted;
+}
+
+/**
+ * Update airlines table with ICAO→IATA code mappings extracted from flight data
+ * @param {Map<string, {iata: string, sample: string}>} airlineMap - ICAO→IATA mappings
+ */
+async function updateAirlinesTable(airlineMap) {
+	if (airlineMap.size === 0) {
+		console.log(`\nNo airline mappings to update.`);
+		return;
+	}
+
+	console.log(`\nUpdating airlines mapping table (${airlineMap.size} airlines)...`);
+
+	const updatedAt = new Date().toISOString();
+	const statements = [];
+
+	for (const [icaoCode, { iata, sample }] of airlineMap) {
+		statements.push({
+			sql: `INSERT INTO airlines (icao_code, iata_code, sample_flight, updated_at) 
+			      VALUES (?, ?, ?, ?)
+			      ON CONFLICT(icao_code) DO UPDATE SET 
+			        iata_code = excluded.iata_code,
+			        sample_flight = excluded.sample_flight,
+			        updated_at = excluded.updated_at`,
+			params: [icaoCode, iata, sample, updatedAt],
+		});
+	}
+
+	// Execute in batches of 50
+	const BATCH_SIZE = 50;
+	let totalUpdated = 0;
+
+	for (let i = 0; i < statements.length; i += BATCH_SIZE) {
+		const batch = statements.slice(i, i + BATCH_SIZE);
+		try {
+			const results = await executeD1Batch(batch);
+			totalUpdated += results.reduce((sum, r) => sum + (r.meta?.changes || 0), 0);
+		} catch (error) {
+			console.error(`  - Batch failed: ${error.message}`);
+		}
+	}
+
+	console.log(`  - Updated ${totalUpdated} airline mappings`);
+	
+	// Log some examples
+	const examples = Array.from(airlineMap.entries()).slice(0, 5);
+	for (const [icao, { iata, sample }] of examples) {
+		console.log(`    ${icao} → ${iata} (e.g., ${sample})`);
+	}
+	if (airlineMap.size > 5) {
+		console.log(`    ... and ${airlineMap.size - 5} more`);
+	}
 }
 
 /**
@@ -229,7 +297,7 @@ async function insertFlights(flights) {
  */
 async function archiveFlights(targetDate) {
 	console.log(`\n========================================`);
-	console.log(`HKG Flight Archiver → D1`);
+	console.log(`HKG Flight Archiver → D1 (Batch API)`);
 	console.log(`Target Date: ${targetDate}`);
 	console.log(`Database ID: ${D1_DATABASE_ID}`);
 	console.log(`========================================\n`);
@@ -241,6 +309,8 @@ async function archiveFlights(targetDate) {
 		process.exit(1);
 	}
 
+	// Collect airline ICAO→IATA mappings from raw data
+	const airlineMap = new Map();
 	let allFlights = [];
 
 	// Fetch all four categories
@@ -258,6 +328,7 @@ async function archiveFlights(targetDate) {
 				data,
 				category.arrival,
 				category.cargo,
+				airlineMap, // Pass map to collect ICAO→IATA mappings
 			);
 			console.log(`  - Found ${flights.length} flights`);
 			allFlights.push(...flights);
@@ -270,6 +341,7 @@ async function archiveFlights(targetDate) {
 	}
 
 	console.log(`\nTotal flights collected: ${allFlights.length}`);
+	console.log(`Unique airlines found: ${airlineMap.size}`);
 
 	if (allFlights.length === 0) {
 		console.log("No flights found. Exiting.");
@@ -279,12 +351,16 @@ async function archiveFlights(targetDate) {
 	// Delete existing records for this date (allows re-archive for delayed flights)
 	await deleteExistingRecords(targetDate);
 
-	// Insert new records
+	// Insert new records using batch API
 	const inserted = await insertFlights(allFlights);
+
+	// Update airlines mapping table with extracted ICAO→IATA mappings
+	await updateAirlinesTable(airlineMap);
 
 	console.log(`\n========================================`);
 	console.log(`Archiving complete!`);
 	console.log(`Total inserted: ${inserted} flights`);
+	console.log(`Airlines mapped: ${airlineMap.size}`);
 	console.log(`========================================\n`);
 }
 

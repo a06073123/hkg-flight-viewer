@@ -85,12 +85,13 @@ This approach:
 ### D1 Schema
 
 ```sql
+-- Main flights table
 CREATE TABLE flights (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     date TEXT NOT NULL,           -- YYYY-MM-DD
     time TEXT NOT NULL,           -- HH:MM
-    flight_no TEXT NOT NULL,      -- "CX 888" (with space)
-    airline TEXT NOT NULL,        -- "CPA"
+    flight_no TEXT NOT NULL,      -- "CX 888" (IATA code with space)
+    airline TEXT NOT NULL,        -- "CPA" (ICAO 3-letter code)
     origin_dest TEXT,             -- Airport codes
     status TEXT,                  -- Status string
     gate_baggage TEXT,            -- Gate or baggage belt
@@ -101,7 +102,23 @@ CREATE TABLE flights (
     archived_at TEXT NOT NULL,
     UNIQUE(date, time, flight_no, is_arrival)
 );
+
+-- Airline ICAO→IATA mapping (auto-populated from raw flight data)
+CREATE TABLE airlines (
+    icao_code TEXT PRIMARY KEY,   -- "UPS", "CPA", "ANA"
+    iata_code TEXT NOT NULL,      -- "5X", "CX", "NH"
+    sample_flight TEXT,           -- "5X 055" (for debugging)
+    updated_at TEXT
+);
 ```
+
+### Flight Data Source Fields
+
+Raw HKIA API provides:
+- `flight.no`: "5X 055" → **IATA 2-letter code** + space + flight number
+- `flight.airline`: "UPS" → **ICAO 3-letter code**
+
+This allows automatic ICAO↔IATA mapping extraction during archive.
 
 ### HKIA API Constraints
 

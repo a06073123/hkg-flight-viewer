@@ -437,85 +437,59 @@ function jsonError(message: string, status: number): Response {
 // D1 History API Handlers
 // ============================================================================
 
+// In-memory cache for airline mappings (loaded from D1)
+let airlineMappingCache: Record<string, string> | null = null;
+let airlineCacheTime = 0;
+const AIRLINE_CACHE_TTL = 3600000; // 1 hour in ms
+
 /**
- * Common airline name to IATA code mapping
- * Used for fuzzy flight number search (e.g., "ANA814" → "NH 814")
+ * Get airline ICAO to IATA code mapping from D1
+ * Caches results for 1 hour
+ * Returns: { ICAO_CODE: IATA_CODE, ... } e.g., { "UPS": "5X", "CPA": "CX" }
  */
-const AIRLINE_NAME_TO_IATA: Record<string, string> = {
-	// Japanese airlines
-	ANA: "NH",
-	ALLNIPPON: "NH",
-	JAL: "JL",
-	JAPANAIRLINES: "JL",
-	// Chinese airlines
-	CATHAY: "CX",
-	CATHAYPACIFIC: "CX",
-	DRAGONAIR: "KA",
-	AIRCHINA: "CA",
-	CHINAEASTERN: "MU",
-	CHINASOUTHERN: "CZ",
-	HAINAN: "HU",
-	SICHUAN: "3U",
-	XIAMEN: "MF",
-	SHENZHEN: "ZH",
-	JUNEYAO: "HO",
-	SPRING: "9C",
-	// Korean airlines
-	KOREAN: "KE",
-	KOREANAIR: "KE",
-	ASIANA: "OZ",
-	// US airlines
-	UNITED: "UA",
-	AMERICAN: "AA",
-	DELTA: "DL",
-	// European airlines
-	LUFTHANSA: "LH",
-	BRITISHAIRWAYS: "BA",
-	AIRFRANCE: "AF",
-	KLM: "KL",
-	SWISS: "LX",
-	// Asian airlines
-	SINGAPORE: "SQ",
-	SINGAPOREAIRLINES: "SQ",
-	THAI: "TG",
-	THAIAIRWAYS: "TG",
-	MALAYSIA: "MH",
-	MALAYSIAAIRLINES: "MH",
-	VIETNAM: "VN",
-	VIETNAMAIRLINES: "VN",
-	PHILIPPINE: "PR",
-	GARUDA: "GA",
-	EVA: "BR",
-	EVAAIR: "BR",
-	CHINA: "CI",
-	CHINAAIRLINES: "CI",
-	// Middle East
-	EMIRATES: "EK",
-	QATAR: "QR",
-	QATARAIRWAYS: "QR",
-	ETIHAD: "EY",
-	TURKISH: "TK",
-	TURKISHAIRLINES: "TK",
-	// Hong Kong
-	HKEXPRESS: "UO",
-	HONGKONGAIRLINES: "HX",
-	GREATERBAY: "HB",
-};
+async function getAirlineMapping(env: Env): Promise<Record<string, string>> {
+	const now = Date.now();
+	
+	// Return cached mapping if still valid
+	if (airlineMappingCache && (now - airlineCacheTime) < AIRLINE_CACHE_TTL) {
+		return airlineMappingCache;
+	}
+	
+	try {
+		const result = await env.DB.prepare(`
+			SELECT icao_code, iata_code FROM airlines
+		`).all();
+		
+		const mapping: Record<string, string> = {};
+		for (const row of result.results) {
+			mapping[row.icao_code as string] = row.iata_code as string;
+		}
+		
+		airlineMappingCache = mapping;
+		airlineCacheTime = now;
+		return mapping;
+	} catch (error) {
+		// Return empty mapping on error (will skip airline name resolution)
+		console.error("Failed to load airline mapping:", error);
+		return {};
+	}
+}
 
 /**
  * Normalize flight number by removing spaces and converting to uppercase
- * Also resolves airline names to IATA codes
+ * Also resolves ICAO codes to IATA codes using D1 lookup
  * Examples:
  *   "NH814" → "NH 814"
- *   "nh 814" → "NH 814"
- *   "ANA814" → "NH 814"
+ *   "nh 814" → "NH 814"  
+ *   "UPS055" → "5X 055" (ICAO → IATA conversion)
+ *   "CPA888" → "CX 888" (ICAO → IATA conversion)
  */
-function normalizeFlightNumber(input: string): string {
+async function normalizeFlightNumber(input: string, env: Env): Promise<string> {
 	// Remove all spaces and convert to uppercase
 	const normalized = input.replace(/\s+/g, "").toUpperCase();
 
 	// Try to match airline code + flight number pattern
-	const match = normalized.match(/^([A-Z]+)(\d+)$/);
+	const match = normalized.match(/^([A-Z0-9]+)(\d+)$/);
 	if (!match) {
 		return normalized;
 	}
@@ -523,9 +497,10 @@ function normalizeFlightNumber(input: string): string {
 	let airlineCode = match[1];
 	const flightNum = match[2];
 
-	// If it looks like a full airline name, try to resolve to IATA code
-	if (airlineCode.length > 2) {
-		const iataCode = AIRLINE_NAME_TO_IATA[airlineCode];
+	// If it looks like an ICAO code (3 letters), try to resolve to IATA code
+	if (airlineCode.length >= 3 && /^[A-Z]+$/.test(airlineCode)) {
+		const mapping = await getAirlineMapping(env);
+		const iataCode = mapping[airlineCode];
 		if (iataCode) {
 			airlineCode = iataCode;
 		}
@@ -552,7 +527,7 @@ async function handleFlightHistoryRequest(
 	}
 
 	const limit = Math.min(parseInt(url.searchParams.get("limit") || "50", 10), 100);
-	const normalizedFlightNo = normalizeFlightNumber(flightNo);
+	const normalizedFlightNo = await normalizeFlightNumber(flightNo, env);
 
 	try {
 		const result = await env.DB.prepare(`
