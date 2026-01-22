@@ -483,27 +483,43 @@ async function getAirlineMapping(env: Env): Promise<Record<string, string>> {
  *   "nh 814" → "NH 814"  
  *   "UPS055" → "5X 055" (ICAO → IATA conversion)
  *   "CPA888" → "CX 888" (ICAO → IATA conversion)
+ *   "K4242" → "K4 242" (alphanumeric IATA codes like K4, 3S, 7L)
  */
 async function normalizeFlightNumber(input: string, env: Env): Promise<string> {
 	// Remove all spaces and convert to uppercase
 	const normalized = input.replace(/\s+/g, "").toUpperCase();
 
-	// Try to match airline code + flight number pattern
-	const match = normalized.match(/^([A-Z0-9]+)(\d+)$/);
-	if (!match) {
-		return normalized;
-	}
-
-	let airlineCode = match[1];
-	const flightNum = match[2];
-
-	// If it looks like an ICAO code (3 letters), try to resolve to IATA code
-	if (airlineCode.length >= 3 && /^[A-Z]+$/.test(airlineCode)) {
-		const mapping = await getAirlineMapping(env);
-		const iataCode = mapping[airlineCode];
-		if (iataCode) {
-			airlineCode = iataCode;
+	// Try different patterns to parse airline code + flight number
+	// Pattern 1: 2-char alphanumeric IATA code + number (e.g., "K4242" → "K4" + "242", "3S519" → "3S" + "519")
+	// Pattern 2: 2-char letter IATA code + number (e.g., "CX888" → "CX" + "888")
+	// Pattern 3: 3+ char ICAO code + number (e.g., "CPA888" → "CPA" + "888")
+	
+	let airlineCode: string | null = null;
+	let flightNum: string | null = null;
+	
+	// Try 2-char alphanumeric prefix first (handles K4, 3S, 7L, etc.)
+	const match2char = normalized.match(/^([A-Z0-9]{2})(\d{1,5})$/);
+	if (match2char) {
+		airlineCode = match2char[1];
+		flightNum = match2char[2];
+	} else {
+		// Try 3+ char prefix for ICAO codes (UPS, CPA, ANA, etc.)
+		const match3plus = normalized.match(/^([A-Z]{3,})(\d{1,5})$/);
+		if (match3plus) {
+			airlineCode = match3plus[1];
+			flightNum = match3plus[2];
+			
+			// Resolve ICAO to IATA
+			const mapping = await getAirlineMapping(env);
+			const iataCode = mapping[airlineCode];
+			if (iataCode) {
+				airlineCode = iataCode;
+			}
 		}
+	}
+	
+	if (!airlineCode || !flightNum) {
+		return normalized;
 	}
 
 	// Return in standard format with space: "XX 123"
