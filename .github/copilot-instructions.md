@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A serverless flight information viewer for Hong Kong International Airport (HKIA). Uses **static JSON sharding** for historical data and **Cloudflare Worker proxy** for real-time updates. Deployed on GitHub Pages with no backend.
+A serverless flight information viewer for Hong Kong International Airport (HKIA). Uses **Cloudflare D1** for historical data storage and **Cloudflare Worker** for real-time updates. Deployed on GitHub Pages with no backend server.
 
 ## Tech Stack
 
@@ -14,7 +14,7 @@ A serverless flight information viewer for Hong Kong International Airport (HKIA
 | Data Fetching | **SolidJS `createResource`** (native async handling)  |
 | Build         | **Vite** with TypeScript                              |
 | Scripts       | Node.js ES Modules (not CommonJS)                     |
-| API Proxy     | **Cloudflare Workers** (CORS bypass, edge caching)    |
+| API Proxy     | **Cloudflare Workers** + **D1** (edge database)       |
 
 ## Critical Conventions
 
@@ -69,28 +69,56 @@ const [data] = createResource(source, fetcher);
 
 ## Data Architecture
 
-### Static Data Strategy
+### Cloudflare D1 Database
 
-Historical data is stored in `public/data/` but **NOT included in the build**.
-The frontend fetches data directly from GitHub Raw URLs:
-```
-https://raw.githubusercontent.com/a06073123/hkg-flight-viewer/main/public/data/...
-```
+All flight data is stored in Cloudflare D1 (SQLite at the edge):
+- **Database Name:** `hkg-flights`
+- **Database ID:** `ed2d96a7-1be1-4b1c-9c36-48e7b2b477ba`
+- **Size:** ~52 MB (100k+ flight records)
 
 This approach:
-- Keeps build output small (~1MB instead of 100MB+)
-- Data updates via GitHub Actions without rebuilding frontend
-- Free CDN caching from GitHub's infrastructure
+- No static JSON files in the repository (keeps repo small)
+- Real-time queries via Worker API
+- Data updates via GitHub Actions → D1 REST API
+- Sub-millisecond query latency at the edge
 
-### Sharding Strategy (public/data/)
+### D1 Schema
 
+```sql
+-- Main flights table
+CREATE TABLE flights (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    date TEXT NOT NULL,           -- YYYY-MM-DD
+    time TEXT NOT NULL,           -- HH:MM
+    flight_no TEXT NOT NULL,      -- "CX 888" (IATA code with space)
+    airline TEXT NOT NULL,        -- "CPA" (ICAO 3-letter code)
+    origin_dest TEXT,             -- Airport codes
+    status TEXT,                  -- Status string
+    gate_baggage TEXT,            -- Gate or baggage belt
+    terminal TEXT,
+    is_arrival INTEGER NOT NULL,  -- 0/1
+    is_cargo INTEGER NOT NULL,    -- 0/1
+    codeshares TEXT,              -- JSON array
+    archived_at TEXT NOT NULL,
+    UNIQUE(date, time, flight_no, is_arrival)
+);
+
+-- Airline ICAO→IATA mapping (auto-populated from raw flight data)
+CREATE TABLE airlines (
+    icao_code TEXT PRIMARY KEY,   -- "UPS", "CPA", "ANA"
+    iata_code TEXT NOT NULL,      -- "5X", "CX", "NH"
+    sample_flight TEXT,           -- "5X 055" (for debugging)
+    updated_at TEXT
+);
 ```
-public/data/
-├── daily/YYYY-MM-DD.json     # Full daily snapshot (~1,100 flights)
-└── indexes/
-    ├── flights/CX888.json    # Last 50 occurrences per flight number
-    └── gates/23.json         # Last 50 departures per gate
-```
+
+### Flight Data Source Fields
+
+Raw HKIA API provides:
+- `flight.no`: "5X 055" → **IATA 2-letter code** + space + flight number
+- `flight.airline`: "UPS" → **ICAO 3-letter code**
+
+This allows automatic ICAO↔IATA mapping extraction during archive.
 
 ### HKIA API Constraints
 
@@ -98,15 +126,20 @@ public/data/
 - **Four categories:** Must query all combinations of `arrival=[true,false]` × `cargo=[true,false]`
 - **Rate limit:** Add 1-second delay between API calls
 
-## Cloudflare Worker Proxy
+## Cloudflare Worker API
 
-The project uses a Cloudflare Worker proxy (`worker/`) to bypass CORS and 403 issues:
+The project uses a Cloudflare Worker (`worker/`) as the API layer:
 
-| Endpoint        | Cache TTL | Description                                   |
-| --------------- | --------- | --------------------------------------------- |
-| `/api/flights`  | 1 minute  | Today's flights (all 4 categories combined)   |
-| `/api/airlines` | 12 hours  | Airline info (check-in counters, names, etc.) |
-| `/api/health`   | -         | Health check                                  |
+| Endpoint                       | Cache TTL | Description                                    |
+| ------------------------------ | --------- | ---------------------------------------------- |
+| `/api/flights`                 | 1 minute  | Today's flights (all 4 categories combined)    |
+| `/api/airlines`                | 12 hours  | Airline info (check-in counters, names, etc.)  |
+| `/api/history/flight/:flightNo`| -         | Flight history (fuzzy match: NH814 → NH 814)   |
+| `/api/history/gate/:gate`      | -         | Gate departure history                         |
+| `/api/history/date/:date`      | -         | All flights for a specific date                |
+| `/api/flight-list`             | 1 hour    | Unique flight numbers for autocomplete         |
+| `/api/search`                  | -         | Search by query, date, or airline              |
+| `/api/stats`                   | -         | Database statistics                            |
 
 **Worker URL:** `https://hkg-flight-proxy.lincoln995623.workers.dev`
 
@@ -119,10 +152,10 @@ The project uses a Cloudflare Worker proxy (`worker/`) to bypass CORS and 403 is
 | `src/lib/resources.ts`       | SolidJS createResource hooks                       |
 | `src/lib/api.ts`             | API service layer (fetch functions)                |
 | `src/lib/date-utils.ts`      | HKT timezone date utilities                        |
-| `worker/src/index.ts`        | Cloudflare Worker proxy                            |
-| `scripts/archive-flights.js` | Daily archiver (GitHub Actions)                    |
+| `worker/src/index.ts`        | Cloudflare Worker with D1 bindings                 |
+| `worker/schema.sql`          | D1 database schema                                 |
+| `scripts/archive-to-d1.js`   | Daily archiver → D1 (GitHub Actions)               |
 | `scripts/archive-rolling.js` | Rolling archive for delayed flights                |
-| `scripts/reindex-flights.js` | Rebuild indexes from daily snapshots               |
 | `docs/API.md`                | Complete HKIA API documentation                    |
 | `docs/AIRPORT-LAYOUT.md`     | HKIA terminal & gate layout reference (for M5)     |
 

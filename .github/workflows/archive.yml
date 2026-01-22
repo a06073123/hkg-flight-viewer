@@ -1,4 +1,4 @@
-# Daily Flight Data Archive
+# Daily Flight Data Archive to Cloudflare D1
 # Runs daily to keep historical data up to date
 # Uses rolling re-archive strategy to capture delayed flight final status
 name: Archive Flights
@@ -19,13 +19,11 @@ on:
         type: number
         default: 6
 
-permissions:
-  contents: write
-
 jobs:
   archive:
-    name: Archive Flight Data
+    name: Archive Flight Data to D1
     runs-on: ubuntu-latest
+    environment: cloudflare
 
     steps:
       - name: Checkout
@@ -40,12 +38,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Archive flights (rolling strategy)
+      - name: Archive flights to D1 (rolling strategy)
         env:
           TZ: Asia/Hong_Kong
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
           if [ -n "${{ inputs.date }}" ]; then
             # Manual single date archive
+            echo "📦 Archiving ${{ inputs.date }} to D1..."
             npm run archive -- ${{ inputs.date }}
           else
             # Rolling archive: D-1 through D-N to capture delayed flight updates
@@ -57,37 +58,16 @@ jobs:
             
             for i in $(seq 1 $ROLLING_DAYS); do
               DATE=$(date -d "-${i} day" +%Y-%m-%d)
-              echo "📦 Archiving $DATE (D-$i)..."
+              echo ""
+              echo "📦 Archiving $DATE (D-$i) to D1..."
               npm run archive -- $DATE
               
-              # Rate limiting: 2 second delay between archive runs
+              # Rate limiting: 3 second delay between archive runs
               if [ $i -lt $ROLLING_DAYS ]; then
-                sleep 2
+                sleep 3
               fi
             done
             
-            echo "✅ Rolling archive complete"
+            echo ""
+            echo "✅ Rolling archive complete - data written to Cloudflare D1"
           fi
-
-      - name: Check for changes
-        id: check
-        run: |
-          if [ -n "$(git status --porcelain public/data/)" ]; then
-            echo "changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "changes=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit and push changes
-        if: steps.check.outputs.changes == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/
-          ROLLING_DAYS=${{ inputs.rolling_days || 6 }}
-          if [ -n "${{ inputs.date }}" ]; then
-            git commit -m "chore: archive flight data for ${{ inputs.date }}"
-          else
-            git commit -m "chore: rolling archive flight data (D-1 to D-$ROLLING_DAYS)"
-          fi
-          git push

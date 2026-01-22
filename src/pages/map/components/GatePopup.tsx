@@ -73,7 +73,7 @@ export function GatePopup(props: GatePopupProps) {
 								Gate {props.gate.gateNumber}
 							</h2>
 							<p class="text-xs text-blue-200 capitalize">
-								{props.gate.area} Apron • Code {props.gate.gateNumber}
+								{props.gate.area} Apron
 							</p>
 						</div>
 					</div>

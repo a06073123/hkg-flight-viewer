@@ -76,10 +76,14 @@ export default function LivePage() {
 
 	// Single shared resource for all flight data (optimized: 1 API call instead of 3)
 	const [allFlights, { refetch }] = createLiveAllFlightsResource();
+	
+	// Track last refresh time
+	const [lastRefreshTime, setLastRefreshTime] = createSignal(new Date());
 
 	// Auto-refresh timer
 	const timer = setInterval(() => {
 		refetch();
+		setLastRefreshTime(new Date());
 	}, REFRESH_INTERVAL);
 
 	onCleanup(() => clearInterval(timer));
@@ -135,10 +139,11 @@ export default function LivePage() {
 
 	const handleRefresh = () => {
 		refetch();
+		setLastRefreshTime(new Date());
 	};
 
 	const lastUpdated = () =>
-		new Date().toLocaleTimeString("en-US", {
+		lastRefreshTime().toLocaleTimeString("en-US", {
 			hour: "2-digit",
 			minute: "2-digit",
 		});
@@ -174,18 +179,19 @@ export default function LivePage() {
 
 				<div class="flex items-center gap-2">
 					<span class="text-[10px] text-gray-500 xs:text-xs">
-						Updated: {lastUpdated()}
+						Last updated: {lastUpdated()}
 					</span>
 					<button
 						type="button"
 						onClick={handleRefresh}
 						disabled={isLoading()}
-						class="inline-flex items-center gap-1 rounded-lg border-2 border-[#003580] bg-white px-2 py-1.5 text-xs font-medium text-[#003580] shadow-sm hover:bg-[#003580] hover:text-white transition-colors disabled:opacity-50 sm:gap-1.5 sm:px-3 sm:py-2 sm:text-sm"
+						title="Click to refresh flight data"
+						class="inline-flex items-center gap-1 rounded-lg bg-[#003580] px-2 py-1.5 text-xs font-medium text-white shadow-sm hover:bg-[#002855] active:scale-95 transition-all disabled:opacity-50 sm:gap-1.5 sm:px-3 sm:py-2 sm:text-sm"
 					>
 						<RefreshCw
 							class={`h-3.5 w-3.5 sm:h-4 sm:w-4 ${isLoading() ? "animate-spin" : ""}`}
 						/>
-						<span class="hidden xs:inline">Refresh</span>
+						<span class="hidden xs:inline">{isLoading() ? "Refreshing..." : "Refresh"}</span>
 					</button>
 				</div>
 			</div>
