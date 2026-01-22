@@ -2,6 +2,8 @@
 
 > Reference documentation for Hong Kong International Airport (VHHH) terminal and gate layout.
 > Used for M5: Virtual Map & Spatial Visualization feature development.
+> 
+> **Sources:** [HKAIS eAIP](https://www.ais.gov.hk/eaip), [Infinite Flight Community Guide](https://community.infiniteflight.com/t/998274)
 
 ## Overview
 
@@ -23,8 +25,6 @@ Hong Kong International Airport operates with a **Three Runway System (3RS)** si
 
 ## Apron Categories
 
-The airport aprons are divided into four categories:
-
 | Category          | Color Code | Usage                                    |
 | ----------------- | ---------- | ---------------------------------------- |
 | Passenger Apron   | 🔴 Red     | Commercial passenger flights             |
@@ -34,151 +34,218 @@ The airport aprons are divided into four categories:
 
 ## Terminal Structure
 
-### Terminal 1 - Main Building
-
-The main terminal building connects to multiple concourses:
+### Terminal 1 Layout
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    TERMINAL 1 MAIN BUILDING                      │
-│  ┌─────────────────────────────────────────────────────────┐    │
-│  │           Check-in Halls / Immigration / Customs        │    │
-│  └─────────────────────────────────────────────────────────┘    │
-│                              │                                   │
-│            ┌─────────────────┼─────────────────┐                │
-│            │                 │                 │                 │
-│            ▼                 ▼                 ▼                 │
-│    ┌───────────┐     ┌───────────┐     ┌───────────┐           │
-│    │   NORTH   │     │  CENTRAL  │     │   SOUTH   │           │
-│    │   GATES   │     │   GATES   │     │   GATES   │           │
-│    │   1-20    │     │   21-40   │     │   41-80   │           │
-│    └───────────┘     └───────────┘     └───────────┘           │
-└─────────────────────────────────────────────────────────────────┘
+                    ┌─────────────────────────────────────┐
+                    │          NORTH RUNWAY 07L/25R       │
+                    └─────────────────────────────────────┘
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                    CONSTRUCTION SITE                       │
+        │                  (Future T2 Concourse)                     │
+        └─────────────────────────────┼─────────────────────────────┘
+                                      │
+                    ┌─────────────────────────────────────┐
+                    │         CENTRE RUNWAY 07C/25C       │
+                    └─────────────────────────────────────┘
+                                      │
+   ┌──────────┐    ┌──────────┐    ┌──────────────────────────────────┐
+   │ MIDFIELD │    │   WEST   │    │         PASSENGER TERMINAL       │
+   │ CONCOURSE│◄───│  APRON   │◄───│    ┌────────────────────────┐   │
+   │ D201-219 │ APM│ W40-W71  │    │    │   SATELLITE CONCOURSE  │   │
+   │ D301-319 │    │ W121-126 │    │    │       R13-R21          │   │
+   └──────────┘    └──────────┘    │    └────────────────────────┘   │
+                                   │              ↑ Sky Bridge        │
+                                   │    ┌────────────────────────┐   │
+                                   │    │    NORTH APRON         │   │
+                                   │    │  N5-N70, N141-N145     │   │
+                                   │    └────────────────────────┘   │
+                                   │    ┌────────────────────────┐   │
+                                   │    │    T1 MAIN BUILDING    │   │
+                                   │    │  Check-in / Immigration │   │
+                                   │    └────────────────────────┘   │
+                                   │    ┌────────────────────────┐   │
+                                   │    │    SOUTH APRON         │   │
+                                   │    │  S1-S47, S101-S111     │   │
+                                   └────┴────────────────────────┴───┘
+                                      │
+                    ┌─────────────────────────────────────┐
+                    │          SOUTH RUNWAY 07R/25L       │
+                    └─────────────────────────────────────┘
 ```
 
-### Terminal 1 - Satellite Concourse
+### Connections
 
-Connected to main building via underground APM (Automated People Mover):
+| Connection          | Method                           | Notes                                |
+| ------------------- | -------------------------------- | ------------------------------------ |
+| Main ↔ Satellite    | Sky Bridge (200m long, 28m high) | Opened Nov 2022, A380 can pass under |
+| Main ↔ Midfield     | APM (Automated People Mover)     | Underground train system             |
 
-- Additional boarding gates for wide-body aircraft
-- Premium lounges
+---
 
-### Terminal 1 - Midfield Concourse
+## Passenger Stands Detail
 
-Located between the runways, connected via APM:
+### T1 Main Building (71 stands)
 
-- Gates 201-230 (approximate)
-- Serves long-haul flights
-- Modern design with skybridge views
+The main terminal building with three apron areas.
 
-## Gate Numbering System
+#### North Apron
 
-### Passenger Gates
+| Stand Type    | Stand Numbers                                                          | Notes                           |
+| ------------- | ---------------------------------------------------------------------- | ------------------------------- |
+| Frontal       | N5, N6, N7, N8, N9, N10, N12, N24, N26, N28, N30, N32, N34, N36        |                                 |
+| Frontal       | N60, N62, N64, N66, N68, N70                                           |                                 |
+| Remote        | N141, N142, N143, N144, N145                                           |                                 |
+| L/R Suffix    | N6, N7, N24, N26, N28, N30, N32, N34, N60, N62, N64, N66, N68, N70     | Split stands for smaller a/c    |
+| Code F (A380) | N5, N60, N62, N64, N66                                                 | Wide-body capable               |
+| Code C only   | N10, N12, N145                                                         | A321 or smaller                 |
 
-| Gate Range | Location              | Aircraft Size      |
-| ---------- | --------------------- | ------------------ |
-| 1-20       | T1 North              | Wide-body          |
-| 21-40      | T1 Central            | Mixed              |
-| 41-71      | T1 South              | Wide-body          |
-| 201-230    | Midfield Concourse    | Wide-body          |
-| 501-520    | Satellite Concourse   | Wide-body          |
+#### South Apron
 
-### Cargo Stands
+| Stand Type    | Stand Numbers                                                          | Notes                           |
+| ------------- | ---------------------------------------------------------------------- | ------------------------------- |
+| Frontal       | S1, S2, S3, S4, S11, S23, S25, S27, S29, S31, S33, S35                 |                                 |
+| Frontal       | S41, S43, S45, S47                                                     |                                 |
+| Remote        | S101, S102, S103, S104, S105, S106, S107, S108, S109, S110, S111       |                                 |
+| L/R Suffix    | S1, S2, S3, S25, S27, S29, S31, S33, S35, S41, S43, S45, S47, S49      | Split stands                    |
+| Code F (A380) | S23                                                                    | Wide-body capable               |
+| Code C only   | S109                                                                   | A321 or smaller                 |
 
-| Stand Range | Location           | Usage                          |
-| ----------- | ------------------ | ------------------------------ |
-| 601-680     | Cargo Apron        | Scheduled cargo                |
-| 701-750     | West Cargo Apron   | Cargo + Test flights           |
+#### West Apron
 
-### Remote Stands
+| Stand Type    | Stand Numbers                                                          | Notes                           |
+| ------------- | ---------------------------------------------------------------------- | ------------------------------- |
+| Frontal       | W40, W42, W44, W46, W48, W50, W61, W63, W65, W67, W69, W71             |                                 |
+| Remote        | W121, W122, W123, W124, W125, W126                                     |                                 |
+| L/R Suffix    | W40, W42, W44, W46, W48, W61, W63, W65, W67, W69, W71                  | Split stands                    |
+| Code C only   | W126                                                                   | A321 or smaller                 |
 
-| Stand Range | Location           | Usage                          |
-| ----------- | ------------------ | ------------------------------ |
-| 301-350     | North Apron        | Bus gate / Remote parking      |
-| 401-450     | South Apron        | Bus gate / Remote parking      |
+### T1 Satellite Concourse (9 stands)
 
-## Gate Coordinate Mapping (SVG)
+Connected to main building via Sky Bridge (200m, 28m height - A380 can pass underneath).
 
-For the virtual map implementation, gates need to be mapped to SVG coordinates.
-The coordinate system uses a normalized scale where the airport fits within a viewBox.
+| Stand Type    | Stand Numbers        | Notes                           |
+| ------------- | -------------------- | ------------------------------- |
+| Frontal       | R13, R14, R15, R16, R17, R18, R19, R20, R21 |                  |
+| All stands    | R13-R21              | Code C only (A321 or smaller)   |
 
-### Suggested ViewBox
+### T1 Midfield Concourse (38 stands)
+
+Connected to main building via APM (Automated People Mover).
+
+| Stand Type    | Stand Numbers                                                          | Notes                           |
+| ------------- | ---------------------------------------------------------------------- | ------------------------------- |
+| Frontal       | D201, D202, D203, D204, D205, D206, D207, D208, D209, D210            |                                 |
+| Frontal       | D211, D212, D213, D214, D215, D216, D217, D218, D219                  |                                 |
+| Remote        | D301, D302, D303, D304, D305, D306, D307, D308, D309, D310            | Overnight parking only          |
+| Remote        | D311, D312, D313, D314, D315, D316, D317, D318, D319                  | Overnight parking only          |
+| L/R Suffix    | D301, D302, D304-D312, D314-D317, D319                                | Split for Code C aircraft       |
+| Code F (A380) | D212, D216, D306, D307, D308, D311, D312                              | Wide-body capable               |
+
+---
+
+## Stand Numbering Convention
+
+The HKIA API returns gate/stand information in the `aisle` field. The mapping:
+
+| API `aisle` Value | Area                | Examples              |
+| ----------------- | ------------------- | --------------------- |
+| `1-12`            | T1 North/South      | Gates near main hall  |
+| `23-71`           | T1 Main Building    | N/S/W prefix stands   |
+| `201-219`         | Midfield Frontal    | D201, D215, etc.      |
+| `301-319`         | Midfield Remote     | D301, D310, etc.      |
+| `13-21` (R prefix)| Satellite           | R13, R18, etc.        |
+| `101-145`         | Remote stands       | N141, S107, etc.      |
+| `121-126`         | West Remote         | W123, etc.            |
+| Empty `""`        | No gate assigned    | Cargo/bus operations  |
+
+### Stand Prefix Meaning
+
+| Prefix | Location          | Full Name               |
+| ------ | ----------------- | ----------------------- |
+| N      | North Apron       | North of main building  |
+| S      | South Apron       | South of main building  |
+| W      | West Apron        | West of main building   |
+| R      | Satellite         | Satellite concourse     |
+| D      | Midfield          | Midfield concourse      |
+
+---
+
+## Airlines by Terminal Area
+
+### T1 Main Building Airlines
+
+Major international carriers operate from the main building:
+
+- **Oneworld:** Cathay Pacific, British Airways, Finnair, Japan Airlines, Malaysia Airlines, Qantas, Qatar Airways
+- **Star Alliance:** Air Canada, Air China, ANA, Asiana, EVA Air, Lufthansa, Singapore Airlines, Swiss, Thai Airways, Turkish Airlines, United
+- **SkyTeam:** Air France, China Airlines, China Eastern, China Southern, KLM, Korean Air, Vietnam Airlines
+- **LCC/Others:** Cebu Pacific, IndiGo, Jeju Air, Jin Air, Peach, Scoot, T'way Air, Vietjet
+
+### T1 Satellite Concourse Airlines
+
+Regional carriers and some mainline flights:
+- Air China, Cathay Pacific, China Eastern, China Southern, Hainan Airlines, Malaysian Airlines, Philippine Airlines, Shanghai Airlines, Shenzhen Airlines, Thai Airways, Xiamen Airlines
+
+### T1 Midfield Concourse Airlines
+
+Primarily LCCs and regional carriers:
+- **AirAsia Group:** AirAsia, Philippines AirAsia, Indonesia AirAsia, Thai AirAsia
+- **Hong Kong carriers:** Greater Bay Airlines, HK Express, Hong Kong Airlines
+
+---
+
+## SVG Map Implementation
+
+### Coordinate System
+
+The SVG map uses a normalized coordinate system:
 
 ```svg
-<svg viewBox="0 0 1000 600">
-  <!-- Airport layout elements -->
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Airport layout -->
 </svg>
 ```
 
-### Gate Coordinate Structure
+### Gate Marker Interface
 
 ```typescript
 // src/types/map.ts
 export interface GateMarker {
-  id: string;         // "1", "41", "201"
-  label: string;      // "Gate 1", "Gate 41"
-  x: number;          // SVG X coordinate (0-1000)
-  y: number;          // SVG Y coordinate (0-600)
-  terminal: "T1" | "MFC" | "SAT";  // Terminal area
-  size: "L" | "M" | "S";           // Gate size category
+  id: string;           // "N5", "S23", "D201", "R15"
+  label: string;        // "Gate 5", "Gate 23"
+  x: number;            // SVG X coordinate
+  y: number;            // SVG Y coordinate
+  area: "north" | "south" | "west" | "satellite" | "midfield";
+  terminal: "T1";
+  size: "F" | "E" | "C";  // Aircraft code size
+  hasLRSplit: boolean;    // Has L/R suffix variants
   currentFlight?: string;
   status: "boarding" | "scheduled" | "idle";
 }
 ```
 
-### Sample Gate Coordinates
+### Area Bounding Boxes
 
-```typescript
-// src/lib/map-coords.ts
-export const GATE_COORDINATES: Record<string, { x: number; y: number; terminal: string }> = {
-  // T1 North Gates (1-20)
-  "1": { x: 150, y: 200, terminal: "T1" },
-  "2": { x: 170, y: 200, terminal: "T1" },
-  "3": { x: 190, y: 200, terminal: "T1" },
-  // ... continue for all gates
-  
-  // T1 Central Gates (21-40)
-  "21": { x: 400, y: 250, terminal: "T1" },
-  "22": { x: 420, y: 250, terminal: "T1" },
-  // ...
-  
-  // T1 South Gates (41-71)
-  "41": { x: 600, y: 200, terminal: "T1" },
-  "42": { x: 620, y: 200, terminal: "T1" },
-  // ...
-  
-  // Midfield Concourse (201-230)
-  "201": { x: 300, y: 450, terminal: "MFC" },
-  "202": { x: 320, y: 450, terminal: "MFC" },
-  // ...
-  
-  // Satellite Concourse (501-520)
-  "501": { x: 800, y: 350, terminal: "SAT" },
-  "502": { x: 820, y: 350, terminal: "SAT" },
-  // ...
-};
-```
+For pan/zoom navigation:
 
-## Taxiway System
+| Area       | X Range   | Y Range   | Center        |
+| ---------- | --------- | --------- | ------------- |
+| North      | 850-1150  | 200-350   | (1000, 275)   |
+| South      | 850-1150  | 450-650   | (1000, 550)   |
+| West       | 550-750   | 300-500   | (650, 400)    |
+| Satellite  | 950-1100  | 150-250   | (1025, 200)   |
+| Midfield   | 150-350   | 250-550   | (250, 400)    |
 
-Main taxiways connect all aprons to runways:
-
-| Taxiway | Location                    | Notes                    |
-| ------- | --------------------------- | ------------------------ |
-| A       | Parallel to South runway    | Main east-west corridor  |
-| B       | Between runways             | Connects to Midfield     |
-| C       | Parallel to North runway    | Cargo area access        |
-| E/F/G   | Cross taxiways              | Runway crossing points   |
-
-### Code F Aircraft Restrictions
-
-Large aircraft (A380, 747-8) have restricted taxiway access marked on aerodrome charts.
+---
 
 ## Construction Notes (2024-2026)
 
 - **New T2 Concourse**: Under construction between North and Centre runways
+- **Location**: North of current passenger terminal complex
 - **Expected completion**: Phased opening 2025-2027
-- **Impact**: Some remote stands temporarily closed
+- **Impact**: Some temporary gates (4, 5, 6, 7, 8, 10, 11, 12) in use
 
 ## Data Sources
 
@@ -187,34 +254,4 @@ Large aircraft (A380, 747-8) have restricted taxiway access marked on aerodrome 
 | HKAIS eAIP                     | https://www.ais.gov.hk/eaip                      |
 | HK Airport Official            | https://www.hongkongairport.com                  |
 | HKIA Operations Manual         | https://opsportal.hongkongairport.com            |
-| Infinite Flight Community Guide| https://community.infiniteflight.com/t/998274    |
-
-## Implementation Notes
-
-### SVG Map Requirements
-
-1. **Simplified Layout**: Focus on gate positions, not architectural details
-2. **Responsive**: Must scale for mobile devices (pan & zoom)
-3. **Performance**: Use SVG groups for efficient rendering
-4. **Accessibility**: Include ARIA labels for gate markers
-
-### Status Color Scheme
-
-```css
-/* Gate status colors */
-.gate-scheduled { fill: #3b82f6; }      /* Blue */
-.gate-boarding  { fill: #eab308; animation: pulse 1s infinite; }  /* Yellow, blinking */
-.gate-idle      { fill: #6b7280; }      /* Gray */
-```
-
-### Integration with Flight Data
-
-Gates from the HKIA API `aisle` field map to gate numbers:
-- `aisle: "41"` → Gate 41
-- `aisle: "501"` → Gate 501 (Satellite)
-- `aisle: "201"` → Gate 201 (Midfield)
-
-Some flights may show `aisle: ""` (empty) for:
-- Cargo flights without passenger gates
-- Bus gate operations
-- Remote parking
+| Infinite Flight Community      | https://community.infiniteflight.com/t/998274    |

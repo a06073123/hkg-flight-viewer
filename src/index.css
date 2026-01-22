@@ -108,22 +108,59 @@ body {
 	font-size: 0.75rem;
 }
 
-/* Delayed Status Animation */
-@keyframes pulse-delayed {
+/* ============================================================================
+   FLIGHT STATUS ANIMATIONS
+   Centralized pulse animations with different speeds for severity levels
+   ============================================================================ */
+
+/* Base pulse keyframes with opacity variation */
+@keyframes status-pulse {
 	0%,
 	100% {
 		opacity: 1;
+		transform: scale(1);
 	}
 	50% {
-		opacity: 0.7;
+		opacity: 0.75;
+		transform: scale(1.02);
 	}
 }
 
-.status-delayed {
-	animation: pulse-delayed 2s ease-in-out infinite;
+/* Rapid pulse for gate closed (very short, attention-grabbing) */
+@keyframes status-pulse-rapid {
+	0%,
+	100% {
+		opacity: 1;
+		box-shadow: 0 0 0 0 currentColor;
+	}
+	50% {
+		opacity: 0.8;
+		box-shadow: 0 0 8px 2px currentColor;
+	}
 }
 
-/* Boarding/Final Call Urgent Status */
+/* Animation utility classes - matched to FlashSpeed in status-config.ts */
+@utility animate-pulse-slow {
+	animation: status-pulse 3s ease-in-out infinite;
+}
+
+@utility animate-pulse-medium {
+	animation: status-pulse 1.5s ease-in-out infinite;
+}
+
+@utility animate-pulse-fast {
+	animation: status-pulse 0.75s ease-in-out infinite;
+}
+
+@utility animate-pulse-rapid {
+	animation: status-pulse-rapid 0.4s ease-in-out infinite;
+}
+
+/* Legacy classes for backward compatibility */
+.status-delayed {
+	animation: status-pulse 2s ease-in-out infinite;
+}
+
 .status-urgent {
 	background-color: var(--hkia-accent);
 	color: var(--hkia-text);

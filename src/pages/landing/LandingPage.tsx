@@ -14,6 +14,7 @@ import {
 	DoorOpen,
 	History,
 	Luggage,
+	Map,
 	Package,
 	Plane,
 	PlaneLanding,
@@ -150,6 +151,38 @@ export default function LandingPage() {
 						<span class="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-[10px] font-medium text-gray-700 sm:px-2.5 sm:py-1 sm:text-xs">
 							<Search class="h-2.5 w-2.5 sm:h-3 sm:w-3" />
 							Flight Search
+						</span>
+					</div>
+				</A>
+
+				{/* Virtual Map Card */}
+				<A
+					href="/map"
+					class="group rounded-xl border-2 border-[#003580]/20 bg-white p-4 shadow-md transition-all hover:border-[#003580] hover:shadow-lg sm:p-6 md:col-span-2"
+				>
+					<div class="flex items-center gap-2 sm:gap-3">
+						<div class="rounded-lg bg-[#003580] p-2 sm:p-3">
+							<Map class="h-5 w-5 text-[#FFD700] sm:h-6 sm:w-6" />
+						</div>
+						<div>
+							<h2 class="text-lg font-semibold text-[#1A1A1B] group-hover:text-[#003580] sm:text-xl">
+								Virtual Map
+							</h2>
+							<p class="text-xs text-gray-500 sm:text-sm">機場登機閘口地圖</p>
+						</div>
+					</div>
+					<p class="mt-3 text-sm text-gray-600 sm:mt-4">
+						Explore HKIA terminal gates with real-time flight status. View Midfield Concourse,
+						Main Building, and Satellite gates at a glance.
+					</p>
+					<div class="mt-3 flex flex-wrap gap-1.5 sm:mt-4 sm:gap-2">
+						<span class="inline-flex items-center gap-1 rounded-full bg-[#003580]/10 px-2 py-0.5 text-[10px] font-medium text-[#003580] sm:px-2.5 sm:py-1 sm:text-xs">
+							<DoorOpen class="h-2.5 w-2.5 sm:h-3 sm:w-3" />
+							133 Gates
+						</span>
+						<span class="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium text-emerald-700 sm:px-2.5 sm:py-1 sm:text-xs">
+							<Clock class="h-2.5 w-2.5 sm:h-3 sm:w-3" />
+							Live Status
 						</span>
 					</div>
 				</A>

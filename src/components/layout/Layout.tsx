@@ -11,7 +11,7 @@
  */
 
 import { A } from "@solidjs/router";
-import { History, House, Plane, Radio } from "lucide-solid";
+import { History, House, Map, Plane, Radio } from "lucide-solid";
 import type { ParentComponent } from "solid-js";
 
 export const Layout: ParentComponent = (props) => {
@@ -38,6 +38,9 @@ export const Layout: ParentComponent = (props) => {
 						<NavLink href="/live" icon={Radio}>
 							Live
 						</NavLink>
+						<NavLink href="/map" icon={Map}>
+							Map
+						</NavLink>
 						<NavLink href="/past" icon={History}>
 							History
 						</NavLink>
@@ -47,6 +50,7 @@ export const Layout: ParentComponent = (props) => {
 					<div class="flex items-center gap-0.5 sm:hidden">
 						<MobileNavLink href="/" icon={House} label="Home" />
 						<MobileNavLink href="/live" icon={Radio} label="Live" />
+						<MobileNavLink href="/map" icon={Map} label="Map" />
 						<MobileNavLink href="/past" icon={History} label="History" />
 					</div>
 				</nav>
