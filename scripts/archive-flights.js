@@ -36,8 +36,10 @@ const API_BASE_URL =
 	"https://www.hongkongairport.com/flightinfo-rest/rest/flights/past";
 const DATA_DIR = path.resolve(__dirname, "../public/data");
 const DAILY_DIR = path.join(DATA_DIR, "daily");
+const INDEXES_DIR = path.join(DATA_DIR, "indexes");
 const FLIGHTS_INDEX_DIR = path.join(DATA_DIR, "indexes/flights");
 const GATES_INDEX_DIR = path.join(DATA_DIR, "indexes/gates");
+const FLIGHT_LIST_PATH = path.join(INDEXES_DIR, "flight-list.json");
 const MAX_SHARD_ENTRIES = 50;
 
 // API Request configurations
@@ -163,6 +165,56 @@ function getFlightKey(flight) {
 }
 
 /**
+ * Update flight-list.json with new flight numbers
+ * This file is used by the frontend to avoid GitHub API rate limits
+ * @param {Set<string>} newFlightNos - Set of flight numbers from current archive
+ */
+async function updateFlightList(newFlightNos) {
+	console.log(`\nUpdating flight-list.json...`);
+
+	// Load existing flight list if present
+	let existingFlights = new Map();
+	try {
+		if (await fs.pathExists(FLIGHT_LIST_PATH)) {
+			const existing = await fs.readJson(FLIGHT_LIST_PATH);
+			for (const entry of existing.flights || []) {
+				existingFlights.set(entry.flightNo, entry.airline);
+			}
+		}
+	} catch (error) {
+		console.warn(`  - Could not read existing flight-list.json: ${error.message}`);
+	}
+
+	// Merge new flight numbers
+	let newCount = 0;
+	for (const flightNo of newFlightNos) {
+		if (!existingFlights.has(flightNo)) {
+			// Extract airline code (first 2 characters)
+			const match = flightNo.match(/^([A-Z0-9]{2})/);
+			const airline = match ? match[1] : "";
+			existingFlights.set(flightNo, airline);
+			newCount++;
+		}
+	}
+
+	// Convert to sorted array
+	const flightList = [];
+	for (const [flightNo, airline] of existingFlights) {
+		flightList.push({ flightNo, airline });
+	}
+	flightList.sort((a, b) => a.flightNo.localeCompare(b.flightNo));
+
+	// Write updated list
+	await fs.writeJson(FLIGHT_LIST_PATH, {
+		generatedAt: new Date().toISOString(),
+		count: flightList.length,
+		flights: flightList,
+	});
+
+	console.log(`  - Total flights: ${flightList.length} (${newCount} new)`);
+}
+
+/**
  * Append flight to a shard file, keeping only the last MAX_SHARD_ENTRIES
  * @param {string} filePath - Path to the shard file
  * @param {object} flight - Flight record to append
@@ -213,6 +265,7 @@ async function createShardedIndexes(allFlights) {
 
 	let flightShardsCreated = 0;
 	let gateShardsCreated = 0;
+	const newFlightNos = new Set();
 
 	for (const flight of allFlights) {
 		// Process flight number shards
@@ -225,6 +278,7 @@ async function createShardedIndexes(allFlights) {
 				);
 				const added = await appendToShard(shardPath, flight);
 				if (added) flightShardsCreated++;
+				newFlightNos.add(flightNo);
 			}
 		}
 
@@ -242,6 +296,9 @@ async function createShardedIndexes(allFlights) {
 
 	console.log(`  - Flight shards updated: ${flightShardsCreated}`);
 	console.log(`  - Gate shards updated: ${gateShardsCreated}`);
+
+	// Update flight-list.json with any new flight numbers
+	await updateFlightList(newFlightNos);
 }
 
 /**

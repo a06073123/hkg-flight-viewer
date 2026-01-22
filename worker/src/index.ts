@@ -13,7 +13,8 @@
  */
 
 export interface Env {
-	// Environment bindings (optional)
+	// D1 Database binding for historical flight data
+	DB: D1Database;
 }
 
 // HKIA API Configuration
@@ -24,7 +25,9 @@ const HKIA_AIRLINES_URL =
 // Cache TTL (in seconds)
 const CACHE_TTL = {
 	FLIGHTS: 60, // 1 minute for live flight data
+	FLIGHTS_SWR: 3600, // 1 hour stale-while-revalidate window
 	AIRLINES: 12 * 60 * 60, // 12 hours for airline data (rarely changes)
+	AIRLINES_SWR: 24 * 60 * 60, // 24 hours stale-while-revalidate for airlines
 };
 
 // Hong Kong timezone
@@ -96,6 +99,34 @@ export default {
 			return handleAirlinesRequest(request, ctx);
 		}
 
+		// D1 History API endpoints
+		if (path.startsWith("/api/history/flight/")) {
+			const flightNo = decodeURIComponent(path.replace("/api/history/flight/", "")).toUpperCase();
+			return handleFlightHistoryRequest(env, flightNo, url);
+		}
+
+		if (path.startsWith("/api/history/gate/")) {
+			const gate = decodeURIComponent(path.replace("/api/history/gate/", ""));
+			return handleGateHistoryRequest(env, gate, url);
+		}
+
+		if (path.startsWith("/api/history/date/")) {
+			const date = path.replace("/api/history/date/", "");
+			return handleDateHistoryRequest(env, date);
+		}
+
+		if (path === "/api/search") {
+			return handleSearchRequest(env, url);
+		}
+
+		if (path === "/api/flight-list") {
+			return handleFlightListRequest(env, ctx);
+		}
+
+		if (path === "/api/stats") {
+			return handleStatsRequest(env);
+		}
+
 		if (path === "/api/health") {
 			return jsonResponse({
 				status: "ok",
@@ -107,15 +138,26 @@ export default {
 		if (path === "/") {
 			return jsonResponse({
 				name: "HKG Flight Viewer API Proxy",
-				version: "2.1.0",
+				version: "3.2.0",
 				endpoints: {
 					"/api/flights":
 						"Fetch today's flight data (HK time, all categories combined)",
 					"/api/airlines":
 						"Fetch airline information (check-in counters, names, etc.)",
+					"/api/history/flight/:flightNo":
+						"Get flight history from D1. Supports fuzzy matching: NH814, nh 814, or ANA814 all find 'NH 814'",
+					"/api/history/gate/:gate":
+						"Get gate departure history from D1 (e.g., /api/history/gate/23)",
+					"/api/history/date/:date":
+						"Get all flights for a specific date (e.g., /api/history/date/2025-12-01)",
+					"/api/search":
+						"Search flights by query parameters (?q=term&limit=50)",
+					"/api/flight-list":
+						"Get all unique flight numbers for autocomplete (1hr cache)",
+					"/api/stats": "Get database statistics",
 					"/api/health": "Health check endpoint",
 				},
-				note: "Only returns current date in HK timezone. For historical data, use static archives.",
+				note: "All historical data is powered by Cloudflare D1.",
 			});
 		}
 
@@ -175,7 +217,8 @@ async function handleFlightsRequest(
 		response = new Response(JSON.stringify(responseData), {
 			headers: {
 				"Content-Type": "application/json",
-				"Cache-Control": `public, max-age=${CACHE_TTL.FLIGHTS}`,
+				// stale-while-revalidate: Users get stale cache instantly while Worker fetches fresh data in background
+				"Cache-Control": `public, max-age=${CACHE_TTL.FLIGHTS}, stale-while-revalidate=${CACHE_TTL.FLIGHTS_SWR}`,
 				...CORS_HEADERS,
 				"X-Cache": "MISS",
 			},
@@ -241,7 +284,8 @@ async function handleAirlinesRequest(
 		response = new Response(JSON.stringify(data), {
 			headers: {
 				"Content-Type": "application/json",
-				"Cache-Control": `public, max-age=${CACHE_TTL.AIRLINES}`,
+				// stale-while-revalidate: Return stale data instantly, refresh in background
+				"Cache-Control": `public, max-age=${CACHE_TTL.AIRLINES}, stale-while-revalidate=${CACHE_TTL.AIRLINES_SWR}`,
 				...CORS_HEADERS,
 				"X-Cache": "MISS",
 			},
@@ -387,4 +431,419 @@ function jsonResponse(data: unknown, status = 200): Response {
  */
 function jsonError(message: string, status: number): Response {
 	return jsonResponse({ error: message, status }, status);
+}
+
+// ============================================================================
+// D1 History API Handlers
+// ============================================================================
+
+/**
+ * Common airline name to IATA code mapping
+ * Used for fuzzy flight number search (e.g., "ANA814" → "NH 814")
+ */
+const AIRLINE_NAME_TO_IATA: Record<string, string> = {
+	// Japanese airlines
+	ANA: "NH",
+	ALLNIPPON: "NH",
+	JAL: "JL",
+	JAPANAIRLINES: "JL",
+	// Chinese airlines
+	CATHAY: "CX",
+	CATHAYPACIFIC: "CX",
+	DRAGONAIR: "KA",
+	AIRCHINA: "CA",
+	CHINAEASTERN: "MU",
+	CHINASOUTHERN: "CZ",
+	HAINAN: "HU",
+	SICHUAN: "3U",
+	XIAMEN: "MF",
+	SHENZHEN: "ZH",
+	JUNEYAO: "HO",
+	SPRING: "9C",
+	// Korean airlines
+	KOREAN: "KE",
+	KOREANAIR: "KE",
+	ASIANA: "OZ",
+	// US airlines
+	UNITED: "UA",
+	AMERICAN: "AA",
+	DELTA: "DL",
+	// European airlines
+	LUFTHANSA: "LH",
+	BRITISHAIRWAYS: "BA",
+	AIRFRANCE: "AF",
+	KLM: "KL",
+	SWISS: "LX",
+	// Asian airlines
+	SINGAPORE: "SQ",
+	SINGAPOREAIRLINES: "SQ",
+	THAI: "TG",
+	THAIAIRWAYS: "TG",
+	MALAYSIA: "MH",
+	MALAYSIAAIRLINES: "MH",
+	VIETNAM: "VN",
+	VIETNAMAIRLINES: "VN",
+	PHILIPPINE: "PR",
+	GARUDA: "GA",
+	EVA: "BR",
+	EVAAIR: "BR",
+	CHINA: "CI",
+	CHINAAIRLINES: "CI",
+	// Middle East
+	EMIRATES: "EK",
+	QATAR: "QR",
+	QATARAIRWAYS: "QR",
+	ETIHAD: "EY",
+	TURKISH: "TK",
+	TURKISHAIRLINES: "TK",
+	// Hong Kong
+	HKEXPRESS: "UO",
+	HONGKONGAIRLINES: "HX",
+	GREATERBAY: "HB",
+};
+
+/**
+ * Normalize flight number by removing spaces and converting to uppercase
+ * Also resolves airline names to IATA codes
+ * Examples:
+ *   "NH814" → "NH 814"
+ *   "nh 814" → "NH 814"
+ *   "ANA814" → "NH 814"
+ */
+function normalizeFlightNumber(input: string): string {
+	// Remove all spaces and convert to uppercase
+	const normalized = input.replace(/\s+/g, "").toUpperCase();
+
+	// Try to match airline code + flight number pattern
+	const match = normalized.match(/^([A-Z]+)(\d+)$/);
+	if (!match) {
+		return normalized;
+	}
+
+	let airlineCode = match[1];
+	const flightNum = match[2];
+
+	// If it looks like a full airline name, try to resolve to IATA code
+	if (airlineCode.length > 2) {
+		const iataCode = AIRLINE_NAME_TO_IATA[airlineCode];
+		if (iataCode) {
+			airlineCode = iataCode;
+		}
+	}
+
+	// Return in standard format with space: "XX 123"
+	return `${airlineCode} ${flightNum}`;
+}
+
+/**
+ * Handle flight history requests - returns last N occurrences of a flight number
+ * Supports fuzzy matching:
+ *   - "NH814" finds "NH 814"
+ *   - "ANA814" finds "NH 814" (airline name to IATA conversion)
+ *   - Case insensitive
+ */
+async function handleFlightHistoryRequest(
+	env: Env,
+	flightNo: string,
+	url: URL,
+): Promise<Response> {
+	if (!flightNo || flightNo.length < 2) {
+		return jsonError("Invalid flight number", 400);
+	}
+
+	const limit = Math.min(parseInt(url.searchParams.get("limit") || "50", 10), 100);
+	const normalizedFlightNo = normalizeFlightNumber(flightNo);
+
+	try {
+		const result = await env.DB.prepare(`
+			SELECT date, time, flight_no, airline, origin_dest, status, 
+			       gate_baggage, terminal, is_arrival, is_cargo, codeshares
+			FROM flights 
+			WHERE flight_no = ?
+			ORDER BY date DESC, time DESC
+			LIMIT ?
+		`)
+			.bind(normalizedFlightNo, limit)
+			.all();
+
+		return jsonResponse({
+			flightNo: normalizedFlightNo,
+			query: flightNo,
+			count: result.results.length,
+			flights: result.results.map(formatFlightRow),
+		});
+	} catch (error) {
+		const message = error instanceof Error ? error.message : "Database error";
+		return jsonError(message, 500);
+	}
+}
+
+/**
+ * Handle gate history requests - returns departures from a specific gate
+ */
+async function handleGateHistoryRequest(
+	env: Env,
+	gate: string,
+	url: URL,
+): Promise<Response> {
+	if (!gate) {
+		return jsonError("Invalid gate", 400);
+	}
+
+	const limit = Math.min(parseInt(url.searchParams.get("limit") || "50", 10), 100);
+
+	try {
+		const result = await env.DB.prepare(`
+			SELECT date, time, flight_no, airline, origin_dest, status, 
+			       gate_baggage, terminal, is_arrival, is_cargo
+			FROM flights 
+			WHERE gate_baggage = ? AND is_arrival = 0
+			ORDER BY date DESC, time DESC
+			LIMIT ?
+		`)
+			.bind(gate, limit)
+			.all();
+
+		return jsonResponse({
+			gate,
+			count: result.results.length,
+			departures: result.results.map(formatFlightRow),
+		});
+	} catch (error) {
+		const message = error instanceof Error ? error.message : "Database error";
+		return jsonError(message, 500);
+	}
+}
+
+/**
+ * Handle date history requests - returns all flights for a specific date
+ * Replaces the static daily/{date}.json files
+ */
+async function handleDateHistoryRequest(env: Env, date: string): Promise<Response> {
+	// Validate date format (YYYY-MM-DD)
+	if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+		return jsonError("Invalid date format. Use YYYY-MM-DD", 400);
+	}
+
+	try {
+		const result = await env.DB.prepare(`
+			SELECT date, time, flight_no, airline, origin_dest, status, 
+			       gate_baggage, terminal, is_arrival, is_cargo, codeshares
+			FROM flights 
+			WHERE date = ?
+			ORDER BY time, flight_no
+		`)
+			.bind(date)
+			.all();
+
+		// Calculate statistics
+		const flights = result.results || [];
+		let arrivals = 0, departures = 0, cargo = 0, passenger = 0;
+		
+		for (const f of flights) {
+			if (f.is_arrival === 1) arrivals++; else departures++;
+			if (f.is_cargo === 1) cargo++; else passenger++;
+		}
+
+		return jsonResponse({
+			date,
+			generatedAt: new Date().toISOString(),
+			totalFlights: flights.length,
+			arrivals,
+			departures,
+			cargo,
+			passenger,
+			flights: flights.map(formatFlightRowForDaily),
+		});
+	} catch (error) {
+		const message = error instanceof Error ? error.message : "Database error";
+		return jsonError(message, 500);
+	}
+}
+
+/**
+ * Format a database row to match the daily snapshot format
+ */
+function formatFlightRowForDaily(row: Record<string, unknown>): Record<string, unknown> {
+	const codeshares = row.codeshares ? JSON.parse(row.codeshares as string) : [];
+	// Build flight array: primary flight + codeshares
+	const flights = [
+		{ no: row.flight_no, airline: row.airline }
+	];
+	for (const cs of codeshares) {
+		flights.push({ no: cs, airline: cs.replace(/\s?\d+$/, '') });
+	}
+
+	return {
+		date: row.date,
+		time: row.time,
+		flight: flights,
+		origin_dest: (row.origin_dest as string || '').split(',').map(s => s.trim()).filter(Boolean),
+		status: row.status,
+		gate_baggage: row.gate_baggage,
+		terminal: row.terminal,
+		isArrival: row.is_arrival === 1,
+		isCargo: row.is_cargo === 1,
+		_raw: {},
+	};
+}
+
+/**
+ * Handle search requests - search flights by various criteria
+ */
+async function handleSearchRequest(env: Env, url: URL): Promise<Response> {
+	const query = url.searchParams.get("q")?.toUpperCase();
+	const date = url.searchParams.get("date");
+	const airline = url.searchParams.get("airline")?.toUpperCase();
+	const limit = Math.min(parseInt(url.searchParams.get("limit") || "50", 10), 100);
+
+	if (!query && !date && !airline) {
+		return jsonError(
+			"At least one search parameter required: q, date, or airline",
+			400,
+		);
+	}
+
+	try {
+		let sql = `
+			SELECT date, time, flight_no, airline, origin_dest, status, 
+			       gate_baggage, terminal, is_arrival, is_cargo
+			FROM flights 
+			WHERE 1=1
+		`;
+		const bindings: unknown[] = [];
+
+		if (query) {
+			sql += ` AND (flight_no LIKE ? OR origin_dest LIKE ?)`;
+			bindings.push(`%${query}%`, `%${query}%`);
+		}
+
+		if (date) {
+			sql += ` AND date = ?`;
+			bindings.push(date);
+		}
+
+		if (airline) {
+			sql += ` AND airline = ?`;
+			bindings.push(airline);
+		}
+
+		sql += ` ORDER BY date DESC, time DESC LIMIT ?`;
+		bindings.push(limit);
+
+		const result = await env.DB.prepare(sql).bind(...bindings).all();
+
+		return jsonResponse({
+			query: { q: query, date, airline },
+			count: result.results.length,
+			flights: result.results.map(formatFlightRow),
+		});
+	} catch (error) {
+		const message = error instanceof Error ? error.message : "Database error";
+		return jsonError(message, 500);
+	}
+}
+
+/**
+ * Handle stats requests - returns database statistics
+ */
+async function handleStatsRequest(env: Env): Promise<Response> {
+	try {
+		const [totalResult, dateRangeResult, airlinesResult] = await Promise.all([
+			env.DB.prepare("SELECT COUNT(*) as total FROM flights").first(),
+			env.DB.prepare(
+				"SELECT MIN(date) as oldest, MAX(date) as newest FROM flights",
+			).first(),
+			env.DB.prepare(
+				"SELECT COUNT(DISTINCT airline) as airlines FROM flights",
+			).first(),
+		]);
+
+		return jsonResponse({
+			totalFlights: (totalResult as { total: number })?.total || 0,
+			dateRange: {
+				oldest: (dateRangeResult as { oldest: string })?.oldest || null,
+				newest: (dateRangeResult as { newest: string })?.newest || null,
+			},
+			uniqueAirlines: (airlinesResult as { airlines: number })?.airlines || 0,
+			generatedAt: new Date().toISOString(),
+		});
+	} catch (error) {
+		const message = error instanceof Error ? error.message : "Database error";
+		return jsonError(message, 500);
+	}
+}
+
+/**
+ * Handle flight list requests - returns all unique flight numbers for autocomplete
+ * Cached for 1 hour since this data changes infrequently
+ */
+async function handleFlightListRequest(env: Env, ctx: ExecutionContext): Promise<Response> {
+	// Create a unique cache key
+	const cacheKey = new Request("https://hkg-flight-cache/flight-list", { method: "GET" });
+	const cache = caches.default;
+
+	// Check cache first
+	let response = await cache.match(cacheKey);
+	if (response) {
+		const headers = new Headers(response.headers);
+		headers.set("X-Cache", "HIT");
+		return new Response(response.body, { status: response.status, headers });
+	}
+
+	try {
+		// Query distinct flight numbers with their airline codes
+		const result = await env.DB.prepare(`
+			SELECT DISTINCT flight_no, airline
+			FROM flights
+			ORDER BY airline, flight_no
+		`).all();
+
+		const flights = (result.results || []).map((row: Record<string, unknown>) => ({
+			no: row.flight_no as string,
+			airline: row.airline as string,
+		}));
+
+		const responseData = {
+			count: flights.length,
+			generatedAt: new Date().toISOString(),
+			flights,
+		};
+
+		response = new Response(JSON.stringify(responseData), {
+			headers: {
+				"Content-Type": "application/json",
+				"Cache-Control": "public, max-age=3600, stale-while-revalidate=86400",
+				...CORS_HEADERS,
+				"X-Cache": "MISS",
+			},
+		});
+
+		// Store in cache (non-blocking)
+		ctx.waitUntil(cache.put(cacheKey, response.clone()));
+
+		return response;
+	} catch (error) {
+		const message = error instanceof Error ? error.message : "Database error";
+		return jsonError(message, 500);
+	}
+}
+
+/**
+ * Format a database row to API response format
+ */
+function formatFlightRow(row: Record<string, unknown>): Record<string, unknown> {
+	return {
+		date: row.date,
+		time: row.time,
+		flightNo: row.flight_no,
+		airline: row.airline,
+		originDest: row.origin_dest,
+		status: row.status,
+		gateBaggage: row.gate_baggage,
+		terminal: row.terminal,
+		isArrival: row.is_arrival === 1,
+		isCargo: row.is_cargo === 1,
+		codeshares: row.codeshares ? JSON.parse(row.codeshares as string) : null,
+	};
 }

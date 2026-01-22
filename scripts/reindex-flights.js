@@ -21,8 +21,10 @@ const __dirname = path.dirname(__filename);
 // Configuration
 const DATA_DIR = path.resolve(__dirname, "../public/data");
 const DAILY_DIR = path.join(DATA_DIR, "daily");
+const INDEXES_DIR = path.join(DATA_DIR, "indexes");
 const FLIGHTS_INDEX_DIR = path.join(DATA_DIR, "indexes/flights");
 const GATES_INDEX_DIR = path.join(DATA_DIR, "indexes/gates");
+const FLIGHT_LIST_PATH = path.join(INDEXES_DIR, "flight-list.json");
 const MAX_SHARD_ENTRIES = 50;
 
 /**
@@ -148,6 +150,26 @@ async function buildIndexes() {
 		await fs.writeJson(shardPath, sortedEntries);
 		gateShardsWritten++;
 	}
+
+	// Generate flight-list.json (aggregated index for frontend)
+	// This eliminates the need to call GitHub API for directory listing
+	console.log(`\nGenerating flight-list.json...`);
+	const flightList = [];
+	for (const flightNo of flightIndex.keys()) {
+		// Extract airline code (first 2 characters, typically IATA code)
+		const match = flightNo.match(/^([A-Z0-9]{2})/);
+		const airline = match ? match[1] : "";
+		flightList.push({ flightNo, airline });
+	}
+	// Sort alphabetically for consistent ordering
+	flightList.sort((a, b) => a.flightNo.localeCompare(b.flightNo));
+
+	await fs.writeJson(FLIGHT_LIST_PATH, {
+		generatedAt: new Date().toISOString(),
+		count: flightList.length,
+		flights: flightList,
+	});
+	console.log(`  - Generated ${flightList.length} flight entries`);
 
 	console.log(`\n========================================`);
 	console.log(`Re-indexing complete!`);
