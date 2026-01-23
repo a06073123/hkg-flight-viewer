@@ -1,6 +1,6 @@
 # Project Milestones
 
-> Last Updated: 2026-01-19
+> Last Updated: 2026-01-22
 
 ## Overview
 
@@ -139,10 +139,10 @@ flowchart TD
 
 ### Virtualized List Implementation
 
-- [ ] Implement `src/components/VirtualizedFlightList.tsx`
-- [ ] Use `solid-virtual` or custom virtual scrolling logic
-- [ ] Only render 10-15 flight cards within the visible viewport
-- [ ] Performance target: reduce DOM nodes from 1000+ to a fixed count
+- [x] Implement `VirtualFlightCardList.tsx` using `@tanstack/solid-virtual`
+- [x] Use TanStack Solid-Virtual with correct ref pattern
+- [x] Only render visible flight cards within viewport (overscan: 5)
+- [x] Performance: DOM nodes reduced from 1000+ to ~15-20 visible items
 
 **Performance Formula:**
 
@@ -222,6 +222,14 @@ interface GateMarker {
 ---
 
 ## Changelog
+
+### 2026-01-22
+- ✅ Redesigned D1 `airlines` table: `icao_code → iata_code` auto-populated from raw data
+- ✅ Fixed alphanumeric IATA code parsing (K4, 3S, 7L cargo airlines)
+- ✅ Implemented `VirtualFlightCardList` with TanStack Solid-Virtual
+- ✅ Fixed virtual list ref pattern (direct `let ref` instead of `createSignal`)
+- ✅ Improved LivePage refresh UX (shows last update time)
+- ✅ 97 airlines auto-mapped from flight data
 
 ### 2026-01-19
 - ✅ Fixed archive workflow timezone issue (now uses `TZ: Asia/Hong_Kong`)

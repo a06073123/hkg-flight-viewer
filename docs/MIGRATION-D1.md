@@ -1,13 +1,36 @@
-# Cloudflare D1 Migration Plan
+# Cloudflare D1 Migration Guide
+
+> ✅ **Migration Status: Complete** (2026-01-22)
 
 ## Overview
 
-This document outlines the migration plan from the current Git-based storage (JSON files in repository) to Cloudflare D1 (SQLite at the edge). This migration addresses two critical scalability issues:
+This document describes the architecture after migrating from Git-based storage (JSON files) to Cloudflare D1 (SQLite at the edge). This migration solved two critical scalability issues:
 
-1. **Repository Bloat**: Daily commits of JSON files cause `.git` folder to grow indefinitely
+1. **Repository Bloat**: Daily commits of JSON files caused `.git` folder to grow indefinitely
 2. **Query Flexibility**: SQL provides better querying capabilities than file-based sharding
 
-## Current Architecture
+## Current Architecture (D1)
+
+```
+┌─────────────────┐     ┌──────────────────┐
+│  GitHub Actions │────▶│   Cloudflare D1  │
+│ (archive-to-d1) │     │   (SQLite Edge)  │
+└─────────────────┘     └──────────────────┘
+         │                       │
+         ▼                       ▼
+┌─────────────────┐     ┌──────────────────┐
+│    HKIA API     │     │  CF Worker API   │
+│  (Flight Data)  │     │ (Query Endpoint) │
+└─────────────────┘     └──────────────────┘
+                                 │
+                                 ▼
+                        ┌──────────────────┐
+                        │    Frontend      │
+                        │   (SolidJS)      │
+                        └──────────────────┘
+```
+
+## Previous Architecture (Deprecated)
 
 ```
 ┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
@@ -22,16 +45,16 @@ This document outlines the migration plan from the current Git-based storage (JS
 └─────────────────┘     └──────────────────┘
 ```
 
-### Pain Points
+### Issues Solved
 
-| Issue | Impact | Severity |
-|-------|--------|----------|
-| `.git` grows ~1MB/day | Clone time increases, storage limits | Medium |
-| GitHub API rate limit | 60 req/hour (unauthenticated) | **High** |
-| Manual index maintenance | Schema changes require full rebuild | Low |
-| No complex queries | Can't search by date range + airline | Medium |
+| Issue | Previous Impact | Solution |
+|-------|----------------|----------|
+| `.git` grows ~1MB/day | Clone time increases, storage limits | ✅ No more data commits |
+| GitHub API rate limit | 60 req/hour (unauthenticated) | ✅ D1 has no rate limit |
+| Manual index maintenance | Schema changes require full rebuild | ✅ SQL indexes |
+| No complex queries | Can't search by date range + airline | ✅ Full SQL support |
 
-## Proposed Architecture (D1)
+## Database Schema (Implemented)
 
 ```
 ┌─────────────────┐     ┌──────────────────┐
@@ -52,7 +75,7 @@ This document outlines the migration plan from the current Git-based storage (JS
                         └──────────────────┘
 ```
 
-## Database Schema
+## Database Schema (Implemented)
 
 ### Core Tables
 
@@ -62,8 +85,8 @@ CREATE TABLE flights (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     date TEXT NOT NULL,                    -- YYYY-MM-DD
     time TEXT NOT NULL,                    -- HH:MM
-    flight_no TEXT NOT NULL,               -- Primary flight number (e.g., "CX888")
-    airline TEXT NOT NULL,                 -- Airline code (e.g., "CX")
+    flight_no TEXT NOT NULL,               -- Primary flight number (e.g., "CX 888")
+    airline TEXT NOT NULL,                 -- ICAO 3-letter code (e.g., "CPA")
     origin_dest TEXT,                      -- Airport code(s)
     status TEXT,                           -- Current status
     gate_baggage TEXT,                     -- Gate (departure) or Baggage (arrival)
@@ -71,13 +94,36 @@ CREATE TABLE flights (
     is_arrival INTEGER NOT NULL,           -- 0 = departure, 1 = arrival
     is_cargo INTEGER NOT NULL,             -- 0 = passenger, 1 = cargo
     codeshares TEXT,                       -- JSON array of codeshare flight numbers
-    raw_data TEXT,                         -- Full JSON for additional fields
     archived_at TEXT NOT NULL,             -- When this record was archived
     
     UNIQUE(date, time, flight_no, is_arrival)
 );
 
+-- Airline ICAO→IATA mapping (auto-populated from raw flight data)
+CREATE TABLE airlines (
+    icao_code TEXT PRIMARY KEY,            -- "UPS", "CPA", "ANA"
+    iata_code TEXT NOT NULL,               -- "5X", "CX", "NH"
+    sample_flight TEXT,                    -- "5X 055" (for debugging)
+    updated_at TEXT
+);
+
 -- Indexes for common queries
+CREATE INDEX idx_flights_date ON flights(date);
+CREATE INDEX idx_flights_flight_no ON flights(flight_no);
+CREATE INDEX idx_flights_airline ON flights(airline);
+CREATE INDEX idx_flights_gate ON flights(gate_baggage) WHERE is_arrival = 0;
+CREATE INDEX idx_flights_date_time ON flights(date, time);
+```
+
+### Airline Mapping
+
+The `airlines` table is automatically populated during archival by extracting:
+- `icao_code` from raw `flight.airline` field (e.g., "UPS")
+- `iata_code` from raw `flight.no` prefix (e.g., "5X" from "5X 055")
+
+This allows automatic ICAO↔IATA mapping without manual maintenance.
+
+## Worker API Endpoints (Implemented)
 CREATE INDEX idx_flights_date ON flights(date);
 CREATE INDEX idx_flights_flight_no ON flights(flight_no);
 CREATE INDEX idx_flights_airline ON flights(airline);

@@ -1,0 +1,59 @@
+### HKG Flight Viewer - Worker API Examples
+### Use with VS Code REST Client extension (humao.rest-client)
+
+@baseUrl = https://hkg-flight-proxy.lincoln995623.workers.dev
+
+### ============================================================
+### Live Data APIs
+### ============================================================
+
+### Get today's flights (all categories combined)
+GET {{baseUrl}}/api/flights
+
+### Get airline information (check-in counters, names, etc.)
+GET {{baseUrl}}/api/airlines
+
+### Health check
+GET {{baseUrl}}/api/health
+
+### ============================================================
+### History APIs (D1 Database)
+### ============================================================
+
+### Get flight history (supports fuzzy match: CX888 → CX 888)
+GET {{baseUrl}}/api/history/flight/CX888
+
+### Get flight history with space
+GET {{baseUrl}}/api/history/flight/CX 888
+
+### Get cargo flight history (alphanumeric IATA: K4, 3S, 7L)
+GET {{baseUrl}}/api/history/flight/5X055
+
+### Get gate departure history
+GET {{baseUrl}}/api/history/gate/23
+
+### Get all flights for a specific date
+GET {{baseUrl}}/api/history/date/2026-01-15
+
+### ============================================================
+### Search & Autocomplete APIs
+### ============================================================
+
+### Get unique flight numbers (for autocomplete)
+GET {{baseUrl}}/api/flight-list
+
+### Search flights by query
+GET {{baseUrl}}/api/search?q=CX
+
+### Search flights by airline
+GET {{baseUrl}}/api/search?airline=CPA
+
+### Search flights by date
+GET {{baseUrl}}/api/search?date=2026-01-15
+
+### ============================================================
+### Statistics
+### ============================================================
+
+### Get D1 database statistics
+GET {{baseUrl}}/api/stats
