@@ -79,21 +79,21 @@ const NORTH_GATES: SchematicGate[] = [
 	{ id: "N5", gateNumber: "5", x: 97, y: 45, area: "north" },
 	// N10-N36 horizontal row (9 gates, X: 50-92)
 	{ id: "N10", gateNumber: "10", x: 92, y: 50, area: "north" },
-	{ id: "N12", gateNumber: "12", x: 86, y: 50, area: "north" },
-	{ id: "N24", gateNumber: "24", x: 80, y: 50, area: "north" },
-	{ id: "N26", gateNumber: "26", x: 74, y: 50, area: "north" },
-	{ id: "N28", gateNumber: "28", x: 68, y: 50, area: "north" },
-	{ id: "N30", gateNumber: "30", x: 62, y: 50, area: "north" },
-	{ id: "N32", gateNumber: "32", x: 56, y: 50, area: "north" },
-	{ id: "N34", gateNumber: "34", x: 50, y: 50, area: "north" },
-	{ id: "N36", gateNumber: "36", x: 44, y: 50, area: "north" },
+	{ id: "N12", gateNumber: "12", x: 89, y: 44, area: "north" },
+	{ id: "N24", gateNumber: "24", x: 86, y: 50, area: "north" },
+	{ id: "N26", gateNumber: "26", x: 80, y: 50, area: "north" },
+	{ id: "N28", gateNumber: "28", x: 74, y: 50, area: "north" },
+	{ id: "N30", gateNumber: "30", x: 68, y: 50, area: "north" },
+	{ id: "N32", gateNumber: "32", x: 62, y: 50, area: "north" },
+	{ id: "N34", gateNumber: "34", x: 56, y: 50, area: "north" },
+	{ id: "N36", gateNumber: "36", x: 50, y: 50, area: "north" },
 	// N60-N70 diagonal (6 gates, going up-left)
-	{ id: "N60", gateNumber: "60", x: 42, y: 44, area: "north" },
-	{ id: "N62", gateNumber: "62", x: 38, y: 38, area: "north" },
-	{ id: "N64", gateNumber: "64", x: 34, y: 32, area: "north" },
-	{ id: "N66", gateNumber: "66", x: 30, y: 26, area: "north" },
-	{ id: "N68", gateNumber: "68", x: 26, y: 20, area: "north" },
-	{ id: "N70", gateNumber: "70", x: 22, y: 14, area: "north" },
+	{ id: "N60", gateNumber: "60", x: 47, y: 44, area: "north" },
+	{ id: "N62", gateNumber: "62", x: 43, y: 38, area: "north" },
+	{ id: "N64", gateNumber: "64", x: 39, y: 32, area: "north" },
+	{ id: "N66", gateNumber: "66", x: 35, y: 26, area: "north" },
+	{ id: "N68", gateNumber: "68", x: 31, y: 20, area: "north" },
+	{ id: "N70", gateNumber: "70", x: 28, y: 14, area: "north" },
 ];
 
 // South Apron - Bottom right of main terminal
@@ -115,11 +115,12 @@ const SOUTH_GATES: SchematicGate[] = [
 	{ id: "S31", gateNumber: "31", x: 62, y: 60, area: "south" },
 	{ id: "S33", gateNumber: "33", x: 56, y: 60, area: "south" },
 	{ id: "S35", gateNumber: "35", x: 50, y: 60, area: "south" },
-	// S41-S47 diagonal (4 gates, going down-left)
-	{ id: "S41", gateNumber: "41", x: 48, y: 66, area: "south" },
-	{ id: "S43", gateNumber: "43", x: 44, y: 72, area: "south" },
-	{ id: "S45", gateNumber: "45", x: 40, y: 78, area: "south" },
-	{ id: "S47", gateNumber: "47", x: 36, y: 84, area: "south" },
+	// S41-S49 diagonal (5 gates, going down-left)
+	{ id: "S41", gateNumber: "41", x: 47, y: 66, area: "south" },
+	{ id: "S43", gateNumber: "43", x: 43, y: 72, area: "south" },
+	{ id: "S45", gateNumber: "45", x: 39, y: 78, area: "south" },
+	{ id: "S47", gateNumber: "47", x: 35, y: 84, area: "south" },
+	{ id: "S49", gateNumber: "49", x: 31, y: 90, area: "south" },
 ];
 
 // West Apron - Y-shape center stem
@@ -127,19 +128,19 @@ const SOUTH_GATES: SchematicGate[] = [
 // W40-W50: lower diagonal (between S41-47)
 const WEST_GATES: SchematicGate[] = [
 	// W61-W71 (upper diagonal, 6 gates)
-	{ id: "W71", gateNumber: "71", x: 18, y: 14, area: "west" },
-	{ id: "W69", gateNumber: "69", x: 22, y: 20, area: "west" },
-	{ id: "W67", gateNumber: "67", x: 26, y: 26, area: "west" },
-	{ id: "W65", gateNumber: "65", x: 30, y: 32, area: "west" },
-	{ id: "W63", gateNumber: "63", x: 34, y: 38, area: "west" },
-	{ id: "W61", gateNumber: "61", x: 38, y: 44, area: "west" },
+	{ id: "W71", gateNumber: "71", x: 22, y: 17, area: "west" },
+	{ id: "W69", gateNumber: "69", x: 26, y: 23, area: "west" },
+	{ id: "W67", gateNumber: "67", x: 30, y: 29, area: "west" },
+	{ id: "W65", gateNumber: "65", x: 32, y: 35, area: "west" },
+	{ id: "W63", gateNumber: "63", x: 36, y: 41, area: "west" },
+	{ id: "W61", gateNumber: "61", x: 40, y: 47, area: "west" },
 	// W40-W50 (lower diagonal, 6 gates)
-	{ id: "W40", gateNumber: "40", x: 44, y: 56, area: "west" },
-	{ id: "W42", gateNumber: "42", x: 40, y: 62, area: "west" },
-	{ id: "W44", gateNumber: "44", x: 36, y: 68, area: "west" },
-	{ id: "W46", gateNumber: "46", x: 32, y: 74, area: "west" },
-	{ id: "W48", gateNumber: "48", x: 28, y: 80, area: "west" },
-	{ id: "W50", gateNumber: "50", x: 24, y: 86, area: "west" },
+	{ id: "W40", gateNumber: "40", x: 40, y: 62, area: "west" },
+	{ id: "W42", gateNumber: "42", x: 36, y: 68, area: "west" },
+	{ id: "W44", gateNumber: "44", x: 32, y: 74, area: "west" },
+	{ id: "W46", gateNumber: "46", x: 28, y: 80, area: "west" },
+	{ id: "W48", gateNumber: "48", x: 24, y: 86, area: "west" },
+	{ id: "W50", gateNumber: "50", x: 26, y: 92, area: "west" },
 ];
 
 // Satellite Concourse - Top center (R13-R21)
